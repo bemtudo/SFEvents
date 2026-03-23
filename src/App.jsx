@@ -2,50 +2,425 @@ import { useState, useEffect } from "react";
 
 const EVENTS_JSON_URL = "https://raw.githubusercontent.com/bemtudo/SFEvents/main/events.json";
 
+const MapPin = () => (
+  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/>
+    <circle cx="12" cy="10" r="3"/>
+  </svg>
+);
+const CalIcon = () => (
+  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <rect width="18" height="18" x="3" y="4" rx="2"/>
+    <line x1="16" x2="16" y1="2" y2="6"/>
+    <line x1="8" x2="8" y1="2" y2="6"/>
+    <line x1="3" x2="21" y1="10" y2="10"/>
+  </svg>
+);
+const ClockIcon = () => (
+  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <circle cx="12" cy="12" r="10"/>
+    <polyline points="12 6 12 12 16 14"/>
+  </svg>
+);
+const SearchIcon = () => (
+  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <circle cx="11" cy="11" r="8"/>
+    <path d="m21 21-4.35-4.35"/>
+  </svg>
+);
+const RefreshIcon = () => (
+  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"/>
+    <path d="M21 3v5h-5"/>
+    <path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"/>
+    <path d="M8 16H3v5"/>
+  </svg>
+);
+const ArrowIcon = () => (
+  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+    <path d="M7 7h10v10"/><path d="M7 17 17 7"/>
+  </svg>
+);
+
 const STYLES = `
-  @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Space+Mono:wght@400;700&display=swap');
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-  body { background: #0a0a0f; }
-  .app { min-height:100vh; background:#0a0a0f; color:#e8e4d9; font-family:'Space Mono',monospace; position:relative; overflow-x:hidden; }
-  .grid-bg { position:fixed; inset:0; background-image: linear-gradient(rgba(255,200,50,0.04) 1px,transparent 1px), linear-gradient(90deg,rgba(255,200,50,0.04) 1px,transparent 1px); background-size:40px 40px; pointer-events:none; z-index:0; }
-  .content { position:relative; z-index:1; max-width:900px; margin:0 auto; padding:24px 20px; }
-  .header { text-align:center; padding:40px 0 32px; }
-  .eyebrow { font-size:11px; letter-spacing:4px; color:#ffc832; text-transform:uppercase; margin-bottom:12px; }
-  h1 { font-family:'Syne',sans-serif; font-size:clamp(32px,6vw,56px); font-weight:800; color:#fff; letter-spacing:-1px; line-height:1; }
-  h1 span { color:#ffc832; }
-  .sub { margin-top:10px; font-size:12px; color:#6b6a5e; letter-spacing:1px; }
-  .updated { font-size:10px; color:#3a3a4e; text-align:center; margin-top:6px; }
-  .filter-row { display:flex; gap:6px; flex-wrap:wrap; margin-bottom:16px; align-items:center; }
-  .filter-btn { padding:6px 14px; border-radius:6px; font-family:'Space Mono',monospace; font-size:10px; font-weight:700; letter-spacing:1px; text-transform:uppercase; cursor:pointer; border:1px solid #2a2a38; background:transparent; color:#6b6a5e; transition:all .15s; }
-  .filter-btn.on { background:#1e1e2e; border-color:#ffc832; color:#ffc832; }
-  .spacer { flex:1; }
-  .refresh { padding:6px 14px; border-radius:6px; font-family:'Space Mono',monospace; font-size:10px; font-weight:700; letter-spacing:1px; text-transform:uppercase; cursor:pointer; border:1px solid #2a2a38; background:transparent; color:#6b6a5e; transition:all .15s; }
-  .refresh:hover { color:#ffc832; border-color:#ffc832; }
-  .search-row { margin-bottom:16px; }
-  .search { width:100%; padding:10px 14px; background:#13131a; border:1px solid #2a2a38; border-radius:8px; color:#e8e4d9; font-family:'Space Mono',monospace; font-size:12px; outline:none; transition:border-color .2s; }
-  .search:focus { border-color:#ffc832; }
-  .search::placeholder { color:#3a3a4e; }
-  .results-hdr { font-family:'Syne',sans-serif; font-size:13px; font-weight:600; color:#6b6a5e; letter-spacing:2px; text-transform:uppercase; margin-bottom:16px; padding-bottom:8px; border-bottom:1px solid #1e1e2e; }
-  a.card { background:#13131a; border:1px solid #2a2a38; border-radius:10px; padding:16px; margin-bottom:10px; display:flex; gap:14px; align-items:flex-start; transition:border-color .2s,transform .15s; animation:slideIn .3s ease both; text-decoration:none; }
-  a.card:hover { border-color:#3a3a58; transform:translateX(3px); }
-  @keyframes slideIn { from{opacity:0;transform:translateY(8px)} to{opacity:1;transform:translateY(0)} }
-  .dot { width:8px; height:8px; border-radius:50%; flex-shrink:0; margin-top:6px; }
-  .dot-music { background:#ffc832; }
-  .dot-bike  { background:#4ecdc4; }
-  .evbody { flex:1; min-width:0; }
-  .title { font-family:'Syne',sans-serif; font-size:15px; font-weight:700; color:#fff; margin-bottom:4px; }
-  .meta { font-size:11px; color:#6b6a5e; display:flex; flex-wrap:wrap; gap:10px; margin-bottom:6px; }
-  .desc { font-size:12px; color:#9a9888; line-height:1.6; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
-  .tags { display:flex; flex-direction:column; gap:6px; align-items:flex-end; flex-shrink:0; }
-  .tag { font-size:10px; padding:2px 8px; border-radius:4px; border:1px solid #2a2a38; color:#6b6a5e; white-space:nowrap; }
-  .tag-free { border-color:#2a4a2a; color:#4ec94e; }
-  .loading { text-align:center; padding:60px 0; color:#6b6a5e; }
-  .dots { font-size:28px; letter-spacing:4px; animation:pulse 1.2s infinite; }
-  @keyframes pulse { 0%,100%{opacity:.3} 50%{opacity:1} }
-  .loading-txt { margin-top:12px; font-size:12px; letter-spacing:2px; }
-  .empty { text-align:center; padding:48px 0; color:#3a3a4e; font-size:13px; letter-spacing:1px; line-height:2; }
-  .error { background:#1e0a0a; border:1px solid #5a2020; color:#ff8888; border-radius:8px; padding:16px; font-size:12px; margin-bottom:16px; line-height:1.8; }
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: #191919;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .app {
+    min-height: 100vh;
+    background: #191919;
+    color: #e6e6e5;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .content {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 48px 24px 80px;
+  }
+
+  /* ── Header ── */
+  .header {
+    padding: 32px 0 36px;
+  }
+
+  .header-label {
+    font-size: 11px;
+    font-weight: 500;
+    color: #5c5c5a;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    font-size: clamp(28px, 5vw, 40px);
+    font-weight: 600;
+    color: #e6e6e5;
+    letter-spacing: -0.5px;
+    line-height: 1.15;
+    margin-bottom: 8px;
+  }
+
+  .sub {
+    font-size: 13px;
+    color: #787774;
+  }
+
+  .updated {
+    font-size: 12px;
+    color: #4a4a48;
+    margin-top: 4px;
+  }
+
+  /* ── Divider ── */
+  .divider {
+    height: 1px;
+    background: #2f2f2f;
+    margin-bottom: 24px;
+  }
+
+  /* ── Controls ── */
+  .controls {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 20px;
+  }
+
+  .search-wrap { position: relative; }
+
+  .search-icon {
+    position: absolute;
+    left: 11px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #5c5c5a;
+    pointer-events: none;
+    display: flex;
+    align-items: center;
+  }
+
+  .search {
+    width: 100%;
+    padding: 8px 12px 8px 34px;
+    background: #252525;
+    border: 1px solid #373737;
+    border-radius: 6px;
+    color: #e6e6e5;
+    font-family: inherit;
+    font-size: 13px;
+    outline: none;
+    transition: border-color 0.15s, background 0.15s;
+  }
+
+  .search:focus {
+    border-color: #5c5c5a;
+    background: #2a2a2a;
+  }
+
+  .search::placeholder { color: #4a4a48; }
+
+  /* Filter row */
+  .filter-row {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .filter-btn {
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    border: 1px solid transparent;
+    background: transparent;
+    color: #787774;
+    transition: background 0.12s, color 0.12s, border-color 0.12s;
+    white-space: nowrap;
+  }
+
+  .filter-btn:hover {
+    background: #2d2d2d;
+    color: #b0b0ae;
+  }
+
+  .filter-btn.on {
+    background: #2d2d2d;
+    border-color: #4a4a48;
+    color: #e6e6e5;
+  }
+
+  .filter-sep {
+    width: 1px;
+    height: 16px;
+    background: #2f2f2f;
+    flex-shrink: 0;
+  }
+
+  .spacer { flex: 1; }
+
+  .refresh {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    border: 1px solid transparent;
+    background: transparent;
+    color: #5c5c5a;
+    transition: background 0.12s, color 0.12s;
+  }
+
+  .refresh:hover:not(:disabled) {
+    background: #2d2d2d;
+    color: #b0b0ae;
+  }
+
+  .refresh:disabled { opacity: 0.35; cursor: not-allowed; }
+
+  /* ── Results label ── */
+  .results-hdr {
+    font-size: 11px;
+    font-weight: 500;
+    color: #4a4a48;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    margin-bottom: 8px;
+  }
+
+  /* ── Event Card ── */
+  a.card {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 12px 14px;
+    border-radius: 6px;
+    margin-bottom: 2px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background 0.1s;
+    position: relative;
+  }
+
+  a.card:hover { background: #222222; }
+
+  /* Type dot */
+  .type-dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    margin-top: 6px;
+  }
+
+  .dot-music { background: #e8a020; }
+  .dot-bike  { background: #3aaa80; }
+
+  .evbody { flex: 1; min-width: 0; }
+
+  .title {
+    font-size: 14px;
+    font-weight: 500;
+    color: #e6e6e5;
+    margin-bottom: 4px;
+    line-height: 1.4;
+  }
+
+  .meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 4px;
+  }
+
+  .meta-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 12px;
+    color: #787774;
+  }
+
+  .desc {
+    font-size: 12px;
+    color: #5c5c5a;
+    line-height: 1.55;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  /* Tags */
+  .card-right {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+
+  .tag {
+    font-size: 11px;
+    font-weight: 500;
+    padding: 2px 7px;
+    border-radius: 3px;
+    background: #2a2a2a;
+    color: #787774;
+    white-space: nowrap;
+  }
+
+  .tag-music {
+    background: rgba(232, 160, 32, 0.14);
+    color: #c88c18;
+  }
+
+  .tag-bike {
+    background: rgba(58, 170, 128, 0.14);
+    color: #2e9068;
+  }
+
+  .tag-free {
+    background: rgba(82, 166, 100, 0.14);
+    color: #3a9650;
+  }
+
+  /* Event image thumbnail */
+  .event-img {
+    width: 80px;
+    height: 56px;
+    border-radius: 5px;
+    object-fit: cover;
+    flex-shrink: 0;
+    background: #2a2a2a;
+    display: block;
+    opacity: 0.9;
+  }
+
+  a.card:hover .event-img { opacity: 1; }
+
+  .ext-icon {
+    color: #3a3a38;
+    margin-top: 4px;
+  }
+
+  a.card:hover .ext-icon { color: #787774; }
+
+  /* ── Skeleton ── */
+  .skeleton-list { display: flex; flex-direction: column; gap: 2px; }
+
+  .skel-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 12px 14px;
+    border-radius: 6px;
+  }
+
+  .skel-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    margin-top: 5px;
+  }
+
+  .skel-body { flex: 1; display: flex; flex-direction: column; gap: 8px; }
+
+  .skel-line {
+    height: 10px;
+    border-radius: 4px;
+    background: linear-gradient(90deg, #252525 25%, #2e2e2e 50%, #252525 75%);
+    background-size: 200% 100%;
+    animation: shimmer 1.6s infinite;
+  }
+
+  @keyframes shimmer {
+    0%   { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
+  }
+
+  /* ── Empty / Error ── */
+  .empty {
+    text-align: center;
+    padding: 64px 0;
+    color: #4a4a48;
+    font-size: 13px;
+    line-height: 1.9;
+  }
+
+  .error {
+    background: rgba(239, 68, 68, 0.07);
+    border: 1px solid rgba(239, 68, 68, 0.2);
+    color: #f87171;
+    border-radius: 6px;
+    padding: 12px 16px;
+    font-size: 13px;
+    margin-bottom: 16px;
+    line-height: 1.7;
+  }
+
+  /* ── Responsive ── */
+  @media (max-width: 520px) {
+    .content { padding: 32px 16px 60px; }
+    .header { padding: 20px 0 28px; }
+    .card-right { display: none; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .skel-line { animation: none; }
+    a.card { transition: none; }
+  }
 `;
+
+function SkeletonCard() {
+  return (
+    <div className="skel-card">
+      <div className="skel-dot skel-line" style={{ width: 8, flexShrink: 0 }}/>
+      <div className="skel-body">
+        <div className="skel-line" style={{ width: "55%", height: 12 }}/>
+        <div className="skel-line" style={{ width: "40%" }}/>
+        <div className="skel-line" style={{ width: "72%" }}/>
+      </div>
+    </div>
+  );
+}
 
 export default function App() {
   const [events, setEvents]     = useState([]);
@@ -64,7 +439,7 @@ export default function App() {
       const data = await res.json();
       setEvents(data.events || []);
       setUpdated(data.updated_at || "");
-    } catch(e) {
+    } catch (e) {
       setError("Couldn't load events. Make sure the GitHub Action has run at least once.\n" + e.message);
     } finally { setLoading(false); }
   };
@@ -72,16 +447,27 @@ export default function App() {
   useEffect(() => { load(); }, []);
 
   const fmt = iso => {
-    try { return "Updated " + new Date(iso).toLocaleString("en-US", {month:"short",day:"numeric",hour:"numeric",minute:"2-digit",timeZoneName:"short"}); }
-    catch { return ""; }
+    try {
+      return "Updated " + new Date(iso).toLocaleString("en-US", {
+        month: "short", day: "numeric",
+        hour: "numeric", minute: "2-digit", timeZoneName: "short"
+      });
+    } catch { return ""; }
   };
 
+  const now = Date.now();
+  const twoWeeksOut = now + 14 * 24 * 60 * 60 * 1000;
   const filtered = events.filter(e => {
+    if (e.date_raw) {
+      const t = new Date(e.date_raw).getTime();
+      if (!isNaN(t) && t < now) return false;
+      if (!isNaN(t) && t > twoWeeksOut) return false;
+    }
     if (city !== "all" && e.city !== city) return false;
     if (type !== "all" && e.type !== type) return false;
     if (search) {
       const q = search.toLowerCase();
-      return (e.title||"").toLowerCase().includes(q) || (e.venue||"").toLowerCase().includes(q);
+      return (e.title || "").toLowerCase().includes(q) || (e.venue || "").toLowerCase().includes(q);
     }
     return true;
   });
@@ -90,76 +476,129 @@ export default function App() {
     <>
       <style>{STYLES}</style>
       <div className="app">
-        <div className="grid-bg"/>
         <div className="content">
+
           <header className="header">
-            <div className="eyebrow">Bay Area Events</div>
-            <h1>SF + <span>Oakland</span></h1>
-            <div className="sub">Music · Group Rides · Updated every 6h</div>
+            <div className="header-label">Bay Area</div>
+            <h1>SF + Oakland Events</h1>
+            <div className="sub">Music and group rides, updated every 6 hours</div>
             {updatedAt && <div className="updated">{fmt(updatedAt)}</div>}
           </header>
 
-          {error && <div className="error" style={{whiteSpace:"pre-line"}}>{error}</div>}
+          <div className="divider"/>
 
-          <div className="search-row">
-            <input className="search" placeholder="Search artist, venue, ride..." value={search} onChange={e=>setSearch(e.target.value)}/>
-          </div>
+          {error && <div className="error" style={{ whiteSpace: "pre-line" }}>{error}</div>}
 
-          <div className="filter-row">
-            {["all","SF","Oakland"].map(c=>(
-              <button key={c} className={"filter-btn"+(city===c?" on":"")} onClick={()=>setCity(c)}>
-                {c==="all"?"All Cities":c}
+          <div className="controls">
+            <div className="search-wrap">
+              <span className="search-icon"><SearchIcon/></span>
+              <input
+                className="search"
+                placeholder="Search by artist, venue, or ride name..."
+                value={search}
+                onChange={e => setSearch(e.target.value)}
+                aria-label="Search events"
+              />
+            </div>
+
+            <div className="filter-row" role="toolbar" aria-label="Filters">
+              {["all", "SF", "Oakland"].map(c => (
+                <button
+                  key={c}
+                  className={"filter-btn" + (city === c ? " on" : "")}
+                  onClick={() => setCity(c)}
+                  aria-pressed={city === c}
+                >
+                  {c === "all" ? "All cities" : c}
+                </button>
+              ))}
+
+              <div className="filter-sep" aria-hidden="true"/>
+
+              {["all", "music", "bike"].map(t => (
+                <button
+                  key={t}
+                  className={"filter-btn" + (type === t ? " on" : "")}
+                  onClick={() => setType(t)}
+                  aria-pressed={type === t}
+                >
+                  {t === "all" ? "All types" : t === "music" ? "Music" : "Rides"}
+                </button>
+              ))}
+
+              <div className="spacer"/>
+
+              <button className="refresh" onClick={load} disabled={loading} aria-label="Refresh events">
+                <RefreshIcon/>{loading ? "Loading…" : "Refresh"}
               </button>
-            ))}
-            <div style={{width:12}}/>
-            {["all","music","bike"].map(t=>(
-              <button key={t} className={"filter-btn"+(type===t?" on":"")} onClick={()=>setType(t)}>
-                {t==="all"?"All":t==="music"?"🎵 Music":"🚲 Rides"}
-              </button>
-            ))}
-            <div className="spacer"/>
-            <button className="refresh" onClick={load} disabled={loading}>↻ Refresh</button>
+            </div>
           </div>
 
           {loading && (
-            <div className="loading">
-              <div className="dots">· · ·</div>
-              <div className="loading-txt">Loading events</div>
+            <div className="skeleton-list">
+              {[0,1,2,3,4,5].map(i => <SkeletonCard key={i}/>)}
             </div>
           )}
 
           {!loading && filtered.length > 0 && (
             <>
               <div className="results-hdr">{filtered.length} events</div>
-              {filtered.map((e,i)=>(
-                <a key={e.id||i} className="card" href={e.url||"#"} target="_blank" rel="noopener noreferrer"
-                   style={{animationDelay:i*35+"ms"}}>
-                  <div className={"dot dot-"+(e.type==="music"?"music":"bike")}/>
-                  <div className="evbody">
-                    <div className="title">{e.title}</div>
-                    <div className="meta">
-                      <span>📍 {e.venue}</span>
-                      <span>📅 {e.date}</span>
-                      {e.time && <span>🕐 {e.time}</span>}
-                      <span>🌉 {e.city}</span>
+              {filtered.map((e, i) => {
+                const isMusic = e.type === "music";
+                return (
+                  <a
+                    key={e.id || i}
+                    className="card"
+                    href={e.url || "#"}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div className={"type-dot " + (isMusic ? "dot-music" : "dot-bike")}/>
+
+                    <div className="evbody">
+                      <div className="title">{e.title}</div>
+                      <div className="meta">
+                        {e.venue && (
+                          <span className="meta-item"><MapPin/>{e.venue}</span>
+                        )}
+                        {e.date && (
+                          <span className="meta-item"><CalIcon/>{e.date}</span>
+                        )}
+                        {e.time && (
+                          <span className="meta-item"><ClockIcon/>{e.time}</span>
+                        )}
+                      </div>
+                      {e.description && (
+                        <div className="desc">{e.description}</div>
+                      )}
                     </div>
-                    {e.description && <div className="desc">{e.description}</div>}
-                  </div>
-                  <div className="tags">
-                    <span className="tag">{e.source}</span>
-                    {e.is_free && <span className="tag tag-free">Free</span>}
-                  </div>
-                </a>
-              ))}
+
+                    <div className="card-right">
+                      {e.image && (
+                        <img className="event-img" src={e.image} alt={e.title} loading="lazy"/>
+                      )}
+                      <div style={{ display: "flex", flexDirection: "column", gap: 4, alignItems: "flex-end" }}>
+                        <span className={"tag " + (isMusic ? "tag-music" : "tag-bike")}>
+                          {isMusic ? "Music" : "Ride"}
+                        </span>
+                        {e.is_free && <span className="tag tag-free">Free</span>}
+                        {e.source && <span className="tag">{e.source}</span>}
+                        <span className="ext-icon"><ArrowIcon/></span>
+                      </div>
+                    </div>
+                  </a>
+                );
+              })}
             </>
           )}
 
-          {!loading && !error && events.length===0 && (
+          {!loading && !error && events.length === 0 && (
             <div className="empty">No events yet.<br/>Run the GitHub Action to populate data.</div>
           )}
-          {!loading && events.length>0 && filtered.length===0 && (
+          {!loading && events.length > 0 && filtered.length === 0 && (
             <div className="empty">No events match your filters.</div>
           )}
+
         </div>
       </div>
     </>

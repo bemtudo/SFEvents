@@ -247,6 +247,18 @@ def fetch_ticketmaster():
                     time_str = dt.strftime("%-I:%M %p")
                 except Exception: pass
             url_link = (raw.get("url") or "")
+            # Pick best 16:9 image around 640px wide
+            images = raw.get("images") or []
+            image_url = ""
+            for img in sorted(images, key=lambda i: abs(i.get("width", 0) - 640)):
+                if img.get("ratio") == "16_9" and not img.get("fallback"):
+                    image_url = img.get("url", "")
+                    break
+            if not image_url:
+                for img in images:
+                    if not img.get("fallback"):
+                        image_url = img.get("url", "")
+                        break
             all_events.append({
                 "id":          f"tm-{raw.get('id')}",
                 "title":       raw.get("name", "Untitled"),
@@ -258,6 +270,7 @@ def fetch_ticketmaster():
                 "time":        time_str,
                 "description": "",
                 "url":         url_link,
+                "image":       image_url,
                 "source":      "Ticketmaster",
                 "is_free":     False,
             })
