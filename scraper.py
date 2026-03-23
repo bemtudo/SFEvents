@@ -5,7 +5,8 @@ Strava clubs, and Eventbrite. Saves to events.json.
 import os, json, re, urllib.request, urllib.parse
 from datetime import datetime, timezone
 
-EVENTBRITE_TOKEN = os.environ.get("EVENTBRITE_TOKEN", "")
+EVENTBRITE_TOKEN  = os.environ.get("EVENTBRITE_TOKEN", "")
+TICKETMASTER_KEY  = os.environ.get("TICKETMASTER_KEY", "")
 
 ICAL_FEEDS = [
     {
@@ -21,12 +22,31 @@ MUSIC_VENUE_KEYWORDS = [
     "cornerstone","bottom of the hill","fillmore","warfield","chapel","bimbo",
     "august hall","el rio","lost church","starline social club","make out room",
     "slim","924 gilman","elbo room","the regency",
+    "new parish","uc theatre","greek theatre","yoshi's","sfjazz",
 ]
 
-EVENTBRITE_SEARCHES = [
-    {"q": "live music concert", "location": "San Francisco, CA"},
-    {"q": "live music concert", "location": "Oakland, CA"},
-]
+EVENTBRITE_VENUES = {
+    "The Fillmore":            295214625,
+    "Great American Music Hall": 211929829,
+    "Rickshaw Stop":           60691239,
+    "Bottom of the Hill":      62103889,
+    "The Chapel":              226863719,
+    "The Warfield":            108397109,
+    "August Hall":             227630949,
+    "El Rio":                  220362309,
+    "The Lost Church":         191471719,
+    "Make Out Room":           93291679,
+    "924 Gilman":              295748754,
+    "The Regency Ballroom":    291005983,
+    "New Parish":              232676049,
+    "UC Theatre":              171402229,
+    "Greek Theatre":           150249499,
+    "Yoshi's":                 36082625,
+    "SFJAZZ Center":           230851499,
+    "Cornerstone":             229432209,
+    "Starline Social Club":    26190402,
+    "Fox Theater Oakland":     156475849,
+}
 
 def parse_ical_dt(val):
     val = val.split(";")[-1]
@@ -137,41 +157,111 @@ def fetch_strava_club(club_id):
 def fetch_eventbrite():
     if not EVENTBRITE_TOKEN:
         print("  Skipping Eventbrite (no token)"); return []
-    all_events = {}
-    for search in EVENTBRITE_SEARCHES:
-        params = {"q": search["q"], "location.address": search["location"],
-                  "location.within": "10mi", "categories": "103", "expand": "venue", "page_size": 50}
-        url = "https://www.eventbriteapi.com/v3/events/search/?" + urllib.parse.urlencode(params)
+    all_events = []
+    for venue_name, venue_id in EVENTBRITE_VENUES.items():
+        url = f"https://www.eventbriteapi.com/v3/venues/{venue_id}/events/?status=live"
         try:
             req = urllib.request.Request(url, headers={"Authorization": f"Bearer {EVENTBRITE_TOKEN}"})
             with urllib.request.urlopen(req, timeout=15) as r:
                 data = json.loads(r.read())
+        except urllib.error.HTTPError as e:
+            print(f"  {venue_name}: error — {e} — {e.read().decode()[:200]}"); continue
         except Exception as e:
-            print(f"  Eventbrite error: {e}"); continue
-        for raw in data.get("events", []):
-            eid = raw.get("id")
-            if eid in all_events: continue
-            venue    = raw.get("venue") or {}
-            city_str = venue.get("address", {}).get("city", "")
-            city     = "Oakland" if "oakland" in city_str.lower() else "SF"
+            print(f"  {venue_name}: error — {e}"); continue
+        events = data.get("events", [])
+        print(f"  {venue_name}: {len(events)} events")
+        for raw in events:
             start    = raw.get("start", {}).get("local", "")
+            date_str, time_str, date_raw = "TBD", "", ""
             try:
-                dt = datetime.fromisoformat(start)
-                date_str, time_str, date_raw = dt.strftime("%a %b %-d"), dt.strftime("%-I:%M %p"), dt.isoformat()
-            except Exception:
-                date_str, time_str, date_raw = start[:10], "", start
-            vname = venue.get("name","").lower()
-            tname = raw.get("name",{}).get("text","").lower()
-            if MUSIC_VENUE_KEYWORDS and not any(k in vname or k in tname for k in MUSIC_VENUE_KEYWORDS):
-                continue
-            all_events[eid] = {
-                "id": f"eb-{eid}", "title": raw.get("name",{}).get("text","Untitled"),
-                "type": "music", "venue": venue.get("name","Unknown"), "city": city,
-                "date": date_str, "date_raw": date_raw, "time": time_str,
-                "description": (raw.get("description",{}).get("text") or "")[:200].strip(),
-                "url": raw.get("url",""), "source": "Eventbrite", "is_free": raw.get("is_free",False),
-            }
-    return list(all_events.values())
+                dt       = datetime.fromisoformat(start)
+                date_str = dt.strftime("%a %b %-d")
+                time_str = dt.strftime("%-I:%M %p")
+                date_raw = dt.isoformat()
+            except Exception: pass
+            oakland_venues = {"New Parish", "Fox Theater Oakland", "Yoshi's", "Starline Social Club", "Cornerstone"}
+            city = "Oakland" if venue_name in oakland_venues else "SF"
+            all_events.append({
+                "id":          f"eb-{raw.get('id')}",
+                "title":       raw.get("name", {}).get("text", "Untitled"),
+                "type":        "music",
+                "venue":       venue_name,
+                "city":        city,
+                "date":        date_str,
+                "date_raw":    date_raw,
+                "time":        time_str,
+                "description": (raw.get("description", {}).get("text") or "")[:200].strip(),
+                "url":         raw.get("url", ""),
+                "source":      "Eventbrite",
+                "is_free":     raw.get("is_free", False),
+            })
+    return all_events
+
+def fetch_ticketmaster():
+    if not TICKETMASTER_KEY:
+        print("  Skipping Ticketmaster (no key)"); return []
+    venues = [
+        ("The Fillmore",         "San Francisco", "SF"),
+        ("The Warfield",         "San Francisco", "SF"),
+        ("Great American Music Hall", "San Francisco", "SF"),
+        ("Fox Theater",          "Oakland",       "Oakland"),
+        ("Greek Theatre",        "Berkeley",      "Oakland"),
+        ("UC Theatre",           "Berkeley",      "Oakland"),
+        ("Yoshi's",              "Oakland",       "Oakland"),
+        ("SFJAZZ Center",        "San Francisco", "SF"),
+        ("The Regency Ballroom", "San Francisco", "SF"),
+        ("August Hall",          "San Francisco", "SF"),
+        ("New Parish",           "Oakland",       "Oakland"),
+    ]
+    all_events = []
+    for venue_name, city_query, city_label in venues:
+        params = {
+            "apikey":   TICKETMASTER_KEY,
+            "keyword":  venue_name,
+            "city":     city_query,
+            "stateCode":"CA",
+            "classificationName": "Music",
+            "size":     50,
+        }
+        url = "https://app.ticketmaster.com/discovery/v2/events.json?" + urllib.parse.urlencode(params)
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+            with urllib.request.urlopen(req, timeout=15) as r:
+                data = json.loads(r.read())
+        except Exception as e:
+            print(f"  {venue_name}: error — {e}"); continue
+        events = (data.get("_embedded") or {}).get("events") or []
+        print(f"  {venue_name}: {len(events)} events")
+        for raw in events:
+            dates    = raw.get("dates", {}).get("start", {})
+            date_raw = dates.get("dateTime") or dates.get("localDate") or ""
+            date_str, time_str = "TBD", ""
+            if dates.get("localDate"):
+                try:
+                    dt       = datetime.strptime(dates["localDate"], "%Y-%m-%d")
+                    date_str = dt.strftime("%a %b %-d")
+                except Exception: pass
+            if dates.get("localTime"):
+                try:
+                    dt       = datetime.strptime(dates["localTime"], "%H:%M:%S")
+                    time_str = dt.strftime("%-I:%M %p")
+                except Exception: pass
+            url_link = (raw.get("url") or "")
+            all_events.append({
+                "id":          f"tm-{raw.get('id')}",
+                "title":       raw.get("name", "Untitled"),
+                "type":        "music",
+                "venue":       venue_name,
+                "city":        city_label,
+                "date":        date_str,
+                "date_raw":    date_raw,
+                "time":        time_str,
+                "description": "",
+                "url":         url_link,
+                "source":      "Ticketmaster",
+                "is_free":     False,
+            })
+    return all_events
 
 def main():
     now = datetime.now(timezone.utc)
@@ -194,10 +284,15 @@ def main():
         all_events += s
         print(f"  {len(s)} rides")
 
-    print("Fetching Eventbrite...")
+    print("Fetching Eventbrite (by venue)...")
     eb = fetch_eventbrite()
     all_events += eb
-    print(f"  {len(eb)} events")
+    print(f"  {len(eb)} total music events")
+
+    print("Fetching Ticketmaster (by venue)...")
+    tm = fetch_ticketmaster()
+    all_events += tm
+    print(f"  {len(tm)} total music events")
 
     all_events.sort(key=lambda e: e.get("date_raw") or "9999")
     output = {"updated_at": now.isoformat(), "count": len(all_events), "events": all_events}
