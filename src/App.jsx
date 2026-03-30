@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const EVENTS_JSON_URL = "https://raw.githubusercontent.com/bemtudo/SFEvents/main/events.json";
+const EVENTS_JSON_URL = "/events.json";
 
 const MapPin = () => (
   <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -434,7 +434,7 @@ export default function App() {
   const load = async () => {
     setLoading(true); setError("");
     try {
-      const res  = await fetch(EVENTS_JSON_URL + "?t=" + Date.now());
+      const res  = await fetch(EVENTS_JSON_URL);
       if (!res.ok) throw new Error("HTTP " + res.status);
       const data = await res.json();
       setEvents(data.events || []);
