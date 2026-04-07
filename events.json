@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-04-07T02:12:38.264599+00:00",
-  "count": 264,
+  "updated_at": "2026-04-07T07:14:11.614867+00:00",
+  "count": 247,
   "events": [
     {
-      "id": "ical-163211116950501732",
+      "id": "ical-6968275021845778939",
       "title": "The Noon Ride",
       "type": "bike",
       "venue": "2210 Page Mill Rd\\, Los Altos Hills\\, CA 94022\\, USA",
@@ -17,7 +17,7 @@
       "is_free": true
     },
     {
-      "id": "ical-1542901425874124300",
+      "id": "ical-1319511527251363807",
       "title": "Rapha RADLER WILLKOMMEN-HAPPY HOUR!",
       "type": "bike",
       "venue": "2198 Filbert St\\, San Francisco\\, CA 94123\\, USA",
@@ -31,7 +31,7 @@
       "is_free": true
     },
     {
-      "id": "ical-3716340051424265266",
+      "id": "ical-5931948018606871719",
       "title": "SFCC COFFEE RIDE",
       "type": "bike",
       "venue": "37.773497\\, -122.441015",
@@ -45,7 +45,7 @@
       "is_free": true
     },
     {
-      "id": "ical-8910493555876517143",
+      "id": "ical-2007831151315484904",
       "title": "SF Bike Party",
       "type": "bike",
       "venue": "Varies Monthly",
@@ -59,7 +59,7 @@
       "is_free": true
     },
     {
-      "id": "ical-2276379052406764931",
+      "id": "ical-1050437615668477679",
       "title": "Bespoke Cycles Shop Ride",
       "type": "bike",
       "venue": "SF Bay Area Bike Rides",
@@ -73,7 +73,7 @@
       "is_free": true
     },
     {
-      "id": "ical-9214358061812322771",
+      "id": "ical-3453622128420228141",
       "title": "Scotty\u2019s Ride",
       "type": "bike",
       "venue": "Golden Gate Bridge Welcome Center\\, Golden Gate Bridge\\, Coastal T",
@@ -87,35 +87,7 @@
       "is_free": true
     },
     {
-      "id": "ical-524497266086678722",
-      "title": "Alto Velo C Ride",
-      "type": "bike",
-      "venue": "Summit Bicycles\\, 392 California Ave\\, Palo Alto\\, CA 94306\\, USA",
-      "city": "SF",
-      "date": "Sat Dec 2",
-      "date_raw": "2023-12-02T09:00:00",
-      "time": "9:00 AM",
-      "description": "<a href=\"https://www.altovelo.org/c-ride\">https://www.altovelo.",
-      "url": "",
-      "source": "SF Bay Area Bike Rides",
-      "is_free": true
-    },
-    {
-      "id": "ical-1250189964464145306",
-      "title": "Roasters Ride",
-      "type": "bike",
-      "venue": "Java Hut\\, 760 Center Blvd\\, Fairfax\\, CA 94930\\, USA",
-      "city": "SF",
-      "date": "Sat Dec 2",
-      "date_raw": "2023-12-02T09:00:00",
-      "time": "9:00 AM",
-      "description": "Start: 9:00am on Saturdays at the Java Hut in Fairfax\\, CA. A l",
-      "url": "",
-      "source": "SF Bay Area Bike Rides",
-      "is_free": true
-    },
-    {
-      "id": "ical-6887231377327824721",
+      "id": "ical-7156577951381652330",
       "title": "The Spectrum Ride",
       "type": "bike",
       "venue": "West Homestead Road\\, W Homestead Rd\\, Cupertino\\, CA\\, USA",
@@ -129,7 +101,7 @@
       "is_free": true
     },
     {
-      "id": "ical-2869356954173575146",
+      "id": "ical-6273286734417332401",
       "title": "Alto Velo B Ride",
       "type": "bike",
       "venue": "Summit Bicycles\\, 392 California Ave\\, Palo Alto\\, CA 94306\\, USA",
@@ -143,7 +115,7 @@
       "is_free": true
     },
     {
-      "id": "ical-5574887821375003987",
+      "id": "ical-7859199170895577623",
       "title": "Alto Velo A Ride",
       "type": "bike",
       "venue": "Summit Bicycles\\, 392 California Ave\\, Palo Alto\\, CA 94306\\, USA",
@@ -157,7 +129,21 @@
       "is_free": true
     },
     {
-      "id": "ical-3986276578763097898",
+      "id": "ical-3262204790246601595",
+      "title": "Roasters Ride",
+      "type": "bike",
+      "venue": "Java Hut\\, 760 Center Blvd\\, Fairfax\\, CA 94930\\, USA",
+      "city": "SF",
+      "date": "Sat Dec 2",
+      "date_raw": "2023-12-02T09:00:00",
+      "time": "9:00 AM",
+      "description": "Start: 9:00am on Saturdays at the Java Hut in Fairfax\\, CA. A l",
+      "url": "",
+      "source": "SF Bay Area Bike Rides",
+      "is_free": true
+    },
+    {
+      "id": "ical-6566868877689765959",
       "title": "Alto Velo Women\u2019s/WTFNB Ride",
       "type": "bike",
       "venue": "Varies Weekly",
@@ -171,7 +157,21 @@
       "is_free": true
     },
     {
-      "id": "ical-6451577099558344393",
+      "id": "ical-3889048832278881765",
+      "title": "Alto Velo C Ride",
+      "type": "bike",
+      "venue": "Summit Bicycles\\, 392 California Ave\\, Palo Alto\\, CA 94306\\, USA",
+      "city": "SF",
+      "date": "Sat Dec 2",
+      "date_raw": "2023-12-02T09:00:00",
+      "time": "9:00 AM",
+      "description": "<a href=\"https://www.altovelo.org/c-ride\">https://www.altovelo.",
+      "url": "",
+      "source": "SF Bay Area Bike Rides",
+      "is_free": true
+    },
+    {
+      "id": "ical-8635358477967126915",
       "title": "Fatcake FTWNB + Allies Ride",
       "type": "bike",
       "venue": "Conservatory of Flowers\\, 100 John F Kennedy Dr\\, San Francisco\\,",
@@ -185,7 +185,7 @@
       "is_free": true
     },
     {
-      "id": "ical-527231427667451041",
+      "id": "ical-6636088016982354288",
       "title": "Pas Normal Social Road Ride",
       "type": "bike",
       "venue": "Pas Normal Studios San Francisco\\, 799 Haight St\\, San Francisco\\,",
@@ -199,7 +199,7 @@
       "is_free": true
     },
     {
-      "id": "ical-3312537206820474238",
+      "id": "ical-5154303257637610502",
       "title": "The Morning Ride",
       "type": "bike",
       "venue": "296 Main St\\, Los Altos\\, CA 94022\\, USA",
@@ -213,7 +213,7 @@
       "is_free": true
     },
     {
-      "id": "ical-7793154304458960663",
+      "id": "ical-3016204447665827117",
       "title": "Fatcake HEADLANDS + ARSICAULT BAKERY Ride",
       "type": "bike",
       "venue": "Golden Gate Bridge Welcome Center\\, Golden Gate Bridge\\, Coastal T",
@@ -227,7 +227,7 @@
       "is_free": true
     },
     {
-      "id": "ical-5362175473360782215",
+      "id": "ical-3882588793241400387",
       "title": "Ornot After Cake Ride",
       "type": "bike",
       "venue": "Ornot Bike\\, 55 Clement St\\, San Francisco\\, CA 94118\\, USA",
@@ -241,7 +241,7 @@
       "is_free": true
     },
     {
-      "id": "ical-5243856779878468207",
+      "id": "ical-3702349835883823370",
       "title": "SF Bike & Brew",
       "type": "bike",
       "venue": "Varies Weekly",
@@ -255,7 +255,7 @@
       "is_free": true
     },
     {
-      "id": "ical-7524688211797347339",
+      "id": "ical-2278607217616428882",
       "title": "Rapha RCC SF DONUT RIDE",
       "type": "bike",
       "venue": "Rapha San Francisco\\, 2198 Filbert St\\, San Francisco\\, CA 94123\\,",
@@ -269,7 +269,7 @@
       "is_free": true
     },
     {
-      "id": "ical-2525590858941360762",
+      "id": "ical-7446462801886871779",
       "title": "Butterlap",
       "type": "bike",
       "venue": "Fort Point Ferry Building\\, One\\, Ferry Building\\, San Francisco\\,",
@@ -283,7 +283,7 @@
       "is_free": true
     },
     {
-      "id": "ical-1101563299530609736",
+      "id": "ical-5223579754709764482",
       "title": "Fatcake WILDCARD Ride",
       "type": "bike",
       "venue": "Conservatory of Flowers\\, 100 John F Kennedy Dr\\, San Francisco\\,",
@@ -297,7 +297,7 @@
       "is_free": true
     },
     {
-      "id": "ical-5341689462121416896",
+      "id": "ical-4204986774648996051",
       "title": "Fatcake FIRST DONUT ALLEY Ride",
       "type": "bike",
       "venue": "RGM9+4V\\, Sausalito\\, CA 94965\\, USA",
@@ -311,7 +311,7 @@
       "is_free": true
     },
     {
-      "id": "ical-1380521488032673219",
+      "id": "ical-3039630151363200107",
       "title": "Ornot Women's Ride",
       "type": "bike",
       "venue": "Ornot Bike\\, 55 Clement St\\, San Francisco\\, CA 94118\\, USA",
@@ -325,7 +325,7 @@
       "is_free": true
     },
     {
-      "id": "ical-8828875896191900971",
+      "id": "ical-3300069053749284024",
       "title": "East Bay Bike Party",
       "type": "bike",
       "venue": "Varies Monthly",
@@ -339,7 +339,7 @@
       "is_free": true
     },
     {
-      "id": "ical-4137908781308412911",
+      "id": "ical-4644407695940224422",
       "title": "Huckberry Ramble",
       "type": "bike",
       "venue": "Huckleberry Bicycles\\, 1255 Battery St Suite 120\\, San Francisco\\,",
@@ -353,7 +353,7 @@
       "is_free": true
     },
     {
-      "id": "ical-8391312478955776886",
+      "id": "ical-397576882048400002",
       "title": "Rapha RCCSFC EAST BAY RIDE",
       "type": "bike",
       "venue": "1934 Broadway\\, Oakland\\, CA 94612\\, USA",
@@ -367,7 +367,7 @@
       "is_free": true
     },
     {
-      "id": "ical-553671308870366469",
+      "id": "ical-3751526947313372614",
       "title": "Fatcake FTWNB Ride",
       "type": "bike",
       "venue": "Conservatory of Flowers\\, 100 John F Kennedy Dr\\, San Francisco\\,",
@@ -381,7 +381,7 @@
       "is_free": true
     },
     {
-      "id": "ical-8570090576846376512",
+      "id": "ical-6633745985269341774",
       "title": "Ornot After Work Ride",
       "type": "bike",
       "venue": "Ornot Bike\\, 55 Clement St\\, San Francisco\\, CA 94118\\, USA",
@@ -395,7 +395,7 @@
       "is_free": true
     },
     {
-      "id": "ical-4961596448436254158",
+      "id": "ical-2788682512353917497",
       "title": "San Jose Bike Party",
       "type": "bike",
       "venue": "Varies Monthly",
@@ -409,7 +409,7 @@
       "is_free": true
     },
     {
-      "id": "ical-4258288650638388305",
+      "id": "ical-923784400070675297",
       "title": "Let It Slow Ride",
       "type": "bike",
       "venue": "Duboce Park\\, San Francisco\\, CA 94117\\, USA",
@@ -423,7 +423,7 @@
       "is_free": true
     },
     {
-      "id": "ical-8265627184203334071",
+      "id": "ical-2476055343802772386",
       "title": "Midnight Mystery Ride SF Chapter",
       "type": "bike",
       "venue": "Varies Monthly",
@@ -437,7 +437,7 @@
       "is_free": true
     },
     {
-      "id": "ical-798789436996896220",
+      "id": "ical-3673591857686156454",
       "title": "Fatcake FTWNB Ride",
       "type": "bike",
       "venue": "Conservatory of Flowers\\, 100 John F Kennedy Dr\\, San Francisco\\,",
@@ -451,7 +451,7 @@
       "is_free": true
     },
     {
-      "id": "ical-8496536631471189188",
+      "id": "ical-5318853396657160917",
       "title": "Ornot Women's Ride",
       "type": "bike",
       "venue": "Ornot Bike\\, 55 Clement St\\, San Francisco\\, CA 94118\\, USA",
@@ -465,7 +465,7 @@
       "is_free": true
     },
     {
-      "id": "ical-4387571130825909177",
+      "id": "ical-6159138804624357180",
       "title": "Fatcake FTWNB Wildcard Ride",
       "type": "bike",
       "venue": "Conservatory of Flowers\\, 100 John F Kennedy Dr\\, San Francisco\\,",
@@ -479,7 +479,7 @@
       "is_free": true
     },
     {
-      "id": "ical-403548619766322896",
+      "id": "ical-6264059971186150305",
       "title": "Ornot After Work Ride",
       "type": "bike",
       "venue": "Ornot Bike\\, 55 Clement St\\, San Francisco\\, CA 94118\\, USA",
@@ -493,7 +493,7 @@
       "is_free": true
     },
     {
-      "id": "ical-6715185308098171817",
+      "id": "ical-4626508899388462797",
       "title": "SF Critical Mass",
       "type": "bike",
       "venue": "Varies Monthly",
@@ -507,7 +507,7 @@
       "is_free": true
     },
     {
-      "id": "ical-1160341975718587430",
+      "id": "ical-1566110292471106049",
       "title": "Huckberry TWO TICKETS TO PARADISE ride",
       "type": "bike",
       "venue": "Huckleberry Bicycles\\, 1255 Battery St Suite 120\\, San Francisco\\,",
@@ -671,21 +671,6 @@
       "is_free": false
     },
     {
-      "id": "tm-Z7r9jZ1A7OIZK",
-      "title": "Behemoth w/ Deicide",
-      "type": "music",
-      "venue": "The Regency Ballroom",
-      "city": "SF",
-      "date": "Wed Apr 15",
-      "date_raw": "2026-04-16T01:25:00Z",
-      "time": "6:25 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OIZK",
-      "image": "https://s1.ticketm.net/dam/a/077/e023f73d-5179-42e6-917e-9297e52a4077_RETINA_PORTRAIT_16_9.jpg",
-      "source": "Ticketmaster",
-      "is_free": false
-    },
-    {
       "id": "tm-Z7r9jZ1A7-3uo",
       "title": "Mind Enterprises",
       "type": "music",
@@ -802,36 +787,6 @@
       "description": "",
       "url": "https://www.ticketmaster.com/gillian-welch-david-rawlings-play-grateful-oakland-california-04-18-2026/event/1C00643BAB70CA06",
       "image": "https://s1.ticketm.net/dam/a/0d5/9e5b5afe-70e9-4d53-a2be-371b54e100d5_RETINA_PORTRAIT_16_9.jpg",
-      "source": "Ticketmaster",
-      "is_free": false
-    },
-    {
-      "id": "tm-Z7r9jZ1A7pa0U",
-      "title": "Lebanon Hanover",
-      "type": "music",
-      "venue": "The Regency Ballroom",
-      "city": "SF",
-      "date": "Sat Apr 18",
-      "date_raw": "2026-04-19T03:00:00Z",
-      "time": "8:00 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7pa0U",
-      "image": "",
-      "source": "Ticketmaster",
-      "is_free": false
-    },
-    {
-      "id": "tm-Z7r9jZ1A7-8_w",
-      "title": "Cattle Decapitation",
-      "type": "music",
-      "venue": "The Regency Ballroom",
-      "city": "SF",
-      "date": "Mon Apr 20",
-      "date_raw": "2026-04-21T02:00:00Z",
-      "time": "7:00 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-8_w",
-      "image": "https://s1.ticketm.net/dam/a/c7e/31503c33-2d1f-4d99-95c5-36d208255c7e_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
       "is_free": false
     },
@@ -955,36 +910,6 @@
       "is_free": false
     },
     {
-      "id": "tm-Z7r9jZ1A7rkuI",
-      "title": "Benjamin Tod",
-      "type": "music",
-      "venue": "The Regency Ballroom",
-      "city": "SF",
-      "date": "Sun Apr 26",
-      "date_raw": "2026-04-27T03:00:00Z",
-      "time": "8:00 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7rkuI",
-      "image": "https://s1.ticketm.net/dam/a/d7c/b7308304-4635-4dae-b55f-1573c267dd7c_RETINA_PORTRAIT_16_9.jpg",
-      "source": "Ticketmaster",
-      "is_free": false
-    },
-    {
-      "id": "tm-Z7r9jZ1A7OUk8",
-      "title": "Pub Choir",
-      "type": "music",
-      "venue": "The Regency Ballroom",
-      "city": "SF",
-      "date": "Mon Apr 27",
-      "date_raw": "2026-04-28T03:00:00Z",
-      "time": "8:00 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OUk8",
-      "image": "",
-      "source": "Ticketmaster",
-      "is_free": false
-    },
-    {
       "id": "tm-G5vYZ_dQWdesW",
       "title": "Ambar Lucid & Maye - Entre Dos Mundos Tour",
       "type": "music",
@@ -1071,21 +996,6 @@
       "description": "",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-3uf",
       "image": "https://s1.ticketm.net/dam/a/ba7/0fee1afc-cd49-4792-93bd-33759471eba7_RETINA_PORTRAIT_16_9.jpg",
-      "source": "Ticketmaster",
-      "is_free": false
-    },
-    {
-      "id": "tm-Z7r9jZ1A7OOOJ",
-      "title": "Le Youth (18 and Over)",
-      "type": "music",
-      "venue": "The Regency Ballroom",
-      "city": "SF",
-      "date": "Fri May 1",
-      "date_raw": "2026-05-02T03:00:00Z",
-      "time": "8:00 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OOOJ",
-      "image": "https://s1.ticketm.net/dam/a/87e/254fd29c-97e4-4005-9435-f9e5ffa3487e_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
       "is_free": false
     },
@@ -1553,21 +1463,6 @@
       "is_free": false
     },
     {
-      "id": "tm-Z7r9jZ1A7Os-J",
-      "title": "Poison the Well",
-      "type": "music",
-      "venue": "The Regency Ballroom",
-      "city": "SF",
-      "date": "Sun May 17",
-      "date_raw": "2026-05-18T03:00:00Z",
-      "time": "8:00 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Os-J",
-      "image": "https://s1.ticketm.net/dam/a/315/ed168d3b-d620-4ef8-b3d3-168afd4fa315_RETINA_PORTRAIT_16_9.jpg",
-      "source": "Ticketmaster",
-      "is_free": false
-    },
-    {
       "id": "tm-G5vYZbM1MNHRS",
       "title": "St. Lucia",
       "type": "music",
@@ -1594,21 +1489,6 @@
       "description": "",
       "url": "https://www.ticketmaster.com/live-105-welcomes-the-afghan-whigs-san-francisco-california-05-19-2026/event/1C00642CD7DBB2EF",
       "image": "https://s1.ticketm.net/dam/a/945/d363618a-1434-4982-9281-f61c00235945_RETINA_PORTRAIT_16_9.jpg",
-      "source": "Ticketmaster",
-      "is_free": false
-    },
-    {
-      "id": "tm-Z7r9jZ1A7xZ-y",
-      "title": "Smokedope2016 w/ GHOSTFACEKUSH",
-      "type": "music",
-      "venue": "The Regency Ballroom",
-      "city": "SF",
-      "date": "Tue May 19",
-      "date_raw": "2026-05-20T03:00:00Z",
-      "time": "8:00 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZ-y",
-      "image": "https://s1.ticketm.net/dam/a/53f/0f43cd92-6327-4db6-80e9-1aab822d453f_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
       "is_free": false
     },
@@ -1684,21 +1564,6 @@
       "description": "",
       "url": "https://www.ticketmaster.com/nettspend-early-life-crisis-oakland-california-05-22-2026/event/1C00644CD28F9DAF",
       "image": "https://s1.ticketm.net/dam/a/af7/a830f5dd-001a-46b9-97a0-9f705c365af7_RETINA_PORTRAIT_16_9.jpg",
-      "source": "Ticketmaster",
-      "is_free": false
-    },
-    {
-      "id": "tm-Z7r9jZ1A7-kaI",
-      "title": "American Football - Band",
-      "type": "music",
-      "venue": "The Regency Ballroom",
-      "city": "SF",
-      "date": "Fri May 22",
-      "date_raw": "2026-05-23T03:00:00Z",
-      "time": "8:00 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-kaI",
-      "image": "https://s1.ticketm.net/dam/a/46c/026025df-b007-4616-994d-6f06f9f9e46c_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
       "is_free": false
     },
@@ -1958,21 +1823,6 @@
       "is_free": false
     },
     {
-      "id": "tm-Z7r9jZ1A7-fob",
-      "title": "Clara La San",
-      "type": "music",
-      "venue": "The Regency Ballroom",
-      "city": "SF",
-      "date": "Thu Jun 4",
-      "date_raw": "2026-06-05T03:00:00Z",
-      "time": "8:00 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-fob",
-      "image": "https://s1.ticketm.net/dam/a/ae3/a22eaa07-1a54-4a0c-9662-2bfa99c8bae3_RETINA_PORTRAIT_16_9.jpg",
-      "source": "Ticketmaster",
-      "is_free": false
-    },
-    {
       "id": "tm-G5vYZ_eS0R5U0",
       "title": "Juvenile's Boiling Point Album Release Tour with The 400 Degreez Band",
       "type": "music",
@@ -2182,51 +2032,6 @@
       "is_free": false
     },
     {
-      "id": "tm-Z7r9jZ1A7-g3A",
-      "title": "Shordie Shordie w/ Poiison",
-      "type": "music",
-      "venue": "The Regency Ballroom",
-      "city": "SF",
-      "date": "Thu Jun 18",
-      "date_raw": "2026-06-19T03:00:00Z",
-      "time": "8:00 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-g3A",
-      "image": "https://s1.ticketm.net/dam/a/76f/58c5e087-39ce-479c-b5d0-e305e518676f_1741421_RETINA_PORTRAIT_16_9.jpg",
-      "source": "Ticketmaster",
-      "is_free": false
-    },
-    {
-      "id": "tm-Z7r9jZ1A7Os-I",
-      "title": "Ibrahim Maalouf",
-      "type": "music",
-      "venue": "The Regency Ballroom",
-      "city": "SF",
-      "date": "Sat Jun 20",
-      "date_raw": "2026-06-21T03:00:00Z",
-      "time": "8:00 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Os-I",
-      "image": "",
-      "source": "Ticketmaster",
-      "is_free": false
-    },
-    {
-      "id": "tm-Z7r9jZ1A7xZ_U",
-      "title": "Our Lady Peace w/ The Verve Pipe",
-      "type": "music",
-      "venue": "The Regency Ballroom",
-      "city": "SF",
-      "date": "Sun Jun 21",
-      "date_raw": "2026-06-22T03:00:00Z",
-      "time": "8:00 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZ_U",
-      "image": "https://s1.ticketm.net/dam/a/be1/31019f77-0f2c-496f-836a-5cc770f54be1_RETINA_PORTRAIT_16_9.jpg",
-      "source": "Ticketmaster",
-      "is_free": false
-    },
-    {
       "id": "tm-Z7r9jZ1A7jdA_",
       "title": "Kings Kaleidoscope",
       "type": "music",
@@ -2317,21 +2122,6 @@
       "is_free": false
     },
     {
-      "id": "tm-Z7r9jZ1A7-N3_",
-      "title": "Underscores w/ Umru",
-      "type": "music",
-      "venue": "The Regency Ballroom",
-      "city": "SF",
-      "date": "Fri Jun 26",
-      "date_raw": "2026-06-27T03:00:00Z",
-      "time": "8:00 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-N3_",
-      "image": "",
-      "source": "Ticketmaster",
-      "is_free": false
-    },
-    {
       "id": "tm-Z7r9jZ1A7-NPS",
       "title": "Killswitch Engage (6 and Over)",
       "type": "music",
@@ -2343,21 +2133,6 @@
       "description": "",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-NPS",
       "image": "https://s1.ticketm.net/dam/a/5c0/b5b48278-febb-4da5-9652-792a05e235c0_RETINA_PORTRAIT_16_9.jpg",
-      "source": "Ticketmaster",
-      "is_free": false
-    },
-    {
-      "id": "tm-Z7r9jZ1A7-9u_",
-      "title": "Aaron Hibell (18 and Over)",
-      "type": "music",
-      "venue": "The Regency Ballroom",
-      "city": "SF",
-      "date": "Sat Jun 27",
-      "date_raw": "2026-06-28T03:00:00Z",
-      "time": "8:00 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-9u_",
-      "image": "https://s1.ticketm.net/dam/a/b95/d155b30d-c5f1-4151-b2c1-0b79ea799b95_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
       "is_free": false
     },
@@ -2989,36 +2764,6 @@
       "is_free": false
     },
     {
-      "id": "tm-Z7r9jZ1A7xvZS",
-      "title": "Slayyyter w/ Pearly Drops",
-      "type": "music",
-      "venue": "The Regency Ballroom",
-      "city": "SF",
-      "date": "Tue Sep 8",
-      "date_raw": "2026-09-09T03:00:00Z",
-      "time": "8:00 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xvZS",
-      "image": "https://s1.ticketm.net/dam/a/b8f/f55cca90-483c-42a3-b780-333cdfa62b8f_RETINA_PORTRAIT_16_9.jpg",
-      "source": "Ticketmaster",
-      "is_free": false
-    },
-    {
-      "id": "tm-Z7r9jZ1A7-y0k",
-      "title": "Altin Gun",
-      "type": "music",
-      "venue": "The Regency Ballroom",
-      "city": "SF",
-      "date": "Fri Sep 11",
-      "date_raw": "2026-09-12T03:00:00Z",
-      "time": "8:00 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-y0k",
-      "image": "",
-      "source": "Ticketmaster",
-      "is_free": false
-    },
-    {
       "id": "tm-G5vYZ_kQFX_FC",
       "title": "Public Image Ltd - This Is Not The Last Tour",
       "type": "music",
@@ -3616,12 +3361,12 @@
       "is_free": false
     },
     {
-      "id": "gpc-3520537836793216795",
+      "id": "gpc-632428344077948063",
       "title": "Today",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
       "city": "Oakland",
-      "date": "Mon Apr 6",
+      "date": "Tue Apr 7",
       "date_raw": "",
       "time": "See website",
       "description": "Group ride \u2014 check grizz.org for pace, distance, and meeting point.",
@@ -3630,21 +3375,7 @@
       "is_free": true
     },
     {
-      "id": "gpc-3279323576061888609",
-      "title": "3!/T/16",
-      "type": "bike",
-      "venue": "Grizzly Peak Cyclists",
-      "city": "Oakland",
-      "date": "Mon Apr 6",
-      "date_raw": "",
-      "time": "See website",
-      "description": "Group ride \u2014 check grizz.org for pace, distance, and meeting point.",
-      "url": "https://www.grizz.org/rides/",
-      "source": "Grizzly Peak Cyclists",
-      "is_free": true
-    },
-    {
-      "id": "gpc-6595598206168636720",
+      "id": "gpc-7535042048120610556",
       "title": "5/B/32",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -3658,7 +3389,7 @@
       "is_free": true
     },
     {
-      "id": "gpc-4450075408986531785",
+      "id": "gpc-6481518946068520951",
       "title": "5/M/24,32",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -3672,7 +3403,7 @@
       "is_free": true
     },
     {
-      "id": "gpc-6008342564293650579",
+      "id": "gpc-5164386651166823199",
       "title": "5/TM/24",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -3686,7 +3417,7 @@
       "is_free": true
     },
     {
-      "id": "gpc-7034515934347784692",
+      "id": "gpc-7481293130811310947",
       "title": "2/T/42",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -3700,7 +3431,7 @@
       "is_free": true
     },
     {
-      "id": "gpc-2849249546515818479",
+      "id": "gpc-4143573208047329308",
       "title": "3/T/21",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -3714,7 +3445,7 @@
       "is_free": true
     },
     {
-      "id": "gpc-6771173597720167445",
+      "id": "gpc-4577972379546790464",
       "title": "Meeting",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -3728,7 +3459,7 @@
       "is_free": true
     },
     {
-      "id": "gpc-9098064869339686133",
+      "id": "gpc-8434796957353786144",
       "title": "3/TM,M/60-80",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -3742,7 +3473,7 @@
       "is_free": true
     },
     {
-      "id": "gpc-8359317865696911903",
+      "id": "gpc-6755948631534058621",
       "title": "3/TM/26.6",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -3756,7 +3487,7 @@
       "is_free": true
     },
     {
-      "id": "gpc-6104188358251281621",
+      "id": "gpc-2775044504863947149",
       "title": "5/0/17",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -3770,7 +3501,7 @@
       "is_free": true
     },
     {
-      "id": "gpc-4991149070023307349",
+      "id": "gpc-4247880299235239594",
       "title": "3/LT/18",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -3784,7 +3515,7 @@
       "is_free": true
     },
     {
-      "id": "gpc-7427859605687949694",
+      "id": "gpc-1486866552394556122",
       "title": "3/T/52",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -3798,7 +3529,7 @@
       "is_free": true
     },
     {
-      "id": "gpc-1722939163753524263",
+      "id": "gpc-2272154028157948653",
       "title": "4/TM/35",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -3812,7 +3543,7 @@
       "is_free": true
     },
     {
-      "id": "gpc-5498252118027907834",
+      "id": "gpc-1811751791738990822",
       "title": "4/TM/63",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -3826,7 +3557,7 @@
       "is_free": true
     },
     {
-      "id": "gpc-6113333118017678510",
+      "id": "gpc-841985085068017631",
       "title": "3/M/84",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -3840,7 +3571,7 @@
       "is_free": true
     },
     {
-      "id": "gpc-6895794457746108105",
+      "id": "gpc-3977519471984704468",
       "title": "4/T/19",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -3854,7 +3585,7 @@
       "is_free": true
     },
     {
-      "id": "gpc-1083908804205534965",
+      "id": "gpc-1097214938679075772",
       "title": "4/T/54",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -3868,7 +3599,7 @@
       "is_free": true
     },
     {
-      "id": "gpc-4501902763707806652",
+      "id": "gpc-7147931065623058429",
       "title": "3!/T/16",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -3882,8 +3613,22 @@
       "is_free": true
     },
     {
-      "id": "gpc-3986094175558338052",
+      "id": "gpc-9184731918717705154",
       "title": "5/B/32",
+      "type": "bike",
+      "venue": "Grizzly Peak Cyclists",
+      "city": "Oakland",
+      "date": "Tue Apr 14",
+      "date_raw": "",
+      "time": "See website",
+      "description": "Group ride \u2014 check grizz.org for pace, distance, and meeting point.",
+      "url": "https://www.grizz.org/rides/",
+      "source": "Grizzly Peak Cyclists",
+      "is_free": true
+    },
+    {
+      "id": "gpc-1642187598564238538",
+      "title": "5/M/24,32",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
       "city": "Oakland",
