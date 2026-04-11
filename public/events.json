@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-04-11T02:06:32.845158+00:00",
+  "updated_at": "2026-04-11T06:59:16.600907+00:00",
   "count": 266,
   "events": [
     {
-      "id": "ical-2420209607153289737",
+      "id": "ical-1515477720249695770",
       "title": "The Noon Ride",
       "type": "bike",
       "venue": "2210 Page Mill Rd\\, Los Altos Hills\\, CA 94022\\, USA",
@@ -17,7 +17,7 @@
       "is_free": true
     },
     {
-      "id": "ical-8694156041435701968",
+      "id": "ical-4531258201040741975",
       "title": "Rapha RADLER WILLKOMMEN-HAPPY HOUR!",
       "type": "bike",
       "venue": "2198 Filbert St\\, San Francisco\\, CA 94123\\, USA",
@@ -31,7 +31,7 @@
       "is_free": true
     },
     {
-      "id": "ical-4242381673559696388",
+      "id": "ical-6368351295938764191",
       "title": "SFCC COFFEE RIDE",
       "type": "bike",
       "venue": "37.773497\\, -122.441015",
@@ -45,7 +45,7 @@
       "is_free": true
     },
     {
-      "id": "ical-8762777261828356762",
+      "id": "ical-3222691387788999657",
       "title": "SF Bike Party",
       "type": "bike",
       "venue": "Varies Monthly",
@@ -59,7 +59,7 @@
       "is_free": true
     },
     {
-      "id": "ical-4425476522675352382",
+      "id": "ical-1192187696103864877",
       "title": "Bespoke Cycles Shop Ride",
       "type": "bike",
       "venue": "SF Bay Area Bike Rides",
@@ -73,7 +73,7 @@
       "is_free": true
     },
     {
-      "id": "ical-2253589921629689803",
+      "id": "ical-8311235193763426722",
       "title": "Scotty\u2019s Ride",
       "type": "bike",
       "venue": "Golden Gate Bridge Welcome Center\\, Golden Gate Bridge\\, Coastal T",
@@ -87,35 +87,7 @@
       "is_free": true
     },
     {
-      "id": "ical-4675241176201351577",
-      "title": "Alto Velo Women\u2019s/WTFNB Ride",
-      "type": "bike",
-      "venue": "Varies Weekly",
-      "city": "SF",
-      "date": "Sat Dec 2",
-      "date_raw": "2023-12-02T09:00:00",
-      "time": "9:00 AM",
-      "description": "<a href=\"https://www.altovelo.org/womens-ride\">https://www.alto",
-      "url": "",
-      "source": "SF Bay Area Bike Rides",
-      "is_free": true
-    },
-    {
-      "id": "ical-7692677057911861073",
-      "title": "Alto Velo A Ride",
-      "type": "bike",
-      "venue": "Summit Bicycles\\, 392 California Ave\\, Palo Alto\\, CA 94306\\, USA",
-      "city": "SF",
-      "date": "Sat Dec 2",
-      "date_raw": "2023-12-02T09:00:00",
-      "time": "9:00 AM",
-      "description": "<a href=\"https://www.altovelo.org/a-ride\">https://www.altovelo.",
-      "url": "",
-      "source": "SF Bay Area Bike Rides",
-      "is_free": true
-    },
-    {
-      "id": "ical-1528479457236678255",
+      "id": "ical-3082841492434290590",
       "title": "Alto Velo B Ride",
       "type": "bike",
       "venue": "Summit Bicycles\\, 392 California Ave\\, Palo Alto\\, CA 94306\\, USA",
@@ -129,21 +101,7 @@
       "is_free": true
     },
     {
-      "id": "ical-1297909442594711972",
-      "title": "Alto Velo C Ride",
-      "type": "bike",
-      "venue": "Summit Bicycles\\, 392 California Ave\\, Palo Alto\\, CA 94306\\, USA",
-      "city": "SF",
-      "date": "Sat Dec 2",
-      "date_raw": "2023-12-02T09:00:00",
-      "time": "9:00 AM",
-      "description": "<a href=\"https://www.altovelo.org/c-ride\">https://www.altovelo.",
-      "url": "",
-      "source": "SF Bay Area Bike Rides",
-      "is_free": true
-    },
-    {
-      "id": "ical-6655844294799677730",
+      "id": "ical-3221923809838594737",
       "title": "The Spectrum Ride",
       "type": "bike",
       "venue": "West Homestead Road\\, W Homestead Rd\\, Cupertino\\, CA\\, USA",
@@ -157,7 +115,49 @@
       "is_free": true
     },
     {
-      "id": "ical-1319712322591181142",
+      "id": "ical-5418741362380887822",
+      "title": "Alto Velo A Ride",
+      "type": "bike",
+      "venue": "Summit Bicycles\\, 392 California Ave\\, Palo Alto\\, CA 94306\\, USA",
+      "city": "SF",
+      "date": "Sat Dec 2",
+      "date_raw": "2023-12-02T09:00:00",
+      "time": "9:00 AM",
+      "description": "<a href=\"https://www.altovelo.org/a-ride\">https://www.altovelo.",
+      "url": "",
+      "source": "SF Bay Area Bike Rides",
+      "is_free": true
+    },
+    {
+      "id": "ical-898600904298370484",
+      "title": "Alto Velo Women\u2019s/WTFNB Ride",
+      "type": "bike",
+      "venue": "Varies Weekly",
+      "city": "SF",
+      "date": "Sat Dec 2",
+      "date_raw": "2023-12-02T09:00:00",
+      "time": "9:00 AM",
+      "description": "<a href=\"https://www.altovelo.org/womens-ride\">https://www.alto",
+      "url": "",
+      "source": "SF Bay Area Bike Rides",
+      "is_free": true
+    },
+    {
+      "id": "ical-1561170055880226006",
+      "title": "Alto Velo C Ride",
+      "type": "bike",
+      "venue": "Summit Bicycles\\, 392 California Ave\\, Palo Alto\\, CA 94306\\, USA",
+      "city": "SF",
+      "date": "Sat Dec 2",
+      "date_raw": "2023-12-02T09:00:00",
+      "time": "9:00 AM",
+      "description": "<a href=\"https://www.altovelo.org/c-ride\">https://www.altovelo.",
+      "url": "",
+      "source": "SF Bay Area Bike Rides",
+      "is_free": true
+    },
+    {
+      "id": "ical-621715270421159054",
       "title": "Roasters Ride",
       "type": "bike",
       "venue": "Java Hut\\, 760 Center Blvd\\, Fairfax\\, CA 94930\\, USA",
@@ -171,7 +171,7 @@
       "is_free": true
     },
     {
-      "id": "ical-6004455425755122757",
+      "id": "ical-1319600430150271786",
       "title": "Fatcake FTWNB + Allies Ride",
       "type": "bike",
       "venue": "Conservatory of Flowers\\, 100 John F Kennedy Dr\\, San Francisco\\,",
@@ -185,7 +185,7 @@
       "is_free": true
     },
     {
-      "id": "ical-7429925808611440120",
+      "id": "ical-720915979404389253",
       "title": "Pas Normal Social Road Ride",
       "type": "bike",
       "venue": "Pas Normal Studios San Francisco\\, 799 Haight St\\, San Francisco\\,",
@@ -199,7 +199,7 @@
       "is_free": true
     },
     {
-      "id": "ical-1180273229365365520",
+      "id": "ical-3706668061173806577",
       "title": "The Morning Ride",
       "type": "bike",
       "venue": "296 Main St\\, Los Altos\\, CA 94022\\, USA",
@@ -213,7 +213,7 @@
       "is_free": true
     },
     {
-      "id": "ical-173713005324620126",
+      "id": "ical-2492984553635482246",
       "title": "Fatcake HEADLANDS + ARSICAULT BAKERY Ride",
       "type": "bike",
       "venue": "Golden Gate Bridge Welcome Center\\, Golden Gate Bridge\\, Coastal T",
@@ -227,7 +227,7 @@
       "is_free": true
     },
     {
-      "id": "ical-2187018009201227528",
+      "id": "ical-8237040083288153333",
       "title": "Ornot After Cake Ride",
       "type": "bike",
       "venue": "Ornot Bike\\, 55 Clement St\\, San Francisco\\, CA 94118\\, USA",
@@ -241,7 +241,7 @@
       "is_free": true
     },
     {
-      "id": "ical-6949474518084367129",
+      "id": "ical-2879152493965387565",
       "title": "SF Bike & Brew",
       "type": "bike",
       "venue": "Varies Weekly",
@@ -255,7 +255,7 @@
       "is_free": true
     },
     {
-      "id": "ical-7971318348017794320",
+      "id": "ical-72885246434144808",
       "title": "Rapha RCC SF DONUT RIDE",
       "type": "bike",
       "venue": "Rapha San Francisco\\, 2198 Filbert St\\, San Francisco\\, CA 94123\\,",
@@ -269,7 +269,7 @@
       "is_free": true
     },
     {
-      "id": "ical-7097037404368322214",
+      "id": "ical-261860912510196172",
       "title": "Butterlap",
       "type": "bike",
       "venue": "Fort Point Ferry Building\\, One\\, Ferry Building\\, San Francisco\\,",
@@ -283,7 +283,7 @@
       "is_free": true
     },
     {
-      "id": "ical-8657167183553498536",
+      "id": "ical-5455650326913470570",
       "title": "Fatcake WILDCARD Ride",
       "type": "bike",
       "venue": "Conservatory of Flowers\\, 100 John F Kennedy Dr\\, San Francisco\\,",
@@ -297,7 +297,7 @@
       "is_free": true
     },
     {
-      "id": "ical-2545927282783688995",
+      "id": "ical-5088057523894916466",
       "title": "Fatcake FIRST DONUT ALLEY Ride",
       "type": "bike",
       "venue": "RGM9+4V\\, Sausalito\\, CA 94965\\, USA",
@@ -311,7 +311,7 @@
       "is_free": true
     },
     {
-      "id": "ical-4120533770527426367",
+      "id": "ical-7827713034325185583",
       "title": "Ornot Women's Ride",
       "type": "bike",
       "venue": "Ornot Bike\\, 55 Clement St\\, San Francisco\\, CA 94118\\, USA",
@@ -325,7 +325,7 @@
       "is_free": true
     },
     {
-      "id": "ical-6845006591711401981",
+      "id": "ical-3092610155565179872",
       "title": "East Bay Bike Party",
       "type": "bike",
       "venue": "Varies Monthly",
@@ -339,7 +339,7 @@
       "is_free": true
     },
     {
-      "id": "ical-3673544230121000419",
+      "id": "ical-8327813148897882314",
       "title": "Huckberry Ramble",
       "type": "bike",
       "venue": "Huckleberry Bicycles\\, 1255 Battery St Suite 120\\, San Francisco\\,",
@@ -353,7 +353,7 @@
       "is_free": true
     },
     {
-      "id": "ical-5767688671530599700",
+      "id": "ical-1521607687616750295",
       "title": "Rapha RCCSFC EAST BAY RIDE",
       "type": "bike",
       "venue": "1934 Broadway\\, Oakland\\, CA 94612\\, USA",
@@ -367,7 +367,7 @@
       "is_free": true
     },
     {
-      "id": "ical-3806234499386023841",
+      "id": "ical-224343023184250458",
       "title": "Fatcake FTWNB Ride",
       "type": "bike",
       "venue": "Conservatory of Flowers\\, 100 John F Kennedy Dr\\, San Francisco\\,",
@@ -381,7 +381,7 @@
       "is_free": true
     },
     {
-      "id": "ical-2000931568822465572",
+      "id": "ical-6426831901927920090",
       "title": "Ornot After Work Ride",
       "type": "bike",
       "venue": "Ornot Bike\\, 55 Clement St\\, San Francisco\\, CA 94118\\, USA",
@@ -395,7 +395,7 @@
       "is_free": true
     },
     {
-      "id": "ical-6560269034033883711",
+      "id": "ical-4760538422973548012",
       "title": "San Jose Bike Party",
       "type": "bike",
       "venue": "Varies Monthly",
@@ -409,7 +409,7 @@
       "is_free": true
     },
     {
-      "id": "ical-5000380912382027602",
+      "id": "ical-4541934625330117968",
       "title": "Let It Slow Ride",
       "type": "bike",
       "venue": "Duboce Park\\, San Francisco\\, CA 94117\\, USA",
@@ -423,7 +423,7 @@
       "is_free": true
     },
     {
-      "id": "ical-4215021373910241646",
+      "id": "ical-4320425788435369715",
       "title": "Midnight Mystery Ride SF Chapter",
       "type": "bike",
       "venue": "Varies Monthly",
@@ -437,7 +437,7 @@
       "is_free": true
     },
     {
-      "id": "ical-8898397005213509422",
+      "id": "ical-207350511523835133",
       "title": "Fatcake FTWNB Ride",
       "type": "bike",
       "venue": "Conservatory of Flowers\\, 100 John F Kennedy Dr\\, San Francisco\\,",
@@ -451,7 +451,7 @@
       "is_free": true
     },
     {
-      "id": "ical-4708785838059464861",
+      "id": "ical-3387394564772946563",
       "title": "Ornot Women's Ride",
       "type": "bike",
       "venue": "Ornot Bike\\, 55 Clement St\\, San Francisco\\, CA 94118\\, USA",
@@ -465,7 +465,7 @@
       "is_free": true
     },
     {
-      "id": "ical-5403846209441342885",
+      "id": "ical-6356513049554327832",
       "title": "Fatcake FTWNB Wildcard Ride",
       "type": "bike",
       "venue": "Conservatory of Flowers\\, 100 John F Kennedy Dr\\, San Francisco\\,",
@@ -479,7 +479,7 @@
       "is_free": true
     },
     {
-      "id": "ical-7547474725177462338",
+      "id": "ical-1805807334363380344",
       "title": "Ornot After Work Ride",
       "type": "bike",
       "venue": "Ornot Bike\\, 55 Clement St\\, San Francisco\\, CA 94118\\, USA",
@@ -493,7 +493,7 @@
       "is_free": true
     },
     {
-      "id": "ical-2817691561246280821",
+      "id": "ical-3520803232376617391",
       "title": "SF Critical Mass",
       "type": "bike",
       "venue": "Varies Monthly",
@@ -507,7 +507,7 @@
       "is_free": true
     },
     {
-      "id": "ical-2835155590492362502",
+      "id": "ical-7596686844006342180",
       "title": "Huckberry TWO TICKETS TO PARADISE ride",
       "type": "bike",
       "venue": "Huckleberry Bicycles\\, 1255 Battery St Suite 120\\, San Francisco\\,",
@@ -532,36 +532,6 @@
       "description": "",
       "url": "https://www.ticketmaster.com/hanabie-north-america-tour-2026-san-francisco-california-04-10-2026/event/1C0063652B33E429",
       "image": "https://s1.ticketm.net/dam/a/f03/22077c9f-42d1-44c1-84bd-6267637d2f03_RETINA_PORTRAIT_16_9.jpg",
-      "source": "Ticketmaster",
-      "is_free": false
-    },
-    {
-      "id": "tm-Z7r9jZ1A7-JoI",
-      "title": "Sugarhill Gang",
-      "type": "music",
-      "venue": "Yoshi's",
-      "city": "Oakland",
-      "date": "Fri Apr 10",
-      "date_raw": "2026-04-11T02:30:00Z",
-      "time": "7:30 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-JoI",
-      "image": "",
-      "source": "Ticketmaster",
-      "is_free": false
-    },
-    {
-      "id": "tm-Z7r9jZ1A7-3uw",
-      "title": "Theatre of Hate",
-      "type": "music",
-      "venue": "Great American Music Hall",
-      "city": "SF",
-      "date": "Fri Apr 10",
-      "date_raw": "2026-04-11T03:00:00Z",
-      "time": "8:00 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-3uw",
-      "image": "",
       "source": "Ticketmaster",
       "is_free": false
     },
@@ -3034,6 +3004,21 @@
       "is_free": false
     },
     {
+      "id": "tm-Z7r9jZ1A7x6fZ",
+      "title": "San Holo (18 and Over with a valid government issued ID)",
+      "type": "music",
+      "venue": "The Warfield",
+      "city": "SF",
+      "date": "Sat Sep 12",
+      "date_raw": "2026-09-13T03:00:00Z",
+      "time": "8:00 PM",
+      "description": "",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x6fZ",
+      "image": "https://s1.ticketm.net/dam/a/3d2/60d0f65e-8d24-47d2-9cab-d432dfa7e3d2_RETINA_PORTRAIT_16_9.jpg",
+      "source": "Ticketmaster",
+      "is_free": false
+    },
+    {
       "id": "tm-G5vYZ_6RQGEcM",
       "title": "Johnny Blue Skies & The Dark Clouds - Mutiny For The Masses 2026 Tour",
       "type": "music",
@@ -3483,6 +3468,21 @@
       "is_free": false
     },
     {
+      "id": "tm-Z7r9jZ1A7xZPw",
+      "title": "Sunset Rollercoaster",
+      "type": "music",
+      "venue": "The Warfield",
+      "city": "SF",
+      "date": "Sun Oct 18",
+      "date_raw": "2026-10-19T03:00:00Z",
+      "time": "8:00 PM",
+      "description": "",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZPw",
+      "image": "",
+      "source": "Ticketmaster",
+      "is_free": false
+    },
+    {
       "id": "tm-G5vYZ_A5NTXU-",
       "title": "gnash",
       "type": "music",
@@ -3646,7 +3646,7 @@
       "is_free": false
     },
     {
-      "id": "gpc-6830049778594469956",
+      "id": "gpc-7145740877911154571",
       "title": "Today",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -3660,7 +3660,7 @@
       "is_free": true
     },
     {
-      "id": "gpc-7898852351089488139",
+      "id": "gpc-8979170196137368094",
       "title": "3/LT/18",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -3674,7 +3674,7 @@
       "is_free": true
     },
     {
-      "id": "gpc-2523340360782718978",
+      "id": "gpc-1418272382997211890",
       "title": "3/T/52",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -3688,7 +3688,7 @@
       "is_free": true
     },
     {
-      "id": "gpc-7766747890050701527",
+      "id": "gpc-5901847100657589616",
       "title": "4/TM/35",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -3702,7 +3702,7 @@
       "is_free": true
     },
     {
-      "id": "gpc-1902503339009678408",
+      "id": "gpc-3812768671374631857",
       "title": "4/TM/63",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -3716,7 +3716,7 @@
       "is_free": true
     },
     {
-      "id": "gpc-51912042839008459",
+      "id": "gpc-2974130108369157915",
       "title": "3/M/84",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -3730,7 +3730,7 @@
       "is_free": true
     },
     {
-      "id": "gpc-400828081244670710",
+      "id": "gpc-3858976958099780491",
       "title": "4/T/19",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -3744,7 +3744,7 @@
       "is_free": true
     },
     {
-      "id": "gpc-7090223792275293392",
+      "id": "gpc-7114475804606043478",
       "title": "4/T/54",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -3758,7 +3758,7 @@
       "is_free": true
     },
     {
-      "id": "gpc-3252596490292144270",
+      "id": "gpc-7084816077763176813",
       "title": "3!/T/16",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -3772,7 +3772,7 @@
       "is_free": true
     },
     {
-      "id": "gpc-7513159354763453295",
+      "id": "gpc-949095457794576100",
       "title": "5/B/32",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -3786,7 +3786,7 @@
       "is_free": true
     },
     {
-      "id": "gpc-6869378415831162361",
+      "id": "gpc-4410750654118583927",
       "title": "5/M/24,32",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -3800,7 +3800,7 @@
       "is_free": true
     },
     {
-      "id": "gpc-4755932542341132511",
+      "id": "gpc-7098562243188071988",
       "title": "5/TM/24",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -3814,7 +3814,7 @@
       "is_free": true
     },
     {
-      "id": "gpc-8190661054764135390",
+      "id": "gpc-4178913110660273238",
       "title": "2/L/35 to 4/T/50",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -3828,7 +3828,7 @@
       "is_free": true
     },
     {
-      "id": "gpc-6738824536892294576",
+      "id": "gpc-64762844406465559",
       "title": "3/T/21",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -3842,7 +3842,7 @@
       "is_free": true
     },
     {
-      "id": "gpc-1187620892894018189",
+      "id": "gpc-1016373460516028312",
       "title": "3/TM,M/60-80",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -3856,7 +3856,7 @@
       "is_free": true
     },
     {
-      "id": "gpc-2778502621851834837",
+      "id": "gpc-8069141661094879703",
       "title": "3/TM/26.6",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -3870,7 +3870,7 @@
       "is_free": true
     },
     {
-      "id": "gpc-3469000972185387458",
+      "id": "gpc-289122428510181526",
       "title": "5/0/17",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -3884,7 +3884,7 @@
       "is_free": true
     },
     {
-      "id": "gpc-8290133398702036811",
+      "id": "gpc-4562609565008314000",
       "title": "4/T/54",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -3898,7 +3898,7 @@
       "is_free": true
     },
     {
-      "id": "gpc-1621363928641640578",
+      "id": "gpc-4882922904397984444",
       "title": "5!/T/40",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -3912,7 +3912,7 @@
       "is_free": true
     },
     {
-      "id": "gpc-8644436435921858309",
+      "id": "gpc-403467346914548697",
       "title": "4/T/58",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
