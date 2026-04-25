@@ -112,7 +112,7 @@ const STYLES = `
   .controls {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 6px;
     margin-bottom: 20px;
   }
 
@@ -149,30 +149,24 @@ const STYLES = `
 
   .search::placeholder { color: #4a4a48; }
 
-  .venue-select {
-    padding: 8px 10px;
-    background: #252525;
-    border: 1px solid #373737;
-    border-radius: 6px;
-    color: #787774;
-    font-family: inherit;
-    font-size: 13px;
-    outline: none;
-    cursor: pointer;
-    transition: border-color 0.15s;
-    width: 100%;
-  }
-
-  .venue-select:focus { border-color: #5c5c5a; }
-
-  .venue-select option { background: #252525; }
-
-  /* Filter row */
+  /* Filter rows */
   .filter-row {
     display: flex;
-    gap: 6px;
+    gap: 4px;
     flex-wrap: wrap;
     align-items: center;
+    min-height: 28px;
+  }
+
+  .filter-label {
+    font-size: 11px;
+    font-weight: 500;
+    color: #4a4a48;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    white-space: nowrap;
+    padding: 0 4px 0 2px;
+    align-self: center;
   }
 
   .filter-btn {
@@ -205,9 +199,55 @@ const STYLES = `
     height: 16px;
     background: #2f2f2f;
     flex-shrink: 0;
+    margin: 0 4px;
   }
 
   .spacer { flex: 1; }
+
+  /* Inline venue select */
+  .venue-select {
+    padding: 4px 8px;
+    background: transparent;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #787774;
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 500;
+    outline: none;
+    cursor: pointer;
+    max-width: 180px;
+    transition: background 0.12s, color 0.12s, border-color 0.12s;
+  }
+
+  .venue-select:hover, .venue-select:focus {
+    background: #2d2d2d;
+    border-color: #4a4a48;
+    color: #e6e6e5;
+  }
+
+  .venue-select option { background: #252525; color: #e6e6e5; }
+
+  /* Clear button */
+  .clear-btn {
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    border: 1px solid #373737;
+    background: transparent;
+    color: #5c5c5a;
+    transition: background 0.12s, color 0.12s, border-color 0.12s;
+    white-space: nowrap;
+  }
+
+  .clear-btn:hover {
+    background: #2d2d2d;
+    border-color: #4a4a48;
+    color: #e6e6e5;
+  }
 
   .refresh {
     display: inline-flex;
@@ -458,15 +498,40 @@ function SkeletonCard() {
   );
 }
 
+const TYPES = [
+  { val: "all",     label: "All"      },
+  { val: "music",   label: "Music"    },
+  { val: "bike",    label: "Rides"    },
+  { val: "theater", label: "Theater"  },
+  { val: "film",    label: "Film"     },
+  { val: "talks",   label: "Talks"    },
+];
+
+const DATE_RANGES = [
+  { val: "any",     label: "Any"      },
+  { val: "today",   label: "Today"    },
+  { val: "weekend", label: "Weekend"  },
+  { val: "week",    label: "Next 7 days" },
+];
+
+const TYPE_INFO = {
+  music:   { dot: "dot-music",   tag: "tag-music",   label: "Music"   },
+  bike:    { dot: "dot-bike",    tag: "tag-bike",    label: "Ride"    },
+  theater: { dot: "dot-theater", tag: "tag-theater", label: "Theater" },
+  film:    { dot: "dot-film",    tag: "tag-film",    label: "Film"    },
+  talks:   { dot: "dot-talks",   tag: "tag-talks",   label: "Talk"    },
+};
+
 export default function App() {
-  const [events, setEvents]     = useState([]);
-  const [loading, setLoading]   = useState(false);
-  const [error, setError]       = useState("");
-  const [updatedAt, setUpdated] = useState("");
-  const [city, setCity]         = useState("all");
-  const [type, setType]         = useState("all");
-  const [venue, setVenue]       = useState("all");
-  const [search, setSearch]     = useState("");
+  const [events, setEvents]       = useState([]);
+  const [loading, setLoading]     = useState(false);
+  const [error, setError]         = useState("");
+  const [updatedAt, setUpdated]   = useState("");
+  const [city, setCity]           = useState("all");
+  const [type, setType]           = useState("all");
+  const [venue, setVenue]         = useState("all");
+  const [dateRange, setDateRange] = useState("any");
+  const [search, setSearch]       = useState("");
 
   const load = async () => {
     setLoading(true); setError("");
@@ -483,6 +548,13 @@ export default function App() {
 
   useEffect(() => { load(); }, []);
 
+  const clearAll = () => {
+    setCity("all"); setType("all"); setVenue("all");
+    setDateRange("any"); setSearch("");
+  };
+
+  const isFiltered = city !== "all" || type !== "all" || venue !== "all" || dateRange !== "any" || search !== "";
+
   const fmt = iso => {
     try {
       return "Updated " + new Date(iso).toLocaleString("en-US", {
@@ -495,15 +567,36 @@ export default function App() {
   const now = Date.now();
   const twoWeeksOut = now + 14 * 24 * 60 * 60 * 1000;
   const venueList = [...new Set(events.map(e => e.venue).filter(Boolean))].sort();
+
   const filtered = events.filter(e => {
-    if (e.date_raw) {
-      const t = new Date(e.date_raw).getTime();
-      if (!isNaN(t) && t < now) return false;
-      if (!isNaN(t) && t > twoWeeksOut) return false;
-    }
+    const t = e.date_raw ? new Date(e.date_raw).getTime() : NaN;
+
+    // always drop past events
+    if (!isNaN(t) && t < now) return false;
+    // always drop events beyond 2 weeks
+    if (!isNaN(t) && t > twoWeeksOut) return false;
+
     if (city !== "all" && e.city !== city) return false;
     if (type !== "all" && e.type !== type) return false;
     if (venue !== "all" && e.venue !== venue) return false;
+
+    if (dateRange !== "any" && !isNaN(t)) {
+      const today = new Date(); today.setHours(0, 0, 0, 0);
+      if (dateRange === "today") {
+        const end = new Date(today); end.setHours(23, 59, 59, 999);
+        if (t < today.getTime() || t > end.getTime()) return false;
+      } else if (dateRange === "weekend") {
+        const day = today.getDay();
+        const daysToSat = day === 6 ? 0 : (6 - day);
+        const sat = new Date(today); sat.setDate(today.getDate() + daysToSat);
+        const sun = new Date(sat); sun.setDate(sat.getDate() + 1); sun.setHours(23, 59, 59, 999);
+        if (t < sat.getTime() || t > sun.getTime()) return false;
+      } else if (dateRange === "week") {
+        const end = new Date(today); end.setDate(today.getDate() + 7);
+        if (t < today.getTime() || t > end.getTime()) return false;
+      }
+    }
+
     if (search) {
       const q = search.toLowerCase();
       return (e.title || "").toLowerCase().includes(q) || (e.venue || "").toLowerCase().includes(q);
@@ -520,7 +613,7 @@ export default function App() {
           <header className="header">
             <div className="header-label">Bay Area</div>
             <h1>SF + Oakland Events</h1>
-            <div className="sub">Music and group rides, updated every 6 hours</div>
+            <div className="sub">Music, rides, theater, film and talks — updated every 6 hours</div>
             {updatedAt && <div className="updated">{fmt(updatedAt)}</div>}
           </header>
 
@@ -529,28 +622,21 @@ export default function App() {
           {error && <div className="error" style={{ whiteSpace: "pre-line" }}>{error}</div>}
 
           <div className="controls">
+
             <div className="search-wrap">
               <span className="search-icon"><SearchIcon/></span>
               <input
                 className="search"
-                placeholder="Search by artist, venue, or ride name..."
+                placeholder="Search events, artists, venues..."
                 value={search}
                 onChange={e => setSearch(e.target.value)}
                 aria-label="Search events"
               />
             </div>
 
-            <select
-              className="venue-select"
-              value={venue}
-              onChange={e => setVenue(e.target.value)}
-              aria-label="Filter by venue"
-            >
-              <option value="all">All venues</option>
-              {venueList.map(v => <option key={v} value={v}>{v}</option>)}
-            </select>
-
-            <div className="filter-row" role="toolbar" aria-label="Filters">
+            {/* Row 1: City + Type */}
+            <div className="filter-row" role="toolbar" aria-label="City and type filters">
+              <span className="filter-label">City</span>
               {["all", "SF", "Oakland"].map(c => (
                 <button
                   key={c}
@@ -558,20 +644,14 @@ export default function App() {
                   onClick={() => setCity(c)}
                   aria-pressed={city === c}
                 >
-                  {c === "all" ? "All cities" : c}
+                  {c === "all" ? "All" : c}
                 </button>
               ))}
 
               <div className="filter-sep" aria-hidden="true"/>
 
-              {[
-                { val: "all",     label: "All types" },
-                { val: "music",   label: "Music"     },
-                { val: "bike",    label: "Rides"     },
-                { val: "theater", label: "Theater"   },
-                { val: "film",    label: "Film"      },
-                { val: "talks",   label: "Talks"     },
-              ].map(({ val, label }) => (
+              <span className="filter-label">Type</span>
+              {TYPES.map(({ val, label }) => (
                 <button
                   key={val}
                   className={"filter-btn" + (type === val ? " on" : "")}
@@ -583,11 +663,43 @@ export default function App() {
               ))}
 
               <div className="spacer"/>
-
               <button className="refresh" onClick={load} disabled={loading} aria-label="Refresh events">
                 <RefreshIcon/>{loading ? "Loading…" : "Refresh"}
               </button>
             </div>
+
+            {/* Row 2: When + Venue + Clear */}
+            <div className="filter-row" role="toolbar" aria-label="Date and venue filters">
+              <span className="filter-label">When</span>
+              {DATE_RANGES.map(({ val, label }) => (
+                <button
+                  key={val}
+                  className={"filter-btn" + (dateRange === val ? " on" : "")}
+                  onClick={() => setDateRange(val)}
+                  aria-pressed={dateRange === val}
+                >
+                  {label}
+                </button>
+              ))}
+
+              <div className="filter-sep" aria-hidden="true"/>
+
+              <span className="filter-label">Venue</span>
+              <select
+                className="venue-select"
+                value={venue}
+                onChange={e => setVenue(e.target.value)}
+                aria-label="Filter by venue"
+              >
+                <option value="all">All</option>
+                {venueList.map(v => <option key={v} value={v}>{v}</option>)}
+              </select>
+
+              {isFiltered && (
+                <button className="clear-btn" onClick={clearAll}>Clear</button>
+              )}
+            </div>
+
           </div>
 
           {loading && (
@@ -598,15 +710,9 @@ export default function App() {
 
           {!loading && filtered.length > 0 && (
             <>
-              <div className="results-hdr">{filtered.length} events</div>
+              <div className="results-hdr">{filtered.length} event{filtered.length !== 1 ? "s" : ""}</div>
               {filtered.map((e, i) => {
-                const typeInfo = {
-                  music:   { dot: "dot-music",   tag: "tag-music",   label: "Music"   },
-                  bike:    { dot: "dot-bike",    tag: "tag-bike",    label: "Ride"    },
-                  theater: { dot: "dot-theater", tag: "tag-theater", label: "Theater" },
-                  film:    { dot: "dot-film",    tag: "tag-film",    label: "Film"    },
-                  talks:   { dot: "dot-talks",   tag: "tag-talks",   label: "Talk"    },
-                }[e.type] || { dot: "dot-music", tag: "tag-music", label: e.type };
+                const info = TYPE_INFO[e.type] || { dot: "dot-music", tag: "tag-music", label: e.type };
                 return (
                   <a
                     key={e.id || i}
@@ -615,7 +721,7 @@ export default function App() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <div className={"type-dot " + typeInfo.dot}/>
+                    <div className={"type-dot " + info.dot}/>
 
                     <div className="evbody">
                       <div className="title">{e.title}</div>
@@ -640,9 +746,7 @@ export default function App() {
                         <img className="event-img" src={e.image} alt={e.title} loading="lazy"/>
                       )}
                       <div style={{ display: "flex", flexDirection: "column", gap: 4, alignItems: "flex-end" }}>
-                        <span className={"tag " + typeInfo.tag}>
-                          {typeInfo.label}
-                        </span>
+                        <span className={"tag " + info.tag}>{info.label}</span>
                         {e.is_free && <span className="tag tag-free">Free</span>}
                         {e.source && <span className="tag">{e.source}</span>}
                         <span className="ext-icon"><ArrowIcon/></span>
@@ -658,7 +762,7 @@ export default function App() {
             <div className="empty">No events yet.<br/>Run the GitHub Action to populate data.</div>
           )}
           {!loading && events.length > 0 && filtered.length === 0 && (
-            <div className="empty">No events match your filters.</div>
+            <div className="empty">No events match your filters.<br/><button className="clear-btn" style={{marginTop:12}} onClick={clearAll}>Clear filters</button></div>
           )}
 
         </div>
