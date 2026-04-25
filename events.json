@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-04-25T00:33:07.193339+00:00",
-  "count": 344,
+  "updated_at": "2026-04-25T00:58:28.199268+00:00",
+  "count": 379,
   "events": [
     {
-      "id": "ical-5297708789192813480",
+      "id": "ical-5802959818189540013",
       "title": "The Noon Ride",
       "type": "bike",
       "venue": "2210 Page Mill Rd\\, Los Altos Hills\\, CA 94022\\, USA",
@@ -14,10 +14,11 @@
       "description": "<a href=\"https://www.facebook.com/groups/121251457172/\">https:/",
       "url": "",
       "source": "SF Bay Area Bike Rides",
-      "is_free": true
+      "is_free": true,
+      "kid_friendly": false
     },
     {
-      "id": "ical-3158333255418677392",
+      "id": "ical-3118589740448200364",
       "title": "Rapha RADLER WILLKOMMEN-HAPPY HOUR!",
       "type": "bike",
       "venue": "2198 Filbert St\\, San Francisco\\, CA 94123\\, USA",
@@ -28,10 +29,11 @@
       "description": "Escape from work early to kick start your weekend with a Happy",
       "url": "",
       "source": "SF Bay Area Bike Rides",
-      "is_free": true
+      "is_free": true,
+      "kid_friendly": false
     },
     {
-      "id": "ical-3181091468514724725",
+      "id": "ical-5028459865713305902",
       "title": "SFCC COFFEE RIDE",
       "type": "bike",
       "venue": "37.773497\\, -122.441015",
@@ -42,10 +44,11 @@
       "description": "All inclusive morning spin around the city ending with coffee a",
       "url": "",
       "source": "SF Bay Area Bike Rides",
-      "is_free": true
+      "is_free": true,
+      "kid_friendly": false
     },
     {
-      "id": "ical-4597163726017332611",
+      "id": "ical-62315684585736871",
       "title": "SF Bike Party",
       "type": "bike",
       "venue": "Varies Monthly",
@@ -56,10 +59,11 @@
       "description": "<a href=\"https://sfbikeparty.wordpress.com/\">https://sfbikepart",
       "url": "",
       "source": "SF Bay Area Bike Rides",
-      "is_free": true
+      "is_free": true,
+      "kid_friendly": false
     },
     {
-      "id": "ical-7329985098733467726",
+      "id": "ical-9099808514239998653",
       "title": "Bespoke Cycles Shop Ride",
       "type": "bike",
       "venue": "SF Bay Area Bike Rides",
@@ -70,10 +74,11 @@
       "description": "<a href=\"https://www.bespokecyclessf.com/rides\">https://www.bes",
       "url": "",
       "source": "SF Bay Area Bike Rides",
-      "is_free": true
+      "is_free": true,
+      "kid_friendly": false
     },
     {
-      "id": "ical-4575461667725809822",
+      "id": "ical-6534732488682708140",
       "title": "Scotty\u2019s Ride",
       "type": "bike",
       "venue": "Golden Gate Bridge Welcome Center\\, Golden Gate Bridge\\, Coastal T",
@@ -84,24 +89,11 @@
       "description": "Meet: Golden Gate Bridge South Side Pavilion<br><br>When: Satur",
       "url": "",
       "source": "SF Bay Area Bike Rides",
-      "is_free": true
+      "is_free": true,
+      "kid_friendly": false
     },
     {
-      "id": "ical-2389991421400581758",
-      "title": "Roasters Ride",
-      "type": "bike",
-      "venue": "Java Hut\\, 760 Center Blvd\\, Fairfax\\, CA 94930\\, USA",
-      "city": "SF",
-      "date": "Sat Dec 2",
-      "date_raw": "2023-12-02T09:00:00",
-      "time": "9:00 AM",
-      "description": "Start: 9:00am on Saturdays at the Java Hut in Fairfax\\, CA. A l",
-      "url": "",
-      "source": "SF Bay Area Bike Rides",
-      "is_free": true
-    },
-    {
-      "id": "ical-2909286860554968192",
+      "id": "ical-1562382170889497477",
       "title": "Alto Velo C Ride",
       "type": "bike",
       "venue": "Summit Bicycles\\, 392 California Ave\\, Palo Alto\\, CA 94306\\, USA",
@@ -112,10 +104,26 @@
       "description": "<a href=\"https://www.altovelo.org/c-ride\">https://www.altovelo.",
       "url": "",
       "source": "SF Bay Area Bike Rides",
-      "is_free": true
+      "is_free": true,
+      "kid_friendly": false
     },
     {
-      "id": "ical-6408177922295087158",
+      "id": "ical-3451020719407391307",
+      "title": "Roasters Ride",
+      "type": "bike",
+      "venue": "Java Hut\\, 760 Center Blvd\\, Fairfax\\, CA 94930\\, USA",
+      "city": "SF",
+      "date": "Sat Dec 2",
+      "date_raw": "2023-12-02T09:00:00",
+      "time": "9:00 AM",
+      "description": "Start: 9:00am on Saturdays at the Java Hut in Fairfax\\, CA. A l",
+      "url": "",
+      "source": "SF Bay Area Bike Rides",
+      "is_free": true,
+      "kid_friendly": false
+    },
+    {
+      "id": "ical-308346858618908975",
       "title": "The Spectrum Ride",
       "type": "bike",
       "venue": "West Homestead Road\\, W Homestead Rd\\, Cupertino\\, CA\\, USA",
@@ -126,10 +134,11 @@
       "description": "Start: Saturday at 9 am\\, and typically rolls past downtown Los",
       "url": "",
       "source": "SF Bay Area Bike Rides",
-      "is_free": true
+      "is_free": true,
+      "kid_friendly": false
     },
     {
-      "id": "ical-4804210958349567920",
+      "id": "ical-8005865300899219789",
       "title": "Alto Velo B Ride",
       "type": "bike",
       "venue": "Summit Bicycles\\, 392 California Ave\\, Palo Alto\\, CA 94306\\, USA",
@@ -140,24 +149,11 @@
       "description": "<a href=\"https://www.altovelo.org/b-ride\">https://www.altovelo.",
       "url": "",
       "source": "SF Bay Area Bike Rides",
-      "is_free": true
+      "is_free": true,
+      "kid_friendly": false
     },
     {
-      "id": "ical-183564528820923466",
-      "title": "Alto Velo Women\u2019s/WTFNB Ride",
-      "type": "bike",
-      "venue": "Varies Weekly",
-      "city": "SF",
-      "date": "Sat Dec 2",
-      "date_raw": "2023-12-02T09:00:00",
-      "time": "9:00 AM",
-      "description": "<a href=\"https://www.altovelo.org/womens-ride\">https://www.alto",
-      "url": "",
-      "source": "SF Bay Area Bike Rides",
-      "is_free": true
-    },
-    {
-      "id": "ical-7401290892612769868",
+      "id": "ical-6278326505041958969",
       "title": "Alto Velo A Ride",
       "type": "bike",
       "venue": "Summit Bicycles\\, 392 California Ave\\, Palo Alto\\, CA 94306\\, USA",
@@ -168,10 +164,26 @@
       "description": "<a href=\"https://www.altovelo.org/a-ride\">https://www.altovelo.",
       "url": "",
       "source": "SF Bay Area Bike Rides",
-      "is_free": true
+      "is_free": true,
+      "kid_friendly": false
     },
     {
-      "id": "ical-5363956999200302367",
+      "id": "ical-5281197731977728392",
+      "title": "Alto Velo Women\u2019s/WTFNB Ride",
+      "type": "bike",
+      "venue": "Varies Weekly",
+      "city": "SF",
+      "date": "Sat Dec 2",
+      "date_raw": "2023-12-02T09:00:00",
+      "time": "9:00 AM",
+      "description": "<a href=\"https://www.altovelo.org/womens-ride\">https://www.alto",
+      "url": "",
+      "source": "SF Bay Area Bike Rides",
+      "is_free": true,
+      "kid_friendly": false
+    },
+    {
+      "id": "ical-8606384520757027872",
       "title": "Fatcake FTWNB + Allies Ride",
       "type": "bike",
       "venue": "Conservatory of Flowers\\, 100 John F Kennedy Dr\\, San Francisco\\,",
@@ -182,10 +194,11 @@
       "description": "<a href=\"https://www.fatcake.cc/rides\">https://www.fatcake.cc/r",
       "url": "",
       "source": "SF Bay Area Bike Rides",
-      "is_free": true
+      "is_free": true,
+      "kid_friendly": false
     },
     {
-      "id": "ical-2305669882516486597",
+      "id": "ical-6826601493465463205",
       "title": "Pas Normal Social Road Ride",
       "type": "bike",
       "venue": "Pas Normal Studios San Francisco\\, 799 Haight St\\, San Francisco\\,",
@@ -196,10 +209,11 @@
       "description": "<a href=\"https://www.strava.com/clubs/1083211/group_events/1526",
       "url": "",
       "source": "SF Bay Area Bike Rides",
-      "is_free": true
+      "is_free": true,
+      "kid_friendly": false
     },
     {
-      "id": "ical-219935861896806525",
+      "id": "ical-2936151904942035878",
       "title": "The Morning Ride",
       "type": "bike",
       "venue": "296 Main St\\, Los Altos\\, CA 94022\\, USA",
@@ -210,10 +224,11 @@
       "description": "<a href=\"https://www.altovelo.org/other-group-rides\">https://ww",
       "url": "",
       "source": "SF Bay Area Bike Rides",
-      "is_free": true
+      "is_free": true,
+      "kid_friendly": false
     },
     {
-      "id": "ical-5846876358909679154",
+      "id": "ical-9049770732397433065",
       "title": "Fatcake HEADLANDS + ARSICAULT BAKERY Ride",
       "type": "bike",
       "venue": "Golden Gate Bridge Welcome Center\\, Golden Gate Bridge\\, Coastal T",
@@ -224,10 +239,11 @@
       "description": "<a href=\"https://www.fatcake.cc/rides\">https://www.fatcake.cc/r",
       "url": "",
       "source": "SF Bay Area Bike Rides",
-      "is_free": true
+      "is_free": true,
+      "kid_friendly": false
     },
     {
-      "id": "ical-2434435153942079728",
+      "id": "ical-3091465848421037483",
       "title": "Ornot After Cake Ride",
       "type": "bike",
       "venue": "Ornot Bike\\, 55 Clement St\\, San Francisco\\, CA 94118\\, USA",
@@ -238,10 +254,11 @@
       "description": "After Cake\\, Ornot - Tue AM shop rides.<br>We lead a city ride",
       "url": "",
       "source": "SF Bay Area Bike Rides",
-      "is_free": true
+      "is_free": true,
+      "kid_friendly": false
     },
     {
-      "id": "ical-272930907884965024",
+      "id": "ical-1549635786372216532",
       "title": "SF Bike & Brew",
       "type": "bike",
       "venue": "Varies Weekly",
@@ -252,10 +269,11 @@
       "description": "\"A Social Club for Beer and Bike Lovers in the Bay Area!<br>Fir",
       "url": "",
       "source": "SF Bay Area Bike Rides",
-      "is_free": true
+      "is_free": true,
+      "kid_friendly": false
     },
     {
-      "id": "ical-7885475033066164703",
+      "id": "ical-6653708558553779821",
       "title": "Rapha RCC SF DONUT RIDE",
       "type": "bike",
       "venue": "Rapha San Francisco\\, 2198 Filbert St\\, San Francisco\\, CA 94123\\,",
@@ -266,10 +284,11 @@
       "description": "Come for the Hawk-stay for the Donuts Our hump day classic. We",
       "url": "",
       "source": "SF Bay Area Bike Rides",
-      "is_free": true
+      "is_free": true,
+      "kid_friendly": false
     },
     {
-      "id": "ical-2657522177073332427",
+      "id": "ical-430799252550227438",
       "title": "Butterlap",
       "type": "bike",
       "venue": "Fort Point Ferry Building\\, One\\, Ferry Building\\, San Francisco\\,",
@@ -280,10 +299,11 @@
       "description": "A weekly leaderless social bike ride around San Francisco!<br><",
       "url": "",
       "source": "SF Bay Area Bike Rides",
-      "is_free": true
+      "is_free": true,
+      "kid_friendly": false
     },
     {
-      "id": "ical-114685805293364674",
+      "id": "ical-5774930422680479574",
       "title": "Fatcake WILDCARD Ride",
       "type": "bike",
       "venue": "Conservatory of Flowers\\, 100 John F Kennedy Dr\\, San Francisco\\,",
@@ -294,10 +314,11 @@
       "description": "<a href=\"https://www.fatcake.cc/rides\">https://www.fatcake.cc/r",
       "url": "",
       "source": "SF Bay Area Bike Rides",
-      "is_free": true
+      "is_free": true,
+      "kid_friendly": false
     },
     {
-      "id": "ical-722757354332578953",
+      "id": "ical-4040316675460166008",
       "title": "Fatcake FIRST DONUT ALLEY Ride",
       "type": "bike",
       "venue": "RGM9+4V\\, Sausalito\\, CA 94965\\, USA",
@@ -308,10 +329,11 @@
       "description": "630a at the Northern Golden Gate Bridge Pavillon > 30 miles\\n\\n",
       "url": "",
       "source": "SF Bay Area Bike Rides",
-      "is_free": true
+      "is_free": true,
+      "kid_friendly": false
     },
     {
-      "id": "ical-9157946215122193887",
+      "id": "ical-1311178761044895750",
       "title": "Ornot Women's Ride",
       "type": "bike",
       "venue": "Ornot Bike\\, 55 Clement St\\, San Francisco\\, CA 94118\\, USA",
@@ -322,10 +344,11 @@
       "description": "Ornot Women's Ride - Every 1st and 3rd Thursday of the month.<b",
       "url": "",
       "source": "SF Bay Area Bike Rides",
-      "is_free": true
+      "is_free": true,
+      "kid_friendly": false
     },
     {
-      "id": "ical-745907721600665532",
+      "id": "ical-7401225100562324234",
       "title": "East Bay Bike Party",
       "type": "bike",
       "venue": "Varies Monthly",
@@ -336,10 +359,11 @@
       "description": "<a href=\"https://eastbaybikeparty.wordpress.com/\">https://eastb",
       "url": "",
       "source": "SF Bay Area Bike Rides",
-      "is_free": true
+      "is_free": true,
+      "kid_friendly": false
     },
     {
-      "id": "ical-3696139275538727756",
+      "id": "ical-6140968426606688549",
       "title": "Huckberry Ramble",
       "type": "bike",
       "venue": "Huckleberry Bicycles\\, 1255 Battery St Suite 120\\, San Francisco\\,",
@@ -350,10 +374,11 @@
       "description": "The Ramble is a non-competitive\\, sport-paced\\, mixed-terrain r",
       "url": "",
       "source": "SF Bay Area Bike Rides",
-      "is_free": true
+      "is_free": true,
+      "kid_friendly": false
     },
     {
-      "id": "ical-1328270306711381983",
+      "id": "ical-367884688501887549",
       "title": "Rapha RCCSFC EAST BAY RIDE",
       "type": "bike",
       "venue": "1934 Broadway\\, Oakland\\, CA 94612\\, USA",
@@ -364,10 +389,11 @@
       "description": "Join us for our monthly RCC East Bay ride. The ride is held eve",
       "url": "",
       "source": "SF Bay Area Bike Rides",
-      "is_free": true
+      "is_free": true,
+      "kid_friendly": false
     },
     {
-      "id": "ical-3913939963386926649",
+      "id": "ical-3433826248354890192",
       "title": "Fatcake FTWNB Ride",
       "type": "bike",
       "venue": "Conservatory of Flowers\\, 100 John F Kennedy Dr\\, San Francisco\\,",
@@ -378,10 +404,11 @@
       "description": "<a href=\"https://www.fatcake.cc/rides\">https://www.fatcake.cc/r",
       "url": "",
       "source": "SF Bay Area Bike Rides",
-      "is_free": true
+      "is_free": true,
+      "kid_friendly": false
     },
     {
-      "id": "ical-1012442493944200902",
+      "id": "ical-6421196126233395947",
       "title": "Ornot After Work Ride",
       "type": "bike",
       "venue": "Ornot Bike\\, 55 Clement St\\, San Francisco\\, CA 94118\\, USA",
@@ -392,10 +419,11 @@
       "description": "After Work\\, Ornot - Every 2nd and 4th Thursday of the month.<b",
       "url": "",
       "source": "SF Bay Area Bike Rides",
-      "is_free": true
+      "is_free": true,
+      "kid_friendly": false
     },
     {
-      "id": "ical-2151618741951844904",
+      "id": "ical-8638846215550081901",
       "title": "San Jose Bike Party",
       "type": "bike",
       "venue": "Varies Monthly",
@@ -406,10 +434,11 @@
       "description": "<a href=\"http://www.sjbikeparty.org/\">http://www.sjbikeparty.or",
       "url": "",
       "source": "SF Bay Area Bike Rides",
-      "is_free": true
+      "is_free": true,
+      "kid_friendly": false
     },
     {
-      "id": "ical-1562823629467574609",
+      "id": "ical-7688238039536229546",
       "title": "Let It Slow Ride",
       "type": "bike",
       "venue": "Duboce Park\\, San Francisco\\, CA 94117\\, USA",
@@ -420,10 +449,11 @@
       "description": "<a href=\"https://www.safestreetrebel.com/let-it-slow-december-2",
       "url": "",
       "source": "SF Bay Area Bike Rides",
-      "is_free": true
+      "is_free": true,
+      "kid_friendly": false
     },
     {
-      "id": "ical-5453002447340775299",
+      "id": "ical-2661945891435409265",
       "title": "Midnight Mystery Ride SF Chapter",
       "type": "bike",
       "venue": "Varies Monthly",
@@ -434,10 +464,11 @@
       "description": "<a href=\"https://www.facebook.com/MidnightMysteryRide\">https://",
       "url": "",
       "source": "SF Bay Area Bike Rides",
-      "is_free": true
+      "is_free": true,
+      "kid_friendly": false
     },
     {
-      "id": "ical-2440530929233162519",
+      "id": "ical-9153525488551749849",
       "title": "Fatcake FTWNB Ride",
       "type": "bike",
       "venue": "Conservatory of Flowers\\, 100 John F Kennedy Dr\\, San Francisco\\,",
@@ -448,10 +479,11 @@
       "description": "<a href=\"https://www.fatcake.cc/rides\">https://www.fatcake.cc/r",
       "url": "",
       "source": "SF Bay Area Bike Rides",
-      "is_free": true
+      "is_free": true,
+      "kid_friendly": false
     },
     {
-      "id": "ical-464482595955220484",
+      "id": "ical-6258732891208155368",
       "title": "Ornot Women's Ride",
       "type": "bike",
       "venue": "Ornot Bike\\, 55 Clement St\\, San Francisco\\, CA 94118\\, USA",
@@ -462,10 +494,11 @@
       "description": "Ornot Women&#39\\;s Ride - Every 1st and 3rd Thursday of the mon",
       "url": "",
       "source": "SF Bay Area Bike Rides",
-      "is_free": true
+      "is_free": true,
+      "kid_friendly": false
     },
     {
-      "id": "ical-718208616580021760",
+      "id": "ical-5364334104499183456",
       "title": "Fatcake FTWNB Wildcard Ride",
       "type": "bike",
       "venue": "Conservatory of Flowers\\, 100 John F Kennedy Dr\\, San Francisco\\,",
@@ -476,10 +509,11 @@
       "description": "<a href=\"https://www.fatcake.cc/rides\">https://www.fatcake.cc/r",
       "url": "",
       "source": "SF Bay Area Bike Rides",
-      "is_free": true
+      "is_free": true,
+      "kid_friendly": false
     },
     {
-      "id": "ical-4927215527465808292",
+      "id": "ical-892452709716907697",
       "title": "Ornot After Work Ride",
       "type": "bike",
       "venue": "Ornot Bike\\, 55 Clement St\\, San Francisco\\, CA 94118\\, USA",
@@ -490,10 +524,11 @@
       "description": "After Work\\, Ornot - Every 2nd and 4th Thursday of the month.<b",
       "url": "",
       "source": "SF Bay Area Bike Rides",
-      "is_free": true
+      "is_free": true,
+      "kid_friendly": false
     },
     {
-      "id": "ical-8326782531970175592",
+      "id": "ical-7988141717840620721",
       "title": "SF Critical Mass",
       "type": "bike",
       "venue": "Varies Monthly",
@@ -504,10 +539,11 @@
       "description": "<a href=\"https://www.sfcriticalmass.org/\">https://www.sfcritica",
       "url": "",
       "source": "SF Bay Area Bike Rides",
-      "is_free": true
+      "is_free": true,
+      "kid_friendly": false
     },
     {
-      "id": "ical-1612294285561360050",
+      "id": "ical-6919135088866806344",
       "title": "Huckberry TWO TICKETS TO PARADISE ride",
       "type": "bike",
       "venue": "Huckleberry Bicycles\\, 1255 Battery St Suite 120\\, San Francisco\\,",
@@ -518,7 +554,8 @@
       "description": "Two Tickets to Paradise is a medium-slow to medium paced road r",
       "url": "",
       "source": "SF Bay Area Bike Rides",
-      "is_free": true
+      "is_free": true,
+      "kid_friendly": false
     },
     {
       "id": "faight-1986408725972",
@@ -532,7 +569,8 @@
       "description": "Come celebrate Taurus season and try 12 unique wines based on the Zodiac!",
       "url": "https://www.eventbrite.com/e/taurus-season-zodiac-party-and-wine-tasting-tickets-1986408725972",
       "source": "Eventbrite",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7O6uY",
@@ -547,7 +585,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7O6uY",
       "image": "https://s1.ticketm.net/dam/a/61e/742b6e05-ae36-426c-a21f-91727d67e61e_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZbzKjpc_B",
@@ -562,7 +601,8 @@
       "url": "https://www.ticketmaster.com/rhye-san-francisco-california-04-24-2026/event/1C006384DC5AD67A",
       "image": "https://s1.ticketm.net/dam/a/4d5/17c030c0-9358-46cf-9e21-96be181904d5_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7rK_O",
@@ -577,7 +617,23 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7rK_O",
       "image": "https://s1.ticketm.net/dam/a/c1d/b8437df8-8dc6-4f08-bd91-9e617e91ac1d_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
+    },
+    {
+      "id": "sfpl-6615036985792566205",
+      "title": "Book Club: George Takei's They Called Us Enemy",
+      "type": "talks",
+      "venue": "SF Public Library",
+      "city": "SF",
+      "date": "Sat Apr 25",
+      "date_raw": "2026-04-25T11:00:00-07:00",
+      "time": "11:00 AM",
+      "description": "",
+      "url": "https://sfpl.org/events/2026/04/25/book-club-george-takeis-they-called-us-enemy",
+      "source": "SFPL",
+      "is_free": true,
+      "kid_friendly": false
     },
     {
       "id": "eb-1979197584253",
@@ -591,7 +647,8 @@
       "description": "Free drum masterclass series featuring 6 giants of the drums",
       "url": "https://www.eventbrite.com/e/give-the-drummer-some-free-masterclass-series-tickets-1979197584253",
       "source": "Eventbrite",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "faight-1984863563349",
@@ -605,7 +662,8 @@
       "description": "Cutie Pie celebrates their new EP with a daytime release party at The Faight. Live sets from Aerodynamic + YeahNoForSure.",
       "url": "https://www.eventbrite.com/e/cutie-pie-ep-release-party-tickets-1984863563349",
       "source": "Eventbrite",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "faight-1985352919025",
@@ -619,7 +677,8 @@
       "description": "SF indie rock bands The Turtle Club, Other People, and Circuit Split play a stacked local lineup at The Faight in the Lower Haight.",
       "url": "https://www.eventbrite.com/e/turtle-club-other-people-circuit-split-live-the-faight-tickets-1985352919025",
       "source": "Eventbrite",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7O6uw",
@@ -634,7 +693,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7O6uw",
       "image": "https://s1.ticketm.net/dam/a/61e/742b6e05-ae36-426c-a21f-91727d67e61e_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_apJNmEw",
@@ -649,7 +709,8 @@
       "url": "https://www.ticketmaster.com/said-the-sky-18-only-oakland-california-04-25-2026/event/1C006495A68EE9F2",
       "image": "https://s1.ticketm.net/dam/a/854/76f9e0f8-8a54-49f0-bab2-84c9c8cd3854_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7O6us",
@@ -664,7 +725,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7O6us",
       "image": "https://s1.ticketm.net/dam/a/61e/742b6e05-ae36-426c-a21f-91727d67e61e_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZbgrHRtMP",
@@ -679,7 +741,8 @@
       "url": "https://www.ticketmaster.com/the-brook-the-bluff-the-werewolf-san-francisco-california-04-25-2026/event/1C006357BCBE9DE5",
       "image": "https://s1.ticketm.net/dam/a/55b/5caba590-88ab-4d29-a45b-64a02cf5855b_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7xo8I",
@@ -694,7 +757,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xo8I",
       "image": "https://s1.ticketm.net/dam/a/4e8/400720bc-af79-49b6-8b56-63f72ace44e8_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_eMgsTxm",
@@ -709,10 +773,11 @@
       "url": "https://www.ticketmaster.com/you-should-be-dancing-a-tribute-san-francisco-california-04-25-2026/event/1C00642DF5C7F8AE",
       "image": "https://s1.ticketm.net/dam/a/633/f6620742-ff07-4eac-be02-0758b6f23633_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
-      "id": "kqed-3801395134364739302",
+      "id": "kqed-8163777391716585606",
       "title": "D\u00eda De Los Ni\u00f1os / D\u00eda De Los Libros 2026",
       "type": "talks",
       "venue": "El Parque Ni\u00f1os Unidos",
@@ -723,7 +788,23 @@
       "description": "",
       "url": "https://www.tixr.com/groups/kqed/events/d-a-de-los-ni-os-d-a-de-los-libros-179187",
       "source": "KQED",
-      "is_free": true
+      "is_free": true,
+      "kid_friendly": false
+    },
+    {
+      "id": "sfpl-4641956792440162883",
+      "title": "Book Club: Genre Smoosh",
+      "type": "talks",
+      "venue": "SF Public Library",
+      "city": "SF",
+      "date": "Sun Apr 26",
+      "date_raw": "2026-04-26T15:30:00-07:00",
+      "time": "3:30 PM",
+      "description": "",
+      "url": "https://sfpl.org/events/2026/04/26/book-club-genre-smoosh",
+      "source": "SFPL",
+      "is_free": true,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7O6uS",
@@ -738,7 +819,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7O6uS",
       "image": "https://s1.ticketm.net/dam/a/61e/742b6e05-ae36-426c-a21f-91727d67e61e_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7rkuI",
@@ -753,7 +835,38 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7rkuI",
       "image": "https://s1.ticketm.net/dam/a/d7c/b7308304-4635-4dae-b55f-1573c267dd7c_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
+    },
+    {
+      "id": "sfpl-5085559499588858992",
+      "title": "Presentation: Rebuild Your Career in the U.S.",
+      "type": "talks",
+      "venue": "SF Public Library",
+      "city": "SF",
+      "date": "Mon Apr 27",
+      "date_raw": "2026-04-27T12:00:00-07:00",
+      "time": "12:00 PM",
+      "description": "",
+      "url": "https://sfpl.org/events/2026/04/27/presentation-rebuild-your-career-us",
+      "source": "SFPL",
+      "is_free": true,
+      "kid_friendly": false
+    },
+    {
+      "id": "sfpl-96951206420832726",
+      "title": "Workshop: SAT Test Prep for Teens (Class J)",
+      "type": "talks",
+      "venue": "SF Public Library",
+      "city": "SF",
+      "date": "Mon Apr 27",
+      "date_raw": "2026-04-27T17:30:00-07:00",
+      "time": "5:30 PM",
+      "description": "",
+      "url": "https://sfpl.org/events/2026/04/27/workshop-sat-test-prep-teens-class-j",
+      "source": "SFPL",
+      "is_free": true,
+      "kid_friendly": false
     },
     {
       "id": "faight-1986777884134",
@@ -767,7 +880,23 @@
       "description": "Music industry night with panel, networking, and live showcase. Artists, managers, and creatives welcome.",
       "url": "https://www.eventbrite.com/e/music-industry-night-at-the-faight-tickets-1986777884134",
       "source": "Eventbrite",
-      "is_free": true
+      "is_free": true,
+      "kid_friendly": false
+    },
+    {
+      "id": "sfpl-7771796473874875867",
+      "title": "Services: Student Support Session for Teens",
+      "type": "talks",
+      "venue": "SF Public Library",
+      "city": "SF",
+      "date": "Mon Apr 27",
+      "date_raw": "2026-04-27T19:00:00-07:00",
+      "time": "7:00 PM",
+      "description": "",
+      "url": "https://sfpl.org/events/2026/04/27/services-student-support-session-teens",
+      "source": "SFPL",
+      "is_free": true,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7OUk8",
@@ -782,7 +911,98 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OUk8",
       "image": "",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
+    },
+    {
+      "id": "sfpl-9047792403669279058",
+      "title": "Workshop: Student Loan Updates and Repayment Options",
+      "type": "talks",
+      "venue": "SF Public Library",
+      "city": "SF",
+      "date": "Tue Apr 28",
+      "date_raw": "2026-04-28T12:00:00-07:00",
+      "time": "12:00 PM",
+      "description": "",
+      "url": "https://sfpl.org/events/2026/04/28/workshop-student-loan-updates-and-repayment-options",
+      "source": "SFPL",
+      "is_free": true,
+      "kid_friendly": false
+    },
+    {
+      "id": "sfpl-1168774952563991835",
+      "title": "Dialogue: ESL Online Convo Club",
+      "type": "talks",
+      "venue": "SF Public Library",
+      "city": "SF",
+      "date": "Tue Apr 28",
+      "date_raw": "2026-04-28T15:00:00-07:00",
+      "time": "3:00 PM",
+      "description": "",
+      "url": "https://sfpl.org/events/2026/04/28/dialogue-esl-online-convo-club",
+      "source": "SFPL",
+      "is_free": true,
+      "kid_friendly": false
+    },
+    {
+      "id": "sfpl-1540340527655038867",
+      "title": "Workshop: SAT Test Prep for Teens (Class J)",
+      "type": "talks",
+      "venue": "SF Public Library",
+      "city": "SF",
+      "date": "Tue Apr 28",
+      "date_raw": "2026-04-28T17:30:00-07:00",
+      "time": "5:30 PM",
+      "description": "",
+      "url": "https://sfpl.org/events/2026/04/28/workshop-sat-test-prep-teens-class-j",
+      "source": "SFPL",
+      "is_free": true,
+      "kid_friendly": false
+    },
+    {
+      "id": "sfpl-4602732469985252314",
+      "title": "Presentation: A Career in Emergency Response and Firefighting",
+      "type": "talks",
+      "venue": "SF Public Library",
+      "city": "SF",
+      "date": "Tue Apr 28",
+      "date_raw": "2026-04-28T18:00:00-07:00",
+      "time": "6:00 PM",
+      "description": "",
+      "url": "https://sfpl.org/events/2026/04/28/presentation-career-emergency-response-and-firefighting",
+      "source": "SFPL",
+      "is_free": true,
+      "kid_friendly": false
+    },
+    {
+      "id": "sfpl-4976049321278590508",
+      "title": "Presentation: Opera in the Latin World",
+      "type": "talks",
+      "venue": "SF Public Library",
+      "city": "SF",
+      "date": "Tue Apr 28",
+      "date_raw": "2026-04-28T18:00:00-07:00",
+      "time": "6:00 PM",
+      "description": "",
+      "url": "https://sfpl.org/events/2026/04/28/presentation-opera-latin-world",
+      "source": "SFPL",
+      "is_free": true,
+      "kid_friendly": false
+    },
+    {
+      "id": "sfpl-5237855818717210473",
+      "title": "Services: Student Support Session for Teens",
+      "type": "talks",
+      "venue": "SF Public Library",
+      "city": "SF",
+      "date": "Tue Apr 28",
+      "date_raw": "2026-04-28T19:00:00-07:00",
+      "time": "7:00 PM",
+      "description": "",
+      "url": "https://sfpl.org/events/2026/04/28/services-student-support-session-teens",
+      "source": "SFPL",
+      "is_free": true,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_dQWdesW",
@@ -797,7 +1017,38 @@
       "url": "https://www.ticketmaster.com/ambar-lucid-maye-entre-dos-mundos-san-francisco-california-04-28-2026/event/1C006436BD0C2C7D",
       "image": "https://s1.ticketm.net/dam/a/f67/0cd781f8-d433-4d6e-8193-4649c1138f67_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
+    },
+    {
+      "id": "sfpl-5742170341209229807",
+      "title": "Workshop: Saving for Education",
+      "type": "talks",
+      "venue": "SF Public Library",
+      "city": "SF",
+      "date": "Wed Apr 29",
+      "date_raw": "2026-04-29T13:00:00-07:00",
+      "time": "1:00 PM",
+      "description": "",
+      "url": "https://sfpl.org/events/2026/04/29/workshop-saving-education",
+      "source": "SFPL",
+      "is_free": true,
+      "kid_friendly": false
+    },
+    {
+      "id": "sfpl-8806391156799183561",
+      "title": "Workshop: SAT Test Prep for Teens (Class K)",
+      "type": "talks",
+      "venue": "SF Public Library",
+      "city": "SF",
+      "date": "Wed Apr 29",
+      "date_raw": "2026-04-29T17:30:00-07:00",
+      "time": "5:30 PM",
+      "description": "",
+      "url": "https://sfpl.org/events/2026/04/29/workshop-sat-test-prep-teens-class-k",
+      "source": "SFPL",
+      "is_free": true,
+      "kid_friendly": false
     },
     {
       "id": "faight-1983915769472",
@@ -811,7 +1062,8 @@
       "description": "Wednesday's at The Faight, with music from some of the bay's finest and natural wine from Massanois Imports.",
       "url": "https://www.eventbrite.com/e/the-sound-pour-lower-haight-jazz-more-and-wine-night-tickets-1983915769472",
       "source": "Eventbrite",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZbVIOIVcg",
@@ -826,7 +1078,8 @@
       "url": "https://www.ticketmaster.com/la-dispute-san-francisco-california-04-29-2026/event/1C00634A20A34B75",
       "image": "https://s1.ticketm.net/dam/a/785/68a01ea7-467b-4070-9054-bd47ab85b785_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_eMFhu7u",
@@ -841,7 +1094,83 @@
       "url": "https://www.ticketmaster.com/oh-wonder-songs-at-the-piano-oakland-california-04-29-2026/event/1C00642DC86CD10D",
       "image": "https://s1.ticketm.net/dam/a/456/94f44e1f-f1a2-46e5-8737-39fea7850456_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
+    },
+    {
+      "id": "sfpl-9039488095968551375",
+      "title": "Tutorial: Meet One-on-One with a CERTIFIED FINANCIAL PLANNER\u2122",
+      "type": "talks",
+      "venue": "SF Public Library",
+      "city": "SF",
+      "date": "Thu Apr 30",
+      "date_raw": "2026-04-30T09:00:00-07:00",
+      "time": "9:00 AM",
+      "description": "",
+      "url": "https://sfpl.org/events/2026/04/30/tutorial-meet-one-one-certified-financial-plannertm",
+      "source": "SFPL",
+      "is_free": true,
+      "kid_friendly": false
+    },
+    {
+      "id": "sfpl-9158286955268572049",
+      "title": "Presentation: How Fusion Works",
+      "type": "talks",
+      "venue": "SF Public Library",
+      "city": "SF",
+      "date": "Thu Apr 30",
+      "date_raw": "2026-04-30T16:00:00-07:00",
+      "time": "4:00 PM",
+      "description": "",
+      "url": "https://sfpl.org/events/2026/04/30/presentation-how-fusion-works",
+      "source": "SFPL",
+      "is_free": true,
+      "kid_friendly": false
+    },
+    {
+      "id": "sfpl-2134780109195229349",
+      "title": "Workshop: SAT Test Prep for Teens (Class K)",
+      "type": "talks",
+      "venue": "SF Public Library",
+      "city": "SF",
+      "date": "Thu Apr 30",
+      "date_raw": "2026-04-30T17:30:00-07:00",
+      "time": "5:30 PM",
+      "description": "",
+      "url": "https://sfpl.org/events/2026/04/30/workshop-sat-test-prep-teens-class-k",
+      "source": "SFPL",
+      "is_free": true,
+      "kid_friendly": false
+    },
+    {
+      "id": "sfpl-4157754500898587081",
+      "title": "Author: Fae Myenne Ng in conversation with Ben Fong-Torres",
+      "type": "talks",
+      "venue": "SF Public Library",
+      "city": "SF",
+      "date": "Thu Apr 30",
+      "date_raw": "2026-04-30T18:00:00-07:00",
+      "time": "6:00 PM",
+      "description": "",
+      "url": "https://sfpl.org/events/2026/04/30/author-fae-myenne-ng-conversation-ben-fong-torres",
+      "source": "SFPL",
+      "is_free": true,
+      "kid_friendly": false
+    },
+    {
+      "id": "sfpl-4741897617296299166",
+      "title": "Presentation: Brutalist Glen Park BART, the Building and its History",
+      "type": "talks",
+      "venue": "SF Public Library",
+      "city": "SF",
+      "date": "Thu Apr 30",
+      "date_raw": "2026-04-30T18:00:00-07:00",
+      "time": "6:00 PM",
+      "description": "",
+      "url": "https://sfpl.org/events/2026/04/30/presentation-brutalist-glen-park-bart-building-and-its-history",
+      "source": "SFPL",
+      "is_free": true,
+      "kid_friendly": false
     },
     {
       "id": "eb-1987975792109",
@@ -855,7 +1184,8 @@
       "description": "CREATING\nCORE MEMORIES THROUGH MUSIC\nLive Show Booking and Digital Hype For Artists ~ https://www.coreformusic.com",
       "url": "https://www.eventbrite.com/e/core-presents-tasha-malan-caroline-wolfson-lisha-sesbastian-lana-caz-tickets-1987975792109",
       "source": "Eventbrite",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "faight-1937306107719",
@@ -869,7 +1199,8 @@
       "description": "Lively, High Energy Fiddlers",
       "url": "https://www.eventbrite.com/e/scottish-fish-live-at-the-faight-tickets-1937306107719",
       "source": "Eventbrite",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZbz9IbRGz",
@@ -884,7 +1215,8 @@
       "url": "https://www.ticketmaster.com/emo-orchestra-with-the-spill-canvas-san-francisco-california-04-30-2026/event/1C006385E862F338",
       "image": "https://s1.ticketm.net/dam/a/932/28974f5f-66a8-4700-abfd-f23053375932_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7qz_o",
@@ -899,7 +1231,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qz_o",
       "image": "https://s1.ticketm.net/dam/a/9bb/b8ac49f0-e3ec-49f6-9b36-379199de89bb_547351_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7-3uf",
@@ -914,7 +1247,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-3uf",
       "image": "https://s1.ticketm.net/dam/a/ba7/0fee1afc-cd49-4792-93bd-33759471eba7_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7OOOJ",
@@ -929,7 +1263,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OOOJ",
       "image": "https://s1.ticketm.net/dam/a/87e/254fd29c-97e4-4005-9435-f9e5ffa3487e_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": true
     },
     {
       "id": "tm-G5vYZ_6l9b3RH",
@@ -944,7 +1279,8 @@
       "url": "https://www.ticketmaster.com/noise-complaints-presents-the-late-night-san-francisco-california-05-01-2026/event/1C00647AD7612BFC",
       "image": "https://s1.ticketm.net/dam/a/b52/b867fb35-db35-49fa-9128-c1aa16ecbb52_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "faight-1987360870863",
@@ -958,7 +1294,8 @@
       "description": "Papo2oo4 & YL w/ Subjxct 5 - Live at the Faight! Hosted by Afterthought with support from Danny Ali and Yoni",
       "url": "https://www.eventbrite.com/e/papo2oo4-yl-w-subjxct-5-live-tickets-1987360870863",
       "source": "Eventbrite",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "eb-1979575702214",
@@ -972,7 +1309,8 @@
       "description": "An underground stand up comedy experience at a beautiful arts theatre in North Beach",
       "url": "https://www.eventbrite.com/e/the-setup-comedy-at-the-lost-church-tickets-1979575702214",
       "source": "Eventbrite",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZbSL_AAOr",
@@ -987,7 +1325,8 @@
       "url": "https://www.ticketmaster.com/bert-kreischer-permission-to-party-oakland-california-05-02-2026/event/1C006337D914581E",
       "image": "https://s1.ticketm.net/dam/a/cf0/0c6684d0-0915-47fe-bbf5-bac8133a4cf0_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_AKj0etw",
@@ -1002,7 +1341,8 @@
       "url": "https://www.ticketmaster.com/wage-war-it-calls-me-by-san-francisco-california-05-02-2026/event/1C006454DC902A72",
       "image": "https://s1.ticketm.net/dam/a/762/707b5aed-2537-4fc0-9f79-57789bbcd762_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_klV4zP7",
@@ -1017,7 +1357,8 @@
       "url": "https://www.ticketmaster.com/notes-words-benefiting-ucsf-benioff-childrens-oakland-california-05-02-2026/event/1C00646AF4578944",
       "image": "https://s1.ticketm.net/dam/e/4cb/d7d5f663-8a17-4a50-ae74-a760100ae4cb_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": true
     },
     {
       "id": "tm-G5vYZ_aKgmfV8",
@@ -1032,7 +1373,8 @@
       "url": "https://www.ticketmaster.com/notes-words-the-coverups-oakland-california-05-02-2026/event/1C006494F5B94D10",
       "image": "https://s1.ticketm.net/dam/e/b28/f2bdfce6-8ccd-4d65-8ffc-259d3dabab28_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_dMgrn5J",
@@ -1047,7 +1389,38 @@
       "url": "https://www.ticketmaster.com/forester-the-somewhere-in-between-tour-san-francisco-california-05-02-2026/event/1C00643DF57AA2E6",
       "image": "https://s1.ticketm.net/dam/a/80f/c562683e-5eea-44d2-9730-e53bc42fa80f_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
+    },
+    {
+      "id": "sfpl-1118325335067964115",
+      "title": "Book Club: Jeff Hiller's Actress of a Certain Age",
+      "type": "talks",
+      "venue": "SF Public Library",
+      "city": "SF",
+      "date": "Sun May 3",
+      "date_raw": "2026-05-03T11:00:00-07:00",
+      "time": "11:00 AM",
+      "description": "",
+      "url": "https://sfpl.org/events/2026/05/03/book-club-jeff-hillers-actress-certain-age",
+      "source": "SFPL",
+      "is_free": true,
+      "kid_friendly": false
+    },
+    {
+      "id": "sfpl-2659411716118602239",
+      "title": "Workshop: Resume Writing and Cover Letter",
+      "type": "talks",
+      "venue": "SF Public Library",
+      "city": "SF",
+      "date": "Sun May 3",
+      "date_raw": "2026-05-03T15:00:00-07:00",
+      "time": "3:00 PM",
+      "description": "",
+      "url": "https://sfpl.org/events/2026/05/03/workshop-resume-writing-and-cover-letter",
+      "source": "SFPL",
+      "is_free": true,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_kCSHCy0",
@@ -1062,7 +1435,8 @@
       "url": "https://www.ticketmaster.com/when-a-womans-fed-up-oakland-california-05-03-2026/event/1C006463B3F0EE64",
       "image": "https://s1.ticketm.net/dam/e/388/6bce9a2e-f789-4e1f-bdd7-6475b5ddd388_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZbgfP2jiX",
@@ -1077,10 +1451,26 @@
       "url": "https://www.ticketmaster.com/lewis-capaldi-berkeley-california-05-03-2026/event/1C006355253DCB3E",
       "image": "https://s1.ticketm.net/dam/a/d38/d095169e-980e-48fd-ae65-2e0937acbd38_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
-      "id": "kqed-5926900485516449217",
+      "id": "sfpl-4597373349319132385",
+      "title": "Presentation: Plan for Business Success with Gale Business Resources",
+      "type": "talks",
+      "venue": "SF Public Library",
+      "city": "SF",
+      "date": "Mon May 4",
+      "date_raw": "2026-05-04T13:00:00-07:00",
+      "time": "1:00 PM",
+      "description": "",
+      "url": "https://sfpl.org/events/2026/05/04/presentation-plan-business-success-gale-business-resources",
+      "source": "SFPL",
+      "is_free": true,
+      "kid_friendly": false
+    },
+    {
+      "id": "kqed-6846977459405298163",
       "title": "California Gubernatorial Election Town Hall: Former U.S. Representative Katie Porter",
       "type": "talks",
       "venue": "The Commons at KQED",
@@ -1091,7 +1481,8 @@
       "description": "",
       "url": "https://www.tixr.com/groups/kqed/events/california-gubernatorial-election-town-hall-former-u-s-representative-katie-porter-184334",
       "source": "KQED",
-      "is_free": true
+      "is_free": true,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7Os-M",
@@ -1106,7 +1497,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Os-M",
       "image": "https://s1.ticketm.net/dam/a/fc3/ca589b67-7d2a-4b5b-a03a-1b58e0d61fc3_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7-vZA",
@@ -1121,7 +1513,68 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-vZA",
       "image": "https://s1.ticketm.net/dam/a/49a/8953589d-7dd7-4bc0-8bc2-15d7cfacc49a_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
+    },
+    {
+      "id": "sfpl-8238424698826972436",
+      "title": "Social: Genealogy Club",
+      "type": "talks",
+      "venue": "SF Public Library",
+      "city": "SF",
+      "date": "Tue May 5",
+      "date_raw": "2026-05-05T12:00:00-07:00",
+      "time": "12:00 PM",
+      "description": "",
+      "url": "https://sfpl.org/events/2026/05/05/social-genealogy-club",
+      "source": "SFPL",
+      "is_free": true,
+      "kid_friendly": false
+    },
+    {
+      "id": "sfpl-7337400292705279264",
+      "title": "Dialogue: ESL Online Convo Club",
+      "type": "talks",
+      "venue": "SF Public Library",
+      "city": "SF",
+      "date": "Tue May 5",
+      "date_raw": "2026-05-05T15:00:00-07:00",
+      "time": "3:00 PM",
+      "description": "",
+      "url": "https://sfpl.org/events/2026/05/05/dialogue-esl-online-convo-club",
+      "source": "SFPL",
+      "is_free": true,
+      "kid_friendly": false
+    },
+    {
+      "id": "sfpl-1322051166467197557",
+      "title": "HOLD Workshop: Advocating for Change for Teens",
+      "type": "talks",
+      "venue": "SF Public Library",
+      "city": "SF",
+      "date": "Tue May 5",
+      "date_raw": "2026-05-05T16:30:00-07:00",
+      "time": "4:30 PM",
+      "description": "",
+      "url": "https://sfpl.org/events/2026/05/05/hold-workshop-advocating-change-teens",
+      "source": "SFPL",
+      "is_free": true,
+      "kid_friendly": false
+    },
+    {
+      "id": "sfpl-6595184692594577699",
+      "title": "Services: Student Support Session for Teens",
+      "type": "talks",
+      "venue": "SF Public Library",
+      "city": "SF",
+      "date": "Tue May 5",
+      "date_raw": "2026-05-05T17:30:00-07:00",
+      "time": "5:30 PM",
+      "description": "",
+      "url": "https://sfpl.org/events/2026/05/05/services-student-support-session-teens",
+      "source": "SFPL",
+      "is_free": true,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZby1qGabY",
@@ -1136,7 +1589,8 @@
       "url": "https://www.ticketmaster.com/the-wood-brothers-san-francisco-california-05-05-2026/event/1C0063929D309630",
       "image": "https://s1.ticketm.net/dam/a/38e/0647dc2e-2f24-4e55-83a0-6233dcf2838e_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7qz__",
@@ -1151,7 +1605,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qz__",
       "image": "https://s1.ticketm.net/dam/a/6b6/c899a297-8b17-48f8-a322-39ec1641a6b6_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7-vZk",
@@ -1166,10 +1621,26 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-vZk",
       "image": "https://s1.ticketm.net/dam/a/49a/8953589d-7dd7-4bc0-8bc2-15d7cfacc49a_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
-      "id": "kqed-6097336205645521241",
+      "id": "sfpl-8724410410947981593",
+      "title": "Presentation: Commercial Leasing Essentials",
+      "type": "talks",
+      "venue": "SF Public Library",
+      "city": "SF",
+      "date": "Wed May 6",
+      "date_raw": "2026-05-06T12:00:00-07:00",
+      "time": "12:00 PM",
+      "description": "",
+      "url": "https://sfpl.org/events/2026/05/06/presentation-commercial-leasing-essentials",
+      "source": "SFPL",
+      "is_free": true,
+      "kid_friendly": false
+    },
+    {
+      "id": "kqed-5282616088209688125",
       "title": "Live Beyond Out Loud (SPONSORED)",
       "type": "talks",
       "venue": "The Commons at KQED",
@@ -1180,7 +1651,8 @@
       "description": "",
       "url": "https://tixr.com/e/183508",
       "source": "KQED",
-      "is_free": true
+      "is_free": true,
+      "kid_friendly": false
     },
     {
       "id": "faight-1983915778499",
@@ -1194,10 +1666,11 @@
       "description": "Wednesday's at The Faight, with music from some of the bay's finest and natural wine from Massanois Imports.",
       "url": "https://www.eventbrite.com/e/the-sound-pour-lower-haight-jazz-more-and-wine-night-tickets-1983915778499",
       "source": "Eventbrite",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
-      "id": "kqed-1744173036881196034",
+      "id": "kqed-7024319082872985361",
       "title": "Pints and Pairings: A Guided Beer and Charcuterie Tasting",
       "type": "talks",
       "venue": "Laughing Monk Brewing",
@@ -1208,7 +1681,8 @@
       "description": "",
       "url": "https://www.tixr.com/groups/kqed/events/pints-and-pairings-a-guided-beer-and-charcuterie-tasting-179190",
       "source": "KQED",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7Okkf",
@@ -1223,7 +1697,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Okkf",
       "image": "https://s1.ticketm.net/dam/a/cc7/e506039e-ce0b-4a57-bdbc-cfa72081acc7_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_dMQRM2L",
@@ -1238,7 +1713,8 @@
       "url": "https://www.ticketmaster.com/radhika-das-san-francisco-california-05-06-2026/event/1C00643DDABF73DF",
       "image": "https://s1.ticketm.net/dam/a/9d4/633a433c-f232-4b23-9587-5fef3d42f9d4_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7Okk4",
@@ -1253,7 +1729,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Okk4",
       "image": "https://s1.ticketm.net/dam/a/cc7/e506039e-ce0b-4a57-bdbc-cfa72081acc7_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_6LTWsGk",
@@ -1268,7 +1745,8 @@
       "url": "https://www.ticketmaster.com/yebba-jean-tour-san-francisco-california-05-06-2026/event/1C006477FFF71306",
       "image": "https://s1.ticketm.net/dam/a/265/7f0e0311-ea9d-435f-9696-2d030a041265_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZbMJc4_3p",
@@ -1283,7 +1761,68 @@
       "url": "https://www.ticketmaster.com/good-kid-can-we-hang-out-oakland-california-05-06-2026/event/1C006379AD559496",
       "image": "https://s1.ticketm.net/dam/a/fe9/99fb919f-e5c7-45e7-8658-f85f2dc34fe9_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
+    },
+    {
+      "id": "sfpl-1335298581906963455",
+      "title": "Tutorial: Meet One-on-One with a CERTIFIED FINANCIAL PLANNER\u2122",
+      "type": "talks",
+      "venue": "SF Public Library",
+      "city": "SF",
+      "date": "Thu May 7",
+      "date_raw": "2026-05-07T09:00:00-07:00",
+      "time": "9:00 AM",
+      "description": "",
+      "url": "https://sfpl.org/events/2026/05/07/tutorial-meet-one-one-certified-financial-plannertm",
+      "source": "SFPL",
+      "is_free": true,
+      "kid_friendly": false
+    },
+    {
+      "id": "sfpl-7814295246273026978",
+      "title": "Book Club: World Literature, Kenzabur\u014d \u014ce\u2019s  Nip the Buds, Shoot the Kids",
+      "type": "talks",
+      "venue": "SF Public Library",
+      "city": "SF",
+      "date": "Thu May 7",
+      "date_raw": "2026-05-07T18:00:00-07:00",
+      "time": "6:00 PM",
+      "description": "",
+      "url": "https://sfpl.org/events/2026/05/07/book-club-world-literature-kenzaburo-oes-nip-buds-shoot-kids",
+      "source": "SFPL",
+      "is_free": true,
+      "kid_friendly": true
+    },
+    {
+      "id": "sfpl-4780985469335745096",
+      "title": "Workshop: Organizational Skills for Teens",
+      "type": "talks",
+      "venue": "SF Public Library",
+      "city": "SF",
+      "date": "Thu May 7",
+      "date_raw": "2026-05-07T18:00:00-07:00",
+      "time": "6:00 PM",
+      "description": "",
+      "url": "https://sfpl.org/events/2026/05/07/workshop-organizational-skills-teens",
+      "source": "SFPL",
+      "is_free": true,
+      "kid_friendly": false
+    },
+    {
+      "id": "sfpl-8559330264452822610",
+      "title": "Services: Student Support Session for Teens",
+      "type": "talks",
+      "venue": "SF Public Library",
+      "city": "SF",
+      "date": "Thu May 7",
+      "date_raw": "2026-05-07T19:00:00-07:00",
+      "time": "7:00 PM",
+      "description": "",
+      "url": "https://sfpl.org/events/2026/05/07/services-student-support-session-teens",
+      "source": "SFPL",
+      "is_free": true,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZbUb-2Q69",
@@ -1298,7 +1837,8 @@
       "url": "https://www.ticketmaster.com/good-dye-young-presents-hayley-williams-oakland-california-05-07-2026/event/1C006366213DA1D7",
       "image": "https://s1.ticketm.net/dam/a/8e0/a85aee98-50e5-471f-9824-e197069578e0_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7Okkp",
@@ -1313,7 +1853,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Okkp",
       "image": "https://s1.ticketm.net/dam/a/cc7/e506039e-ce0b-4a57-bdbc-cfa72081acc7_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_kC7I9g-",
@@ -1328,7 +1869,23 @@
       "url": "https://www.ticketmaster.com/yebba-jean-tour-san-francisco-california-05-07-2026/event/1C00646384A17D61",
       "image": "https://s1.ticketm.net/dam/a/265/7f0e0311-ea9d-435f-9696-2d030a041265_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
+    },
+    {
+      "id": "sfpl-1037557191113636825",
+      "title": "Presentation: Opening Up Shop at SFO: Opportunities for Small Businesses",
+      "type": "talks",
+      "venue": "SF Public Library",
+      "city": "SF",
+      "date": "Fri May 8",
+      "date_raw": "2026-05-08T10:00:00-07:00",
+      "time": "10:00 AM",
+      "description": "",
+      "url": "https://sfpl.org/events/2026/05/08/presentation-opening-shop-sfo-opportunities-small-businesses",
+      "source": "SFPL",
+      "is_free": true,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7Okk9",
@@ -1343,7 +1900,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Okk9",
       "image": "https://s1.ticketm.net/dam/a/cc7/e506039e-ce0b-4a57-bdbc-cfa72081acc7_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_A3gPtHi",
@@ -1358,7 +1916,8 @@
       "url": "https://www.ticketmaster.com/live-105-welcomes-pennywise-san-francisco-california-05-08-2026/event/1C006454B5969F2C",
       "image": "https://s1.ticketm.net/dam/a/0b7/75f621b4-c44c-4ba2-b589-4655362200b7_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7Okk_",
@@ -1373,7 +1932,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Okk_",
       "image": "https://s1.ticketm.net/dam/a/cc7/e506039e-ce0b-4a57-bdbc-cfa72081acc7_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZbUbNQB8t",
@@ -1388,7 +1948,8 @@
       "url": "https://www.ticketmaster.com/good-dye-young-presents-hayley-williams-oakland-california-05-09-2026/event/1C006366236BA429",
       "image": "https://s1.ticketm.net/dam/a/8e0/a85aee98-50e5-471f-9824-e197069578e0_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7Okkb",
@@ -1403,7 +1964,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Okkb",
       "image": "https://s1.ticketm.net/dam/a/cc7/e506039e-ce0b-4a57-bdbc-cfa72081acc7_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_6Kf_sKS",
@@ -1418,7 +1980,8 @@
       "url": "https://www.ticketmaster.com/feid-vs-ferxxo-falxo-tour-el-san-francisco-california-05-09-2026/event/1C006474D46714F3",
       "image": "https://s1.ticketm.net/dam/a/7bb/b731fbeb-76a3-4899-964c-cbfd7f31a7bb_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_khvnJjM",
@@ -1433,7 +1996,8 @@
       "url": "https://www.ticketmaster.com/noise-complaints-presents-the-late-night-san-francisco-california-05-09-2026/event/1C006466C1AA6737",
       "image": "https://s1.ticketm.net/dam/e/8eb/d344ac62-6206-49e2-aa09-1f61bea268eb_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7OkFZ",
@@ -1448,7 +2012,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OkFZ",
       "image": "https://s1.ticketm.net/dam/a/cc7/e506039e-ce0b-4a57-bdbc-cfa72081acc7_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7OkFv",
@@ -1463,7 +2028,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OkFv",
       "image": "https://s1.ticketm.net/dam/a/cc7/e506039e-ce0b-4a57-bdbc-cfa72081acc7_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZbUb0lQpr",
@@ -1478,7 +2044,8 @@
       "url": "https://www.ticketmaster.com/good-dye-young-presents-hayley-williams-oakland-california-05-10-2026/event/1C00636624ADA59E",
       "image": "https://s1.ticketm.net/dam/a/8e0/a85aee98-50e5-471f-9824-e197069578e0_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7-3ub",
@@ -1493,7 +2060,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-3ub",
       "image": "",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_73zZuq6",
@@ -1508,7 +2076,8 @@
       "url": "https://www.ticketmaster.com/baby-keem-the-caino-tour-oakland-california-05-11-2026/event/1C006444B800D747",
       "image": "https://s1.ticketm.net/dam/a/c0c/9ed02172-d3d0-4e27-afc9-493167acac0c_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": true
     },
     {
       "id": "tm-Z7r9jZ1A7OkFe",
@@ -1523,7 +2092,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OkFe",
       "image": "https://s1.ticketm.net/dam/a/cc7/e506039e-ce0b-4a57-bdbc-cfa72081acc7_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7OkF7",
@@ -1538,7 +2108,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OkF7",
       "image": "https://s1.ticketm.net/dam/a/cc7/e506039e-ce0b-4a57-bdbc-cfa72081acc7_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7OkFd",
@@ -1553,7 +2124,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OkFd",
       "image": "https://s1.ticketm.net/dam/a/cc7/e506039e-ce0b-4a57-bdbc-cfa72081acc7_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "faight-1984088599411",
@@ -1567,7 +2139,8 @@
       "description": "An intimate evening with Justin Nozuka - 70 guests, couches, deep listening, and likely meet & greet. A rare living-room set at The Faight.",
       "url": "https://www.eventbrite.com/e/justin-nozuka-intimate-set-tickets-1984088599411",
       "source": "Eventbrite",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7OkFA",
@@ -1582,7 +2155,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OkFA",
       "image": "https://s1.ticketm.net/dam/a/cc7/e506039e-ce0b-4a57-bdbc-cfa72081acc7_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZbSBcuVe8",
@@ -1597,7 +2171,8 @@
       "url": "https://www.ticketmaster.com/the-midnight-time-machines-oakland-california-05-14-2026/event/1C00633EAD374090",
       "image": "https://s1.ticketm.net/dam/a/43e/134e47d2-477a-46d4-a3f1-926fce1cf43e_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_A1wpJco",
@@ -1612,7 +2187,8 @@
       "url": "https://www.ticketmaster.com/man-with-a-mission-world-tour-san-francisco-california-05-14-2026/event/1C006452B25A6B51",
       "image": "https://s1.ticketm.net/dam/a/c07/5dce8bd2-1be5-4424-92f9-95f11ff81c07_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "faight-1988043687185",
@@ -1626,7 +2202,8 @@
       "description": "Dirtybird takes over The Faight with open decks, art gallery, and a family DJ set. A full night of music + community.",
       "url": "https://www.eventbrite.com/e/dirtybird-x-the-faight-open-decks-art-gallery-tickets-1988043687185",
       "source": "Eventbrite",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": true
     },
     {
       "id": "tm-G5vYZbV5eP6YU",
@@ -1641,7 +2218,8 @@
       "url": "https://www.ticketmaster.com/joyce-manor-militarie-gun-teen-mortgage-san-francisco-california-05-15-2026/event/1C006342C2947C36",
       "image": "https://s1.ticketm.net/dam/a/716/0ed4dbbb-d6ae-4260-a19f-f512317bc716_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7-NQd",
@@ -1656,7 +2234,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-NQd",
       "image": "https://s1.ticketm.net/dam/a/cd9/b2261c1f-e74c-4cf8-bc32-34f3e0b53cd9_997091_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7OkFk",
@@ -1671,7 +2250,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OkFk",
       "image": "https://s1.ticketm.net/dam/a/cc7/e506039e-ce0b-4a57-bdbc-cfa72081acc7_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_7pMzf-z",
@@ -1686,7 +2266,8 @@
       "url": "https://www.ticketmaster.com/elio-mei-presents-tomato-tomato-tomato-san-francisco-california-05-15-2026/event/1C006445B7E14878",
       "image": "https://s1.ticketm.net/dam/a/3a4/ec51c2f8-52a8-4c9c-9a34-0c74c2ed23a4_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "eb-1979197591274",
@@ -1700,7 +2281,8 @@
       "description": "Free drum masterclass series featuring 6 giants of the drums",
       "url": "https://www.eventbrite.com/e/give-the-drummer-some-free-masterclass-series-tickets-1979197591274",
       "source": "Eventbrite",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7-NQ7",
@@ -1715,7 +2297,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-NQ7",
       "image": "https://s1.ticketm.net/dam/a/cd9/b2261c1f-e74c-4cf8-bc32-34f3e0b53cd9_997091_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7OkF6",
@@ -1730,7 +2313,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OkF6",
       "image": "https://s1.ticketm.net/dam/a/cc7/e506039e-ce0b-4a57-bdbc-cfa72081acc7_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_k9NBEMN",
@@ -1745,7 +2329,8 @@
       "url": "https://www.ticketmaster.com/lagwagon-celebrating-35-years-of-fat-san-francisco-california-05-16-2026/event/1C006465E3EA7DE3",
       "image": "https://s1.ticketm.net/dam/a/bdf/018245e7-5cae-4d49-9806-4f08204ebbdf_1311311_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7OkFF",
@@ -1760,7 +2345,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OkFF",
       "image": "https://s1.ticketm.net/dam/a/cc7/e506039e-ce0b-4a57-bdbc-cfa72081acc7_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7-NQA",
@@ -1775,7 +2361,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-NQA",
       "image": "https://s1.ticketm.net/dam/a/cd9/b2261c1f-e74c-4cf8-bc32-34f3e0b53cd9_997091_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7OkFa",
@@ -1790,7 +2377,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OkFa",
       "image": "https://s1.ticketm.net/dam/a/cc7/e506039e-ce0b-4a57-bdbc-cfa72081acc7_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZbzLIl1kU",
@@ -1805,7 +2393,8 @@
       "url": "https://www.ticketmaster.com/canceled-julien-dore-oakland-california-05-17-2026/event/1C006387E8ACA1B6",
       "image": "https://s1.ticketm.net/dam/a/650/c481b3bb-755f-45bd-a200-f5d763d45650_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7Os-J",
@@ -1820,7 +2409,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Os-J",
       "image": "https://s1.ticketm.net/dam/a/315/ed168d3b-d620-4ef8-b3d3-168afd4fa315_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZbM1MNHRS",
@@ -1835,7 +2425,8 @@
       "url": "https://www.ticketmaster.com/st-lucia-san-francisco-california-05-17-2026/event/1C006372B78FCBF3",
       "image": "https://s1.ticketm.net/dam/a/c7f/3ce9444f-d684-4505-b3a7-cf04033cac7f_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7OkF8",
@@ -1850,7 +2441,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OkF8",
       "image": "https://s1.ticketm.net/dam/a/cc7/e506039e-ce0b-4a57-bdbc-cfa72081acc7_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_eS9UD5R",
@@ -1865,7 +2457,8 @@
       "url": "https://www.ticketmaster.com/live-105-welcomes-the-afghan-whigs-san-francisco-california-05-19-2026/event/1C00642CD7DBB2EF",
       "image": "https://s1.ticketm.net/dam/a/945/d363618a-1434-4982-9281-f61c00235945_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7xZ-y",
@@ -1880,7 +2473,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZ-y",
       "image": "https://s1.ticketm.net/dam/a/53f/0f43cd92-6327-4db6-80e9-1aab822d453f_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "faight-1983915781508",
@@ -1894,7 +2488,8 @@
       "description": "Wednesday's at The Faight, with music from some of the bay's finest and natural wine from Massanois Imports.",
       "url": "https://www.eventbrite.com/e/the-sound-pour-lower-haight-jazz-more-and-wine-night-tickets-1983915781508",
       "source": "Eventbrite",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7OkFo",
@@ -1909,7 +2504,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OkFo",
       "image": "https://s1.ticketm.net/dam/a/cc7/e506039e-ce0b-4a57-bdbc-cfa72081acc7_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7OkF3",
@@ -1924,7 +2520,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OkF3",
       "image": "https://s1.ticketm.net/dam/a/cc7/e506039e-ce0b-4a57-bdbc-cfa72081acc7_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_7npbF2t",
@@ -1939,7 +2536,8 @@
       "url": "https://www.ticketmaster.com/hemlocke-springs-the-apple-tree-under-san-francisco-california-05-20-2026/event/1C00644A966083E9",
       "image": "https://s1.ticketm.net/dam/a/749/aec9ccd4-0f0a-4fe6-82a2-f5e248a87749_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZbVLQwpgt",
@@ -1954,7 +2552,8 @@
       "url": "https://www.ticketmaster.com/dry-cleaning-moved-to-august-hall-san-francisco-california-05-20-2026/event/1C006347DAC96D69",
       "image": "https://s1.ticketm.net/dam/a/a35/5095f22e-5b2d-414b-a5bb-0ad61472da35_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZbzNVVQUF",
@@ -1969,7 +2568,8 @@
       "url": "https://www.ticketmaster.com/dry-cleaning-san-francisco-california-05-20-2026/event/1C006388F4D1AD88",
       "image": "https://s1.ticketm.net/dam/a/a35/5095f22e-5b2d-414b-a5bb-0ad61472da35_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "faight-1985768636447",
@@ -1983,7 +2583,8 @@
       "description": "Down in the basement",
       "url": "https://www.eventbrite.com/e/good-morning-saint-romance-mommy-mommy-tbd-tickets-1985768636447",
       "source": "Eventbrite",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7OkFK",
@@ -1998,7 +2599,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OkFK",
       "image": "https://s1.ticketm.net/dam/a/cc7/e506039e-ce0b-4a57-bdbc-cfa72081acc7_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_7CoMICk",
@@ -2013,7 +2615,8 @@
       "url": "https://www.ticketmaster.com/kevin-morby-san-francisco-california-05-21-2026/event/1C00644391DE8386",
       "image": "https://s1.ticketm.net/dam/a/4b0/39a79a1b-a36a-42e0-9b24-49e0dc9b74b0_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7OkFf",
@@ -2028,7 +2631,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OkFf",
       "image": "https://s1.ticketm.net/dam/a/cc7/e506039e-ce0b-4a57-bdbc-cfa72081acc7_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_Fr_YiQX",
@@ -2043,7 +2647,8 @@
       "url": "https://www.ticketmaster.com/mt-joy-2026-celebrating-10-years-san-francisco-california-05-22-2026/event/1C00648799C2C6BE",
       "image": "https://s1.ticketm.net/dam/a/54c/1e50f365-4f53-4bbd-8571-f0eb65f5154c_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_7S3NyUR",
@@ -2058,7 +2663,8 @@
       "url": "https://www.ticketmaster.com/nettspend-early-life-crisis-oakland-california-05-22-2026/event/1C00644CD28F9DAF",
       "image": "https://s1.ticketm.net/dam/a/af7/a830f5dd-001a-46b9-97a0-9f705c365af7_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7-kaI",
@@ -2073,7 +2679,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-kaI",
       "image": "https://s1.ticketm.net/dam/a/46c/026025df-b007-4616-994d-6f06f9f9e46c_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7-3uO",
@@ -2088,7 +2695,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-3uO",
       "image": "https://s1.ticketm.net/dam/a/50c/e99af9fd-e616-4a5f-8bc6-312f3edcc50c_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_ArTmv3s",
@@ -2103,7 +2711,8 @@
       "url": "https://www.ticketmaster.com/bottlerock-afterdark-presents-dj-pauly-d-san-francisco-california-05-22-2026/event/1C006457BFB814B1",
       "image": "https://s1.ticketm.net/dam/e/4c1/1c45d7f9-bdfe-40bb-a892-735051be34c1_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7OkF4",
@@ -2118,7 +2727,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OkF4",
       "image": "https://s1.ticketm.net/dam/a/cc7/e506039e-ce0b-4a57-bdbc-cfa72081acc7_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7OkFp",
@@ -2133,7 +2743,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OkFp",
       "image": "https://s1.ticketm.net/dam/a/cc7/e506039e-ce0b-4a57-bdbc-cfa72081acc7_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_k9qKUE6",
@@ -2148,7 +2759,8 @@
       "url": "https://www.ticketmaster.com/the-adicts-san-francisco-california-05-23-2026/event/1C006465DD4F69C7",
       "image": "https://s1.ticketm.net/dam/a/975/bf82a8e9-2aba-4fd8-bd8d-b03ce990e975_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7-I4w",
@@ -2163,7 +2775,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-I4w",
       "image": "https://s1.ticketm.net/dam/a/101/7034d483-821d-4f77-a787-33dcc9a20101_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_ArULT74",
@@ -2178,7 +2791,8 @@
       "url": "https://www.ticketmaster.com/bottlerock-afterdark-presents-midnight-generation-paco-san-francisco-california-05-23-2026/event/1C006457B67FF115",
       "image": "https://s1.ticketm.net/dam/e/06e/6adcc985-a91b-49bf-aa70-ea3ee6cac06e_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7OkF9",
@@ -2193,7 +2807,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OkF9",
       "image": "https://s1.ticketm.net/dam/a/cc7/e506039e-ce0b-4a57-bdbc-cfa72081acc7_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "faight-1987286681962",
@@ -2207,7 +2822,8 @@
       "description": "Barbados-born multi-instrumentalist Rex & The Rhythm moves effortlessly between rock, hip hop, and soul- live at The Faight.",
       "url": "https://www.eventbrite.com/e/rex-the-rhythm-the-faight-tickets-1987286681962",
       "source": "Eventbrite",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_A1ST6ob",
@@ -2222,7 +2838,8 @@
       "url": "https://www.ticketmaster.com/tk-from-ling-tosite-sigure-tour-san-francisco-california-05-26-2026/event/1C006452B3FC7458",
       "image": "https://s1.ticketm.net/dam/a/a97/6491ad34-ca20-4928-ac3c-7eee1e1baa97_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7-a8Y",
@@ -2237,7 +2854,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-a8Y",
       "image": "https://s1.ticketm.net/dam/a/e84/565a362e-1609-4483-83f9-275e6c126e84_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZbME2U1DB",
@@ -2252,7 +2870,8 @@
       "url": "https://www.ticketmaster.com/dance-with-the-dead-magic-sword-san-francisco-california-05-26-2026/event/1C006379CFD8AEFA",
       "image": "https://s1.ticketm.net/dam/a/1e6/c9d6ba18-9f90-48ba-adbc-76b0bf9551e6_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZbVUtuI84",
@@ -2267,7 +2886,40 @@
       "url": "https://www.ticketmaster.com/the-last-dinner-party-from-the-oakland-california-05-27-2026/event/1C00634DA9368415",
       "image": "https://s1.ticketm.net/dam/a/61e/2b5ca275-a381-4660-b2d0-8d2cf704d61e_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
+    },
+    {
+      "id": "tm-G5vYZ_dhI9mYA",
+      "title": "Elmiene - Sounds for Someone Tour",
+      "type": "music",
+      "venue": "UC Theatre",
+      "city": "Oakland",
+      "date": "Wed May 27",
+      "date_raw": "2026-05-28T03:00:00Z",
+      "time": "8:00 PM",
+      "description": "",
+      "url": "https://app.opendate.io/e/elmiene-sounds-for-someone-tour-may-27-2026-637446",
+      "image": "https://s1.ticketm.net/dam/a/a03/9430f116-c4a5-40bb-b49e-8dcfaaaf1a03_RETINA_PORTRAIT_16_9.jpg",
+      "source": "Ticketmaster",
+      "is_free": false,
+      "kid_friendly": false
+    },
+    {
+      "id": "tm-Z7r9jZ1A7OIx7",
+      "title": "Elmiene - Sounds for Someone Tour",
+      "type": "music",
+      "venue": "UC Theatre",
+      "city": "Oakland",
+      "date": "Wed May 27",
+      "date_raw": "2026-05-28T03:00:00Z",
+      "time": "8:00 PM",
+      "description": "",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OIx7",
+      "image": "https://s1.ticketm.net/dam/a/a03/9430f116-c4a5-40bb-b49e-8dcfaaaf1a03_RETINA_PORTRAIT_16_9.jpg",
+      "source": "Ticketmaster",
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_7iMsLFh",
@@ -2282,7 +2934,8 @@
       "url": "https://www.ticketmaster.com/chapterhouse-whirlpool-35-san-francisco-california-05-28-2026/event/1C00644B37C5F21B",
       "image": "https://s1.ticketm.net/dam/a/1b6/428c1e3e-3453-42e1-9e56-6fc6bd39b1b6_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7r3v4",
@@ -2297,7 +2950,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7r3v4",
       "image": "https://s1.ticketm.net/dam/a/1c8/4c6416b3-a0d2-41ac-a495-e40cae8581c8_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": true
     },
     {
       "id": "tm-LvZ18QqGBs0-wB8Z07Nel",
@@ -2312,7 +2966,8 @@
       "url": "https://www.universe.com/events/trap-karaoke-san-francisco-tickets-VBJZWC?ref=ticketmaster",
       "image": "https://s1.ticketm.net/dam/a/64c/76cc8226-9c36-4d1a-b616-d5acc3fa564c_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_eLbfhCi",
@@ -2327,7 +2982,8 @@
       "url": "https://www.ticketmaster.com/vundabar-yot-club-san-francisco-california-05-29-2026/event/1C006427D851B3AC",
       "image": "https://s1.ticketm.net/dam/a/e7f/f6c69789-0f9b-4ee8-a080-da135c68ae7f_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7r3vp",
@@ -2342,7 +2998,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7r3vp",
       "image": "https://s1.ticketm.net/dam/a/1c8/4c6416b3-a0d2-41ac-a495-e40cae8581c8_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": true
     },
     {
       "id": "tm-G5vYZ_d9C2fkW",
@@ -2357,7 +3014,8 @@
       "url": "https://www.ticketmaster.com/alabama-shakes-529-berkeley-california-05-29-2026/event/1C006435CE3D41BD",
       "image": "https://s1.ticketm.net/dam/a/359/ad509b7f-2b54-407f-9d04-9dbbf11fb359_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7rkFM",
@@ -2372,7 +3030,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7rkFM",
       "image": "https://s1.ticketm.net/dam/a/1c8/4c6416b3-a0d2-41ac-a495-e40cae8581c8_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": true
     },
     {
       "id": "tm-Z7r9jZ1A7qe0S",
@@ -2387,7 +3046,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qe0S",
       "image": "https://s1.ticketm.net/dam/a/1c8/4c6416b3-a0d2-41ac-a495-e40cae8581c8_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": true
     },
     {
       "id": "tm-G5vYZ_d9C8f63",
@@ -2402,7 +3062,8 @@
       "url": "https://www.ticketmaster.com/alabama-shakes-530-berkeley-california-05-30-2026/event/1C006435CE4141D2",
       "image": "https://s1.ticketm.net/dam/a/359/ad509b7f-2b54-407f-9d04-9dbbf11fb359_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7r3v9",
@@ -2417,7 +3078,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7r3v9",
       "image": "https://s1.ticketm.net/dam/a/1c8/4c6416b3-a0d2-41ac-a495-e40cae8581c8_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": true
     },
     {
       "id": "tm-Z7r9jZ1A7r3vb",
@@ -2432,7 +3094,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7r3vb",
       "image": "https://s1.ticketm.net/dam/a/1c8/4c6416b3-a0d2-41ac-a495-e40cae8581c8_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": true
     },
     {
       "id": "tm-Z7r9jZ1A7r3v_",
@@ -2447,7 +3110,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7r3v_",
       "image": "https://s1.ticketm.net/dam/a/1c8/4c6416b3-a0d2-41ac-a495-e40cae8581c8_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": true
     },
     {
       "id": "tm-G5vYZ_7MRNlC8",
@@ -2462,7 +3126,8 @@
       "url": "https://www.ticketmaster.com/the-cab-back-from-the-dead-san-francisco-california-06-02-2026/event/1C00644DEF8EB390",
       "image": "https://s1.ticketm.net/dam/a/329/d3dbdd52-2081-4672-868c-fcdd14008329_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7r3vO",
@@ -2477,7 +3142,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7r3vO",
       "image": "https://s1.ticketm.net/dam/a/1c8/4c6416b3-a0d2-41ac-a495-e40cae8581c8_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": true
     },
     {
       "id": "tm-Z7r9jZ1A7r3v-",
@@ -2492,7 +3158,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7r3v-",
       "image": "https://s1.ticketm.net/dam/a/1c8/4c6416b3-a0d2-41ac-a495-e40cae8581c8_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": true
     },
     {
       "id": "tm-G5vYZ_k1N7l_s",
@@ -2507,7 +3174,8 @@
       "url": "https://www.ticketmaster.com/kes-roots-rock-soca-tour-san-francisco-california-06-03-2026/event/1C006462A312B671",
       "image": "https://s1.ticketm.net/dam/a/8e0/a242d869-10f3-4eaf-85c3-68bfc08d78e0_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "faight-1987287150363",
@@ -2521,7 +3189,8 @@
       "description": "From the shores of Greece to golden California, Erini Nomikos channels her Mediterranean roots into a rich, soulful blend of pop and R&B.",
       "url": "https://www.eventbrite.com/e/erini-nomikos-live-the-faight-tickets-1987287150363",
       "source": "Eventbrite",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7_yu3",
@@ -2536,7 +3205,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7_yu3",
       "image": "https://s1.ticketm.net/dam/a/1c8/4c6416b3-a0d2-41ac-a495-e40cae8581c8_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": true
     },
     {
       "id": "tm-Z7r9jZ1A7-fob",
@@ -2551,7 +3221,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-fob",
       "image": "https://s1.ticketm.net/dam/a/ae3/a22eaa07-1a54-4a0c-9662-2bfa99c8bae3_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "faight-1987655681650",
@@ -2565,7 +3236,8 @@
       "description": "Live underground at the Faight!",
       "url": "https://www.eventbrite.com/e/family-mystic-presents-funk-is-dead-tickets-1987655681650",
       "source": "Eventbrite",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": true
     },
     {
       "id": "tm-Z7r9jZ1A7r3vx",
@@ -2580,7 +3252,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7r3vx",
       "image": "https://s1.ticketm.net/dam/a/1c8/4c6416b3-a0d2-41ac-a495-e40cae8581c8_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": true
     },
     {
       "id": "tm-G5vYZ_eS0R5U0",
@@ -2595,7 +3268,8 @@
       "url": "https://www.ticketmaster.com/juveniles-boiling-point-album-release-tour-oakland-california-06-05-2026/event/1C00642CE4BCBDA4",
       "image": "https://s1.ticketm.net/dam/a/49b/e87e5cbd-b491-4900-9bcd-5d18a7e0c49b_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-1Ae0Z_6GkWvGZgx",
@@ -2610,7 +3284,8 @@
       "url": "https://www.ticketweb.com/event/rb-only-live-august-hall-tickets/14827093?REFERRAL_ID=tmfeed",
       "image": "https://s1.ticketm.net/dam/a/b5c/3b14367a-6674-4553-a6ed-569ae1eacb5c_1465461_EVENT_DETAIL_PAGE_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "faight-1988039429450",
@@ -2624,7 +3299,8 @@
       "description": "Anthony Arya takes The Faight, with Silver Swoon and David Redd opening",
       "url": "https://www.eventbrite.com/e/indie-folk-rock-after-dark-the-faight-collective-tickets-1988039429450",
       "source": "Eventbrite",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "eb-1979575703217",
@@ -2638,7 +3314,8 @@
       "description": "An underground stand up comedy experience at a beautiful arts theatre in North Beach",
       "url": "https://www.eventbrite.com/e/the-setup-comedy-at-the-lost-church-tickets-1979575703217",
       "source": "Eventbrite",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7r3vN",
@@ -2653,7 +3330,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7r3vN",
       "image": "https://s1.ticketm.net/dam/a/1c8/4c6416b3-a0d2-41ac-a495-e40cae8581c8_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": true
     },
     {
       "id": "tm-Z7r9jZ1A7r3v0",
@@ -2668,7 +3346,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7r3v0",
       "image": "https://s1.ticketm.net/dam/a/1c8/4c6416b3-a0d2-41ac-a495-e40cae8581c8_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": true
     },
     {
       "id": "tm-Z7r9jZ1A7xa7x",
@@ -2683,7 +3362,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xa7x",
       "image": "https://s1.ticketm.net/dam/a/667/3d7ee04b-4921-4e98-ad7e-c19bd3218667_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_Fi05mhi",
@@ -2698,7 +3378,8 @@
       "url": "https://www.ticketmaster.com/ghost-san-francisco-california-06-06-2026/event/1C00648B242EE6EC",
       "image": "https://s1.ticketm.net/dam/a/3af/836bd1a6-1c89-4f4d-97e5-68486fc773af_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_7DQZT0e",
@@ -2713,7 +3394,8 @@
       "url": "https://www.ticketmaster.com/yeri-mua-baddie-tour-san-francisco-california-06-06-2026/event/1C00644EDA03F902",
       "image": "https://s1.ticketm.net/dam/a/f11/d41d7222-9811-4856-9a8e-09a6bb51af11_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "faight-1987280780310",
@@ -2727,7 +3409,8 @@
       "description": "Live at the Faight!",
       "url": "https://www.eventbrite.com/e/velvet-daydream-tomboy-the-fricks-tickets-1987280780310",
       "source": "Eventbrite",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7r3vP",
@@ -2742,7 +3425,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7r3vP",
       "image": "https://s1.ticketm.net/dam/a/1c8/4c6416b3-a0d2-41ac-a495-e40cae8581c8_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": true
     },
     {
       "id": "tm-Z7r9jZ1A7r3vJ",
@@ -2757,7 +3441,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7r3vJ",
       "image": "https://s1.ticketm.net/dam/a/1c8/4c6416b3-a0d2-41ac-a495-e40cae8581c8_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": true
     },
     {
       "id": "tm-Z7r9jZ1A7bsG9",
@@ -2772,7 +3457,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7bsG9",
       "image": "https://s1.ticketm.net/dam/a/d2e/fbb2bf14-6ed5-4798-8c8c-79e719d1fd2e_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-1k18vxjdGAGxoz9",
@@ -2787,7 +3473,8 @@
       "url": "https://www.ticketweb.com/event/the-church-august-hall-tickets/14291513?REFERRAL_ID=tmfeed",
       "image": "https://s1.ticketm.net/dam/a/d2e/fbb2bf14-6ed5-4798-8c8c-79e719d1fd2e_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7r3vE",
@@ -2802,7 +3489,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7r3vE",
       "image": "https://s1.ticketm.net/dam/a/1c8/4c6416b3-a0d2-41ac-a495-e40cae8581c8_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": true
     },
     {
       "id": "tm-Z7r9jZ1A7Obvx",
@@ -2817,7 +3505,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Obvx",
       "image": "https://s1.ticketm.net/dam/a/959/ae60cfc8-7033-4940-bde8-269d0c2ba959_1753221_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7r3vI",
@@ -2832,7 +3521,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7r3vI",
       "image": "https://s1.ticketm.net/dam/a/1c8/4c6416b3-a0d2-41ac-a495-e40cae8581c8_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": true
     },
     {
       "id": "tm-G5vYZ_7l_fTAh",
@@ -2847,7 +3537,8 @@
       "url": "https://www.ticketmaster.com/james-blake-trying-times-tour-berkeley-california-06-11-2026/event/1C00644AD953F15B",
       "image": "https://s1.ticketm.net/dam/a/994/09c0818d-e1c7-4eae-81b7-9102797ba994_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_7nqZ_70",
@@ -2862,7 +3553,8 @@
       "url": "https://www.ticketmaster.com/toadies-the-charmer-tour-san-francisco-california-06-12-2026/event/1C00644A9D019124",
       "image": "https://s1.ticketm.net/dam/a/741/baee6151-021c-4463-a432-a78849c32741_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_62OFdvk",
@@ -2877,7 +3569,8 @@
       "url": "https://www.ticketmaster.com/bob-dylan-berkeley-california-06-13-2026/event/1C006473E0203046",
       "image": "https://s1.ticketm.net/dam/a/352/feae62d0-316a-4b51-863c-96c198c43352_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7ObvN",
@@ -2892,7 +3585,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7ObvN",
       "image": "https://s1.ticketm.net/dam/a/05a/33678025-995c-47a1-acac-a0a9dd8d505a_1508491_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_62Oadvu",
@@ -2907,7 +3601,8 @@
       "url": "https://www.ticketmaster.com/bob-dylan-berkeley-california-06-14-2026/event/1C006473E024304D",
       "image": "https://s1.ticketm.net/dam/a/352/feae62d0-316a-4b51-863c-96c198c43352_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_a3n2DuU",
@@ -2922,7 +3617,8 @@
       "url": "https://www.ticketmaster.com/corbyn-besson-and-soulidified-the-popn-san-francisco-california-06-16-2026/event/1C006494AA3FB376",
       "image": "https://s1.ticketm.net/dam/a/aa1/4542e232-a012-434c-bd7e-baf01d859aa1_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_71hqI5F",
@@ -2937,7 +3633,8 @@
       "url": "https://www.ticketmaster.com/the-lemon-twigs-san-francisco-california-06-17-2026/event/1C0064429B7682C8",
       "image": "https://s1.ticketm.net/dam/a/838/d114dc8c-b3c1-422b-93f7-c86bc6e2d838_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "faight-1986350437630",
@@ -2951,7 +3648,8 @@
       "description": "Surf Rock night at The Faight :)",
       "url": "https://www.eventbrite.com/e/surf-trash-sun-casino-live-at-the-faight-tickets-1986350437630",
       "source": "Eventbrite",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_kUAFEPr",
@@ -2966,7 +3664,8 @@
       "url": "https://www.ticketmaster.com/alex-isley-when-the-city-sleeps-san-francisco-california-06-18-2026/event/1C00646D8522795E",
       "image": "https://s1.ticketm.net/dam/a/929/868a946f-8525-4a3c-aa3a-329c04fdc929_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7-g3A",
@@ -2981,7 +3680,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-g3A",
       "image": "https://s1.ticketm.net/dam/a/76f/58c5e087-39ce-479c-b5d0-e305e518676f_1741421_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7xvjI",
@@ -2996,7 +3696,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xvjI",
       "image": "https://s1.ticketm.net/dam/a/bb1/5647cee1-dfc6-4069-927a-0f09a6bebbb1_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_F2SADtZ",
@@ -3011,7 +3712,8 @@
       "url": "https://www.ticketmaster.com/daboydame-friends-oakland-california-06-19-2026/event/1C006483F317BA40",
       "image": "",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_FOdzh-0",
@@ -3026,7 +3728,8 @@
       "url": "https://www.ticketmaster.com/buju-banton-stephen-marley-roots-and-oakland-california-06-20-2026/event/1C00648803E1B864",
       "image": "https://s1.ticketm.net/dam/e/093/495c4b20-deec-435c-8cc7-653aaec02093_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7Os-I",
@@ -3041,7 +3744,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Os-I",
       "image": "",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7xZ_U",
@@ -3056,7 +3760,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZ_U",
       "image": "https://s1.ticketm.net/dam/a/be1/31019f77-0f2c-496f-836a-5cc770f54be1_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7jdA_",
@@ -3071,7 +3776,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7jdA_",
       "image": "https://s1.ticketm.net/dam/a/8f2/1af331bc-4c33-49d6-894f-945ab071f8f2_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-1718vxG61I8Px9c",
@@ -3086,7 +3792,8 @@
       "url": "https://www.ticketweb.com/event/kings-kaleidoscope-credo-spirit-tour-august-hall-tickets/14459143?REFERRAL_ID=tmfeed",
       "image": "https://s1.ticketm.net/dam/a/8f2/1af331bc-4c33-49d6-894f-945ab071f8f2_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZbGLlFMqH",
@@ -3101,7 +3808,8 @@
       "url": "https://www.ticketmaster.com/canceled-juvenile-and-the-400-degreez-oakland-california-06-24-2026/event/1C0060C7EB23777C",
       "image": "https://s1.ticketm.net/dam/a/49b/e87e5cbd-b491-4900-9bcd-5d18a7e0c49b_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_kQ5Ey-u",
@@ -3116,7 +3824,8 @@
       "url": "https://www.ticketmaster.com/rhiannon-giddens-san-francisco-california-06-25-2026/event/1C0064668B9F984D",
       "image": "https://s1.ticketm.net/dam/a/3a5/55aa9e8e-e22d-4d25-868b-d692810473a5_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7xv4a",
@@ -3131,7 +3840,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xv4a",
       "image": "https://s1.ticketm.net/dam/a/c0b/a03c4ab4-5c8e-46e0-a996-952a9059ec0b_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_6LzWRtF",
@@ -3146,7 +3856,8 @@
       "url": "https://www.ticketmaster.com/pomplamoose-san-francisco-california-06-26-2026/event/1C006477F8F6FA48",
       "image": "https://s1.ticketm.net/dam/a/ab7/a3659b57-dcae-44ac-8a10-bb60c91c1ab7_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZbzKuqGi-",
@@ -3161,7 +3872,8 @@
       "url": "https://www.ticketmaster.com/khalid-berkeley-california-06-26-2026/event/1C006384CD74CB21",
       "image": "https://s1.ticketm.net/dam/a/44f/a37274f7-e617-4b3c-9a99-ac44a3f3b44f_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7-N3_",
@@ -3176,7 +3888,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-N3_",
       "image": "",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7-NPS",
@@ -3191,7 +3904,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-NPS",
       "image": "https://s1.ticketm.net/dam/a/5c0/b5b48278-febb-4da5-9652-792a05e235c0_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7-9u_",
@@ -3206,7 +3920,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-9u_",
       "image": "https://s1.ticketm.net/dam/a/b95/d155b30d-c5f1-4151-b2c1-0b79ea799b95_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_78m0uMs",
@@ -3221,7 +3936,8 @@
       "url": "https://www.ticketmaster.com/holly-humberstone-cruel-world-north-american-san-francisco-california-06-28-2026/event/1C0064442E90DDF1",
       "image": "https://s1.ticketm.net/dam/a/056/29643cae-7aa2-47f6-874e-8c2f40ee4056_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_6LSTTKf",
@@ -3236,7 +3952,8 @@
       "url": "https://www.ticketmaster.com/joshua-slone-thinking-too-much-tour-san-francisco-california-06-30-2026/event/1C006477F3FFF4D4",
       "image": "https://s1.ticketm.net/dam/a/8c8/515d37e0-594f-46ca-b8e2-48e3206ae8c8_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_kwlFjE6",
@@ -3251,7 +3968,8 @@
       "url": "https://www.ticketmaster.com/jinjer-duel-north-america-2026-san-francisco-california-07-03-2026/event/1C00646CAB21C9C7",
       "image": "https://s1.ticketm.net/dam/a/219/b7f0eacf-4fa6-411d-bb91-648d27876219_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "eb-1979575704220",
@@ -3265,7 +3983,8 @@
       "description": "An underground stand up comedy experience at a beautiful arts theatre in North Beach",
       "url": "https://www.eventbrite.com/e/the-setup-comedy-at-the-lost-church-tickets-1979575704220",
       "source": "Eventbrite",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_kCP3W1d",
@@ -3280,7 +3999,8 @@
       "url": "https://www.ticketmaster.com/marcus-king-band-darling-blue-tour-oakland-california-07-07-2026/event/1C006463A54BD283",
       "image": "https://s1.ticketm.net/dam/a/252/9e12bb50-a595-453b-b1e7-ab20f7231252_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7ObvP",
@@ -3295,7 +4015,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7ObvP",
       "image": "https://s1.ticketm.net/dam/a/dcd/2a9d98e3-29a5-4917-a701-d42882c22dcd_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_6dMiKQN",
@@ -3310,7 +4031,8 @@
       "url": "https://www.ticketmaster.com/widespread-panic-3-day-ticket-oakland-california-07-16-2026/event/1C006470F7B136A3",
       "image": "https://s1.ticketm.net/dam/a/34f/ea68f0ef-2e4b-416d-9fa1-6396d573334f_1205481_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_AK8hrHj",
@@ -3325,7 +4047,8 @@
       "url": "https://www.ticketmaster.com/low-cut-connie-san-francisco-california-07-15-2026/event/1C006454D06DEF1C",
       "image": "https://s1.ticketm.net/dam/a/25a/eef23907-b7ca-4725-b6f5-a1e118f9325a_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_6dqcCBa",
@@ -3340,7 +4063,8 @@
       "url": "https://www.ticketmaster.com/an-evening-with-widespread-panic-716-oakland-california-07-16-2026/event/1C006470DDB4EE89",
       "image": "https://s1.ticketm.net/dam/a/34f/ea68f0ef-2e4b-416d-9fa1-6396d573334f_1205481_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZbgwgryKe",
@@ -3355,7 +4079,8 @@
       "url": "https://www.ticketmaster.com/bob-moses-cannons-afterglow-tour-berkeley-california-07-17-2026/event/1C00635CB57B94C2",
       "image": "https://s1.ticketm.net/dam/a/112/a0b420db-9db8-4486-bf56-7a05dcb5b112_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_6drVRZ5",
@@ -3370,7 +4095,8 @@
       "url": "https://www.ticketmaster.com/an-evening-with-widespread-panic-717-oakland-california-07-17-2026/event/1C006470DED2F00B",
       "image": "https://s1.ticketm.net/dam/a/34f/ea68f0ef-2e4b-416d-9fa1-6396d573334f_1205481_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_6dLMT6v",
@@ -3385,7 +4111,8 @@
       "url": "https://www.ticketmaster.com/an-evening-with-widespread-panic-718-oakland-california-07-18-2026/event/1C006470DFDFF1C1",
       "image": "https://s1.ticketm.net/dam/a/34f/ea68f0ef-2e4b-416d-9fa1-6396d573334f_1205481_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZbgpVwI0F",
@@ -3400,7 +4127,8 @@
       "url": "https://www.ticketmaster.com/rainbow-kitten-surprise-bones-north-american-berkeley-california-07-18-2026/event/1C006355B4CA8908",
       "image": "https://s1.ticketm.net/dam/a/d21/3a6ec95b-3c8f-4751-a565-4165cf27fd21_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_k2rqJwE",
@@ -3415,7 +4143,8 @@
       "url": "https://www.ticketmaster.com/futurebirds-san-francisco-california-07-18-2026/event/1C006463DE766CA7",
       "image": "https://s1.ticketm.net/dam/a/415/e149f9fc-8fa8-40c0-bd47-0b3ff9f00415_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_7Y7e23y",
@@ -3430,7 +4159,8 @@
       "url": "https://www.ticketmaster.com/young-the-giant-victory-garden-tour-berkeley-california-07-19-2026/event/1C00644C0408F4B9",
       "image": "https://s1.ticketm.net/dam/a/7a4/27411d5c-0273-4251-8562-4c56e82a37a4_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": true
     },
     {
       "id": "tm-G5vYZ_dQBd8XL",
@@ -3445,7 +4175,8 @@
       "url": "https://www.ticketmaster.com/fulton-lee-sing-with-me-tour-san-francisco-california-07-21-2026/event/1C006436BA0D0F9F",
       "image": "https://s1.ticketm.net/dam/e/275/84feef12-6dbe-463c-abac-de5d39e5d275_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_66hurE-",
@@ -3460,7 +4191,8 @@
       "url": "https://www.ticketmaster.com/chris-travis-the-prefix-tour-san-francisco-california-07-22-2026/event/1C006471DB35E9E1",
       "image": "https://s1.ticketm.net/dam/a/ec7/6e5c95ca-0d37-46d4-ba27-6a51abb2aec7_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_dhIRmV4",
@@ -3475,7 +4207,8 @@
       "url": "https://www.ticketmaster.com/the-fraysummer-of-light-tour-with-berkeley-california-07-23-2026/event/1C006436E8BEED15",
       "image": "https://s1.ticketm.net/dam/a/569/f5ca14e9-cce1-4051-a44d-6a9daf6b4569_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZbzlSVrhZ",
@@ -3490,7 +4223,8 @@
       "url": "https://www.ticketmaster.com/chance-pena-san-francisco-california-07-24-2026/event/1C00638AF3D1E6C0",
       "image": "https://s1.ticketm.net/dam/a/bd7/9f5abf0e-f1fb-4d6a-b06d-659a1fd69bd7_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZbMlCJhot",
@@ -3505,7 +4239,8 @@
       "url": "https://www.ticketmaster.com/chance-pena-san-francisco-california-07-25-2026/event/1C00637ACE99B469",
       "image": "https://s1.ticketm.net/dam/a/bd7/9f5abf0e-f1fb-4d6a-b06d-659a1fd69bd7_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "eb-1979575705223",
@@ -3519,7 +4254,8 @@
       "description": "An underground stand up comedy experience at a beautiful arts theatre in North Beach",
       "url": "https://www.eventbrite.com/e/the-setup-comedy-at-the-lost-church-tickets-1979575705223",
       "source": "Eventbrite",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7-9jZ",
@@ -3534,7 +4270,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-9jZ",
       "image": "https://s1.ticketm.net/dam/a/f55/a6bc2ab4-1080-4eb4-a2aa-4f54a835cf55_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-15e0Z_aZ8v-Qf",
@@ -3549,7 +4286,8 @@
       "url": "https://www.ticketweb.com/event/bird-and-byron-live-at-brick-and-mortar-music-hall-tickets/14860143?REFERRAL_ID=tmfeed",
       "image": "",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-rZ7HnEZ1Af-VAS",
@@ -3564,7 +4302,8 @@
       "url": "https://www.ticketweb.com/event/bird-and-byron-live-at-brick-mortar-music-hall-tickets/14874173",
       "image": "https://i.ticketweb.com/i/00/13/47/26/53_Edp.jpg?v=4",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_7YZB567",
@@ -3579,7 +4318,8 @@
       "url": "https://www.ticketmaster.com/poppy-constantly-nowhere-tour-oakland-california-08-05-2026/event/1C00644C00E8B1C4",
       "image": "https://s1.ticketm.net/dam/a/e75/3625c63d-c444-48ac-974b-94efbd5fce75_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_k5vJCJK",
@@ -3594,7 +4334,8 @@
       "url": "https://www.ticketmaster.com/old-97s-san-francisco-california-08-05-2026/event/1C006462C198E993",
       "image": "https://s1.ticketm.net/dam/a/527/243ef119-ab97-44fa-bb4a-1101204a6527_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7xeQK",
@@ -3609,7 +4350,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xeQK",
       "image": "https://s1.ticketm.net/dam/a/038/bed28ec0-5fbb-4cc1-80af-a025acdc9038_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-rZ7HnEZ1AfOObN",
@@ -3624,7 +4366,8 @@
       "url": "https://www.ticketweb.com/event/justine-skye-candy-tour-brick-and-mortar-music-hall-tickets/14820623",
       "image": "https://s1.ticketm.net/dam/a/038/bed28ec0-5fbb-4cc1-80af-a025acdc9038_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_A3JOK_Z",
@@ -3639,7 +4382,8 @@
       "url": "https://www.ticketmaster.com/like-a-star-celebrating-20-years-san-francisco-california-08-08-2026/event/1C006454A6813640",
       "image": "https://s1.ticketm.net/dam/a/bd2/d4d591ca-ddc7-4a0d-a230-b40063935bd2_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_dwmaVqs",
@@ -3654,7 +4398,8 @@
       "url": "https://www.ticketmaster.com/little-feat-the-last-farewell-tour-oakland-california-08-10-2026/event/1C00643CAE274771",
       "image": "https://s1.ticketm.net/dam/a/5d5/31bcb613-0afd-4940-a456-54f85de025d5_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_dK3rqfU",
@@ -3669,7 +4414,8 @@
       "url": "https://www.ticketmaster.com/tedeschi-trucks-band-berkeley-california-08-12-2026/event/1C006434D279D536",
       "image": "https://s1.ticketm.net/dam/a/a34/70d5dad0-2ee1-435d-9b85-da5833847a34_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_7ELwjaJ",
@@ -3684,7 +4430,8 @@
       "url": "https://www.ticketmaster.com/saliva-san-francisco-california-08-13-2026/event/1C006449DFC9C266",
       "image": "https://s1.ticketm.net/dam/a/3e2/11eb8fd3-3b69-46b5-a7b8-5feb2d6a53e2_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7-bGO",
@@ -3699,7 +4446,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-bGO",
       "image": "https://s1.ticketm.net/dam/a/3f8/271afe01-245d-4caa-b433-171f76b8f3f8_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_7UDp3op",
@@ -3714,7 +4462,8 @@
       "url": "https://www.ticketmaster.com/thee-sacred-souls-berkeley-california-08-15-2026/event/1C00644DBB592456",
       "image": "https://s1.ticketm.net/dam/a/a17/414bf0b5-8d65-4637-a157-b11d82250a17_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-rZ7HnEZ1AfAy70",
@@ -3729,7 +4478,8 @@
       "url": "https://www.ticketweb.com/event/ejean-meant-love-tour-brick-and-mortar-music-hall-tickets/14179124",
       "image": "https://i.ticketweb.com/i/00/12/89/63/54_Edp.jpg?v=22",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_k3LHG-Q",
@@ -3744,7 +4494,8 @@
       "url": "https://www.ticketmaster.com/passion-pit-the-pretty-penny-tour-oakland-california-08-16-2026/event/1C0064649FF0C85A",
       "image": "https://s1.ticketm.net/dam/a/5ae/230e2543-d59d-4061-a06f-827fae03d5ae_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_kK31PlF",
@@ -3759,7 +4510,8 @@
       "url": "https://www.ticketmaster.com/herbie-hancock-san-francisco-california-08-17-2026/event/1C006464D22A5AC8",
       "image": "https://s1.ticketm.net/dam/a/bdc/41a4e25b-e2c4-4eb7-981a-bbeea56ffbdc_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_FruZaRN",
@@ -3774,7 +4526,8 @@
       "url": "https://www.ticketmaster.com/nine-vicious-a-tour-san-francisco-california-08-21-2026/event/1C0064878D009BE3",
       "image": "https://s1.ticketm.net/dam/a/913/018f2011-a3b9-4ecb-a767-5fc1a0c0d913_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_FnLGlxr",
@@ -3789,7 +4542,8 @@
       "url": "https://www.ticketmaster.com/little-stranger-san-francisco-california-08-22-2026/event/1C00648A9F32B89E",
       "image": "https://s1.ticketm.net/dam/a/6b8/e402dce6-04f8-42ad-8e48-339a6504a6b8_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_eTN_yEE",
@@ -3804,7 +4558,8 @@
       "url": "https://www.ticketmaster.com/courtney-barnett-creature-of-habit-tour-san-francisco-california-08-26-2026/event/1C00642FE36799E7",
       "image": "https://s1.ticketm.net/dam/a/a82/26811d24-2fe8-40de-8ddb-1762417e5a82_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_eTNbyEr",
@@ -3819,7 +4574,8 @@
       "url": "https://www.ticketmaster.com/courtney-barnett-creature-of-habit-tour-san-francisco-california-08-27-2026/event/1C00642FE36399DE",
       "image": "https://s1.ticketm.net/dam/a/a82/26811d24-2fe8-40de-8ddb-1762417e5a82_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_eTN9yE3",
@@ -3834,7 +4590,8 @@
       "url": "https://www.ticketmaster.com/courtney-barnett-creature-of-habit-tour-san-francisco-california-08-28-2026/event/1C00642FE35F99D2",
       "image": "https://s1.ticketm.net/dam/a/a82/26811d24-2fe8-40de-8ddb-1762417e5a82_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZbMnbsIIP",
@@ -3849,7 +4606,8 @@
       "url": "https://www.ticketmaster.com/tori-amos-in-times-of-dragons-berkeley-california-08-29-2026/event/1C00637A98C68A25",
       "image": "https://s1.ticketm.net/dam/a/4ac/a665b33c-4931-4b9c-a3ed-c066d557e4ac_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_dKneCYe",
@@ -3864,7 +4622,8 @@
       "url": "https://www.ticketmaster.com/screeching-weasel-san-francisco-california-09-01-2026/event/1C006434EA08EC02",
       "image": "https://s1.ticketm.net/dam/a/1a6/712ca146-9477-44c6-9fe6-861d5619c1a6_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "eb-1979575706226",
@@ -3878,7 +4637,8 @@
       "description": "An underground stand up comedy experience at a beautiful arts theatre in North Beach",
       "url": "https://www.eventbrite.com/e/the-setup-comedy-at-the-lost-church-tickets-1979575706226",
       "source": "Eventbrite",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_AKC9rld",
@@ -3893,7 +4653,8 @@
       "url": "https://www.ticketmaster.com/kamelot-dark-asylum-world-tour-san-francisco-california-09-05-2026/event/1C006454CE5DEAC3",
       "image": "https://s1.ticketm.net/dam/a/0ab/e5db1f6d-0e24-49d4-a29f-ae9bfe28c0ab_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7xvZS",
@@ -3908,7 +4669,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xvZS",
       "image": "https://s1.ticketm.net/dam/a/b8f/f55cca90-483c-42a3-b780-333cdfa62b8f_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7-y0k",
@@ -3923,7 +4685,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-y0k",
       "image": "",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_kQFX_FC",
@@ -3938,7 +4701,8 @@
       "url": "https://www.ticketmaster.com/public-image-ltd-this-is-not-san-francisco-california-09-12-2026/event/1C00646688F9920E",
       "image": "https://s1.ticketm.net/dam/a/f34/5e4a389e-c9e0-4407-8f6c-bc584e39bf34_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7x6fZ",
@@ -3953,7 +4717,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x6fZ",
       "image": "https://s1.ticketm.net/dam/a/3d2/60d0f65e-8d24-47d2-9cab-d432dfa7e3d2_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_6RQGEcM",
@@ -3968,7 +4733,8 @@
       "url": "https://www.ticketmaster.com/johnny-blue-skies-the-dark-clouds-berkeley-california-09-15-2026/event/1C00647BDA327B77",
       "image": "https://s1.ticketm.net/dam/a/2ef/d5c4f5ac-28a7-4d1e-8f5c-011555afc2ef_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7jbee",
@@ -3983,7 +4749,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7jbee",
       "image": "https://s1.ticketm.net/dam/a/a58/6abd0fbc-cb42-45b7-a0d1-ecc4ce05fa58_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_kEkqCJe",
@@ -3998,7 +4765,8 @@
       "url": "https://www.ticketmaster.com/bleachers-forever-berkeley-california-09-17-2026/event/1C006469C674E982",
       "image": "https://s1.ticketm.net/dam/a/c22/c8629e9a-cca8-4ef6-992e-712853df0c22_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_kEIJ7e9",
@@ -4013,7 +4781,8 @@
       "url": "https://www.ticketmaster.com/the-bald-and-the-beautiful-live-oakland-california-09-17-2026/event/1C006469E8984097",
       "image": "https://s1.ticketm.net/dam/e/2e0/129e9ea9-c38c-403f-aadf-4b1754be32e0_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_6nwou-z",
@@ -4028,7 +4797,8 @@
       "url": "https://www.ticketmaster.com/the-exploited-san-francisco-california-09-18-2026/event/1C00647AB244D878",
       "image": "https://s1.ticketm.net/dam/a/47e/602bf020-a665-4c6c-9d3c-f0948088a47e_995771_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7-xPv",
@@ -4043,7 +4813,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-xPv",
       "image": "",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7Q6A4",
@@ -4058,7 +4829,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Q6A4",
       "image": "https://s1.ticketm.net/dam/a/e78/8b376276-0692-4323-99b1-863272154e78_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_6LqPWgq",
@@ -4073,7 +4845,8 @@
       "url": "https://www.ticketmaster.com/jack-harlow-monica-tour-oakland-california-09-21-2026/event/1C006477DD97DD5D",
       "image": "https://s1.ticketm.net/dam/a/da6/1ebdb037-ead5-4023-a496-be8572c67da6_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_kCR9X_j",
@@ -4088,7 +4861,8 @@
       "url": "https://www.ticketmaster.com/kruder-dorfmeister-kd-kicks-30-anniversary-oakland-california-09-25-2026/event/1C006463AF5FE65C",
       "image": "https://s1.ticketm.net/dam/a/e13/02b90d17-fd67-4534-a9d7-c595c524fe13_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7xe_O",
@@ -4103,7 +4877,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xe_O",
       "image": "https://s1.ticketm.net/dam/a/4d4/d963b745-c842-4a74-8678-58e1508774d4_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7xe_-",
@@ -4118,7 +4893,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xe_-",
       "image": "https://s1.ticketm.net/dam/a/4d4/d963b745-c842-4a74-8678-58e1508774d4_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7xe_x",
@@ -4133,7 +4909,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xe_x",
       "image": "https://s1.ticketm.net/dam/a/4d4/d963b745-c842-4a74-8678-58e1508774d4_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7OSuJ",
@@ -4148,7 +4925,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OSuJ",
       "image": "",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7xe_N",
@@ -4163,7 +4941,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xe_N",
       "image": "https://s1.ticketm.net/dam/a/4d4/d963b745-c842-4a74-8678-58e1508774d4_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7xe_0",
@@ -4178,7 +4957,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xe_0",
       "image": "https://s1.ticketm.net/dam/a/4d4/d963b745-c842-4a74-8678-58e1508774d4_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_k3Wj-BC",
@@ -4193,7 +4973,8 @@
       "url": "https://www.ticketmaster.com/social-distortion-born-to-kill-world-oakland-california-09-29-2026/event/1C006464BD721E8E",
       "image": "https://s1.ticketm.net/dam/a/b02/a4025885-0bec-4065-94e0-aa5399d41b02_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZbgBhEbRe",
@@ -4208,7 +4989,8 @@
       "url": "https://www.ticketmaster.com/jack-johnson-surfilmusic-tour-2026-berkeley-california-09-30-2026/event/1C00635E9B9D8BC2",
       "image": "https://s1.ticketm.net/dam/a/354/204069df-c43d-4af0-8041-50e080c31354_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZbgBhSbRz",
@@ -4223,7 +5005,8 @@
       "url": "https://www.ticketmaster.com/jack-johnson-surfilmusic-tour-2026-berkeley-california-10-01-2026/event/1C00635E9BCD8BF8",
       "image": "https://s1.ticketm.net/dam/a/354/204069df-c43d-4af0-8041-50e080c31354_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_63YNicB",
@@ -4238,7 +5021,8 @@
       "url": "https://www.ticketmaster.com/don-west-san-francisco-california-10-01-2026/event/1C006474B08ECB7A",
       "image": "https://s1.ticketm.net/dam/a/5ab/bbaa2013-0dcf-4895-8072-678806e435ab_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_6UneILd",
@@ -4253,7 +5037,8 @@
       "url": "https://www.ticketmaster.com/my-morning-jacket-seven-7-show-san-francisco-california-10-03-2026/event/1C00647DAA0A87C3",
       "image": "https://s1.ticketm.net/dam/a/ae1/0df66a15-a001-44bb-870a-8e3baa6bfae1_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "eb-1979575707229",
@@ -4267,7 +5052,8 @@
       "description": "An underground stand up comedy experience at a beautiful arts theatre in North Beach",
       "url": "https://www.eventbrite.com/e/the-setup-comedy-at-the-lost-church-tickets-1979575707229",
       "source": "Eventbrite",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_6bQ8FZh",
@@ -4282,7 +5068,8 @@
       "url": "https://www.ticketmaster.com/my-morning-jacket-san-francisco-california-10-03-2026/event/1C0064761A40801B",
       "image": "https://s1.ticketm.net/dam/a/ae1/0df66a15-a001-44bb-870a-8e3baa6bfae1_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_F9s4AGq",
@@ -4297,7 +5084,8 @@
       "url": "https://www.ticketmaster.com/jon-batiste-jon-batiste-live-berkeley-california-10-03-2026/event/1C006485F154531D",
       "image": "https://s1.ticketm.net/dam/a/d6b/fdd49cc8-f3df-4c13-b3c4-831fea6d2d6b_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_6bQoFZx",
@@ -4312,7 +5100,8 @@
       "url": "https://www.ticketmaster.com/my-morning-jacket-san-francisco-california-10-04-2026/event/1C0064761A448022",
       "image": "https://s1.ticketm.net/dam/a/ae1/0df66a15-a001-44bb-870a-8e3baa6bfae1_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_6KGU2Qu",
@@ -4327,7 +5116,40 @@
       "url": "https://www.ticketmaster.com/jungle-world-tour-2026-berkeley-california-10-06-2026/event/1C006474CCD8F68D",
       "image": "https://s1.ticketm.net/dam/a/01a/78748f8a-6030-4e0a-8b97-4c0ebb7fa01a_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
+    },
+    {
+      "id": "tm-G5vYZ_6MafQwj",
+      "title": "PRESIDENT: North American Campaign 2026",
+      "type": "music",
+      "venue": "UC Theatre",
+      "city": "Oakland",
+      "date": "Tue Oct 6",
+      "date_raw": "2026-10-07T02:00:00Z",
+      "time": "7:00 PM",
+      "description": "",
+      "url": "https://app.opendate.io/e/president-october-06-2026-641721",
+      "image": "https://s1.ticketm.net/dam/a/3c5/a7c763e1-3fc7-4c39-bb3f-767df43f63c5_RETINA_PORTRAIT_16_9.jpg",
+      "source": "Ticketmaster",
+      "is_free": false,
+      "kid_friendly": false
+    },
+    {
+      "id": "tm-Z7r9jZ1A7-yqy",
+      "title": "PRESIDENT w/ Showing Teeth",
+      "type": "music",
+      "venue": "UC Theatre",
+      "city": "Oakland",
+      "date": "Tue Oct 6",
+      "date_raw": "2026-10-07T02:00:00Z",
+      "time": "7:00 PM",
+      "description": "",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-yqy",
+      "image": "https://s1.ticketm.net/dam/a/3c5/a7c763e1-3fc7-4c39-bb3f-767df43f63c5_RETINA_PORTRAIT_16_9.jpg",
+      "source": "Ticketmaster",
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_6bQozZE",
@@ -4342,7 +5164,8 @@
       "url": "https://www.ticketmaster.com/my-morning-jacket-san-francisco-california-10-06-2026/event/1C0064761A478027",
       "image": "https://s1.ticketm.net/dam/a/ae1/0df66a15-a001-44bb-870a-8e3baa6bfae1_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_FxHV2Np",
@@ -4357,7 +5180,8 @@
       "url": "https://www.ticketmaster.com/cavetown-running-with-scissors-tour-oakland-california-10-06-2026/event/1C006488BCD0F8D6",
       "image": "https://s1.ticketm.net/dam/a/dd9/dd1c868c-8736-4919-bfc8-b4a8d89a0dd9_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_6KGM2QK",
@@ -4372,7 +5196,8 @@
       "url": "https://www.ticketmaster.com/jungle-world-tour-2026-berkeley-california-10-07-2026/event/1C006474CCDCF693",
       "image": "https://s1.ticketm.net/dam/a/01a/78748f8a-6030-4e0a-8b97-4c0ebb7fa01a_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_6bQ3zZV",
@@ -4387,7 +5212,8 @@
       "url": "https://www.ticketmaster.com/my-morning-jacket-san-francisco-california-10-07-2026/event/1C0064761A4B8034",
       "image": "https://s1.ticketm.net/dam/a/ae1/0df66a15-a001-44bb-870a-8e3baa6bfae1_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_6bQKIZz",
@@ -4402,7 +5228,8 @@
       "url": "https://www.ticketmaster.com/my-morning-jacket-san-francisco-california-10-09-2026/event/1C0064761A4E8038",
       "image": "https://s1.ticketm.net/dam/a/ae1/0df66a15-a001-44bb-870a-8e3baa6bfae1_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_6bQfIvd",
@@ -4417,7 +5244,8 @@
       "url": "https://www.ticketmaster.com/my-morning-jacket-san-francisco-california-10-10-2026/event/1C0064761A528043",
       "image": "https://s1.ticketm.net/dam/a/ae1/0df66a15-a001-44bb-870a-8e3baa6bfae1_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_6bQ4bvK",
@@ -4432,7 +5260,8 @@
       "url": "https://www.ticketmaster.com/my-morning-jacket-san-francisco-california-10-11-2026/event/1C0064761A558053",
       "image": "https://s1.ticketm.net/dam/a/ae1/0df66a15-a001-44bb-870a-8e3baa6bfae1_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A74-ek",
@@ -4447,7 +5276,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A74-ek",
       "image": "https://s1.ticketm.net/dam/a/a70/25cf3e53-5ca8-4af6-9e39-31b7333cfa70_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_adKleIW",
@@ -4462,7 +5292,8 @@
       "url": "https://www.ticketmaster.com/vulfpeck-berkeley-california-10-16-2026/event/1C006490D3AC2A3D",
       "image": "https://s1.ticketm.net/dam/a/a96/fce83de8-ad64-46c0-8c7f-81da3f95ca96_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_6DKxTks",
@@ -4477,7 +5308,8 @@
       "url": "https://www.ticketmaster.com/akeem-ali-the-texture-tour-san-francisco-california-10-17-2026/event/1C00647ED38BF1B1",
       "image": "https://s1.ticketm.net/dam/a/93b/9e615fed-37d3-4328-990c-7183ae96993b_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_6JeBJZ6",
@@ -4492,7 +5324,8 @@
       "url": "https://www.ticketmaster.com/the-wallflowers-san-francisco-california-10-18-2026/event/1C00647982EA6007",
       "image": "https://s1.ticketm.net/dam/a/d07/191d77fe-a691-426d-a703-c38cba942d07_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7xZPw",
@@ -4507,7 +5340,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZPw",
       "image": "",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_aK_K-GR",
@@ -4522,7 +5356,8 @@
       "url": "https://www.ticketmaster.com/geese-getting-killed-again-tour-oakland-california-10-19-2026/event/1C006494D94E132F",
       "image": "https://s1.ticketm.net/dam/a/ee1/70f01b8c-cae3-4556-9454-d43b67451ee1_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_A5NTXU-",
@@ -4537,7 +5372,8 @@
       "url": "https://www.ticketmaster.com/gnash-san-francisco-california-10-22-2026/event/1C006452E3FFEDA1",
       "image": "https://s1.ticketm.net/dam/a/fa4/08fa78a9-5536-4848-83d2-be285afaafa4_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_FDrVv2X",
@@ -4552,7 +5388,8 @@
       "url": "https://www.ticketmaster.com/slift-san-francisco-california-10-23-2026/event/1C00648EDED013FE",
       "image": "https://s1.ticketm.net/dam/a/60a/b7a553ec-579e-4ccb-966f-415f5c0a460a_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_6dE8OLN",
@@ -4567,7 +5404,8 @@
       "url": "https://www.ticketmaster.com/kishi-bashi-sonderlust-10th-anniversary-tour-san-francisco-california-10-25-2026/event/1C006470E74207E3",
       "image": "https://s1.ticketm.net/dam/a/a99/a1a566ea-ef35-4ec2-94be-26d6356dca99_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_FX4gzvS",
@@ -4582,7 +5420,8 @@
       "url": "https://www.ticketmaster.com/dilated-peoples-san-francisco-california-10-29-2026/event/1C00648F95D78073",
       "image": "https://s1.ticketm.net/dbimages/9311a.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_6E75qN1",
@@ -4597,7 +5436,8 @@
       "url": "https://www.ticketmaster.com/shpongle-1030-oakland-california-10-30-2026/event/1C006479C42DD8CA",
       "image": "https://s1.ticketm.net/dam/a/658/613060db-0d3c-43da-bae9-7b650736f658_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_F2jtp2r",
@@ -4612,7 +5452,8 @@
       "url": "https://www.ticketmaster.com/parra-for-cuva-san-francisco-california-10-30-2026/event/1C006483DCA563DE",
       "image": "https://s1.ticketm.net/dam/a/ec0/3427fd7a-2f09-40dc-88d3-447b342ecec0_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_6EAVWcY",
@@ -4627,7 +5468,8 @@
       "url": "https://www.ticketmaster.com/shpongle-1031-oakland-california-10-31-2026/event/1C006479C5D3DB70",
       "image": "https://s1.ticketm.net/dam/a/658/613060db-0d3c-43da-bae9-7b650736f658_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_k9n_zYt",
@@ -4642,7 +5484,8 @@
       "url": "https://www.ticketmaster.com/josh-garrels-san-francisco-california-11-04-2026/event/1C006465EA678C29",
       "image": "https://s1.ticketm.net/dam/a/28d/7c2b86bf-8f47-416e-bed0-bb26bde7d28d_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_kKoOgLV",
@@ -4657,7 +5500,8 @@
       "url": "https://www.ticketmaster.com/bahamas-industrial-sport-sound-san-francisco-california-11-06-2026/event/1C006464D18357F4",
       "image": "https://s1.ticketm.net/dam/a/2c5/65f75ee0-28ae-4f02-a775-411bf4cb92c5_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "eb-1979575708232",
@@ -4671,7 +5515,8 @@
       "description": "An underground stand up comedy experience at a beautiful arts theatre in North Beach",
       "url": "https://www.eventbrite.com/e/the-setup-comedy-at-the-lost-church-tickets-1979575708232",
       "source": "Eventbrite",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_FD8KCxT",
@@ -4686,7 +5531,8 @@
       "url": "https://www.ticketmaster.com/the-damned-final-damnation-50-san-francisco-california-11-11-2026/event/1C00648ED04CE8BF",
       "image": "https://s1.ticketm.net/dam/a/2d3/eb6f8680-8beb-4fb7-963d-a58dfc90e2d3_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_65LofpP",
@@ -4701,7 +5547,8 @@
       "url": "https://www.ticketmaster.com/tank-and-the-bangas-the-last-san-francisco-california-11-13-2026/event/1C006472DF4545A5",
       "image": "https://s1.ticketm.net/dam/a/f12/7af4ec8a-0c56-4e91-b48f-ce9ca83a1f12_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_72uumwI",
@@ -4716,7 +5563,8 @@
       "url": "https://www.ticketmaster.com/inna-san-francisco-california-11-14-2026/event/1C006443CD36ECA8",
       "image": "https://s1.ticketm.net/dam/e/2cf/5b02d904-d436-4080-a22f-fbfa7962a2cf_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7xvjt",
@@ -4731,7 +5579,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xvjt",
       "image": "",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "eb-1979575709235",
@@ -4745,7 +5594,8 @@
       "description": "An underground stand up comedy experience at a beautiful arts theatre in North Beach",
       "url": "https://www.eventbrite.com/e/the-setup-comedy-at-the-lost-church-tickets-1979575709235",
       "source": "Eventbrite",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_FljpPHE",
@@ -4760,7 +5610,8 @@
       "url": "https://www.ticketmaster.com/the-pineapple-thief-san-francisco-california-12-09-2026/event/1C00648ADC5A5F27",
       "image": "https://s1.ticketm.net/dam/a/ba4/6ab45818-4738-4ee0-9eb5-0bafbb966ba4_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7q7_k",
@@ -4775,7 +5626,8 @@
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7q7_k",
       "image": "https://s1.ticketm.net/dam/a/56a/3e8efeec-66d8-48f1-87e7-6d05e91b956a_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZ_FJIGjct",
@@ -4790,10 +5642,11 @@
       "url": "https://www.ticketmaster.com/french-79-close-to-the-giants-san-francisco-california-05-06-2027/event/1C006489A831CB69",
       "image": "https://s1.ticketm.net/dam/a/9b9/6dd33d7c-be0c-43e8-abaa-5986b12209b9_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
-      "is_free": false
+      "is_free": false,
+      "kid_friendly": false
     },
     {
-      "id": "gpc-1154432024339571946",
+      "id": "gpc-4215169098728690023",
       "title": "Today",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -4804,10 +5657,11 @@
       "description": "Group ride \u2014 check grizz.org for pace, distance, and meeting point.",
       "url": "https://www.grizz.org/rides/",
       "source": "Grizzly Peak Cyclists",
-      "is_free": true
+      "is_free": true,
+      "kid_friendly": false
     },
     {
-      "id": "gpc-6489672010422861317",
+      "id": "gpc-5387097649898695938",
       "title": "3!/TM/100 or 120",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -4818,10 +5672,11 @@
       "description": "Group ride \u2014 check grizz.org for pace, distance, and meeting point.",
       "url": "https://www.grizz.org/rides/",
       "source": "Grizzly Peak Cyclists",
-      "is_free": true
+      "is_free": true,
+      "kid_friendly": false
     },
     {
-      "id": "gpc-6282141360232987441",
+      "id": "gpc-2946549177256847330",
       "title": "5/0/19",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -4832,10 +5687,11 @@
       "description": "Group ride \u2014 check grizz.org for pace, distance, and meeting point.",
       "url": "https://www.grizz.org/rides/",
       "source": "Grizzly Peak Cyclists",
-      "is_free": true
+      "is_free": true,
+      "kid_friendly": false
     },
     {
-      "id": "gpc-5010721927845111147",
+      "id": "gpc-7545928165811673119",
       "title": "4!/T/47",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -4846,10 +5702,11 @@
       "description": "Group ride \u2014 check grizz.org for pace, distance, and meeting point.",
       "url": "https://www.grizz.org/rides/",
       "source": "Grizzly Peak Cyclists",
-      "is_free": true
+      "is_free": true,
+      "kid_friendly": false
     },
     {
-      "id": "gpc-1518114759572314840",
+      "id": "gpc-1710394214340072049",
       "title": "3!/T/16",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -4860,10 +5717,11 @@
       "description": "Group ride \u2014 check grizz.org for pace, distance, and meeting point.",
       "url": "https://www.grizz.org/rides/",
       "source": "Grizzly Peak Cyclists",
-      "is_free": true
+      "is_free": true,
+      "kid_friendly": false
     },
     {
-      "id": "gpc-4945205401039685959",
+      "id": "gpc-718444436248498867",
       "title": "5/B/32",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -4874,10 +5732,11 @@
       "description": "Group ride \u2014 check grizz.org for pace, distance, and meeting point.",
       "url": "https://www.grizz.org/rides/",
       "source": "Grizzly Peak Cyclists",
-      "is_free": true
+      "is_free": true,
+      "kid_friendly": false
     },
     {
-      "id": "gpc-9198852126119292355",
+      "id": "gpc-7816413329927770696",
       "title": "5/M/24,32",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -4888,10 +5747,11 @@
       "description": "Group ride \u2014 check grizz.org for pace, distance, and meeting point.",
       "url": "https://www.grizz.org/rides/",
       "source": "Grizzly Peak Cyclists",
-      "is_free": true
+      "is_free": true,
+      "kid_friendly": false
     },
     {
-      "id": "gpc-1147988165738184723",
+      "id": "gpc-3294067250814510084",
       "title": "5/TM/24",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -4902,10 +5762,11 @@
       "description": "Group ride \u2014 check grizz.org for pace, distance, and meeting point.",
       "url": "https://www.grizz.org/rides/",
       "source": "Grizzly Peak Cyclists",
-      "is_free": true
+      "is_free": true,
+      "kid_friendly": false
     },
     {
-      "id": "gpc-283258985163343376",
+      "id": "gpc-2285437207780731519",
       "title": "2/L/35 to 4/T/50",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -4916,10 +5777,11 @@
       "description": "Group ride \u2014 check grizz.org for pace, distance, and meeting point.",
       "url": "https://www.grizz.org/rides/",
       "source": "Grizzly Peak Cyclists",
-      "is_free": true
+      "is_free": true,
+      "kid_friendly": false
     },
     {
-      "id": "gpc-6525045488134407254",
+      "id": "gpc-7309118807783424867",
       "title": "3/T/21",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -4930,10 +5792,11 @@
       "description": "Group ride \u2014 check grizz.org for pace, distance, and meeting point.",
       "url": "https://www.grizz.org/rides/",
       "source": "Grizzly Peak Cyclists",
-      "is_free": true
+      "is_free": true,
+      "kid_friendly": false
     },
     {
-      "id": "gpc-9183857037546853611",
+      "id": "gpc-8400592147686635493",
       "title": "3/TM,M/60-80",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -4944,10 +5807,11 @@
       "description": "Group ride \u2014 check grizz.org for pace, distance, and meeting point.",
       "url": "https://www.grizz.org/rides/",
       "source": "Grizzly Peak Cyclists",
-      "is_free": true
+      "is_free": true,
+      "kid_friendly": false
     },
     {
-      "id": "gpc-264968402892254046",
+      "id": "gpc-3621773507296226556",
       "title": "3/TM/26.6",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -4958,10 +5822,11 @@
       "description": "Group ride \u2014 check grizz.org for pace, distance, and meeting point.",
       "url": "https://www.grizz.org/rides/",
       "source": "Grizzly Peak Cyclists",
-      "is_free": true
+      "is_free": true,
+      "kid_friendly": false
     },
     {
-      "id": "gpc-7649744622257269617",
+      "id": "gpc-7209128819848179225",
       "title": "5/0/17",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -4972,10 +5837,11 @@
       "description": "Group ride \u2014 check grizz.org for pace, distance, and meeting point.",
       "url": "https://www.grizz.org/rides/",
       "source": "Grizzly Peak Cyclists",
-      "is_free": true
+      "is_free": true,
+      "kid_friendly": false
     },
     {
-      "id": "gpc-1592786956736910993",
+      "id": "gpc-1554250296594958099",
       "title": "3/T/18",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -4986,10 +5852,11 @@
       "description": "Group ride \u2014 check grizz.org for pace, distance, and meeting point.",
       "url": "https://www.grizz.org/rides/",
       "source": "Grizzly Peak Cyclists",
-      "is_free": true
+      "is_free": true,
+      "kid_friendly": false
     },
     {
-      "id": "gpc-8091964065735790434",
+      "id": "gpc-1068056216251520842",
       "title": "3!/T/16",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -5000,10 +5867,11 @@
       "description": "Group ride \u2014 check grizz.org for pace, distance, and meeting point.",
       "url": "https://www.grizz.org/rides/",
       "source": "Grizzly Peak Cyclists",
-      "is_free": true
+      "is_free": true,
+      "kid_friendly": false
     },
     {
-      "id": "gpc-498297749082241322",
+      "id": "gpc-3211336558280447402",
       "title": "5/B/32",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -5014,10 +5882,11 @@
       "description": "Group ride \u2014 check grizz.org for pace, distance, and meeting point.",
       "url": "https://www.grizz.org/rides/",
       "source": "Grizzly Peak Cyclists",
-      "is_free": true
+      "is_free": true,
+      "kid_friendly": false
     },
     {
-      "id": "gpc-6461929487244144735",
+      "id": "gpc-6056929298464129684",
       "title": "5/M/24,32",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -5028,10 +5897,11 @@
       "description": "Group ride \u2014 check grizz.org for pace, distance, and meeting point.",
       "url": "https://www.grizz.org/rides/",
       "source": "Grizzly Peak Cyclists",
-      "is_free": true
+      "is_free": true,
+      "kid_friendly": false
     },
     {
-      "id": "gpc-3040635327400580832",
+      "id": "gpc-170703392459862657",
       "title": "2/L/35 to 4/T/50",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -5042,10 +5912,11 @@
       "description": "Group ride \u2014 check grizz.org for pace, distance, and meeting point.",
       "url": "https://www.grizz.org/rides/",
       "source": "Grizzly Peak Cyclists",
-      "is_free": true
+      "is_free": true,
+      "kid_friendly": false
     },
     {
-      "id": "gpc-593944994041396931",
+      "id": "gpc-3298402216398132324",
       "title": "3/TM,M/60-80",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -5056,10 +5927,11 @@
       "description": "Group ride \u2014 check grizz.org for pace, distance, and meeting point.",
       "url": "https://www.grizz.org/rides/",
       "source": "Grizzly Peak Cyclists",
-      "is_free": true
+      "is_free": true,
+      "kid_friendly": false
     },
     {
-      "id": "gpc-153917796963521044",
+      "id": "gpc-537052397010892618",
       "title": "3/TM/26.6",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -5070,7 +5942,8 @@
       "description": "Group ride \u2014 check grizz.org for pace, distance, and meeting point.",
       "url": "https://www.grizz.org/rides/",
       "source": "Grizzly Peak Cyclists",
-      "is_free": true
+      "is_free": true,
+      "kid_friendly": false
     }
   ]
 }
