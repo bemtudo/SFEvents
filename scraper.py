@@ -350,7 +350,11 @@ def fetch_kqed():
 
 def fetch_city_arts():
     try:
-        req = urllib.request.Request("https://cityarts.net/events", headers={"User-Agent": "Mozilla/5.0"})
+        req = urllib.request.Request("https://cityarts.net/events", headers={
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+            "Accept-Language": "en-US,en;q=0.5",
+        })
         with urllib.request.urlopen(req, timeout=15) as r:
             html = r.read().decode("utf-8", errors="replace")
     except Exception as e:
@@ -544,6 +548,8 @@ def fetch_funcheap_kids():
         try:
             data = json.loads(m.group(1))
         except Exception:
+            continue
+        if isinstance(data, list):
             continue
         if data.get("@type") != "Event":
             continue
