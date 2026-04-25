@@ -200,27 +200,38 @@ def fetch_eventbrite():
 def fetch_ticketmaster():
     if not TICKETMASTER_KEY:
         print("  Skipping Ticketmaster (no key)"); return []
+    # (venue_name, city_query, city_label, classification, event_type)
     venues = [
-        ("The Fillmore",         "San Francisco", "SF"),
-        ("The Warfield",         "San Francisco", "SF"),
-        ("Great American Music Hall", "San Francisco", "SF"),
-        ("Fox Theater",          "Oakland",       "Oakland"),
-        ("Greek Theatre",        "Berkeley",      "Oakland"),
-        ("UC Theatre",           "Berkeley",      "Oakland"),
-        ("Yoshi's",              "Oakland",       "Oakland"),
-        ("SFJAZZ Center",        "San Francisco", "SF"),
-        ("The Regency Ballroom", "San Francisco", "SF"),
-        ("August Hall",          "San Francisco", "SF"),
-        ("New Parish",           "Oakland",       "Oakland"),
+        # Music
+        ("The Fillmore",                  "San Francisco", "SF",      "Music",          "music"),
+        ("The Warfield",                  "San Francisco", "SF",      "Music",          "music"),
+        ("Great American Music Hall",     "San Francisco", "SF",      "Music",          "music"),
+        ("Fox Theater",                   "Oakland",       "Oakland", "Music",          "music"),
+        ("Greek Theatre",                 "Berkeley",      "Oakland", "Music",          "music"),
+        ("UC Theatre",                    "Berkeley",      "Oakland", "Music",          "music"),
+        ("Yoshi's",                       "Oakland",       "Oakland", "Music",          "music"),
+        ("SFJAZZ Center",                 "San Francisco", "SF",      "Music",          "music"),
+        ("The Regency Ballroom",          "San Francisco", "SF",      "Music",          "music"),
+        ("August Hall",                   "San Francisco", "SF",      "Music",          "music"),
+        ("New Parish",                    "Oakland",       "Oakland", "Music",          "music"),
+        # Theater
+        ("SF Playhouse",                  "San Francisco", "SF",      "Arts & Theatre", "theater"),
+        ("American Conservatory Theater", "San Francisco", "SF",      "Arts & Theatre", "theater"),
+        ("Curran",                        "San Francisco", "SF",      "Arts & Theatre", "theater"),
+        ("Orpheum Theatre San Francisco", "San Francisco", "SF",      "Arts & Theatre", "theater"),
+        ("Golden Gate Theatre",           "San Francisco", "SF",      "Arts & Theatre", "theater"),
+        ("Paramount Theatre",             "Oakland",       "Oakland", "Arts & Theatre", "theater"),
+        # Film
+        ("Castro Theatre",                "San Francisco", "SF",      "Film",           "film"),
     ]
     all_events = []
-    for venue_name, city_query, city_label in venues:
+    for venue_name, city_query, city_label, classification, event_type in venues:
         params = {
             "apikey":   TICKETMASTER_KEY,
             "keyword":  venue_name,
             "city":     city_query,
             "stateCode":"CA",
-            "classificationName": "Music",
+            "classificationName": classification,
             "size":     50,
         }
         url = "https://app.ticketmaster.com/discovery/v2/events.json?" + urllib.parse.urlencode(params)
@@ -262,7 +273,7 @@ def fetch_ticketmaster():
             all_events.append({
                 "id":          f"tm-{raw.get('id')}",
                 "title":       raw.get("name", "Untitled"),
-                "type":        "music",
+                "type":        event_type,
                 "venue":       venue_name,
                 "city":        city_label,
                 "date":        date_str,

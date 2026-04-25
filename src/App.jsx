@@ -249,8 +249,10 @@ const STYLES = `
     margin-top: 6px;
   }
 
-  .dot-music { background: #e8a020; }
-  .dot-bike  { background: #3aaa80; }
+  .dot-music    { background: #e8a020; }
+  .dot-bike     { background: #3aaa80; }
+  .dot-theater  { background: #9b72cf; }
+  .dot-film     { background: #4a90d9; }
 
   .evbody { flex: 1; min-width: 0; }
 
@@ -314,6 +316,16 @@ const STYLES = `
   .tag-bike {
     background: rgba(58, 170, 128, 0.14);
     color: #2e9068;
+  }
+
+  .tag-theater {
+    background: rgba(155, 114, 207, 0.14);
+    color: #8a5fc0;
+  }
+
+  .tag-film {
+    background: rgba(74, 144, 217, 0.14);
+    color: #3a7bbf;
   }
 
   .tag-free {
@@ -515,14 +527,20 @@ export default function App() {
 
               <div className="filter-sep" aria-hidden="true"/>
 
-              {["all", "music", "bike"].map(t => (
+              {[
+                { val: "all",     label: "All types" },
+                { val: "music",   label: "Music"     },
+                { val: "bike",    label: "Rides"     },
+                { val: "theater", label: "Theater"   },
+                { val: "film",    label: "Film"       },
+              ].map(({ val, label }) => (
                 <button
-                  key={t}
-                  className={"filter-btn" + (type === t ? " on" : "")}
-                  onClick={() => setType(t)}
-                  aria-pressed={type === t}
+                  key={val}
+                  className={"filter-btn" + (type === val ? " on" : "")}
+                  onClick={() => setType(val)}
+                  aria-pressed={type === val}
                 >
-                  {t === "all" ? "All types" : t === "music" ? "Music" : "Rides"}
+                  {label}
                 </button>
               ))}
 
@@ -544,7 +562,12 @@ export default function App() {
             <>
               <div className="results-hdr">{filtered.length} events</div>
               {filtered.map((e, i) => {
-                const isMusic = e.type === "music";
+                const typeInfo = {
+                  music:   { dot: "dot-music",   tag: "tag-music",   label: "Music"   },
+                  bike:    { dot: "dot-bike",    tag: "tag-bike",    label: "Ride"    },
+                  theater: { dot: "dot-theater", tag: "tag-theater", label: "Theater" },
+                  film:    { dot: "dot-film",    tag: "tag-film",    label: "Film"    },
+                }[e.type] || { dot: "dot-music", tag: "tag-music", label: e.type };
                 return (
                   <a
                     key={e.id || i}
@@ -553,7 +576,7 @@ export default function App() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <div className={"type-dot " + (isMusic ? "dot-music" : "dot-bike")}/>
+                    <div className={"type-dot " + typeInfo.dot}/>
 
                     <div className="evbody">
                       <div className="title">{e.title}</div>
@@ -578,8 +601,8 @@ export default function App() {
                         <img className="event-img" src={e.image} alt={e.title} loading="lazy"/>
                       )}
                       <div style={{ display: "flex", flexDirection: "column", gap: 4, alignItems: "flex-end" }}>
-                        <span className={"tag " + (isMusic ? "tag-music" : "tag-bike")}>
-                          {isMusic ? "Music" : "Ride"}
+                        <span className={"tag " + typeInfo.tag}>
+                          {typeInfo.label}
                         </span>
                         {e.is_free && <span className="tag tag-free">Free</span>}
                         {e.source && <span className="tag">{e.source}</span>}
