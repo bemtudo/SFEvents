@@ -571,7 +571,7 @@ const RESOURCES = [
   {
     group: "Potrero Hill & Bernal Heights",
     links: [
-      { label: "Potrero New Parents Saturday Stroller Walk", desc: "Weekly, 0–24 months", url: "https://nextdoor.com/events/ca/san-francisco/potrero-new-parents-saturday-meetup-and-group-stroller-walk-1975970" },
+      { label: "SF Parent Groups — Potrero & Bernal", desc: "Directory of local parent groups and stroller walks", url: "https://sfparentgroups.com/" },
       { label: "Bernal Heights Parents Club", desc: "Neighborhood email list, 3000+ members", url: "https://groups.io/g/bernalheightsparents" },
       { label: "Mission Parents", desc: "Email list for Mission parents", url: "https://groups.io/g/missionparents/" },
     ],
