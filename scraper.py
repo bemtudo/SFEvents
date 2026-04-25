@@ -4,6 +4,9 @@ Strava clubs, and Eventbrite. Saves to events.json.
 """
 import os, json, re, urllib.request, urllib.parse
 from datetime import datetime, timezone, timedelta
+from zoneinfo import ZoneInfo
+
+PACIFIC = ZoneInfo("America/Los_Angeles")
 
 EVENTBRITE_TOKEN  = os.environ.get("EVENTBRITE_TOKEN", "")
 TICKETMASTER_KEY  = os.environ.get("TICKETMASTER_KEY", "")
@@ -85,6 +88,8 @@ def ical_to_event(raw, source_name):
     url      = raw.get("URL", "")
     dtstart  = raw.get("DTSTART", "")
     dt       = parse_ical_dt(dtstart) if dtstart else None
+    if dt and dt.tzinfo:
+        dt = dt.astimezone(PACIFIC)
     date_str = dt.strftime("%a %b %-d") if dt else "TBD"
     time_str = dt.strftime("%-I:%M %p") if dt and "T" in dtstart else "All day"
     city     = "Oakland" if "oakland" in location.lower() else "SF"
@@ -318,7 +323,7 @@ def fetch_kqed():
         if start_ts < now_ts or start_ts > two_weeks:
             continue
         try:
-            dt       = datetime.fromtimestamp(start_ts, tz=timezone.utc)
+            dt       = datetime.fromtimestamp(start_ts, tz=PACIFIC)
             date_str = dt.strftime("%a %b %-d")
             time_str = dt.strftime("%-I:%M %p")
             date_raw = dt.isoformat()
