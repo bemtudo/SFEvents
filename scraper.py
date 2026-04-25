@@ -463,6 +463,128 @@ def fetch_creative_mornings():
     return events
 
 
+def fetch_sfpl():
+    try:
+        req = urllib.request.Request("https://sfpl.org/events/calendar", headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=15) as r:
+            html = r.read().decode("utf-8", errors="replace")
+    except Exception as e:
+        print(f"  SFPL error: {e}"); return []
+    idx = html.find("sfplEvents")
+    if idx == -1:
+        print("  SFPL: sfplEvents not found"); return []
+    start = next((html.find(c, idx) for c in "{[" if html.find(c, idx) != -1), -1)
+    if start == -1:
+        return []
+    try:
+        data, _ = json.JSONDecoder().raw_decode(html[start:])
+    except Exception as e:
+        print(f"  SFPL: JSON error: {e}"); return []
+    raw_events = data.get("events", data) if isinstance(data, dict) else data
+    if not isinstance(raw_events, list):
+        return []
+    FAMILY_AUDIENCES = {"children", "family", "all ages", "youth", "teen", "teens", "kids"}
+    now_ts = datetime.now(timezone.utc).timestamp()
+    two_weeks = now_ts + 14 * 24 * 3600
+    events = []
+    for raw in raw_events:
+        title    = (raw.get("title") or "").strip()
+        start_iso = raw.get("start", "")
+        audience  = (raw.get("audience") or "").lower()
+        location  = raw.get("location") or "SF Public Library"
+        url       = raw.get("url", "")
+        if url and not url.startswith("http"):
+            url = "https://sfpl.org" + url
+        if not title or not start_iso:
+            continue
+        try:
+            dt       = datetime.fromisoformat(start_iso.replace("Z", "+00:00")).astimezone(PACIFIC)
+            ts       = dt.timestamp()
+            date_str = dt.strftime("%a %b %-d")
+            time_str = dt.strftime("%-I:%M %p")
+            date_raw = dt.isoformat()
+        except Exception:
+            continue
+        if ts < now_ts or ts > two_weeks:
+            continue
+        kid_friendly = any(a in audience for a in FAMILY_AUDIENCES)
+        events.append({
+            "id":           f"sfpl-{abs(hash(title + start_iso))}",
+            "title":        title,
+            "type":         "family" if kid_friendly else "talks",
+            "venue":        location,
+            "city":         "SF",
+            "date":         date_str,
+            "date_raw":     date_raw,
+            "time":         time_str,
+            "description":  "",
+            "url":          url or "https://sfpl.org/events",
+            "source":       "SFPL",
+            "is_free":      True,
+            "kid_friendly": kid_friendly,
+        })
+    return events
+
+
+def fetch_funcheap_kids():
+    try:
+        req = urllib.request.Request(
+            "https://sf.funcheap.com/category/event/event-types/kids-families/",
+            headers={"User-Agent": "Mozilla/5.0"}
+        )
+        with urllib.request.urlopen(req, timeout=15) as r:
+            html = r.read().decode("utf-8", errors="replace")
+    except Exception as e:
+        print(f"  Funcheap Kids error: {e}"); return []
+    ld_pat    = re.compile(r'<script[^>]+type="application/ld\+json"[^>]*>(.*?)</script>', re.DOTALL | re.IGNORECASE)
+    now_ts    = datetime.now(timezone.utc).timestamp()
+    two_weeks = now_ts + 14 * 24 * 3600
+    events, seen = [], set()
+    for m in ld_pat.finditer(html):
+        try:
+            data = json.loads(m.group(1))
+        except Exception:
+            continue
+        if data.get("@type") != "Event":
+            continue
+        title     = (data.get("name") or "").strip()
+        start_iso = data.get("startDate", "")
+        location  = (data.get("location") or {}).get("name", "")
+        url       = data.get("url", "")
+        price     = (data.get("offers") or {}).get("price", None)
+        image     = data.get("image", "")
+        if not title or title in seen:
+            continue
+        seen.add(title)
+        try:
+            dt       = datetime.fromisoformat(start_iso).astimezone(PACIFIC)
+            ts       = dt.timestamp()
+            date_str = dt.strftime("%a %b %-d")
+            time_str = dt.strftime("%-I:%M %p")
+            date_raw = dt.isoformat()
+        except Exception:
+            continue
+        if ts < now_ts or ts > two_weeks:
+            continue
+        events.append({
+            "id":           f"funcheap-{abs(hash(title + start_iso))}",
+            "title":        title,
+            "type":         "family",
+            "venue":        location or "SF",
+            "city":         "SF",
+            "date":         date_str,
+            "date_raw":     date_raw,
+            "time":         time_str if "12:00 AM" not in time_str else "",
+            "description":  "",
+            "url":          url or "https://sf.funcheap.com/category/event/event-types/kids-families/",
+            "image":        image,
+            "source":       "Funcheap",
+            "is_free":      price in (0, "0", None),
+            "kid_friendly": True,
+        })
+    return events
+
+
 def fetch_faight():
     if not EVENTBRITE_TOKEN:
         print("  Skipping The Faight (no Eventbrite token)"); return []
@@ -553,6 +675,28 @@ def main():
     faight = fetch_faight()
     all_events += faight
     print(f"  {len(faight)} events")
+
+    print("Fetching SF Public Library...")
+    sfpl = fetch_sfpl()
+    all_events += sfpl
+    print(f"  {len(sfpl)} events")
+
+    print("Fetching Funcheap Kids & Families...")
+    fk = fetch_funcheap_kids()
+    all_events += fk
+    print(f"  {len(fk)} events")
+
+    # Tag kid_friendly on all events via keyword detection
+    KID_KEYWORDS = [
+        "all ages", "family", "families", "kids", "children", "youth",
+        "baby", "babies", "toddler", "storytime", "story time",
+        "playgroup", "playground", "parent", "stroller",
+    ]
+    for ev in all_events:
+        if ev.get("kid_friendly"):
+            continue
+        text = f"{ev.get('title','')} {ev.get('description','')}".lower()
+        ev["kid_friendly"] = any(kw in text for kw in KID_KEYWORDS)
 
     all_events.sort(key=lambda e: e.get("date_raw") or "9999")
     output = {"updated_at": now.isoformat(), "count": len(all_events), "events": all_events}

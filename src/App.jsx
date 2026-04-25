@@ -41,6 +41,12 @@ const ArrowIcon = () => (
     <path d="M7 7h10v10"/><path d="M7 17 17 7"/>
   </svg>
 );
+const KidIcon = () => (
+  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <circle cx="12" cy="8" r="4"/>
+    <path d="M6 20v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2"/>
+  </svg>
+);
 
 const STYLES = `
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
@@ -59,7 +65,10 @@ const STYLES = `
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
     font-size: 14px;
     line-height: 1.5;
+    transition: background 0.3s;
   }
+
+  .app.family { background: #191917; }
 
   .content {
     max-width: 780px;
@@ -70,6 +79,14 @@ const STYLES = `
   /* ── Header ── */
   .header {
     padding: 32px 0 36px;
+  }
+
+  .header-top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 10px;
   }
 
   .header-label {
@@ -100,6 +117,58 @@ const STYLES = `
     color: #4a4a48;
     margin-top: 4px;
   }
+
+  /* ── Family toggle ── */
+  .family-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 12px;
+    background: #252525;
+    border: 1px solid #373737;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 500;
+    color: #787774;
+    white-space: nowrap;
+    flex-shrink: 0;
+    transition: border-color 0.2s, color 0.2s, background 0.2s;
+  }
+
+  .family-toggle:hover { border-color: #5c5c5a; color: #b0b0ae; }
+
+  .family-toggle.on {
+    background: rgba(232, 114, 106, 0.1);
+    border-color: rgba(232, 114, 106, 0.4);
+    color: #e8726a;
+  }
+
+  .toggle-switch {
+    width: 28px;
+    height: 16px;
+    background: #373737;
+    border-radius: 8px;
+    position: relative;
+    transition: background 0.2s;
+    flex-shrink: 0;
+  }
+
+  .family-toggle.on .toggle-switch { background: #e8726a; }
+
+  .toggle-knob {
+    width: 12px;
+    height: 12px;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    transition: transform 0.2s;
+  }
+
+  .family-toggle.on .toggle-knob { transform: translateX(12px); }
 
   /* ── Divider ── */
   .divider {
@@ -183,10 +252,7 @@ const STYLES = `
     white-space: nowrap;
   }
 
-  .filter-btn:hover {
-    background: #2d2d2d;
-    color: #b0b0ae;
-  }
+  .filter-btn:hover { background: #2d2d2d; color: #b0b0ae; }
 
   .filter-btn.on {
     background: #2d2d2d;
@@ -204,7 +270,6 @@ const STYLES = `
 
   .spacer { flex: 1; }
 
-  /* Inline venue select */
   .venue-select {
     padding: 4px 8px;
     background: transparent;
@@ -228,7 +293,6 @@ const STYLES = `
 
   .venue-select option { background: #252525; color: #e6e6e5; }
 
-  /* Clear button */
   .clear-btn {
     padding: 4px 10px;
     border-radius: 4px;
@@ -265,11 +329,7 @@ const STYLES = `
     transition: background 0.12s, color 0.12s;
   }
 
-  .refresh:hover:not(:disabled) {
-    background: #2d2d2d;
-    color: #b0b0ae;
-  }
-
+  .refresh:hover:not(:disabled) { background: #2d2d2d; color: #b0b0ae; }
   .refresh:disabled { opacity: 0.35; cursor: not-allowed; }
 
   /* ── Results label ── */
@@ -298,7 +358,6 @@ const STYLES = `
 
   a.card:hover { background: #222222; }
 
-  /* Type dot */
   .type-dot {
     width: 7px;
     height: 7px;
@@ -312,6 +371,7 @@ const STYLES = `
   .dot-theater  { background: #9b72cf; }
   .dot-film     { background: #4a90d9; }
   .dot-talks    { background: #4ab8b8; }
+  .dot-family   { background: #e8726a; }
 
   .evbody { flex: 1; min-width: 0; }
 
@@ -348,7 +408,6 @@ const STYLES = `
     text-overflow: ellipsis;
   }
 
-  /* Tags */
   .card-right {
     display: flex;
     flex-direction: row;
@@ -367,37 +426,14 @@ const STYLES = `
     white-space: nowrap;
   }
 
-  .tag-music {
-    background: rgba(232, 160, 32, 0.14);
-    color: #c88c18;
-  }
+  .tag-music   { background: rgba(232,160,32,0.14);  color: #c88c18; }
+  .tag-bike    { background: rgba(58,170,128,0.14);  color: #2e9068; }
+  .tag-theater { background: rgba(155,114,207,0.14); color: #8a5fc0; }
+  .tag-film    { background: rgba(74,144,217,0.14);  color: #3a7bbf; }
+  .tag-talks   { background: rgba(74,184,184,0.14);  color: #2e9898; }
+  .tag-family  { background: rgba(232,114,106,0.14); color: #c85550; }
+  .tag-free    { background: rgba(82,166,100,0.14);  color: #3a9650; }
 
-  .tag-bike {
-    background: rgba(58, 170, 128, 0.14);
-    color: #2e9068;
-  }
-
-  .tag-theater {
-    background: rgba(155, 114, 207, 0.14);
-    color: #8a5fc0;
-  }
-
-  .tag-film {
-    background: rgba(74, 144, 217, 0.14);
-    color: #3a7bbf;
-  }
-
-  .tag-talks {
-    background: rgba(74, 184, 184, 0.14);
-    color: #2e9898;
-  }
-
-  .tag-free {
-    background: rgba(82, 166, 100, 0.14);
-    color: #3a9650;
-  }
-
-  /* Event image thumbnail */
   .event-img {
     width: 80px;
     height: 56px;
@@ -411,12 +447,65 @@ const STYLES = `
 
   a.card:hover .event-img { opacity: 1; }
 
-  .ext-icon {
-    color: #3a3a38;
-    margin-top: 4px;
+  .ext-icon { color: #3a3a38; margin-top: 4px; }
+  a.card:hover .ext-icon { color: #787774; }
+
+  /* ── Resources panel ── */
+  .resources {
+    margin-top: 40px;
+    padding-top: 28px;
+    border-top: 1px solid #2f2f2f;
   }
 
-  a.card:hover .ext-icon { color: #787774; }
+  .resources-hdr {
+    font-size: 11px;
+    font-weight: 500;
+    color: #4a4a48;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    margin-bottom: 16px;
+  }
+
+  .resource-group {
+    margin-bottom: 20px;
+  }
+
+  .resource-group-label {
+    font-size: 11px;
+    font-weight: 500;
+    color: #5c5c5a;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    margin-bottom: 8px;
+  }
+
+  .resource-links {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  a.resource-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 10px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #b0b0ae;
+    font-size: 13px;
+    transition: background 0.1s, color 0.1s;
+  }
+
+  a.resource-link:hover { background: #222222; color: #e6e6e5; }
+
+  .resource-desc {
+    font-size: 12px;
+    color: #5c5c5a;
+    margin-left: 8px;
+  }
+
+  .resource-left { display: flex; align-items: center; gap: 0; }
 
   /* ── Skeleton ── */
   .skeleton-list { display: flex; flex-direction: column; gap: 2px; }
@@ -429,14 +518,7 @@ const STYLES = `
     border-radius: 6px;
   }
 
-  .skel-dot {
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    flex-shrink: 0;
-    margin-top: 5px;
-  }
-
+  .skel-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; margin-top: 5px; }
   .skel-body { flex: 1; display: flex; flex-direction: column; gap: 8px; }
 
   .skel-line {
@@ -462,8 +544,8 @@ const STYLES = `
   }
 
   .error {
-    background: rgba(239, 68, 68, 0.07);
-    border: 1px solid rgba(239, 68, 68, 0.2);
+    background: rgba(239,68,68,0.07);
+    border: 1px solid rgba(239,68,68,0.2);
     color: #f87171;
     border-radius: 6px;
     padding: 12px 16px;
@@ -481,9 +563,44 @@ const STYLES = `
 
   @media (prefers-reduced-motion: reduce) {
     .skel-line { animation: none; }
-    a.card { transition: none; }
+    a.card, .family-toggle, .toggle-switch, .toggle-knob { transition: none; }
   }
 `;
+
+const RESOURCES = [
+  {
+    group: "Potrero Hill & Bernal Heights",
+    links: [
+      { label: "Potrero New Parents Saturday Stroller Walk", desc: "Weekly, 0–24 months", url: "https://nextdoor.com/events/ca/san-francisco/potrero-new-parents-saturday-meetup-and-group-stroller-walk-1975970" },
+      { label: "Bernal Heights Parents Club", desc: "Neighborhood email list, 3000+ members", url: "https://groups.io/g/bernalheightsparents" },
+      { label: "Mission Parents", desc: "Email list for Mission parents", url: "https://groups.io/g/missionparents/" },
+    ],
+  },
+  {
+    group: "Stroller Walks & Outdoor Groups",
+    links: [
+      { label: "SF Parents Outside", desc: "Hikes, beach, picnics with kids", url: "https://www.facebook.com/groups/447304308758958/" },
+      { label: "Union Street Stroller Derby", desc: "Regular stroller walk group", url: "https://www.facebook.com/groups/160702841218345/" },
+      { label: "Noe Valley Mamas Walking Group", desc: "Walks, coffee, playdates", url: "https://www.facebook.com/groups/1491942217561361/" },
+    ],
+  },
+  {
+    group: "New Parent Support",
+    links: [
+      { label: "Recess Collective", desc: "New parent groups, first Saturdays", url: "https://recesscollective.org/" },
+      { label: "Mom Squad SF", desc: "In-person meetups + online community", url: "https://www.momsquadsf.com/" },
+      { label: "SF Dads Group", desc: "Meetup group for Bay Area dads", url: "https://www.meetup.com/SanFranciscoDadsGroup/" },
+      { label: "Golden Gate Mothers Group", desc: "Large SF moms community, 5000+ members", url: "https://www.ggmg.org/" },
+    ],
+  },
+  {
+    group: "Neighbourhood Groups",
+    links: [
+      { label: "SF Parent Groups", desc: "Directory of all SF neighbourhood parent lists", url: "https://sfparentgroups.com/" },
+      { label: "SFPL Kids Events", desc: "Free library events for children & families", url: "https://sfpl.org/kids/events" },
+    ],
+  },
+];
 
 function SkeletonCard() {
   return (
@@ -499,18 +616,19 @@ function SkeletonCard() {
 }
 
 const TYPES = [
-  { val: "all",     label: "All"      },
-  { val: "music",   label: "Music"    },
-  { val: "bike",    label: "Rides"    },
-  { val: "theater", label: "Theater"  },
-  { val: "film",    label: "Film"     },
-  { val: "talks",   label: "Talks"    },
+  { val: "all",     label: "All"     },
+  { val: "music",   label: "Music"   },
+  { val: "bike",    label: "Rides"   },
+  { val: "theater", label: "Theater" },
+  { val: "film",    label: "Film"    },
+  { val: "talks",   label: "Talks"   },
+  { val: "family",  label: "Family"  },
 ];
 
 const DATE_RANGES = [
-  { val: "any",     label: "Any"      },
-  { val: "today",   label: "Today"    },
-  { val: "weekend", label: "Weekend"  },
+  { val: "any",     label: "Any"         },
+  { val: "today",   label: "Today"       },
+  { val: "weekend", label: "Weekend"     },
   { val: "week",    label: "Next 7 days" },
 ];
 
@@ -520,6 +638,7 @@ const TYPE_INFO = {
   theater: { dot: "dot-theater", tag: "tag-theater", label: "Theater" },
   film:    { dot: "dot-film",    tag: "tag-film",    label: "Film"    },
   talks:   { dot: "dot-talks",   tag: "tag-talks",   label: "Talk"    },
+  family:  { dot: "dot-family",  tag: "tag-family",  label: "Family"  },
 };
 
 export default function App() {
@@ -532,6 +651,7 @@ export default function App() {
   const [venue, setVenue]         = useState("all");
   const [dateRange, setDateRange] = useState("any");
   const [search, setSearch]       = useState("");
+  const [familyMode, setFamily]   = useState(false);
 
   const load = async () => {
     setLoading(true); setError("");
@@ -570,16 +690,12 @@ export default function App() {
 
   const filtered = events.filter(e => {
     const t = e.date_raw ? new Date(e.date_raw).getTime() : NaN;
-
-    // always drop past events
     if (!isNaN(t) && t < now) return false;
-    // always drop events beyond 2 weeks
     if (!isNaN(t) && t > twoWeeksOut) return false;
-
+    if (familyMode && !e.kid_friendly) return false;
     if (city !== "all" && e.city !== city) return false;
     if (type !== "all" && e.type !== type) return false;
     if (venue !== "all" && e.venue !== venue) return false;
-
     if (dateRange !== "any" && !isNaN(t)) {
       const today = new Date(); today.setHours(0, 0, 0, 0);
       if (dateRange === "today") {
@@ -596,7 +712,6 @@ export default function App() {
         if (t < today.getTime() || t > end.getTime()) return false;
       }
     }
-
     if (search) {
       const q = search.toLowerCase();
       return (e.title || "").toLowerCase().includes(q) || (e.venue || "").toLowerCase().includes(q);
@@ -607,14 +722,31 @@ export default function App() {
   return (
     <>
       <style>{STYLES}</style>
-      <div className="app">
+      <div className={"app" + (familyMode ? " family" : "")}>
         <div className="content">
 
           <header className="header">
             <div className="header-label">Bay Area</div>
-            <h1>SF + Oakland Events</h1>
-            <div className="sub">Music, rides, theater, film and talks — updated every 6 hours</div>
-            {updatedAt && <div className="updated">{fmt(updatedAt)}</div>}
+            <div className="header-top">
+              <div>
+                <h1>SF + Oakland Events</h1>
+                <div className="sub">
+                  {familyMode
+                    ? "Kid-friendly events and family resources"
+                    : "Music, rides, theater, film and talks — updated every 6 hours"}
+                </div>
+                {updatedAt && <div className="updated">{fmt(updatedAt)}</div>}
+              </div>
+              <button
+                className={"family-toggle" + (familyMode ? " on" : "")}
+                onClick={() => setFamily(f => !f)}
+                aria-pressed={familyMode}
+              >
+                <KidIcon/>
+                <span className="toggle-switch"><span className="toggle-knob"/></span>
+                Family
+              </button>
+            </div>
           </header>
 
           <div className="divider"/>
@@ -622,7 +754,6 @@ export default function App() {
           {error && <div className="error" style={{ whiteSpace: "pre-line" }}>{error}</div>}
 
           <div className="controls">
-
             <div className="search-wrap">
               <span className="search-icon"><SearchIcon/></span>
               <input
@@ -634,7 +765,6 @@ export default function App() {
               />
             </div>
 
-            {/* Row 1: City + Type */}
             <div className="filter-row" role="toolbar" aria-label="City and type filters">
               <span className="filter-label">City</span>
               {["all", "SF", "Oakland"].map(c => (
@@ -647,9 +777,7 @@ export default function App() {
                   {c === "all" ? "All" : c}
                 </button>
               ))}
-
               <div className="filter-sep" aria-hidden="true"/>
-
               <span className="filter-label">Type</span>
               {TYPES.map(({ val, label }) => (
                 <button
@@ -661,14 +789,12 @@ export default function App() {
                   {label}
                 </button>
               ))}
-
               <div className="spacer"/>
               <button className="refresh" onClick={load} disabled={loading} aria-label="Refresh events">
                 <RefreshIcon/>{loading ? "Loading…" : "Refresh"}
               </button>
             </div>
 
-            {/* Row 2: When + Venue + Clear */}
             <div className="filter-row" role="toolbar" aria-label="Date and venue filters">
               <span className="filter-label">When</span>
               {DATE_RANGES.map(({ val, label }) => (
@@ -681,9 +807,7 @@ export default function App() {
                   {label}
                 </button>
               ))}
-
               <div className="filter-sep" aria-hidden="true"/>
-
               <span className="filter-label">Venue</span>
               <select
                 className="venue-select"
@@ -694,12 +818,10 @@ export default function App() {
                 <option value="all">All</option>
                 {venueList.map(v => <option key={v} value={v}>{v}</option>)}
               </select>
-
               {isFiltered && (
                 <button className="clear-btn" onClick={clearAll}>Clear</button>
               )}
             </div>
-
           </div>
 
           {loading && (
@@ -722,33 +844,21 @@ export default function App() {
                     rel="noopener noreferrer"
                   >
                     <div className={"type-dot " + info.dot}/>
-
                     <div className="evbody">
                       <div className="title">{e.title}</div>
                       <div className="meta">
-                        {e.venue && (
-                          <span className="meta-item"><MapPin/>{e.venue}</span>
-                        )}
-                        {e.date && (
-                          <span className="meta-item"><CalIcon/>{e.date}</span>
-                        )}
-                        {e.time && (
-                          <span className="meta-item"><ClockIcon/>{e.time}</span>
-                        )}
+                        {e.venue && <span className="meta-item"><MapPin/>{e.venue}</span>}
+                        {e.date  && <span className="meta-item"><CalIcon/>{e.date}</span>}
+                        {e.time  && <span className="meta-item"><ClockIcon/>{e.time}</span>}
                       </div>
-                      {e.description && (
-                        <div className="desc">{e.description}</div>
-                      )}
+                      {e.description && <div className="desc">{e.description}</div>}
                     </div>
-
                     <div className="card-right">
-                      {e.image && (
-                        <img className="event-img" src={e.image} alt={e.title} loading="lazy"/>
-                      )}
+                      {e.image && <img className="event-img" src={e.image} alt={e.title} loading="lazy"/>}
                       <div style={{ display: "flex", flexDirection: "column", gap: 4, alignItems: "flex-end" }}>
                         <span className={"tag " + info.tag}>{info.label}</span>
                         {e.is_free && <span className="tag tag-free">Free</span>}
-                        {e.source && <span className="tag">{e.source}</span>}
+                        {e.source  && <span className="tag">{e.source}</span>}
                         <span className="ext-icon"><ArrowIcon/></span>
                       </div>
                     </div>
@@ -762,7 +872,32 @@ export default function App() {
             <div className="empty">No events yet.<br/>Run the GitHub Action to populate data.</div>
           )}
           {!loading && events.length > 0 && filtered.length === 0 && (
-            <div className="empty">No events match your filters.<br/><button className="clear-btn" style={{marginTop:12}} onClick={clearAll}>Clear filters</button></div>
+            <div className="empty">
+              No events match your filters.<br/>
+              <button className="clear-btn" style={{ marginTop: 12 }} onClick={clearAll}>Clear filters</button>
+            </div>
+          )}
+
+          {familyMode && (
+            <div className="resources">
+              <div className="resources-hdr">Community resources</div>
+              {RESOURCES.map(({ group, links }) => (
+                <div key={group} className="resource-group">
+                  <div className="resource-group-label">{group}</div>
+                  <div className="resource-links">
+                    {links.map(({ label, desc, url }) => (
+                      <a key={label} className="resource-link" href={url} target="_blank" rel="noopener noreferrer">
+                        <span className="resource-left">
+                          {label}
+                          <span className="resource-desc">— {desc}</span>
+                        </span>
+                        <ArrowIcon/>
+                      </a>
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
           )}
 
         </div>
