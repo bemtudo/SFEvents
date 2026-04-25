@@ -401,6 +401,63 @@ def fetch_city_arts():
     return events
 
 
+def fetch_creative_mornings():
+    try:
+        req = urllib.request.Request("https://creativemornings.com/cities/sf", headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=15) as r:
+            html = r.read().decode("utf-8", errors="replace")
+    except Exception as e:
+        print(f"  CreativeMornings error: {e}"); return []
+    card_pat  = re.compile(
+        r'<a\s+href="(/talks/[^"]+)"[^>]*>(.*?)</a>',
+        re.DOTALL | re.IGNORECASE
+    )
+    title_pat = re.compile(r'<h3[^>]*>([^<]+)</h3>', re.IGNORECASE)
+    date_pat  = re.compile(
+        r'((?:Mon|Tue|Wed|Thu|Fri|Sat|Sun),\s+[A-Za-z]+\s+\d+)\s*•\s*([\d:]+\s+[AP]M)',
+        re.IGNORECASE
+    )
+    now    = datetime.now(timezone.utc)
+    events, seen = [], set()
+    for m in card_pat.finditer(html):
+        path = m.group(1)
+        if path in seen: continue
+        seen.add(path)
+        block   = m.group(2)
+        title_m = title_pat.search(block)
+        date_m  = date_pat.search(block)
+        if not title_m or not date_m: continue
+        title    = title_m.group(1).strip()
+        raw_date = date_m.group(1).strip()
+        raw_time = date_m.group(2).strip()
+        date_str, date_raw = "TBD", ""
+        for year in (now.year, now.year + 1):
+            try:
+                dt = datetime.strptime(f"{raw_date} {year}", "%a, %b %d %Y")
+                if dt >= (now - timedelta(days=1)).replace(tzinfo=None):
+                    date_str = dt.strftime("%a %b %-d")
+                    date_raw = dt.isoformat()
+                    break
+            except ValueError:
+                continue
+        if not date_raw: continue
+        events.append({
+            "id":          f"cm-sf-{abs(hash(title + date_raw))}",
+            "title":       title,
+            "type":        "talks",
+            "venue":       "CreativeMornings SF",
+            "city":        "SF",
+            "date":        date_str,
+            "date_raw":    date_raw,
+            "time":        raw_time,
+            "description": "Free monthly breakfast lecture series for the creative community.",
+            "url":         f"https://creativemornings.com{path}",
+            "source":      "CreativeMornings",
+            "is_free":     True,
+        })
+    return events
+
+
 def fetch_faight():
     if not EVENTBRITE_TOKEN:
         print("  Skipping The Faight (no Eventbrite token)"); return []
@@ -471,6 +528,11 @@ def main():
     tm = fetch_ticketmaster()
     all_events += tm
     print(f"  {len(tm)} total music events")
+
+    print("Fetching CreativeMornings SF...")
+    cm = fetch_creative_mornings()
+    all_events += cm
+    print(f"  {len(cm)} events")
 
     print("Fetching KQED events...")
     kqed = fetch_kqed()
