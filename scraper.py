@@ -3,7 +3,7 @@ Bay Area Events Scraper — pulls from iCal feeds, Grizzly Peak Cyclists,
 Strava clubs, and Eventbrite. Saves to events.json.
 """
 import os, json, re, urllib.request, urllib.parse
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 
 EVENTBRITE_TOKEN  = os.environ.get("EVENTBRITE_TOKEN", "")
 TICKETMASTER_KEY  = os.environ.get("TICKETMASTER_KEY", "")
@@ -287,6 +287,160 @@ def fetch_ticketmaster():
             })
     return all_events
 
+def fetch_kqed():
+    try:
+        req = urllib.request.Request("https://www.kqed.org/events", headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=15) as r:
+            html = r.read().decode("utf-8", errors="replace")
+    except Exception as e:
+        print(f"  KQED error: {e}"); return []
+    idx = html.find("window.__INITIAL_STATE__")
+    if idx == -1:
+        print("  KQED: __INITIAL_STATE__ not found"); return []
+    brace = html.find("{", idx)
+    if brace == -1:
+        return []
+    try:
+        state, _ = json.JSONDecoder().raw_decode(html[brace:])
+    except Exception as e:
+        print(f"  KQED: JSON error: {e}"); return []
+    posts = state.get("postsReducer", {})
+    now_ts = datetime.now(timezone.utc).timestamp()
+    two_weeks = now_ts + 14 * 24 * 3600
+    events = []
+    for key, val in posts.items():
+        if not key.startswith("events_") or not isinstance(val, dict):
+            continue
+        title    = val.get("title", "").strip()
+        start_ts = val.get("startTime")
+        if not title or not start_ts:
+            continue
+        if start_ts < now_ts or start_ts > two_weeks:
+            continue
+        try:
+            dt       = datetime.fromtimestamp(start_ts, tz=timezone.utc)
+            date_str = dt.strftime("%a %b %-d")
+            time_str = dt.strftime("%-I:%M %p")
+            date_raw = dt.isoformat()
+        except Exception:
+            date_str, time_str, date_raw = "TBD", "", ""
+        price   = val.get("eventPrice", "")
+        is_free = "free" in price.lower() if price else False
+        events.append({
+            "id":          f"kqed-{abs(hash(title + str(start_ts)))}",
+            "title":       title,
+            "type":        "talks",
+            "venue":       val.get("venueName") or "KQED",
+            "city":        "SF",
+            "date":        date_str,
+            "date_raw":    date_raw,
+            "time":        time_str,
+            "description": "",
+            "url":         val.get("eventLink") or "https://www.kqed.org/events",
+            "source":      "KQED",
+            "is_free":     is_free,
+        })
+    return events
+
+
+def fetch_city_arts():
+    try:
+        req = urllib.request.Request("https://cityarts.net/events", headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=15) as r:
+            html = r.read().decode("utf-8", errors="replace")
+    except Exception as e:
+        print(f"  City Arts error: {e}"); return []
+    card_pat  = re.compile(
+        r'<a\s+href="(https://(?:www\.)?cityarts\.net/event/[^"]+)"[^>]*>(.*?)</a>',
+        re.DOTALL | re.IGNORECASE
+    )
+    title_pat = re.compile(r'<h3[^>]*>([^<]+)</h3>', re.IGNORECASE)
+    date_pat  = re.compile(r'<p[^>]*>((?:Mon|Tue|Wed|Thu|Fri|Sat|Sun),\s+[A-Za-z]+\s+\d+)</p>', re.IGNORECASE)
+    img_pat   = re.compile(r'<img[^>]+src="([^"]+)"', re.IGNORECASE)
+    now    = datetime.now(timezone.utc)
+    events, seen = [], set()
+    for m in card_pat.finditer(html):
+        url = m.group(1)
+        if url in seen: continue
+        seen.add(url)
+        block   = m.group(2)
+        title_m = title_pat.search(block)
+        date_m  = date_pat.search(block)
+        img_m   = img_pat.search(block)
+        if not title_m: continue
+        title    = title_m.group(1).strip()
+        img      = img_m.group(1).strip() if img_m else ""
+        date_str, date_raw = "TBD", ""
+        if date_m:
+            raw_date = date_m.group(1).strip()
+            for year in (now.year, now.year + 1):
+                try:
+                    dt = datetime.strptime(f"{raw_date} {year}", "%a, %b %d %Y")
+                    if dt >= (now - timedelta(days=1)).replace(tzinfo=None):
+                        date_str = dt.strftime("%a %b %-d")
+                        date_raw = dt.isoformat()
+                        break
+                except ValueError:
+                    continue
+        if not date_raw: continue
+        events.append({
+            "id":          f"cityarts-{abs(hash(title + date_raw))}",
+            "title":       title,
+            "type":        "talks",
+            "venue":       "City Arts & Lectures",
+            "city":        "SF",
+            "date":        date_str,
+            "date_raw":    date_raw,
+            "time":        "",
+            "description": "",
+            "url":         url,
+            "image":       img,
+            "source":      "City Arts",
+            "is_free":     False,
+        })
+    return events
+
+
+def fetch_faight():
+    if not EVENTBRITE_TOKEN:
+        print("  Skipping The Faight (no Eventbrite token)"); return []
+    url = "https://www.eventbriteapi.com/v3/organizers/75467307963/events/?status=live"
+    try:
+        req = urllib.request.Request(url, headers={"Authorization": f"Bearer {EVENTBRITE_TOKEN}"})
+        with urllib.request.urlopen(req, timeout=15) as r:
+            data = json.loads(r.read())
+    except Exception as e:
+        print(f"  The Faight error: {e}"); return []
+    events = data.get("events", [])
+    print(f"  The Faight: {len(events)} events")
+    result = []
+    for raw in events:
+        start = raw.get("start", {}).get("local", "")
+        date_str, time_str, date_raw = "TBD", "", ""
+        try:
+            dt       = datetime.fromisoformat(start)
+            date_str = dt.strftime("%a %b %-d")
+            time_str = dt.strftime("%-I:%M %p")
+            date_raw = dt.isoformat()
+        except Exception:
+            pass
+        result.append({
+            "id":          f"faight-{raw.get('id')}",
+            "title":       raw.get("name", {}).get("text", "Untitled"),
+            "type":        "music",
+            "venue":       "The Faight",
+            "city":        "SF",
+            "date":        date_str,
+            "date_raw":    date_raw,
+            "time":        time_str,
+            "description": (raw.get("description", {}).get("text") or "")[:200].strip(),
+            "url":         raw.get("url", ""),
+            "source":      "Eventbrite",
+            "is_free":     raw.get("is_free", False),
+        })
+    return result
+
+
 def main():
     now = datetime.now(timezone.utc)
     all_events = []
@@ -317,6 +471,21 @@ def main():
     tm = fetch_ticketmaster()
     all_events += tm
     print(f"  {len(tm)} total music events")
+
+    print("Fetching KQED events...")
+    kqed = fetch_kqed()
+    all_events += kqed
+    print(f"  {len(kqed)} events")
+
+    print("Fetching City Arts & Lectures...")
+    ca = fetch_city_arts()
+    all_events += ca
+    print(f"  {len(ca)} events")
+
+    print("Fetching The Faight...")
+    faight = fetch_faight()
+    all_events += faight
+    print(f"  {len(faight)} events")
 
     all_events.sort(key=lambda e: e.get("date_raw") or "9999")
     output = {"updated_at": now.isoformat(), "count": len(all_events), "events": all_events}

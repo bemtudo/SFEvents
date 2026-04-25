@@ -149,6 +149,24 @@ const STYLES = `
 
   .search::placeholder { color: #4a4a48; }
 
+  .venue-select {
+    padding: 8px 10px;
+    background: #252525;
+    border: 1px solid #373737;
+    border-radius: 6px;
+    color: #787774;
+    font-family: inherit;
+    font-size: 13px;
+    outline: none;
+    cursor: pointer;
+    transition: border-color 0.15s;
+    width: 100%;
+  }
+
+  .venue-select:focus { border-color: #5c5c5a; }
+
+  .venue-select option { background: #252525; }
+
   /* Filter row */
   .filter-row {
     display: flex;
@@ -253,6 +271,7 @@ const STYLES = `
   .dot-bike     { background: #3aaa80; }
   .dot-theater  { background: #9b72cf; }
   .dot-film     { background: #4a90d9; }
+  .dot-talks    { background: #4ab8b8; }
 
   .evbody { flex: 1; min-width: 0; }
 
@@ -326,6 +345,11 @@ const STYLES = `
   .tag-film {
     background: rgba(74, 144, 217, 0.14);
     color: #3a7bbf;
+  }
+
+  .tag-talks {
+    background: rgba(74, 184, 184, 0.14);
+    color: #2e9898;
   }
 
   .tag-free {
@@ -441,6 +465,7 @@ export default function App() {
   const [updatedAt, setUpdated] = useState("");
   const [city, setCity]         = useState("all");
   const [type, setType]         = useState("all");
+  const [venue, setVenue]       = useState("all");
   const [search, setSearch]     = useState("");
 
   const load = async () => {
@@ -469,6 +494,7 @@ export default function App() {
 
   const now = Date.now();
   const twoWeeksOut = now + 14 * 24 * 60 * 60 * 1000;
+  const venueList = [...new Set(events.map(e => e.venue).filter(Boolean))].sort();
   const filtered = events.filter(e => {
     if (e.date_raw) {
       const t = new Date(e.date_raw).getTime();
@@ -477,6 +503,7 @@ export default function App() {
     }
     if (city !== "all" && e.city !== city) return false;
     if (type !== "all" && e.type !== type) return false;
+    if (venue !== "all" && e.venue !== venue) return false;
     if (search) {
       const q = search.toLowerCase();
       return (e.title || "").toLowerCase().includes(q) || (e.venue || "").toLowerCase().includes(q);
@@ -513,6 +540,16 @@ export default function App() {
               />
             </div>
 
+            <select
+              className="venue-select"
+              value={venue}
+              onChange={e => setVenue(e.target.value)}
+              aria-label="Filter by venue"
+            >
+              <option value="all">All venues</option>
+              {venueList.map(v => <option key={v} value={v}>{v}</option>)}
+            </select>
+
             <div className="filter-row" role="toolbar" aria-label="Filters">
               {["all", "SF", "Oakland"].map(c => (
                 <button
@@ -532,7 +569,8 @@ export default function App() {
                 { val: "music",   label: "Music"     },
                 { val: "bike",    label: "Rides"     },
                 { val: "theater", label: "Theater"   },
-                { val: "film",    label: "Film"       },
+                { val: "film",    label: "Film"      },
+                { val: "talks",   label: "Talks"     },
               ].map(({ val, label }) => (
                 <button
                   key={val}
@@ -567,6 +605,7 @@ export default function App() {
                   bike:    { dot: "dot-bike",    tag: "tag-bike",    label: "Ride"    },
                   theater: { dot: "dot-theater", tag: "tag-theater", label: "Theater" },
                   film:    { dot: "dot-film",    tag: "tag-film",    label: "Film"    },
+                  talks:   { dot: "dot-talks",   tag: "tag-talks",   label: "Talk"    },
                 }[e.type] || { dot: "dot-music", tag: "tag-music", label: e.type };
                 return (
                   <a
