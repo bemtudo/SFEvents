@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-01T19:09:12.604173+00:00",
-  "count": 369,
+  "updated_at": "2026-05-02T02:35:02.321218+00:00",
+  "count": 323,
   "events": [
     {
-      "id": "ical-6861213921804938458",
+      "id": "ical-6059511646264126490",
       "title": "The Noon Ride",
       "type": "bike",
       "venue": "2210 Page Mill Rd\\, Los Altos Hills\\, CA 94022\\, USA",
@@ -18,7 +18,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-5810098684978710532",
+      "id": "ical-4806062618526671059",
       "title": "Rapha RADLER WILLKOMMEN-HAPPY HOUR!",
       "type": "bike",
       "venue": "2198 Filbert St\\, San Francisco\\, CA 94123\\, USA",
@@ -33,7 +33,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-1368149110624058462",
+      "id": "ical-3802858256179675623",
       "title": "SFCC COFFEE RIDE",
       "type": "bike",
       "venue": "37.773497\\, -122.441015",
@@ -48,7 +48,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-3779263867839926919",
+      "id": "ical-3790195916692038801",
       "title": "SF Bike Party",
       "type": "bike",
       "venue": "Varies Monthly",
@@ -63,7 +63,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-5747153797764342982",
+      "id": "ical-1745199824024146500",
       "title": "Bespoke Cycles Shop Ride",
       "type": "bike",
       "venue": "SF Bay Area Bike Rides",
@@ -78,7 +78,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-1908956013011974203",
+      "id": "ical-816948562378707834",
       "title": "Scotty\u2019s Ride",
       "type": "bike",
       "venue": "Golden Gate Bridge Welcome Center\\, Golden Gate Bridge\\, Coastal T",
@@ -93,22 +93,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-2831966975534115206",
-      "title": "The Spectrum Ride",
-      "type": "bike",
-      "venue": "West Homestead Road\\, W Homestead Rd\\, Cupertino\\, CA\\, USA",
-      "city": "SF",
-      "date": "Sat Dec 2",
-      "date_raw": "2023-12-02T09:00:00",
-      "time": "9:00 AM",
-      "description": "Start: Saturday at 9 am\\, and typically rolls past downtown Los",
-      "url": "",
-      "source": "SF Bay Area Bike Rides",
-      "is_free": true,
-      "kid_friendly": false
-    },
-    {
-      "id": "ical-6634322386227351323",
+      "id": "ical-2578581642847430731",
       "title": "Alto Velo B Ride",
       "type": "bike",
       "venue": "Summit Bicycles\\, 392 California Ave\\, Palo Alto\\, CA 94306\\, USA",
@@ -123,37 +108,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-2073203495514036683",
-      "title": "Alto Velo C Ride",
-      "type": "bike",
-      "venue": "Summit Bicycles\\, 392 California Ave\\, Palo Alto\\, CA 94306\\, USA",
-      "city": "SF",
-      "date": "Sat Dec 2",
-      "date_raw": "2023-12-02T09:00:00",
-      "time": "9:00 AM",
-      "description": "<a href=\"https://www.altovelo.org/c-ride\">https://www.altovelo.",
-      "url": "",
-      "source": "SF Bay Area Bike Rides",
-      "is_free": true,
-      "kid_friendly": false
-    },
-    {
-      "id": "ical-1077058446898424148",
-      "title": "Alto Velo A Ride",
-      "type": "bike",
-      "venue": "Summit Bicycles\\, 392 California Ave\\, Palo Alto\\, CA 94306\\, USA",
-      "city": "SF",
-      "date": "Sat Dec 2",
-      "date_raw": "2023-12-02T09:00:00",
-      "time": "9:00 AM",
-      "description": "<a href=\"https://www.altovelo.org/a-ride\">https://www.altovelo.",
-      "url": "",
-      "source": "SF Bay Area Bike Rides",
-      "is_free": true,
-      "kid_friendly": false
-    },
-    {
-      "id": "ical-8767329588713379431",
+      "id": "ical-3038006866641042161",
       "title": "Roasters Ride",
       "type": "bike",
       "venue": "Java Hut\\, 760 Center Blvd\\, Fairfax\\, CA 94930\\, USA",
@@ -168,7 +123,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-7719490479131569691",
+      "id": "ical-2148865145936765595",
       "title": "Alto Velo Women\u2019s/WTFNB Ride",
       "type": "bike",
       "venue": "Varies Weekly",
@@ -183,7 +138,52 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-3099597039458493407",
+      "id": "ical-8477115545490679884",
+      "title": "The Spectrum Ride",
+      "type": "bike",
+      "venue": "West Homestead Road\\, W Homestead Rd\\, Cupertino\\, CA\\, USA",
+      "city": "SF",
+      "date": "Sat Dec 2",
+      "date_raw": "2023-12-02T09:00:00",
+      "time": "9:00 AM",
+      "description": "Start: Saturday at 9 am\\, and typically rolls past downtown Los",
+      "url": "",
+      "source": "SF Bay Area Bike Rides",
+      "is_free": true,
+      "kid_friendly": false
+    },
+    {
+      "id": "ical-6734512369067142567",
+      "title": "Alto Velo A Ride",
+      "type": "bike",
+      "venue": "Summit Bicycles\\, 392 California Ave\\, Palo Alto\\, CA 94306\\, USA",
+      "city": "SF",
+      "date": "Sat Dec 2",
+      "date_raw": "2023-12-02T09:00:00",
+      "time": "9:00 AM",
+      "description": "<a href=\"https://www.altovelo.org/a-ride\">https://www.altovelo.",
+      "url": "",
+      "source": "SF Bay Area Bike Rides",
+      "is_free": true,
+      "kid_friendly": false
+    },
+    {
+      "id": "ical-4590438435317311367",
+      "title": "Alto Velo C Ride",
+      "type": "bike",
+      "venue": "Summit Bicycles\\, 392 California Ave\\, Palo Alto\\, CA 94306\\, USA",
+      "city": "SF",
+      "date": "Sat Dec 2",
+      "date_raw": "2023-12-02T09:00:00",
+      "time": "9:00 AM",
+      "description": "<a href=\"https://www.altovelo.org/c-ride\">https://www.altovelo.",
+      "url": "",
+      "source": "SF Bay Area Bike Rides",
+      "is_free": true,
+      "kid_friendly": false
+    },
+    {
+      "id": "ical-2478553870197623305",
       "title": "Fatcake FTWNB + Allies Ride",
       "type": "bike",
       "venue": "Conservatory of Flowers\\, 100 John F Kennedy Dr\\, San Francisco\\,",
@@ -198,7 +198,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-7333610577205618289",
+      "id": "ical-803865715138854822",
       "title": "Pas Normal Social Road Ride",
       "type": "bike",
       "venue": "Pas Normal Studios San Francisco\\, 799 Haight St\\, San Francisco\\,",
@@ -213,7 +213,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-7190287094374878539",
+      "id": "ical-2476698394954297393",
       "title": "The Morning Ride",
       "type": "bike",
       "venue": "296 Main St\\, Los Altos\\, CA 94022\\, USA",
@@ -228,7 +228,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-2149463863154476629",
+      "id": "ical-1176800977169864635",
       "title": "Fatcake HEADLANDS + ARSICAULT BAKERY Ride",
       "type": "bike",
       "venue": "Golden Gate Bridge Welcome Center\\, Golden Gate Bridge\\, Coastal T",
@@ -243,7 +243,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-8909680940435230330",
+      "id": "ical-4174042863426830950",
       "title": "Ornot After Cake Ride",
       "type": "bike",
       "venue": "Ornot Bike\\, 55 Clement St\\, San Francisco\\, CA 94118\\, USA",
@@ -258,7 +258,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-112793797397320298",
+      "id": "ical-5889085891315010887",
       "title": "SF Bike & Brew",
       "type": "bike",
       "venue": "Varies Weekly",
@@ -273,7 +273,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-5194836060964187679",
+      "id": "ical-1891993558506452660",
       "title": "Rapha RCC SF DONUT RIDE",
       "type": "bike",
       "venue": "Rapha San Francisco\\, 2198 Filbert St\\, San Francisco\\, CA 94123\\,",
@@ -288,7 +288,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-5152597556336406958",
+      "id": "ical-4383080741407527203",
       "title": "Butterlap",
       "type": "bike",
       "venue": "Fort Point Ferry Building\\, One\\, Ferry Building\\, San Francisco\\,",
@@ -303,22 +303,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-418425359428748604",
-      "title": "Fatcake WILDCARD Ride",
-      "type": "bike",
-      "venue": "Conservatory of Flowers\\, 100 John F Kennedy Dr\\, San Francisco\\,",
-      "city": "SF",
-      "date": "Thu Dec 7",
-      "date_raw": "2023-12-07T06:30:00",
-      "time": "6:30 AM",
-      "description": "<a href=\"https://www.fatcake.cc/rides\">https://www.fatcake.cc/r",
-      "url": "",
-      "source": "SF Bay Area Bike Rides",
-      "is_free": true,
-      "kid_friendly": false
-    },
-    {
-      "id": "ical-6697584635261215018",
+      "id": "ical-5404712821343088700",
       "title": "Fatcake FIRST DONUT ALLEY Ride",
       "type": "bike",
       "venue": "RGM9+4V\\, Sausalito\\, CA 94965\\, USA",
@@ -333,7 +318,22 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-6471347431462409687",
+      "id": "ical-1358363727429696198",
+      "title": "Fatcake WILDCARD Ride",
+      "type": "bike",
+      "venue": "Conservatory of Flowers\\, 100 John F Kennedy Dr\\, San Francisco\\,",
+      "city": "SF",
+      "date": "Thu Dec 7",
+      "date_raw": "2023-12-07T06:30:00",
+      "time": "6:30 AM",
+      "description": "<a href=\"https://www.fatcake.cc/rides\">https://www.fatcake.cc/r",
+      "url": "",
+      "source": "SF Bay Area Bike Rides",
+      "is_free": true,
+      "kid_friendly": false
+    },
+    {
+      "id": "ical-7019260676385755112",
       "title": "Ornot Women's Ride",
       "type": "bike",
       "venue": "Ornot Bike\\, 55 Clement St\\, San Francisco\\, CA 94118\\, USA",
@@ -348,7 +348,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-881914534566709638",
+      "id": "ical-3214724856241100217",
       "title": "East Bay Bike Party",
       "type": "bike",
       "venue": "Varies Monthly",
@@ -363,7 +363,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-4303087683435040196",
+      "id": "ical-4181289184017335601",
       "title": "Huckberry Ramble",
       "type": "bike",
       "venue": "Huckleberry Bicycles\\, 1255 Battery St Suite 120\\, San Francisco\\,",
@@ -378,7 +378,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-8616119833973156195",
+      "id": "ical-1515538452151714281",
       "title": "Rapha RCCSFC EAST BAY RIDE",
       "type": "bike",
       "venue": "1934 Broadway\\, Oakland\\, CA 94612\\, USA",
@@ -393,7 +393,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-5763718050215749254",
+      "id": "ical-1734590432518553082",
       "title": "Fatcake FTWNB Ride",
       "type": "bike",
       "venue": "Conservatory of Flowers\\, 100 John F Kennedy Dr\\, San Francisco\\,",
@@ -408,7 +408,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-7638667996054245456",
+      "id": "ical-8540198486274798178",
       "title": "Ornot After Work Ride",
       "type": "bike",
       "venue": "Ornot Bike\\, 55 Clement St\\, San Francisco\\, CA 94118\\, USA",
@@ -423,7 +423,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-7422587889534256073",
+      "id": "ical-4154502860022369755",
       "title": "San Jose Bike Party",
       "type": "bike",
       "venue": "Varies Monthly",
@@ -438,7 +438,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-3336235745126542110",
+      "id": "ical-1129270674479752539",
       "title": "Let It Slow Ride",
       "type": "bike",
       "venue": "Duboce Park\\, San Francisco\\, CA 94117\\, USA",
@@ -453,7 +453,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-3138185179997434050",
+      "id": "ical-961850650123610419",
       "title": "Midnight Mystery Ride SF Chapter",
       "type": "bike",
       "venue": "Varies Monthly",
@@ -468,7 +468,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-5660562991492437847",
+      "id": "ical-2671369211063758550",
       "title": "Fatcake FTWNB Ride",
       "type": "bike",
       "venue": "Conservatory of Flowers\\, 100 John F Kennedy Dr\\, San Francisco\\,",
@@ -483,7 +483,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-2782891440684901006",
+      "id": "ical-7023127181621993764",
       "title": "Ornot Women's Ride",
       "type": "bike",
       "venue": "Ornot Bike\\, 55 Clement St\\, San Francisco\\, CA 94118\\, USA",
@@ -498,7 +498,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-5977037910418883296",
+      "id": "ical-4110010933211029686",
       "title": "Fatcake FTWNB Wildcard Ride",
       "type": "bike",
       "venue": "Conservatory of Flowers\\, 100 John F Kennedy Dr\\, San Francisco\\,",
@@ -513,7 +513,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-4588369809003937935",
+      "id": "ical-6305160194626916061",
       "title": "Ornot After Work Ride",
       "type": "bike",
       "venue": "Ornot Bike\\, 55 Clement St\\, San Francisco\\, CA 94118\\, USA",
@@ -528,7 +528,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-4896839820215512190",
+      "id": "ical-3830960058629157101",
       "title": "SF Critical Mass",
       "type": "bike",
       "venue": "Varies Monthly",
@@ -543,7 +543,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-7743306424778876794",
+      "id": "ical-2007963351463559788",
       "title": "Huckberry TWO TICKETS TO PARADISE ride",
       "type": "bike",
       "venue": "Huckleberry Bicycles\\, 1255 Battery St Suite 120\\, San Francisco\\,",
@@ -715,7 +715,7 @@
       "kid_friendly": false
     },
     {
-      "id": "sfpl-7892296935649388781",
+      "id": "sfpl-662334073811677630",
       "title": "Book Club: Jeff Hiller's Actress of a Certain Age",
       "type": "talks",
       "venue": "SF Public Library",
@@ -745,7 +745,7 @@
       "kid_friendly": false
     },
     {
-      "id": "sfpl-9132541813292142360",
+      "id": "sfpl-1906989840581823719",
       "title": "Workshop: Resume Writing and Cover Letter",
       "type": "talks",
       "venue": "SF Public Library",
@@ -792,7 +792,7 @@
       "kid_friendly": false
     },
     {
-      "id": "sfpl-1928345197177124138",
+      "id": "sfpl-1115172357743855065",
       "title": "Presentation: Plan for Business Success with Gale Business Resources",
       "type": "talks",
       "venue": "SF Public Library",
@@ -807,7 +807,7 @@
       "kid_friendly": false
     },
     {
-      "id": "kqed-1813238497189657910",
+      "id": "kqed-2830729362479508520",
       "title": "California Gubernatorial Election Town Hall: Former U.S. Representative Katie Porter",
       "type": "talks",
       "venue": "The Commons at KQED",
@@ -854,7 +854,7 @@
       "kid_friendly": false
     },
     {
-      "id": "sfpl-6621442198633605229",
+      "id": "sfpl-8736139932628329484",
       "title": "Social: Genealogy Club",
       "type": "talks",
       "venue": "SF Public Library",
@@ -869,7 +869,7 @@
       "kid_friendly": false
     },
     {
-      "id": "sfpl-8892257265663555154",
+      "id": "sfpl-5040351068226236427",
       "title": "Dialogue: ESL Online Convo Club",
       "type": "talks",
       "venue": "SF Public Library",
@@ -884,7 +884,7 @@
       "kid_friendly": false
     },
     {
-      "id": "sfpl-1479155044730915579",
+      "id": "sfpl-3042704187257786653",
       "title": "HOLD Workshop: Advocating for Change for Teens",
       "type": "talks",
       "venue": "SF Public Library",
@@ -899,7 +899,7 @@
       "kid_friendly": false
     },
     {
-      "id": "sfpl-5551515641671500480",
+      "id": "sfpl-5537079106023167596",
       "title": "Services: Student Support Session for Teens",
       "type": "talks",
       "venue": "SF Public Library",
@@ -962,7 +962,7 @@
       "kid_friendly": false
     },
     {
-      "id": "sfpl-7231946758450208262",
+      "id": "sfpl-4583849487557914001",
       "title": "Presentation: Commercial Leasing Essentials",
       "type": "talks",
       "venue": "SF Public Library",
@@ -977,7 +977,7 @@
       "kid_friendly": false
     },
     {
-      "id": "kqed-1396429281134320254",
+      "id": "kqed-2611863435131142002",
       "title": "Live Beyond Out Loud (SPONSORED)",
       "type": "talks",
       "venue": "The Commons at KQED",
@@ -1007,7 +1007,7 @@
       "kid_friendly": false
     },
     {
-      "id": "kqed-610435115601476636",
+      "id": "kqed-5392038584277241453",
       "title": "Pints and Pairings: A Guided Beer and Charcuterie Tasting",
       "type": "talks",
       "venue": "Laughing Monk Brewing",
@@ -1018,22 +1018,6 @@
       "description": "",
       "url": "https://www.tixr.com/groups/kqed/events/pints-and-pairings-a-guided-beer-and-charcuterie-tasting-179190",
       "source": "KQED",
-      "is_free": false,
-      "kid_friendly": false
-    },
-    {
-      "id": "tm-Z7r9jZ1A7Okkf",
-      "title": "Hell's Kitchen (Touring)",
-      "type": "theater",
-      "venue": "Orpheum Theatre San Francisco",
-      "city": "SF",
-      "date": "Wed May 6",
-      "date_raw": "2026-05-06T20:00:00Z",
-      "time": "1:00 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Okkf",
-      "image": "https://s1.ticketm.net/dam/a/cc7/e506039e-ce0b-4a57-bdbc-cfa72081acc7_RETINA_PORTRAIT_16_9.jpg",
-      "source": "Ticketmaster",
       "is_free": false,
       "kid_friendly": false
     },
@@ -1049,22 +1033,6 @@
       "description": "",
       "url": "https://www.ticketmaster.com/radhika-das-san-francisco-california-05-06-2026/event/1C00643DDABF73DF",
       "image": "https://s1.ticketm.net/dam/a/9d4/633a433c-f232-4b23-9587-5fef3d42f9d4_RETINA_PORTRAIT_16_9.jpg",
-      "source": "Ticketmaster",
-      "is_free": false,
-      "kid_friendly": false
-    },
-    {
-      "id": "tm-Z7r9jZ1A7Okk4",
-      "title": "Hell's Kitchen (Touring)",
-      "type": "theater",
-      "venue": "Orpheum Theatre San Francisco",
-      "city": "SF",
-      "date": "Wed May 6",
-      "date_raw": "2026-05-07T02:00:00Z",
-      "time": "7:00 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Okk4",
-      "image": "https://s1.ticketm.net/dam/a/cc7/e506039e-ce0b-4a57-bdbc-cfa72081acc7_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
       "is_free": false,
       "kid_friendly": false
@@ -1102,7 +1070,7 @@
       "kid_friendly": false
     },
     {
-      "id": "sfpl-2841290383868027128",
+      "id": "sfpl-7313638499412153444",
       "title": "Tutorial: Meet One-on-One with a CERTIFIED FINANCIAL PLANNER\u2122",
       "type": "talks",
       "venue": "SF Public Library",
@@ -1117,7 +1085,7 @@
       "kid_friendly": false
     },
     {
-      "id": "sfpl-2734142442011769435",
+      "id": "sfpl-4686123677800505521",
       "title": "Book Club: World Literature, Kenzabur\u014d \u014ce\u2019s  Nip the Buds, Shoot the Kids",
       "type": "talks",
       "venue": "SF Public Library",
@@ -1132,7 +1100,7 @@
       "kid_friendly": true
     },
     {
-      "id": "sfpl-382609484415710526",
+      "id": "sfpl-1179052321395397834",
       "title": "Workshop: Organizational Skills for Teens",
       "type": "talks",
       "venue": "SF Public Library",
@@ -1147,7 +1115,7 @@
       "kid_friendly": false
     },
     {
-      "id": "sfpl-4691979425550936540",
+      "id": "sfpl-1694797207725353491",
       "title": "Services: Student Support Session for Teens",
       "type": "talks",
       "venue": "SF Public Library",
@@ -1178,22 +1146,6 @@
       "kid_friendly": false
     },
     {
-      "id": "tm-Z7r9jZ1A7Okkp",
-      "title": "Hell's Kitchen (Touring)",
-      "type": "theater",
-      "venue": "Orpheum Theatre San Francisco",
-      "city": "SF",
-      "date": "Thu May 7",
-      "date_raw": "2026-05-08T02:00:00Z",
-      "time": "7:00 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Okkp",
-      "image": "https://s1.ticketm.net/dam/a/cc7/e506039e-ce0b-4a57-bdbc-cfa72081acc7_RETINA_PORTRAIT_16_9.jpg",
-      "source": "Ticketmaster",
-      "is_free": false,
-      "kid_friendly": false
-    },
-    {
       "id": "tm-G5vYZ_kC7I9g-",
       "title": "Yebba - Jean Tour",
       "type": "music",
@@ -1210,7 +1162,7 @@
       "kid_friendly": false
     },
     {
-      "id": "sfpl-586267990333205971",
+      "id": "sfpl-2006411638125268971",
       "title": "Presentation: Opening Up Shop at SFO: Opportunities for Small Businesses",
       "type": "talks",
       "venue": "SF Public Library",
@@ -1222,22 +1174,6 @@
       "url": "https://sfpl.org/events/2026/05/08/presentation-opening-shop-sfo-opportunities-small-businesses",
       "source": "SFPL",
       "is_free": true,
-      "kid_friendly": false
-    },
-    {
-      "id": "tm-Z7r9jZ1A7Okk9",
-      "title": "Hell's Kitchen (Touring)",
-      "type": "theater",
-      "venue": "Orpheum Theatre San Francisco",
-      "city": "SF",
-      "date": "Fri May 8",
-      "date_raw": "2026-05-09T02:30:00Z",
-      "time": "7:30 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Okk9",
-      "image": "https://s1.ticketm.net/dam/a/cc7/e506039e-ce0b-4a57-bdbc-cfa72081acc7_RETINA_PORTRAIT_16_9.jpg",
-      "source": "Ticketmaster",
-      "is_free": false,
       "kid_friendly": false
     },
     {
@@ -1257,7 +1193,7 @@
       "kid_friendly": false
     },
     {
-      "id": "kqed-4729257639407288279",
+      "id": "kqed-4352166231504624768",
       "title": "KQED Fest 2026",
       "type": "talks",
       "venue": "KQED Headquarters",
@@ -1272,22 +1208,6 @@
       "kid_friendly": false
     },
     {
-      "id": "tm-Z7r9jZ1A7Okk_",
-      "title": "Hell's Kitchen (Touring)",
-      "type": "theater",
-      "venue": "Orpheum Theatre San Francisco",
-      "city": "SF",
-      "date": "Sat May 9",
-      "date_raw": "2026-05-09T20:00:00Z",
-      "time": "1:00 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Okk_",
-      "image": "https://s1.ticketm.net/dam/a/cc7/e506039e-ce0b-4a57-bdbc-cfa72081acc7_RETINA_PORTRAIT_16_9.jpg",
-      "source": "Ticketmaster",
-      "is_free": false,
-      "kid_friendly": false
-    },
-    {
       "id": "tm-G5vYZbUbNQB8t",
       "title": "Good Dye Young Presents: Hayley Williams At A Bachelorette Party",
       "type": "music",
@@ -1299,22 +1219,6 @@
       "description": "",
       "url": "https://www.ticketmaster.com/good-dye-young-presents-hayley-williams-oakland-california-05-09-2026/event/1C006366236BA429",
       "image": "https://s1.ticketm.net/dam/a/dc6/55f55324-9481-423a-846a-a803f46ecdc6_RETINA_PORTRAIT_16_9.jpg",
-      "source": "Ticketmaster",
-      "is_free": false,
-      "kid_friendly": false
-    },
-    {
-      "id": "tm-Z7r9jZ1A7Okkb",
-      "title": "Hell's Kitchen (Touring)",
-      "type": "theater",
-      "venue": "Orpheum Theatre San Francisco",
-      "city": "SF",
-      "date": "Sat May 9",
-      "date_raw": "2026-05-10T02:30:00Z",
-      "time": "7:30 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Okkb",
-      "image": "https://s1.ticketm.net/dam/a/cc7/e506039e-ce0b-4a57-bdbc-cfa72081acc7_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
       "is_free": false,
       "kid_friendly": false
@@ -1347,38 +1251,6 @@
       "description": "",
       "url": "https://www.ticketmaster.com/noise-complaints-presents-the-late-night-san-francisco-california-05-09-2026/event/1C006466C1AA6737",
       "image": "https://s1.ticketm.net/dam/e/8eb/d344ac62-6206-49e2-aa09-1f61bea268eb_RETINA_PORTRAIT_16_9.jpg",
-      "source": "Ticketmaster",
-      "is_free": false,
-      "kid_friendly": false
-    },
-    {
-      "id": "tm-Z7r9jZ1A7OkFZ",
-      "title": "Hell's Kitchen (Touring)",
-      "type": "theater",
-      "venue": "Orpheum Theatre San Francisco",
-      "city": "SF",
-      "date": "Sun May 10",
-      "date_raw": "2026-05-10T20:00:00Z",
-      "time": "1:00 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OkFZ",
-      "image": "https://s1.ticketm.net/dam/a/cc7/e506039e-ce0b-4a57-bdbc-cfa72081acc7_RETINA_PORTRAIT_16_9.jpg",
-      "source": "Ticketmaster",
-      "is_free": false,
-      "kid_friendly": false
-    },
-    {
-      "id": "tm-Z7r9jZ1A7OkFv",
-      "title": "Hell's Kitchen (Touring)",
-      "type": "theater",
-      "venue": "Orpheum Theatre San Francisco",
-      "city": "SF",
-      "date": "Sun May 10",
-      "date_raw": "2026-05-11T01:30:00Z",
-      "time": "6:30 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OkFv",
-      "image": "https://s1.ticketm.net/dam/a/cc7/e506039e-ce0b-4a57-bdbc-cfa72081acc7_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
       "is_free": false,
       "kid_friendly": false
@@ -1432,7 +1304,7 @@
       "kid_friendly": true
     },
     {
-      "id": "sfpl-9124213943365368007",
+      "id": "sfpl-7512766373993426114",
       "title": "Social: Genealogy Club",
       "type": "talks",
       "venue": "SF Public Library",
@@ -1447,7 +1319,7 @@
       "kid_friendly": false
     },
     {
-      "id": "sfpl-4850414543756869460",
+      "id": "sfpl-4725233585143137626",
       "title": "Workshop: Build a Strong Business Model",
       "type": "talks",
       "venue": "SF Public Library",
@@ -1462,7 +1334,7 @@
       "kid_friendly": false
     },
     {
-      "id": "sfpl-7576656740402072909",
+      "id": "sfpl-6717476002739629909",
       "title": "\u8b1b\u5ea7\uff1a\u4eba\u5de5\u667a\u80fd\u529f\u80fd\u63a2\u7d22\u8207\u9ad4\u9a57\uff08\u666e\u901a\u8a71\uff09/ Exploring and Trying Out AI Features (Mandarin)",
       "type": "talks",
       "venue": "SF Public Library",
@@ -1477,7 +1349,7 @@
       "kid_friendly": false
     },
     {
-      "id": "sfpl-6216381901080477261",
+      "id": "sfpl-7723272895788910682",
       "title": "Dialogue: ESL Online Convo Club",
       "type": "talks",
       "venue": "SF Public Library",
@@ -1492,7 +1364,7 @@
       "kid_friendly": false
     },
     {
-      "id": "sfpl-1563020302714006419",
+      "id": "sfpl-2213167493474550572",
       "title": "Book Club: African American Legacy",
       "type": "talks",
       "venue": "SF Public Library",
@@ -1507,23 +1379,22 @@
       "kid_friendly": false
     },
     {
-      "id": "tm-Z7r9jZ1A7OkFe",
-      "title": "Hell's Kitchen (Touring)",
-      "type": "theater",
-      "venue": "Orpheum Theatre San Francisco",
+      "id": "sfpl-1106879100289346093",
+      "title": "Services: Student Support Session for Teens",
+      "type": "talks",
+      "venue": "SF Public Library",
       "city": "SF",
       "date": "Tue May 12",
-      "date_raw": "2026-05-13T02:00:00Z",
+      "date_raw": "2026-05-12T19:00:00-07:00",
       "time": "7:00 PM",
       "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OkFe",
-      "image": "https://s1.ticketm.net/dam/a/cc7/e506039e-ce0b-4a57-bdbc-cfa72081acc7_RETINA_PORTRAIT_16_9.jpg",
-      "source": "Ticketmaster",
-      "is_free": false,
+      "url": "https://sfpl.org/events/2026/05/12/services-student-support-session-teens",
+      "source": "SFPL",
+      "is_free": true,
       "kid_friendly": false
     },
     {
-      "id": "sfpl-8742945226904747143",
+      "id": "sfpl-1924134854797387726",
       "title": "Workshop: Transforming Digital Communication",
       "type": "talks",
       "venue": "SF Public Library",
@@ -1538,7 +1409,7 @@
       "kid_friendly": false
     },
     {
-      "id": "sfpl-4866635745137688780",
+      "id": "sfpl-142743331860351137",
       "title": "Workshop: Finding Chinese Ancestors with My China Roots",
       "type": "talks",
       "venue": "SF Public Library",
@@ -1553,7 +1424,7 @@
       "kid_friendly": false
     },
     {
-      "id": "sfpl-7351642984887740112",
+      "id": "sfpl-1686851986126188871",
       "title": "Workshop: Accessible Social Media: An Inclusive Approach",
       "type": "talks",
       "venue": "SF Public Library",
@@ -1568,7 +1439,7 @@
       "kid_friendly": false
     },
     {
-      "id": "sfpl-1993783231195561597",
+      "id": "sfpl-3520007292893188600",
       "title": "Workshop: San Francisco Genealogy Group",
       "type": "talks",
       "venue": "SF Public Library",
@@ -1583,7 +1454,7 @@
       "kid_friendly": false
     },
     {
-      "id": "sfpl-9215669544487943034",
+      "id": "sfpl-6102083937794423560",
       "title": "Workshop: Summer of Savings",
       "type": "talks",
       "venue": "SF Public Library",
@@ -1598,7 +1469,7 @@
       "kid_friendly": false
     },
     {
-      "id": "kqed-7558537215863785663",
+      "id": "kqed-5058511966761846124",
       "title": "Preview Screening: Wired for Connection",
       "type": "talks",
       "venue": "Koret Auditorium at the San Francisco Public Library Main Branch",
@@ -1613,39 +1484,7 @@
       "kid_friendly": false
     },
     {
-      "id": "tm-Z7r9jZ1A7OkF7",
-      "title": "Hell's Kitchen (Touring)",
-      "type": "theater",
-      "venue": "Orpheum Theatre San Francisco",
-      "city": "SF",
-      "date": "Wed May 13",
-      "date_raw": "2026-05-13T20:00:00Z",
-      "time": "1:00 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OkF7",
-      "image": "https://s1.ticketm.net/dam/a/cc7/e506039e-ce0b-4a57-bdbc-cfa72081acc7_RETINA_PORTRAIT_16_9.jpg",
-      "source": "Ticketmaster",
-      "is_free": false,
-      "kid_friendly": false
-    },
-    {
-      "id": "tm-Z7r9jZ1A7OkFd",
-      "title": "Hell's Kitchen (Touring)",
-      "type": "theater",
-      "venue": "Orpheum Theatre San Francisco",
-      "city": "SF",
-      "date": "Wed May 13",
-      "date_raw": "2026-05-14T02:00:00Z",
-      "time": "7:00 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OkFd",
-      "image": "https://s1.ticketm.net/dam/a/cc7/e506039e-ce0b-4a57-bdbc-cfa72081acc7_RETINA_PORTRAIT_16_9.jpg",
-      "source": "Ticketmaster",
-      "is_free": false,
-      "kid_friendly": false
-    },
-    {
-      "id": "sfpl-1765193822705438598",
+      "id": "sfpl-2097113696521187694",
       "title": "Tutorial: Meet One-on-One with a CERTIFIED FINANCIAL PLANNER\u2122",
       "type": "talks",
       "venue": "SF Public Library",
@@ -1660,7 +1499,7 @@
       "kid_friendly": false
     },
     {
-      "id": "sfpl-3318521658859305436",
+      "id": "sfpl-1251571081789300344",
       "title": "\u8b1b\u5ea7\uff1a\u5b89\u5353\u624b\u6a5f\u57fa\u790e (\u7cb5) / Workshop: Android Phone Basics (Cantonese)",
       "type": "talks",
       "venue": "SF Public Library",
@@ -1690,19 +1529,18 @@
       "kid_friendly": false
     },
     {
-      "id": "tm-Z7r9jZ1A7OkFA",
-      "title": "Hell's Kitchen (Touring)",
-      "type": "theater",
-      "venue": "Orpheum Theatre San Francisco",
+      "id": "sfpl-179039342260012130",
+      "title": "Services: Student Support Session for Teens",
+      "type": "talks",
+      "venue": "SF Public Library",
       "city": "SF",
       "date": "Thu May 14",
-      "date_raw": "2026-05-15T02:00:00Z",
+      "date_raw": "2026-05-14T19:00:00-07:00",
       "time": "7:00 PM",
       "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OkFA",
-      "image": "https://s1.ticketm.net/dam/a/cc7/e506039e-ce0b-4a57-bdbc-cfa72081acc7_RETINA_PORTRAIT_16_9.jpg",
-      "source": "Ticketmaster",
-      "is_free": false,
+      "url": "https://sfpl.org/events/2026/05/14/services-student-support-session-teens",
+      "source": "SFPL",
+      "is_free": true,
       "kid_friendly": false
     },
     {
@@ -1738,6 +1576,21 @@
       "kid_friendly": false
     },
     {
+      "id": "sfpl-7561896170598927565",
+      "title": "Workshop: Google E-mail Icons -- Gmail Hidden Features in Plain Sight",
+      "type": "talks",
+      "venue": "SF Public Library",
+      "city": "SF",
+      "date": "Fri May 15",
+      "date_raw": "2026-05-15T14:00:00-07:00",
+      "time": "2:00 PM",
+      "description": "",
+      "url": "https://sfpl.org/events/2026/05/15/workshop-google-e-mail-icons-gmail-hidden-features-plain-sight",
+      "source": "SFPL",
+      "is_free": true,
+      "kid_friendly": false
+    },
+    {
       "id": "faight-1988043687185",
       "title": "DIRTYBIRD x The Faight: Open Decks & Art Gallery",
       "type": "music",
@@ -1751,6 +1604,21 @@
       "source": "Eventbrite",
       "is_free": false,
       "kid_friendly": true
+    },
+    {
+      "id": "kqed-1227740977783765846",
+      "title": "Red Bay Roastery: A Sensory Coffee Experience",
+      "type": "talks",
+      "venue": "Red Bay Coffee Roastery",
+      "city": "SF",
+      "date": "Fri May 15",
+      "date_raw": "2026-05-15T18:00:00-07:00",
+      "time": "6:00 PM",
+      "description": "",
+      "url": "https://www.tixr.com/groups/kqed/events/red-bay-roastery-unplugged-soundscapes-and-cupping-tastings-179192",
+      "source": "KQED",
+      "is_free": false,
+      "kid_friendly": false
     },
     {
       "id": "tm-G5vYZbV5eP6YU",
@@ -1780,22 +1648,6 @@
       "description": "",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-NQd",
       "image": "https://s1.ticketm.net/dam/a/a30/855bbdbe-7466-447b-a847-6c731c3e4a30_RETINA_PORTRAIT_16_9.jpg",
-      "source": "Ticketmaster",
-      "is_free": false,
-      "kid_friendly": false
-    },
-    {
-      "id": "tm-Z7r9jZ1A7OkFk",
-      "title": "Hell's Kitchen (Touring)",
-      "type": "theater",
-      "venue": "Orpheum Theatre San Francisco",
-      "city": "SF",
-      "date": "Fri May 15",
-      "date_raw": "2026-05-16T02:30:00Z",
-      "time": "7:30 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OkFk",
-      "image": "https://s1.ticketm.net/dam/a/cc7/e506039e-ce0b-4a57-bdbc-cfa72081acc7_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
       "is_free": false,
       "kid_friendly": false
@@ -1863,22 +1715,6 @@
       "kid_friendly": false
     },
     {
-      "id": "tm-Z7r9jZ1A7OkF6",
-      "title": "Hell's Kitchen (Touring)",
-      "type": "theater",
-      "venue": "Orpheum Theatre San Francisco",
-      "city": "SF",
-      "date": "Sat May 16",
-      "date_raw": "2026-05-16T20:00:00Z",
-      "time": "1:00 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OkF6",
-      "image": "https://s1.ticketm.net/dam/a/cc7/e506039e-ce0b-4a57-bdbc-cfa72081acc7_RETINA_PORTRAIT_16_9.jpg",
-      "source": "Ticketmaster",
-      "is_free": false,
-      "kid_friendly": false
-    },
-    {
       "id": "tm-G5vYZ_k9NBEMN",
       "title": "LAGWAGON - Celebrating 35 Years of Fat Wreck Chords",
       "type": "music",
@@ -1895,22 +1731,6 @@
       "kid_friendly": false
     },
     {
-      "id": "tm-Z7r9jZ1A7OkFF",
-      "title": "Hell's Kitchen (Touring)",
-      "type": "theater",
-      "venue": "Orpheum Theatre San Francisco",
-      "city": "SF",
-      "date": "Sat May 16",
-      "date_raw": "2026-05-17T02:30:00Z",
-      "time": "7:30 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OkFF",
-      "image": "https://s1.ticketm.net/dam/a/cc7/e506039e-ce0b-4a57-bdbc-cfa72081acc7_RETINA_PORTRAIT_16_9.jpg",
-      "source": "Ticketmaster",
-      "is_free": false,
-      "kid_friendly": false
-    },
-    {
       "id": "tm-Z7r9jZ1A7-NQA",
       "title": "Blue Man Group",
       "type": "theater",
@@ -1922,22 +1742,6 @@
       "description": "",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-NQA",
       "image": "https://s1.ticketm.net/dam/a/a30/855bbdbe-7466-447b-a847-6c731c3e4a30_RETINA_PORTRAIT_16_9.jpg",
-      "source": "Ticketmaster",
-      "is_free": false,
-      "kid_friendly": false
-    },
-    {
-      "id": "tm-Z7r9jZ1A7OkFa",
-      "title": "Hell's Kitchen (Touring)",
-      "type": "theater",
-      "venue": "Orpheum Theatre San Francisco",
-      "city": "SF",
-      "date": "Sun May 17",
-      "date_raw": "2026-05-17T20:00:00Z",
-      "time": "1:00 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OkFa",
-      "image": "https://s1.ticketm.net/dam/a/cc7/e506039e-ce0b-4a57-bdbc-cfa72081acc7_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
       "is_free": false,
       "kid_friendly": false
@@ -2007,22 +1811,6 @@
       "kid_friendly": false
     },
     {
-      "id": "tm-Z7r9jZ1A7OkF8",
-      "title": "Hell's Kitchen (Touring)",
-      "type": "theater",
-      "venue": "Orpheum Theatre San Francisco",
-      "city": "SF",
-      "date": "Tue May 19",
-      "date_raw": "2026-05-20T02:00:00Z",
-      "time": "7:00 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OkF8",
-      "image": "https://s1.ticketm.net/dam/a/cc7/e506039e-ce0b-4a57-bdbc-cfa72081acc7_RETINA_PORTRAIT_16_9.jpg",
-      "source": "Ticketmaster",
-      "is_free": false,
-      "kid_friendly": false
-    },
-    {
       "id": "tm-G5vYZ_eS9UD5R",
       "title": "Live 105 Welcomes The Afghan Whigs 40th Anniv Tour w/ Mercury Rev",
       "type": "music",
@@ -2066,38 +1854,6 @@
       "description": "Wednesday's at The Faight, with music from some of the bay's finest and natural wine from Massanois Imports.",
       "url": "https://www.eventbrite.com/e/the-sound-pour-lower-haight-jazz-more-and-wine-night-tickets-1983915781508",
       "source": "Eventbrite",
-      "is_free": false,
-      "kid_friendly": false
-    },
-    {
-      "id": "tm-Z7r9jZ1A7OkFo",
-      "title": "Hell's Kitchen (Touring)",
-      "type": "theater",
-      "venue": "Orpheum Theatre San Francisco",
-      "city": "SF",
-      "date": "Wed May 20",
-      "date_raw": "2026-05-20T20:00:00Z",
-      "time": "1:00 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OkFo",
-      "image": "https://s1.ticketm.net/dam/a/cc7/e506039e-ce0b-4a57-bdbc-cfa72081acc7_RETINA_PORTRAIT_16_9.jpg",
-      "source": "Ticketmaster",
-      "is_free": false,
-      "kid_friendly": false
-    },
-    {
-      "id": "tm-Z7r9jZ1A7OkF3",
-      "title": "Hell's Kitchen (Touring)",
-      "type": "theater",
-      "venue": "Orpheum Theatre San Francisco",
-      "city": "SF",
-      "date": "Wed May 20",
-      "date_raw": "2026-05-21T02:00:00Z",
-      "time": "7:00 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OkF3",
-      "image": "https://s1.ticketm.net/dam/a/cc7/e506039e-ce0b-4a57-bdbc-cfa72081acc7_RETINA_PORTRAIT_16_9.jpg",
-      "source": "Ticketmaster",
       "is_free": false,
       "kid_friendly": false
     },
@@ -2165,22 +1921,6 @@
       "kid_friendly": false
     },
     {
-      "id": "tm-Z7r9jZ1A7OkFK",
-      "title": "Hell's Kitchen (Touring)",
-      "type": "theater",
-      "venue": "Orpheum Theatre San Francisco",
-      "city": "SF",
-      "date": "Thu May 21",
-      "date_raw": "2026-05-22T02:00:00Z",
-      "time": "7:00 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OkFK",
-      "image": "https://s1.ticketm.net/dam/a/cc7/e506039e-ce0b-4a57-bdbc-cfa72081acc7_RETINA_PORTRAIT_16_9.jpg",
-      "source": "Ticketmaster",
-      "is_free": false,
-      "kid_friendly": false
-    },
-    {
       "id": "tm-G5vYZ_7CoMICk",
       "title": "Kevin Morby",
       "type": "music",
@@ -2208,22 +1948,6 @@
       "description": "Mix & mingle with Date My Friend + live funk from The Westones. A social night of dating, dancing, and music in SF.",
       "url": "https://www.eventbrite.com/e/lets-get-funky-mix-mingle-w-date-my-friend-the-westones-tickets-1988598537758",
       "source": "Eventbrite",
-      "is_free": false,
-      "kid_friendly": false
-    },
-    {
-      "id": "tm-Z7r9jZ1A7OkFf",
-      "title": "Hell's Kitchen (Touring)",
-      "type": "theater",
-      "venue": "Orpheum Theatre San Francisco",
-      "city": "SF",
-      "date": "Fri May 22",
-      "date_raw": "2026-05-23T02:30:00Z",
-      "time": "7:30 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OkFf",
-      "image": "https://s1.ticketm.net/dam/a/cc7/e506039e-ce0b-4a57-bdbc-cfa72081acc7_RETINA_PORTRAIT_16_9.jpg",
-      "source": "Ticketmaster",
       "is_free": false,
       "kid_friendly": false
     },
@@ -2308,38 +2032,6 @@
       "kid_friendly": false
     },
     {
-      "id": "tm-Z7r9jZ1A7OkF4",
-      "title": "Hell's Kitchen (Touring)",
-      "type": "theater",
-      "venue": "Orpheum Theatre San Francisco",
-      "city": "SF",
-      "date": "Sat May 23",
-      "date_raw": "2026-05-23T20:00:00Z",
-      "time": "1:00 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OkF4",
-      "image": "https://s1.ticketm.net/dam/a/cc7/e506039e-ce0b-4a57-bdbc-cfa72081acc7_RETINA_PORTRAIT_16_9.jpg",
-      "source": "Ticketmaster",
-      "is_free": false,
-      "kid_friendly": false
-    },
-    {
-      "id": "tm-Z7r9jZ1A7OkFp",
-      "title": "Hell's Kitchen (Touring)",
-      "type": "theater",
-      "venue": "Orpheum Theatre San Francisco",
-      "city": "SF",
-      "date": "Sat May 23",
-      "date_raw": "2026-05-24T02:30:00Z",
-      "time": "7:30 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OkFp",
-      "image": "https://s1.ticketm.net/dam/a/cc7/e506039e-ce0b-4a57-bdbc-cfa72081acc7_RETINA_PORTRAIT_16_9.jpg",
-      "source": "Ticketmaster",
-      "is_free": false,
-      "kid_friendly": false
-    },
-    {
       "id": "tm-G5vYZ_k9qKUE6",
       "title": "The Adicts",
       "type": "music",
@@ -2388,22 +2080,6 @@
       "kid_friendly": false
     },
     {
-      "id": "tm-Z7r9jZ1A7OkF9",
-      "title": "Hell's Kitchen (Touring)",
-      "type": "theater",
-      "venue": "Orpheum Theatre San Francisco",
-      "city": "SF",
-      "date": "Sun May 24",
-      "date_raw": "2026-05-24T20:00:00Z",
-      "time": "1:00 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OkF9",
-      "image": "https://s1.ticketm.net/dam/a/cc7/e506039e-ce0b-4a57-bdbc-cfa72081acc7_RETINA_PORTRAIT_16_9.jpg",
-      "source": "Ticketmaster",
-      "is_free": false,
-      "kid_friendly": false
-    },
-    {
       "id": "faight-1987286681962",
       "title": "Rex & The Rhythm @ The Faight",
       "type": "music",
@@ -2446,6 +2122,22 @@
       "description": "",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-a8Y",
       "image": "https://s1.ticketm.net/dam/a/e84/565a362e-1609-4483-83f9-275e6c126e84_RETINA_PORTRAIT_16_9.jpg",
+      "source": "Ticketmaster",
+      "is_free": false,
+      "kid_friendly": false
+    },
+    {
+      "id": "tm-G5vYZbME2U1DB",
+      "title": "Dance With The Dead + Magic Sword - The Face Off Tour 2026",
+      "type": "music",
+      "venue": "August Hall",
+      "city": "SF",
+      "date": "Tue May 26",
+      "date_raw": "2026-05-27T03:00:00Z",
+      "time": "8:00 PM",
+      "description": "",
+      "url": "https://www.ticketmaster.com/dance-with-the-dead-magic-sword-san-francisco-california-05-26-2026/event/1C006379CFD8AEFA",
+      "image": "https://s1.ticketm.net/dam/a/1e6/c9d6ba18-9f90-48ba-adbc-76b0bf9551e6_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
       "is_free": false,
       "kid_friendly": false
@@ -2515,22 +2207,6 @@
       "kid_friendly": false
     },
     {
-      "id": "tm-Z7r9jZ1A7r3v4",
-      "title": "Phantom Of The Opera (Touring) - Recommended for ages 8+. No children under 5 allowed",
-      "type": "theater",
-      "venue": "Orpheum Theatre San Francisco",
-      "city": "SF",
-      "date": "Thu May 28",
-      "date_raw": "2026-05-29T03:00:00Z",
-      "time": "8:00 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7r3v4",
-      "image": "https://s1.ticketm.net/dam/a/1c8/4c6416b3-a0d2-41ac-a495-e40cae8581c8_RETINA_PORTRAIT_16_9.jpg",
-      "source": "Ticketmaster",
-      "is_free": false,
-      "kid_friendly": true
-    },
-    {
       "id": "tm-LvZ18QqGBs0-wB8Z07Nel",
       "title": "Trap Karaoke: San Francisco",
       "type": "music",
@@ -2563,22 +2239,6 @@
       "kid_friendly": false
     },
     {
-      "id": "tm-Z7r9jZ1A7r3vp",
-      "title": "Phantom Of The Opera (Touring) - Recommended for ages 8+. No children under 5 allowed",
-      "type": "theater",
-      "venue": "Orpheum Theatre San Francisco",
-      "city": "SF",
-      "date": "Fri May 29",
-      "date_raw": "2026-05-30T02:30:00Z",
-      "time": "7:30 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7r3vp",
-      "image": "https://s1.ticketm.net/dam/a/1c8/4c6416b3-a0d2-41ac-a495-e40cae8581c8_RETINA_PORTRAIT_16_9.jpg",
-      "source": "Ticketmaster",
-      "is_free": false,
-      "kid_friendly": true
-    },
-    {
       "id": "tm-G5vYZ_d9C2fkW",
       "title": "Alabama Shakes - 5/29",
       "type": "music",
@@ -2593,38 +2253,6 @@
       "source": "Ticketmaster",
       "is_free": false,
       "kid_friendly": false
-    },
-    {
-      "id": "tm-Z7r9jZ1A7rkFM",
-      "title": "Phantom Of The Opera (Touring) - Recommended for ages 8+. No children under 5 allowed",
-      "type": "theater",
-      "venue": "Orpheum Theatre San Francisco",
-      "city": "SF",
-      "date": "Sat May 30",
-      "date_raw": "2026-05-30T20:00:00Z",
-      "time": "1:00 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7rkFM",
-      "image": "https://s1.ticketm.net/dam/a/1c8/4c6416b3-a0d2-41ac-a495-e40cae8581c8_RETINA_PORTRAIT_16_9.jpg",
-      "source": "Ticketmaster",
-      "is_free": false,
-      "kid_friendly": true
-    },
-    {
-      "id": "tm-Z7r9jZ1A7qe0S",
-      "title": "Phantom Of The Opera (Touring) - Recommended for ages 8+. No children under 5 allowed",
-      "type": "theater",
-      "venue": "Orpheum Theatre San Francisco",
-      "city": "SF",
-      "date": "Sat May 30",
-      "date_raw": "2026-05-31T02:30:00Z",
-      "time": "7:30 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qe0S",
-      "image": "https://s1.ticketm.net/dam/a/1c8/4c6416b3-a0d2-41ac-a495-e40cae8581c8_RETINA_PORTRAIT_16_9.jpg",
-      "source": "Ticketmaster",
-      "is_free": false,
-      "kid_friendly": true
     },
     {
       "id": "tm-G5vYZ_d9C8f63",
@@ -2643,54 +2271,6 @@
       "kid_friendly": false
     },
     {
-      "id": "tm-Z7r9jZ1A7r3v9",
-      "title": "Phantom Of The Opera (Touring) - Recommended for ages 8+. No children under 5 allowed",
-      "type": "theater",
-      "venue": "Orpheum Theatre San Francisco",
-      "city": "SF",
-      "date": "Sun May 31",
-      "date_raw": "2026-05-31T20:00:00Z",
-      "time": "1:00 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7r3v9",
-      "image": "https://s1.ticketm.net/dam/a/1c8/4c6416b3-a0d2-41ac-a495-e40cae8581c8_RETINA_PORTRAIT_16_9.jpg",
-      "source": "Ticketmaster",
-      "is_free": false,
-      "kid_friendly": true
-    },
-    {
-      "id": "tm-Z7r9jZ1A7r3vb",
-      "title": "Phantom Of The Opera (Touring) - Recommended for ages 8+. No children under 5 allowed",
-      "type": "theater",
-      "venue": "Orpheum Theatre San Francisco",
-      "city": "SF",
-      "date": "Sun May 31",
-      "date_raw": "2026-06-01T01:30:00Z",
-      "time": "6:30 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7r3vb",
-      "image": "https://s1.ticketm.net/dam/a/1c8/4c6416b3-a0d2-41ac-a495-e40cae8581c8_RETINA_PORTRAIT_16_9.jpg",
-      "source": "Ticketmaster",
-      "is_free": false,
-      "kid_friendly": true
-    },
-    {
-      "id": "tm-Z7r9jZ1A7r3v_",
-      "title": "Phantom Of The Opera (Touring) - Recommended for ages 8+. No children under 5 allowed",
-      "type": "theater",
-      "venue": "Orpheum Theatre San Francisco",
-      "city": "SF",
-      "date": "Tue Jun 2",
-      "date_raw": "2026-06-03T02:00:00Z",
-      "time": "7:00 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7r3v_",
-      "image": "https://s1.ticketm.net/dam/a/1c8/4c6416b3-a0d2-41ac-a495-e40cae8581c8_RETINA_PORTRAIT_16_9.jpg",
-      "source": "Ticketmaster",
-      "is_free": false,
-      "kid_friendly": true
-    },
-    {
       "id": "tm-G5vYZ_7MRNlC8",
       "title": "The Cab - Back From the Dead Tour",
       "type": "music",
@@ -2705,38 +2285,6 @@
       "source": "Ticketmaster",
       "is_free": false,
       "kid_friendly": false
-    },
-    {
-      "id": "tm-Z7r9jZ1A7r3vO",
-      "title": "Phantom Of The Opera (Touring) - Recommended for ages 8+. No children under 5 allowed",
-      "type": "theater",
-      "venue": "Orpheum Theatre San Francisco",
-      "city": "SF",
-      "date": "Wed Jun 3",
-      "date_raw": "2026-06-03T20:00:00Z",
-      "time": "1:00 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7r3vO",
-      "image": "https://s1.ticketm.net/dam/a/1c8/4c6416b3-a0d2-41ac-a495-e40cae8581c8_RETINA_PORTRAIT_16_9.jpg",
-      "source": "Ticketmaster",
-      "is_free": false,
-      "kid_friendly": true
-    },
-    {
-      "id": "tm-Z7r9jZ1A7r3v-",
-      "title": "Phantom Of The Opera (Touring) - Recommended for ages 8+. No children under 5 allowed",
-      "type": "theater",
-      "venue": "Orpheum Theatre San Francisco",
-      "city": "SF",
-      "date": "Wed Jun 3",
-      "date_raw": "2026-06-04T02:00:00Z",
-      "time": "7:00 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7r3v-",
-      "image": "https://s1.ticketm.net/dam/a/1c8/4c6416b3-a0d2-41ac-a495-e40cae8581c8_RETINA_PORTRAIT_16_9.jpg",
-      "source": "Ticketmaster",
-      "is_free": false,
-      "kid_friendly": true
     },
     {
       "id": "tm-G5vYZ_k1N7l_s",
@@ -2770,22 +2318,6 @@
       "kid_friendly": false
     },
     {
-      "id": "tm-Z7r9jZ1A7_yu3",
-      "title": "Phantom Of The Opera (Touring) - Recommended for ages 8+. No children under 5 allowed",
-      "type": "theater",
-      "venue": "Orpheum Theatre San Francisco",
-      "city": "SF",
-      "date": "Thu Jun 4",
-      "date_raw": "2026-06-05T02:00:00Z",
-      "time": "7:00 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7_yu3",
-      "image": "https://s1.ticketm.net/dam/a/1c8/4c6416b3-a0d2-41ac-a495-e40cae8581c8_RETINA_PORTRAIT_16_9.jpg",
-      "source": "Ticketmaster",
-      "is_free": false,
-      "kid_friendly": true
-    },
-    {
       "id": "tm-Z7r9jZ1A7-fob",
       "title": "Clara La San",
       "type": "music",
@@ -2813,22 +2345,6 @@
       "description": "Live underground at the Faight!",
       "url": "https://www.eventbrite.com/e/family-mystic-presents-funk-is-dead-tickets-1987655681650",
       "source": "Eventbrite",
-      "is_free": false,
-      "kid_friendly": true
-    },
-    {
-      "id": "tm-Z7r9jZ1A7r3vx",
-      "title": "Phantom Of The Opera (Touring) - Recommended for ages 8+. No children under 5 allowed",
-      "type": "theater",
-      "venue": "Orpheum Theatre San Francisco",
-      "city": "SF",
-      "date": "Fri Jun 5",
-      "date_raw": "2026-06-06T02:30:00Z",
-      "time": "7:30 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7r3vx",
-      "image": "https://s1.ticketm.net/dam/a/1c8/4c6416b3-a0d2-41ac-a495-e40cae8581c8_RETINA_PORTRAIT_16_9.jpg",
-      "source": "Ticketmaster",
       "is_free": false,
       "kid_friendly": true
     },
@@ -2911,38 +2427,6 @@
       "kid_friendly": false
     },
     {
-      "id": "tm-Z7r9jZ1A7r3vN",
-      "title": "Phantom Of The Opera (Touring) - Recommended for ages 8+. No children under 5 allowed",
-      "type": "theater",
-      "venue": "Orpheum Theatre San Francisco",
-      "city": "SF",
-      "date": "Sat Jun 6",
-      "date_raw": "2026-06-06T20:00:00Z",
-      "time": "1:00 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7r3vN",
-      "image": "https://s1.ticketm.net/dam/a/1c8/4c6416b3-a0d2-41ac-a495-e40cae8581c8_RETINA_PORTRAIT_16_9.jpg",
-      "source": "Ticketmaster",
-      "is_free": false,
-      "kid_friendly": true
-    },
-    {
-      "id": "tm-Z7r9jZ1A7r3v0",
-      "title": "Phantom Of The Opera (Touring) - Recommended for ages 8+. No children under 5 allowed",
-      "type": "theater",
-      "venue": "Orpheum Theatre San Francisco",
-      "city": "SF",
-      "date": "Sat Jun 6",
-      "date_raw": "2026-06-07T02:30:00Z",
-      "time": "7:30 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7r3v0",
-      "image": "https://s1.ticketm.net/dam/a/1c8/4c6416b3-a0d2-41ac-a495-e40cae8581c8_RETINA_PORTRAIT_16_9.jpg",
-      "source": "Ticketmaster",
-      "is_free": false,
-      "kid_friendly": true
-    },
-    {
       "id": "tm-Z7r9jZ1A7xa7x",
       "title": "Paul Oakenfold and The Crystal Method (18 and Over)",
       "type": "music",
@@ -3006,36 +2490,20 @@
       "kid_friendly": false
     },
     {
-      "id": "tm-Z7r9jZ1A7r3vP",
-      "title": "Phantom Of The Opera (Touring) - Recommended for ages 8+. No children under 5 allowed",
-      "type": "theater",
-      "venue": "Orpheum Theatre San Francisco",
+      "id": "tm-1k18vxjdGAGxoz9",
+      "title": "The Church -- the Singles: 1980-2025",
+      "type": "music",
+      "venue": "August Hall",
       "city": "SF",
-      "date": "Sun Jun 7",
-      "date_raw": "2026-06-07T20:00:00Z",
-      "time": "1:00 PM",
+      "date": "Tue Jun 9",
+      "date_raw": "2026-06-10T02:00:00Z",
+      "time": "7:00 PM",
       "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7r3vP",
-      "image": "https://s1.ticketm.net/dam/a/1c8/4c6416b3-a0d2-41ac-a495-e40cae8581c8_RETINA_PORTRAIT_16_9.jpg",
+      "url": "https://www.ticketweb.com/event/the-church-august-hall-tickets/14291513?REFERRAL_ID=tmfeed",
+      "image": "https://s1.ticketm.net/dam/a/d2e/fbb2bf14-6ed5-4798-8c8c-79e719d1fd2e_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
       "is_free": false,
-      "kid_friendly": true
-    },
-    {
-      "id": "tm-Z7r9jZ1A7r3vJ",
-      "title": "Phantom Of The Opera (Touring) - Recommended for ages 8+. No children under 5 allowed",
-      "type": "theater",
-      "venue": "Orpheum Theatre San Francisco",
-      "city": "SF",
-      "date": "Sun Jun 7",
-      "date_raw": "2026-06-08T01:30:00Z",
-      "time": "6:30 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7r3vJ",
-      "image": "https://s1.ticketm.net/dam/a/1c8/4c6416b3-a0d2-41ac-a495-e40cae8581c8_RETINA_PORTRAIT_16_9.jpg",
-      "source": "Ticketmaster",
-      "is_free": false,
-      "kid_friendly": true
+      "kid_friendly": false
     },
     {
       "id": "tm-Z7r9jZ1A7bsG9",
@@ -3054,38 +2522,6 @@
       "kid_friendly": false
     },
     {
-      "id": "tm-1k18vxjdGAGxoz9",
-      "title": "The Church -- the Singles: 1980-2025",
-      "type": "music",
-      "venue": "August Hall",
-      "city": "SF",
-      "date": "Tue Jun 9",
-      "date_raw": "2026-06-10T02:00:00Z",
-      "time": "7:00 PM",
-      "description": "",
-      "url": "https://www.ticketweb.com/event/the-church-august-hall-tickets/14291513?REFERRAL_ID=tmfeed",
-      "image": "https://s1.ticketm.net/dam/a/d2e/fbb2bf14-6ed5-4798-8c8c-79e719d1fd2e_RETINA_PORTRAIT_16_9.jpg",
-      "source": "Ticketmaster",
-      "is_free": false,
-      "kid_friendly": false
-    },
-    {
-      "id": "tm-Z7r9jZ1A7r3vE",
-      "title": "Phantom Of The Opera (Touring) - Recommended for ages 8+. No children under 5 allowed",
-      "type": "theater",
-      "venue": "Orpheum Theatre San Francisco",
-      "city": "SF",
-      "date": "Tue Jun 9",
-      "date_raw": "2026-06-10T02:00:00Z",
-      "time": "7:00 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7r3vE",
-      "image": "https://s1.ticketm.net/dam/a/1c8/4c6416b3-a0d2-41ac-a495-e40cae8581c8_RETINA_PORTRAIT_16_9.jpg",
-      "source": "Ticketmaster",
-      "is_free": false,
-      "kid_friendly": true
-    },
-    {
       "id": "tm-Z7r9jZ1A7Obvx",
       "title": "Tigers Jaw",
       "type": "music",
@@ -3102,38 +2538,6 @@
       "kid_friendly": false
     },
     {
-      "id": "tm-Z7r9jZ1A7r3vI",
-      "title": "Phantom Of The Opera (Touring) - Recommended for ages 8+. No children under 5 allowed",
-      "type": "theater",
-      "venue": "Orpheum Theatre San Francisco",
-      "city": "SF",
-      "date": "Wed Jun 10",
-      "date_raw": "2026-06-10T20:00:00Z",
-      "time": "1:00 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7r3vI",
-      "image": "https://s1.ticketm.net/dam/a/1c8/4c6416b3-a0d2-41ac-a495-e40cae8581c8_RETINA_PORTRAIT_16_9.jpg",
-      "source": "Ticketmaster",
-      "is_free": false,
-      "kid_friendly": true
-    },
-    {
-      "id": "tm-Z7r9jZ1A7r3vt",
-      "title": "Phantom Of The Opera (Touring) - Recommended for ages 8+. No children under 5 allowed",
-      "type": "theater",
-      "venue": "Orpheum Theatre San Francisco",
-      "city": "SF",
-      "date": "Wed Jun 10",
-      "date_raw": "2026-06-11T02:00:00Z",
-      "time": "7:00 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7r3vt",
-      "image": "https://s1.ticketm.net/dam/a/1c8/4c6416b3-a0d2-41ac-a495-e40cae8581c8_RETINA_PORTRAIT_16_9.jpg",
-      "source": "Ticketmaster",
-      "is_free": false,
-      "kid_friendly": true
-    },
-    {
       "id": "tm-G5vYZ_7l_fTAh",
       "title": "James Blake - Trying Times Tour",
       "type": "music",
@@ -3148,38 +2552,6 @@
       "source": "Ticketmaster",
       "is_free": false,
       "kid_friendly": false
-    },
-    {
-      "id": "tm-Z7r9jZ1A7r3vY",
-      "title": "Phantom Of The Opera (Touring) - Recommended for ages 8+. No children under 5 allowed",
-      "type": "theater",
-      "venue": "Orpheum Theatre San Francisco",
-      "city": "SF",
-      "date": "Thu Jun 11",
-      "date_raw": "2026-06-12T02:00:00Z",
-      "time": "7:00 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7r3vY",
-      "image": "https://s1.ticketm.net/dam/a/1c8/4c6416b3-a0d2-41ac-a495-e40cae8581c8_RETINA_PORTRAIT_16_9.jpg",
-      "source": "Ticketmaster",
-      "is_free": false,
-      "kid_friendly": true
-    },
-    {
-      "id": "tm-Z7r9jZ1A7r3vs",
-      "title": "Phantom Of The Opera (Touring) - Recommended for ages 8+. No children under 5 allowed",
-      "type": "theater",
-      "venue": "Orpheum Theatre San Francisco",
-      "city": "SF",
-      "date": "Fri Jun 12",
-      "date_raw": "2026-06-13T02:30:00Z",
-      "time": "7:30 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7r3vs",
-      "image": "https://s1.ticketm.net/dam/a/1c8/4c6416b3-a0d2-41ac-a495-e40cae8581c8_RETINA_PORTRAIT_16_9.jpg",
-      "source": "Ticketmaster",
-      "is_free": false,
-      "kid_friendly": true
     },
     {
       "id": "tm-G5vYZ_7nqZ_70",
@@ -3212,22 +2584,6 @@
       "source": "Ticketmaster",
       "is_free": false,
       "kid_friendly": false
-    },
-    {
-      "id": "tm-Z7r9jZ1A7r3vS",
-      "title": "Phantom Of The Opera (Touring) - Recommended for ages 8+. No children under 5 allowed",
-      "type": "theater",
-      "venue": "Orpheum Theatre San Francisco",
-      "city": "SF",
-      "date": "Sat Jun 13",
-      "date_raw": "2026-06-14T02:30:00Z",
-      "time": "7:30 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7r3vS",
-      "image": "https://s1.ticketm.net/dam/a/1c8/4c6416b3-a0d2-41ac-a495-e40cae8581c8_RETINA_PORTRAIT_16_9.jpg",
-      "source": "Ticketmaster",
-      "is_free": false,
-      "kid_friendly": true
     },
     {
       "id": "tm-Z7r9jZ1A7ObvN",
@@ -4011,22 +3367,6 @@
       "kid_friendly": false
     },
     {
-      "id": "tm-rZ7HnEZ1Af-VAS",
-      "title": "Bird and Byron LIVE at Brick & Mortar (San Francisco, CA)",
-      "type": "music",
-      "venue": "August Hall",
-      "city": "SF",
-      "date": "Sun Aug 2",
-      "date_raw": "2026-08-03T03:00:00Z",
-      "time": "8:00 PM",
-      "description": "",
-      "url": "https://www.ticketweb.com/event/bird-and-byron-live-at-brick-mortar-music-hall-tickets/14874173",
-      "image": "https://i.ticketweb.com/i/00/13/47/26/53_Edp.jpg?v=4",
-      "source": "Ticketmaster",
-      "is_free": false,
-      "kid_friendly": false
-    },
-    {
       "id": "tm-G5vYZ_7YZB567",
       "title": "Poppy: Constantly Nowhere Tour",
       "type": "music",
@@ -4682,54 +4022,6 @@
       "kid_friendly": false
     },
     {
-      "id": "tm-Z7r9jZ1A7xe_O",
-      "title": "Bluey's Big Play - The Stage Show",
-      "type": "theater",
-      "venue": "Orpheum Theatre San Francisco",
-      "city": "SF",
-      "date": "Sat Sep 26",
-      "date_raw": "2026-09-26T17:00:00Z",
-      "time": "10:00 AM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xe_O",
-      "image": "https://s1.ticketm.net/dam/a/4d4/d963b745-c842-4a74-8678-58e1508774d4_RETINA_PORTRAIT_16_9.jpg",
-      "source": "Ticketmaster",
-      "is_free": false,
-      "kid_friendly": false
-    },
-    {
-      "id": "tm-Z7r9jZ1A7xe_-",
-      "title": "Bluey's Big Play - The Stage Show",
-      "type": "theater",
-      "venue": "Orpheum Theatre San Francisco",
-      "city": "SF",
-      "date": "Sat Sep 26",
-      "date_raw": "2026-09-26T20:00:00Z",
-      "time": "1:00 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xe_-",
-      "image": "https://s1.ticketm.net/dam/a/4d4/d963b745-c842-4a74-8678-58e1508774d4_RETINA_PORTRAIT_16_9.jpg",
-      "source": "Ticketmaster",
-      "is_free": false,
-      "kid_friendly": false
-    },
-    {
-      "id": "tm-Z7r9jZ1A7xe_x",
-      "title": "Bluey's Big Play - The Stage Show",
-      "type": "theater",
-      "venue": "Orpheum Theatre San Francisco",
-      "city": "SF",
-      "date": "Sat Sep 26",
-      "date_raw": "2026-09-26T23:00:00Z",
-      "time": "4:00 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xe_x",
-      "image": "https://s1.ticketm.net/dam/a/4d4/d963b745-c842-4a74-8678-58e1508774d4_RETINA_PORTRAIT_16_9.jpg",
-      "source": "Ticketmaster",
-      "is_free": false,
-      "kid_friendly": false
-    },
-    {
       "id": "tm-Z7r9jZ1A7OSuJ",
       "title": "Sugar w/ J. Robbins",
       "type": "music",
@@ -4741,38 +4033,6 @@
       "description": "",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OSuJ",
       "image": "",
-      "source": "Ticketmaster",
-      "is_free": false,
-      "kid_friendly": false
-    },
-    {
-      "id": "tm-Z7r9jZ1A7xe_N",
-      "title": "Bluey's Big Play - The Stage Show",
-      "type": "theater",
-      "venue": "Orpheum Theatre San Francisco",
-      "city": "SF",
-      "date": "Sun Sep 27",
-      "date_raw": "2026-09-27T17:00:00Z",
-      "time": "10:00 AM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xe_N",
-      "image": "https://s1.ticketm.net/dam/a/4d4/d963b745-c842-4a74-8678-58e1508774d4_RETINA_PORTRAIT_16_9.jpg",
-      "source": "Ticketmaster",
-      "is_free": false,
-      "kid_friendly": false
-    },
-    {
-      "id": "tm-Z7r9jZ1A7xe_0",
-      "title": "Bluey's Big Play - The Stage Show",
-      "type": "theater",
-      "venue": "Orpheum Theatre San Francisco",
-      "city": "SF",
-      "date": "Sun Sep 27",
-      "date_raw": "2026-09-27T20:00:00Z",
-      "time": "1:00 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xe_0",
-      "image": "https://s1.ticketm.net/dam/a/4d4/d963b745-c842-4a74-8678-58e1508774d4_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
       "is_free": false,
       "kid_friendly": false
@@ -5495,7 +4755,7 @@
       "kid_friendly": false
     },
     {
-      "id": "gpc-2618421657758147186",
+      "id": "gpc-7823417699090528691",
       "title": "Today",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -5510,7 +4770,7 @@
       "kid_friendly": false
     },
     {
-      "id": "gpc-8472132056432273704",
+      "id": "gpc-1576165463139613272",
       "title": "3/T/18",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -5525,7 +4785,7 @@
       "kid_friendly": false
     },
     {
-      "id": "gpc-7478820562470653210",
+      "id": "gpc-4339256978312043760",
       "title": "3!/T/16",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -5540,7 +4800,7 @@
       "kid_friendly": false
     },
     {
-      "id": "gpc-7678793896187839289",
+      "id": "gpc-2113196207276744565",
       "title": "5/B/32",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -5555,7 +4815,7 @@
       "kid_friendly": false
     },
     {
-      "id": "gpc-7655195262599035461",
+      "id": "gpc-7812852040156119839",
       "title": "5/M/24,32",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -5570,7 +4830,7 @@
       "kid_friendly": false
     },
     {
-      "id": "gpc-1547613908082442232",
+      "id": "gpc-7280470465997186494",
       "title": "5/TM/24",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -5585,7 +4845,7 @@
       "kid_friendly": false
     },
     {
-      "id": "gpc-2720407861292744478",
+      "id": "gpc-6027934839041471608",
       "title": "2/L/35 to 4/T/50",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -5600,7 +4860,7 @@
       "kid_friendly": false
     },
     {
-      "id": "gpc-6203448296061904655",
+      "id": "gpc-6084825868838008358",
       "title": "3/T/21",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -5615,7 +4875,7 @@
       "kid_friendly": false
     },
     {
-      "id": "gpc-3882190107089841452",
+      "id": "gpc-3662285396373013846",
       "title": "3/TM,M/60-80",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -5630,7 +4890,7 @@
       "kid_friendly": false
     },
     {
-      "id": "gpc-2028854525336464723",
+      "id": "gpc-3038536765980399643",
       "title": "3/TM/26.6",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -5645,7 +4905,7 @@
       "kid_friendly": false
     },
     {
-      "id": "gpc-6022494205750272640",
+      "id": "gpc-1516390424364123285",
       "title": "5/0/17",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -5660,7 +4920,7 @@
       "kid_friendly": false
     },
     {
-      "id": "gpc-8720099207324897639",
+      "id": "gpc-6932013149053522845",
       "title": "4/TM/49",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -5675,7 +4935,7 @@
       "kid_friendly": false
     },
     {
-      "id": "gpc-5449970994838841680",
+      "id": "gpc-3563887010944863164",
       "title": "4/LT/23",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -5690,7 +4950,7 @@
       "kid_friendly": false
     },
     {
-      "id": "gpc-3146438314312801931",
+      "id": "gpc-8994458239345275516",
       "title": "4/T/34",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -5705,7 +4965,7 @@
       "kid_friendly": false
     },
     {
-      "id": "gpc-5607725089781960197",
+      "id": "gpc-6808380319180418249",
       "title": "0/0/0",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -5720,7 +4980,7 @@
       "kid_friendly": false
     },
     {
-      "id": "gpc-8802364485855403213",
+      "id": "gpc-6733416042542515305",
       "title": "3!/T/16",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -5735,7 +4995,7 @@
       "kid_friendly": false
     },
     {
-      "id": "gpc-8233087608283403021",
+      "id": "gpc-9128491611826133119",
       "title": "5/B/32",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -5750,7 +5010,7 @@
       "kid_friendly": false
     },
     {
-      "id": "gpc-5434657270814347112",
+      "id": "gpc-5253329986591277207",
       "title": "5/M/24,32",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -5765,7 +5025,7 @@
       "kid_friendly": false
     },
     {
-      "id": "gpc-3891727353397161814",
+      "id": "gpc-8810178742850366703",
       "title": "2/L/35 to 4/T/50",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -5780,7 +5040,7 @@
       "kid_friendly": false
     },
     {
-      "id": "gpc-5363044458235793658",
+      "id": "gpc-3147281767515233071",
       "title": "3/T/21",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
