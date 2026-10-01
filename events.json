@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-01T12:26:58.069396+00:00",
-  "count": 435,
+  "updated_at": "2026-10-01T22:20:31.839531+00:00",
+  "count": 436,
   "events": [
     {
-      "id": "ical-7404455748269160395",
+      "id": "ical-4280058093181948492",
       "title": "The Noon Ride",
       "type": "bike",
       "venue": "2210 Page Mill Rd\\, Los Altos Hills\\, CA 94022\\, USA",
@@ -18,7 +18,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-2068212010162631755",
+      "id": "ical-1240081720716658634",
       "title": "Rapha RADLER WILLKOMMEN-HAPPY HOUR!",
       "type": "bike",
       "venue": "2198 Filbert St\\, San Francisco\\, CA 94123\\, USA",
@@ -33,7 +33,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-1972846763292039436",
+      "id": "ical-1414706024708400490",
       "title": "SFCC COFFEE RIDE",
       "type": "bike",
       "venue": "37.773497\\, -122.441015",
@@ -48,7 +48,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-103043918057430613",
+      "id": "ical-7992121047828255312",
       "title": "SF Bike Party",
       "type": "bike",
       "venue": "Varies Monthly",
@@ -63,7 +63,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-8806583456092457232",
+      "id": "ical-4166537370242178895",
       "title": "Bespoke Cycles Shop Ride",
       "type": "bike",
       "venue": "SF Bay Area Bike Rides",
@@ -78,7 +78,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-3240404702751090425",
+      "id": "ical-2977202856468661818",
       "title": "Scotty\u2019s Ride",
       "type": "bike",
       "venue": "Golden Gate Bridge Welcome Center\\, Golden Gate Bridge\\, Coastal T",
@@ -93,52 +93,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-8798385617861866074",
-      "title": "Alto Velo B Ride",
-      "type": "bike",
-      "venue": "Summit Bicycles\\, 392 California Ave\\, Palo Alto\\, CA 94306\\, USA",
-      "city": "SF",
-      "date": "Sat Dec 2",
-      "date_raw": "2023-12-02T09:00:00",
-      "time": "9:00 AM",
-      "description": "<a href=\"https://www.altovelo.org/b-ride\">https://www.altovelo.",
-      "url": "",
-      "source": "SF Bay Area Bike Rides",
-      "is_free": true,
-      "kid_friendly": false
-    },
-    {
-      "id": "ical-6909434501124257059",
-      "title": "Alto Velo Women\u2019s/WTFNB Ride",
-      "type": "bike",
-      "venue": "Varies Weekly",
-      "city": "SF",
-      "date": "Sat Dec 2",
-      "date_raw": "2023-12-02T09:00:00",
-      "time": "9:00 AM",
-      "description": "<a href=\"https://www.altovelo.org/womens-ride\">https://www.alto",
-      "url": "",
-      "source": "SF Bay Area Bike Rides",
-      "is_free": true,
-      "kid_friendly": false
-    },
-    {
-      "id": "ical-7574043497138078246",
-      "title": "Alto Velo C Ride",
-      "type": "bike",
-      "venue": "Summit Bicycles\\, 392 California Ave\\, Palo Alto\\, CA 94306\\, USA",
-      "city": "SF",
-      "date": "Sat Dec 2",
-      "date_raw": "2023-12-02T09:00:00",
-      "time": "9:00 AM",
-      "description": "<a href=\"https://www.altovelo.org/c-ride\">https://www.altovelo.",
-      "url": "",
-      "source": "SF Bay Area Bike Rides",
-      "is_free": true,
-      "kid_friendly": false
-    },
-    {
-      "id": "ical-6852837007224984274",
+      "id": "ical-5092770974823347484",
       "title": "The Spectrum Ride",
       "type": "bike",
       "venue": "West Homestead Road\\, W Homestead Rd\\, Cupertino\\, CA\\, USA",
@@ -153,22 +108,52 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-3851123443854484658",
-      "title": "Roasters Ride",
+      "id": "ical-8613700814723890516",
+      "title": "Alto Velo C Ride",
       "type": "bike",
-      "venue": "Java Hut\\, 760 Center Blvd\\, Fairfax\\, CA 94930\\, USA",
+      "venue": "Summit Bicycles\\, 392 California Ave\\, Palo Alto\\, CA 94306\\, USA",
       "city": "SF",
       "date": "Sat Dec 2",
       "date_raw": "2023-12-02T09:00:00",
       "time": "9:00 AM",
-      "description": "Start: 9:00am on Saturdays at the Java Hut in Fairfax\\, CA. A l",
+      "description": "<a href=\"https://www.altovelo.org/c-ride\">https://www.altovelo.",
       "url": "",
       "source": "SF Bay Area Bike Rides",
       "is_free": true,
       "kid_friendly": false
     },
     {
-      "id": "ical-4929280352421681202",
+      "id": "ical-1138321216707743074",
+      "title": "Alto Velo Women\u2019s/WTFNB Ride",
+      "type": "bike",
+      "venue": "Varies Weekly",
+      "city": "SF",
+      "date": "Sat Dec 2",
+      "date_raw": "2023-12-02T09:00:00",
+      "time": "9:00 AM",
+      "description": "<a href=\"https://www.altovelo.org/womens-ride\">https://www.alto",
+      "url": "",
+      "source": "SF Bay Area Bike Rides",
+      "is_free": true,
+      "kid_friendly": false
+    },
+    {
+      "id": "ical-7998498033872183050",
+      "title": "Alto Velo B Ride",
+      "type": "bike",
+      "venue": "Summit Bicycles\\, 392 California Ave\\, Palo Alto\\, CA 94306\\, USA",
+      "city": "SF",
+      "date": "Sat Dec 2",
+      "date_raw": "2023-12-02T09:00:00",
+      "time": "9:00 AM",
+      "description": "<a href=\"https://www.altovelo.org/b-ride\">https://www.altovelo.",
+      "url": "",
+      "source": "SF Bay Area Bike Rides",
+      "is_free": true,
+      "kid_friendly": false
+    },
+    {
+      "id": "ical-150206948859672030",
       "title": "Alto Velo A Ride",
       "type": "bike",
       "venue": "Summit Bicycles\\, 392 California Ave\\, Palo Alto\\, CA 94306\\, USA",
@@ -183,7 +168,22 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-6364324534293242670",
+      "id": "ical-8428575370879712238",
+      "title": "Roasters Ride",
+      "type": "bike",
+      "venue": "Java Hut\\, 760 Center Blvd\\, Fairfax\\, CA 94930\\, USA",
+      "city": "SF",
+      "date": "Sat Dec 2",
+      "date_raw": "2023-12-02T09:00:00",
+      "time": "9:00 AM",
+      "description": "Start: 9:00am on Saturdays at the Java Hut in Fairfax\\, CA. A l",
+      "url": "",
+      "source": "SF Bay Area Bike Rides",
+      "is_free": true,
+      "kid_friendly": false
+    },
+    {
+      "id": "ical-7297299485540306300",
       "title": "Fatcake FTWNB + Allies Ride",
       "type": "bike",
       "venue": "Conservatory of Flowers\\, 100 John F Kennedy Dr\\, San Francisco\\,",
@@ -198,7 +198,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-1102066221291124005",
+      "id": "ical-2133025368335802385",
       "title": "Pas Normal Social Road Ride",
       "type": "bike",
       "venue": "Pas Normal Studios San Francisco\\, 799 Haight St\\, San Francisco\\,",
@@ -213,7 +213,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-8997806643689160367",
+      "id": "ical-2733459573735672007",
       "title": "The Morning Ride",
       "type": "bike",
       "venue": "296 Main St\\, Los Altos\\, CA 94022\\, USA",
@@ -228,7 +228,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-2501731043532551729",
+      "id": "ical-4490250925335452390",
       "title": "Fatcake HEADLANDS + ARSICAULT BAKERY Ride",
       "type": "bike",
       "venue": "Golden Gate Bridge Welcome Center\\, Golden Gate Bridge\\, Coastal T",
@@ -243,7 +243,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-5530422815943848854",
+      "id": "ical-3015436810659357771",
       "title": "Ornot After Cake Ride",
       "type": "bike",
       "venue": "Ornot Bike\\, 55 Clement St\\, San Francisco\\, CA 94118\\, USA",
@@ -258,7 +258,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-713076238295157189",
+      "id": "ical-862940428236861568",
       "title": "SF Bike & Brew",
       "type": "bike",
       "venue": "Varies Weekly",
@@ -273,7 +273,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-1114444669120382210",
+      "id": "ical-4420106841802338009",
       "title": "Rapha RCC SF DONUT RIDE",
       "type": "bike",
       "venue": "Rapha San Francisco\\, 2198 Filbert St\\, San Francisco\\, CA 94123\\,",
@@ -288,7 +288,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-2149583411594821143",
+      "id": "ical-2279071448417724002",
       "title": "Butterlap",
       "type": "bike",
       "venue": "Fort Point Ferry Building\\, One\\, Ferry Building\\, San Francisco\\,",
@@ -303,22 +303,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-6791586368698651123",
-      "title": "Fatcake WILDCARD Ride",
-      "type": "bike",
-      "venue": "Conservatory of Flowers\\, 100 John F Kennedy Dr\\, San Francisco\\,",
-      "city": "SF",
-      "date": "Thu Dec 7",
-      "date_raw": "2023-12-07T06:30:00",
-      "time": "6:30 AM",
-      "description": "<a href=\"https://www.fatcake.cc/rides\">https://www.fatcake.cc/r",
-      "url": "",
-      "source": "SF Bay Area Bike Rides",
-      "is_free": true,
-      "kid_friendly": false
-    },
-    {
-      "id": "ical-8597442389084286528",
+      "id": "ical-4365780424516936064",
       "title": "Fatcake FIRST DONUT ALLEY Ride",
       "type": "bike",
       "venue": "RGM9+4V\\, Sausalito\\, CA 94965\\, USA",
@@ -333,7 +318,22 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-956039775622041362",
+      "id": "ical-5060381717630338520",
+      "title": "Fatcake WILDCARD Ride",
+      "type": "bike",
+      "venue": "Conservatory of Flowers\\, 100 John F Kennedy Dr\\, San Francisco\\,",
+      "city": "SF",
+      "date": "Thu Dec 7",
+      "date_raw": "2023-12-07T06:30:00",
+      "time": "6:30 AM",
+      "description": "<a href=\"https://www.fatcake.cc/rides\">https://www.fatcake.cc/r",
+      "url": "",
+      "source": "SF Bay Area Bike Rides",
+      "is_free": true,
+      "kid_friendly": false
+    },
+    {
+      "id": "ical-2272857182274598515",
       "title": "Ornot Women's Ride",
       "type": "bike",
       "venue": "Ornot Bike\\, 55 Clement St\\, San Francisco\\, CA 94118\\, USA",
@@ -348,7 +348,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-3768741722349069333",
+      "id": "ical-3223484456480585586",
       "title": "East Bay Bike Party",
       "type": "bike",
       "venue": "Varies Monthly",
@@ -363,7 +363,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-5169026859035368207",
+      "id": "ical-4947295159940048735",
       "title": "Huckberry Ramble",
       "type": "bike",
       "venue": "Huckleberry Bicycles\\, 1255 Battery St Suite 120\\, San Francisco\\,",
@@ -378,7 +378,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-5470514238407080442",
+      "id": "ical-5990375497170120229",
       "title": "Rapha RCCSFC EAST BAY RIDE",
       "type": "bike",
       "venue": "1934 Broadway\\, Oakland\\, CA 94612\\, USA",
@@ -393,7 +393,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-8764598896474884922",
+      "id": "ical-8081963290267256780",
       "title": "Fatcake FTWNB Ride",
       "type": "bike",
       "venue": "Conservatory of Flowers\\, 100 John F Kennedy Dr\\, San Francisco\\,",
@@ -408,7 +408,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-3087453055272307322",
+      "id": "ical-5789153452761618353",
       "title": "Ornot After Work Ride",
       "type": "bike",
       "venue": "Ornot Bike\\, 55 Clement St\\, San Francisco\\, CA 94118\\, USA",
@@ -423,7 +423,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-4486091641259017",
+      "id": "ical-3164794069131674610",
       "title": "San Jose Bike Party",
       "type": "bike",
       "venue": "Varies Monthly",
@@ -438,7 +438,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-6225457171573431622",
+      "id": "ical-600300211576454005",
       "title": "Let It Slow Ride",
       "type": "bike",
       "venue": "Duboce Park\\, San Francisco\\, CA 94117\\, USA",
@@ -453,7 +453,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-3945587502400091378",
+      "id": "ical-6070681071745247657",
       "title": "Midnight Mystery Ride SF Chapter",
       "type": "bike",
       "venue": "Varies Monthly",
@@ -468,7 +468,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-3846166256813820710",
+      "id": "ical-4030166332851128385",
       "title": "Fatcake FTWNB Ride",
       "type": "bike",
       "venue": "Conservatory of Flowers\\, 100 John F Kennedy Dr\\, San Francisco\\,",
@@ -483,7 +483,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-2710981481725450550",
+      "id": "ical-1338548942218041356",
       "title": "Ornot Women's Ride",
       "type": "bike",
       "venue": "Ornot Bike\\, 55 Clement St\\, San Francisco\\, CA 94118\\, USA",
@@ -498,7 +498,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-7687472553029661141",
+      "id": "ical-2465546768910063735",
       "title": "Fatcake FTWNB Wildcard Ride",
       "type": "bike",
       "venue": "Conservatory of Flowers\\, 100 John F Kennedy Dr\\, San Francisco\\,",
@@ -513,7 +513,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-4609353932423459874",
+      "id": "ical-4053543713665546727",
       "title": "Ornot After Work Ride",
       "type": "bike",
       "venue": "Ornot Bike\\, 55 Clement St\\, San Francisco\\, CA 94118\\, USA",
@@ -528,7 +528,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-4477980294448373029",
+      "id": "ical-6124066481485874520",
       "title": "SF Critical Mass",
       "type": "bike",
       "venue": "Varies Monthly",
@@ -543,7 +543,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-2866950064637422163",
+      "id": "ical-8361664829498072344",
       "title": "Huckberry TWO TICKETS TO PARADISE ride",
       "type": "bike",
       "venue": "Huckleberry Bicycles\\, 1255 Battery St Suite 120\\, San Francisco\\,",
@@ -558,53 +558,7 @@
       "kid_friendly": false
     },
     {
-      "id": "tm-G5vYZ_KQJpCQr",
-      "title": "Grateful Shred 2-Day Ticket",
-      "type": "music",
-      "venue": "The Fillmore",
-      "city": "SF",
-      "date": "Thu Apr 2",
-      "date_raw": "2026-04-02",
-      "time": "",
-      "description": "",
-      "url": "https://www.ticketmaster.com/grateful-shred-2day-ticket-san-francisco-california-04-02-2026/event/1C006536A658E69E",
-      "image": "https://s1.ticketm.net/dam/a/0f3/b59a211c-3d5e-4817-9313-c32bedb790f3_RETINA_PORTRAIT_16_9.jpg",
-      "source": "Ticketmaster",
-      "is_free": false,
-      "kid_friendly": false
-    },
-    {
-      "id": "sfpl-7065890342231601286",
-      "title": "Tutorial: Meet One-on-One with a CERTIFIED FINANCIAL PLANNER\u2122",
-      "type": "talks",
-      "venue": "SF Public Library",
-      "city": "SF",
-      "date": "Thu Oct 1",
-      "date_raw": "2026-10-01T09:00:00-07:00",
-      "time": "9:00 AM",
-      "description": "",
-      "url": "https://sfpl.org/events/2026/10/01/tutorial-meet-one-one-certified-financial-plannertm",
-      "source": "SFPL",
-      "is_free": true,
-      "kid_friendly": false
-    },
-    {
-      "id": "sfpl-6174466081559335079",
-      "title": "Workshop: Mindful Money\u2014Financial Decisions with Intention",
-      "type": "talks",
-      "venue": "SF Public Library",
-      "city": "SF",
-      "date": "Thu Oct 1",
-      "date_raw": "2026-10-01T11:00:00-07:00",
-      "time": "11:00 AM",
-      "description": "",
-      "url": "https://sfpl.org/events/2026/10/01/workshop-mindful-money-financial-decisions-intention",
-      "source": "SFPL",
-      "is_free": true,
-      "kid_friendly": false
-    },
-    {
-      "id": "sfpl-3356043629517341673",
+      "id": "sfpl-1689266651981028867",
       "title": "Workshop: SAT Test Prep with Study Smart Tutors",
       "type": "talks",
       "venue": "SF Public Library",
@@ -619,7 +573,7 @@
       "kid_friendly": false
     },
     {
-      "id": "sfpl-495599175941731903",
+      "id": "sfpl-7100073569904863545",
       "title": "Book Club: World Literature, Julio Cortazar\u2019s Blow-up and Other Stories",
       "type": "talks",
       "venue": "SF Public Library",
@@ -649,7 +603,7 @@
       "kid_friendly": false
     },
     {
-      "id": "kqed-4944872650019889092",
+      "id": "kqed-9113922349157931281",
       "title": "Rick Steves: How to See the World (Redwood City)",
       "type": "talks",
       "venue": "Fox Theatre Redwood City",
@@ -664,7 +618,7 @@
       "kid_friendly": false
     },
     {
-      "id": "kqed-2743980924148743303",
+      "id": "kqed-4686984800694058146",
       "title": "Election 2026: San Francisco Congressional Debate",
       "type": "talks",
       "venue": "The Commons at KQED",
@@ -743,7 +697,7 @@
       "kid_friendly": false
     },
     {
-      "id": "sfpl-6660985533944960902",
+      "id": "sfpl-4050769600474213012",
       "title": "Workshop: SAT Test Prep with Study Smart Tutors",
       "type": "talks",
       "venue": "SF Public Library",
@@ -1027,7 +981,7 @@
       "kid_friendly": false
     },
     {
-      "id": "sfpl-6642261899023498444",
+      "id": "sfpl-8957989678926782978",
       "title": "Social: Genealogy Club",
       "type": "talks",
       "venue": "SF Public Library",
@@ -1042,7 +996,7 @@
       "kid_friendly": false
     },
     {
-      "id": "sfpl-7199817344091069262",
+      "id": "sfpl-357512095001573114",
       "title": "Dialogue: ESL Online Convo Club",
       "type": "talks",
       "venue": "SF Public Library",
@@ -1057,7 +1011,7 @@
       "kid_friendly": false
     },
     {
-      "id": "sfpl-1744727355071017690",
+      "id": "sfpl-7665409458765762710",
       "title": "Workshop: College Entrance Writing Class (PIQ) with Study Smart Tutors",
       "type": "talks",
       "venue": "SF Public Library",
@@ -1072,7 +1026,7 @@
       "kid_friendly": false
     },
     {
-      "id": "kqed-4871059776665538727",
+      "id": "kqed-4690587684643813584",
       "title": "Kebab Showdown",
       "type": "talks",
       "venue": "The Commons at KQED",
@@ -1087,7 +1041,7 @@
       "kid_friendly": false
     },
     {
-      "id": "sfpl-1811239358911276774",
+      "id": "sfpl-1801166271249292700",
       "title": "Workshop: Student Support Session with Study Smart Tutors",
       "type": "talks",
       "venue": "SF Public Library",
@@ -1309,7 +1263,7 @@
       "kid_friendly": false
     },
     {
-      "id": "sfpl-9034812450704413765",
+      "id": "sfpl-3279204725374202793",
       "title": "Tutorial: Meet One-on-One with a CERTIFIED FINANCIAL PLANNER\u2122",
       "type": "talks",
       "venue": "SF Public Library",
@@ -1324,7 +1278,7 @@
       "kid_friendly": false
     },
     {
-      "id": "sfpl-2995706642647348843",
+      "id": "sfpl-1756908579101085224",
       "title": "Workshop: Small Business Office Hours with an Advisor",
       "type": "talks",
       "venue": "SF Public Library",
@@ -1339,7 +1293,7 @@
       "kid_friendly": false
     },
     {
-      "id": "sfpl-885755350556939029",
+      "id": "sfpl-2519740216958954939",
       "title": "Panel: Shall I Read You A Story? Banning of LGBTQIA Children's and YA Books",
       "type": "talks",
       "venue": "SF Public Library",
@@ -1354,7 +1308,7 @@
       "kid_friendly": true
     },
     {
-      "id": "sfpl-6758026195282722916",
+      "id": "sfpl-1722038383715041607",
       "title": "Workshop: College Entrance Writing Class (PIQ) with Study Smart Tutors",
       "type": "talks",
       "venue": "SF Public Library",
@@ -1384,7 +1338,7 @@
       "kid_friendly": false
     },
     {
-      "id": "kqed-7291047109045399597",
+      "id": "kqed-604220548133852424",
       "title": "WIRED's Uncanny Valley Live, feat. Cyberselfish Author Paulina Borsook",
       "type": "talks",
       "venue": "The Commons at KQED",
@@ -1399,7 +1353,7 @@
       "kid_friendly": false
     },
     {
-      "id": "sfpl-5288086935714756273",
+      "id": "sfpl-8431999231300096785",
       "title": "Workshop: Student Support Session with Study Smart Tutors",
       "type": "talks",
       "venue": "SF Public Library",
@@ -1462,7 +1416,7 @@
       "kid_friendly": false
     },
     {
-      "id": "sfpl-390796080227659753",
+      "id": "sfpl-2298602249886263699",
       "title": "Presentation: Trump/530A Accounts\u2014What You Need to Know",
       "type": "talks",
       "venue": "SF Public Library",
@@ -1605,7 +1559,7 @@
       "kid_friendly": false
     },
     {
-      "id": "kqed-7194181066614976425",
+      "id": "kqed-3817814074235287219",
       "title": "Sesame Street and The Great Elephant Adventure:  Family Screening & Activities",
       "type": "talks",
       "venue": "Koret Auditorium & Children\u2019s Center at the San Francisco Public Library",
@@ -1699,6 +1653,22 @@
       "kid_friendly": false
     },
     {
+      "id": "tm-G5vYZ_2DedeGH",
+      "title": "Punchis! Punchis!",
+      "type": "music",
+      "venue": "August Hall",
+      "city": "SF",
+      "date": "Sat Oct 10",
+      "date_raw": "2026-10-11T04:00:00Z",
+      "time": "9:00 PM",
+      "description": "",
+      "url": "https://www.ticketmaster.com/punchis-punchis-san-francisco-california-10-10-2026/event/1C0064FEC20C233C",
+      "image": "https://s1.ticketm.net/dam/a/6a2/4888f9e6-832c-40ec-a01b-218780dfc6a2_RETINA_PORTRAIT_16_9.jpg",
+      "source": "Ticketmaster",
+      "is_free": false,
+      "kid_friendly": false
+    },
+    {
       "id": "tm-Z7r9jZ1A70_3f",
       "title": "Musiq Soulchild",
       "type": "music",
@@ -1715,23 +1685,7 @@
       "kid_friendly": false
     },
     {
-      "id": "tm-G5vYZ_2DedeGH",
-      "title": "Punchis! Punchis!",
-      "type": "music",
-      "venue": "August Hall",
-      "city": "SF",
-      "date": "Sat Oct 10",
-      "date_raw": "2026-10-11T05:00:00Z",
-      "time": "10:00 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/punchis-punchis-san-francisco-california-10-10-2026/event/1C0064FEC20C233C",
-      "image": "https://s1.ticketm.net/dam/a/6a2/4888f9e6-832c-40ec-a01b-218780dfc6a2_RETINA_PORTRAIT_16_9.jpg",
-      "source": "Ticketmaster",
-      "is_free": false,
-      "kid_friendly": false
-    },
-    {
-      "id": "sfpl-1152504810984438447",
+      "id": "sfpl-710599434763392966",
       "title": "Author: Cynthia Li, MD, The Medicine of Flow",
       "type": "talks",
       "venue": "SF Public Library",
@@ -1810,7 +1764,7 @@
       "kid_friendly": false
     },
     {
-      "id": "sfpl-2041036432882810266",
+      "id": "sfpl-8916724111256461646",
       "title": "Presentation: Protect Your Brand\u2014Trademark Basics for Entrepreneurs",
       "type": "talks",
       "venue": "SF Public Library",
@@ -1825,7 +1779,7 @@
       "kid_friendly": false
     },
     {
-      "id": "sfpl-969918499899423173",
+      "id": "sfpl-1628035973649140358",
       "title": "Social: Genealogy Club",
       "type": "talks",
       "venue": "SF Public Library",
@@ -1855,7 +1809,7 @@
       "kid_friendly": false
     },
     {
-      "id": "kqed-7544303120528323509",
+      "id": "kqed-4274280659904339672",
       "title": "Which Side?: A Protest Music Teach-Out with Diana Gameros, The Sam Chase, and Marcus Shelby Co-Presented by Litquake",
       "type": "talks",
       "venue": "The Commons at KQED",
@@ -1870,7 +1824,7 @@
       "kid_friendly": false
     },
     {
-      "id": "sfpl-5518376271437184406",
+      "id": "sfpl-6466626138876644120",
       "title": "Book Club: Gina Mar\u00eda Balibrera\u2019s The Volcano Daughters",
       "type": "talks",
       "venue": "SF Public Library",
@@ -1949,7 +1903,7 @@
       "kid_friendly": false
     },
     {
-      "id": "sfpl-9047575949106476035",
+      "id": "sfpl-8783688458451404958",
       "title": "Workshop: San Francisco Genealogy Group",
       "type": "talks",
       "venue": "SF Public Library",
@@ -1964,7 +1918,7 @@
       "kid_friendly": false
     },
     {
-      "id": "sfpl-2052033356266000390",
+      "id": "sfpl-5261355586409610793",
       "title": "Workshop: Test Taking Strategies with Study Smart Tutors",
       "type": "talks",
       "venue": "SF Public Library",
@@ -1979,7 +1933,7 @@
       "kid_friendly": false
     },
     {
-      "id": "sfpl-8527770124806053952",
+      "id": "sfpl-3037605869567734243",
       "title": "Workshop: Student Support Session with Study Smart Tutors",
       "type": "talks",
       "venue": "SF Public Library",
@@ -1994,7 +1948,7 @@
       "kid_friendly": false
     },
     {
-      "id": "sfpl-205312341951404453",
+      "id": "sfpl-8584787905758277388",
       "title": "Presentation: Glorious Civilizations\u2014An Exploration of Southeast Asia",
       "type": "talks",
       "venue": "SF Public Library",
@@ -2054,6 +2008,21 @@
       "image": "https://s1.ticketm.net/dam/a/a70/25cf3e53-5ca8-4af6-9e39-31b7333cfa70_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
       "is_free": false,
+      "kid_friendly": false
+    },
+    {
+      "id": "sfpl-2743149430730816123",
+      "title": "Tutorial: Meet One-on-One with a CERTIFIED FINANCIAL PLANNER\u2122",
+      "type": "talks",
+      "venue": "SF Public Library",
+      "city": "SF",
+      "date": "Thu Oct 15",
+      "date_raw": "2026-10-15T09:00:00-07:00",
+      "time": "9:00 AM",
+      "description": "",
+      "url": "https://sfpl.org/events/2026/10/15/tutorial-meet-one-one-certified-financial-plannertm",
+      "source": "SFPL",
+      "is_free": true,
       "kid_friendly": false
     },
     {
@@ -5498,6 +5467,22 @@
       "kid_friendly": false
     },
     {
+      "id": "tm-rZ7HnEZ1Afu4r7",
+      "title": "2026 82MAJOR [82CLUB : out of control] TOUR in San Francisco",
+      "type": "music",
+      "venue": "Great American Music Hall",
+      "city": "SF",
+      "date": "Thu Dec 17",
+      "date_raw": "2026-12-18T03:00:00Z",
+      "time": "7:00 PM",
+      "description": "",
+      "url": "https://www.ticketweb.com/event/2026-82major-82club-out-great-american-music-hall-tickets/14355784",
+      "image": "https://i.ticketweb.com/i/00/13/07/02/64_Edp.jpg?v=2",
+      "source": "Ticketmaster",
+      "is_free": false,
+      "kid_friendly": false
+    },
+    {
       "id": "tm-Z7r9jZ1AAZO3_",
       "title": "The Outsiders (Touring)",
       "type": "theater",
@@ -6148,7 +6133,7 @@
       "time": "",
       "description": "",
       "url": "https://www.ticketmaster.com/the-california-honeydrops-three-3-show-san-francisco-california-01-28-2027/event/1C0064E1F2585AB8",
-      "image": "https://s1.ticketm.net/dam/a/467/6e8e220c-bcf7-427b-b79e-5bef3fc40467_RETINA_PORTRAIT_16_9.jpg",
+      "image": "https://s1.ticketm.net/dam/a/fc5/542a30a6-b423-4f35-9786-38e8703d6fc5_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
       "is_free": false,
       "kid_friendly": false
@@ -6394,6 +6379,22 @@
       "kid_friendly": false
     },
     {
+      "id": "tm-G5vYZ_KQJpCQr",
+      "title": "Grateful Shred 2-Day Ticket",
+      "type": "music",
+      "venue": "The Fillmore",
+      "city": "SF",
+      "date": "Fri Apr 2",
+      "date_raw": "2027-04-02",
+      "time": "",
+      "description": "",
+      "url": "https://www.ticketmaster.com/grateful-shred-2day-ticket-san-francisco-california-04-02-2027/event/1C006536A658E69E",
+      "image": "https://s1.ticketm.net/dam/a/0f3/b59a211c-3d5e-4817-9313-c32bedb790f3_RETINA_PORTRAIT_16_9.jpg",
+      "source": "Ticketmaster",
+      "is_free": false,
+      "kid_friendly": false
+    },
+    {
       "id": "tm-G5vYZ_82GUJke",
       "title": "The Mary Wallopers",
       "type": "music",
@@ -6553,7 +6554,23 @@
       "kid_friendly": false
     },
     {
-      "id": "gpc-3274677290954488606",
+      "id": "tm-G5vYZ_Kir6nxO",
+      "title": "The Red Clay Strays",
+      "type": "music",
+      "venue": "Greek Theatre",
+      "city": "Oakland",
+      "date": "Thu Aug 12",
+      "date_raw": "2027-08-13T02:00:00Z",
+      "time": "7:00 PM",
+      "description": "",
+      "url": "https://www.ticketmaster.com/the-red-clay-strays-berkeley-california-08-12-2027/event/1C00653B1E1EA8A0",
+      "image": "https://s1.ticketm.net/dam/a/ab5/9914ca2d-3115-427b-9cde-424a66230ab5_RETINA_PORTRAIT_16_9.jpg",
+      "source": "Ticketmaster",
+      "is_free": false,
+      "kid_friendly": false
+    },
+    {
+      "id": "gpc-4608689407790469612",
       "title": "Today",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -6568,7 +6585,7 @@
       "kid_friendly": false
     },
     {
-      "id": "gpc-4877708530337331341",
+      "id": "gpc-7276373061937645791",
       "title": "5/TM/40",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -6583,7 +6600,7 @@
       "kid_friendly": false
     },
     {
-      "id": "gpc-1661361681717742466",
+      "id": "gpc-1886809795120200586",
       "title": "3/T/60",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -6598,7 +6615,7 @@
       "kid_friendly": false
     },
     {
-      "id": "gpc-6159666440179368005",
+      "id": "gpc-54577439895187490",
       "title": "3/TM/26.6",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -6613,7 +6630,7 @@
       "kid_friendly": false
     },
     {
-      "id": "gpc-8918453333716694557",
+      "id": "gpc-5376146776230697510",
       "title": "5/0/17",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -6628,7 +6645,7 @@
       "kid_friendly": false
     },
     {
-      "id": "gpc-8545528752532644499",
+      "id": "gpc-4914709838568081350",
       "title": "1/T/34",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -6643,7 +6660,7 @@
       "kid_friendly": false
     },
     {
-      "id": "gpc-2342064068773194788",
+      "id": "gpc-2402161258301002067",
       "title": "2/LT/35",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -6658,7 +6675,7 @@
       "kid_friendly": false
     },
     {
-      "id": "gpc-6349565239501482978",
+      "id": "gpc-6089006289270626064",
       "title": "3!/TM/16",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -6673,7 +6690,7 @@
       "kid_friendly": false
     },
     {
-      "id": "gpc-7192680860718975493",
+      "id": "gpc-7461446142350840349",
       "title": "5/B/32",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -6688,7 +6705,7 @@
       "kid_friendly": false
     },
     {
-      "id": "gpc-3192356447940676929",
+      "id": "gpc-3337791563316093860",
       "title": "2/L/35 to 4/T/50",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -6703,7 +6720,7 @@
       "kid_friendly": false
     },
     {
-      "id": "gpc-6931110267628198068",
+      "id": "gpc-7692059755814687029",
       "title": "3/TM,M/60-80",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -6718,7 +6735,7 @@
       "kid_friendly": false
     },
     {
-      "id": "gpc-7121724343039770613",
+      "id": "gpc-224014222488196023",
       "title": "5/0/17",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -6733,7 +6750,7 @@
       "kid_friendly": false
     },
     {
-      "id": "gpc-5496884903865298568",
+      "id": "gpc-5485684410771942498",
       "title": "5/TM/42.4",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -6748,7 +6765,7 @@
       "kid_friendly": false
     },
     {
-      "id": "gpc-6442277066935257294",
+      "id": "gpc-7056765832419811312",
       "title": "4/TM/67",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -6763,7 +6780,7 @@
       "kid_friendly": false
     },
     {
-      "id": "gpc-4001313033627957085",
+      "id": "gpc-173175536251129713",
       "title": "3!/TM/16",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -6778,7 +6795,7 @@
       "kid_friendly": false
     },
     {
-      "id": "gpc-1372646999303345947",
+      "id": "gpc-6995769337782751013",
       "title": "2/L/35 to 4/T/50",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -6793,7 +6810,7 @@
       "kid_friendly": false
     },
     {
-      "id": "gpc-4048732472429960605",
+      "id": "gpc-583087676570371045",
       "title": "3/T/21",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -6808,7 +6825,7 @@
       "kid_friendly": false
     },
     {
-      "id": "gpc-4364006082615774001",
+      "id": "gpc-11164947467801715",
       "title": "Meeting",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -6823,7 +6840,7 @@
       "kid_friendly": false
     },
     {
-      "id": "gpc-5535135069033077195",
+      "id": "gpc-5560236328299264351",
       "title": "3/TM,M/60-80",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -6838,7 +6855,7 @@
       "kid_friendly": false
     },
     {
-      "id": "gpc-1482757068752862362",
+      "id": "gpc-1909502430277166560",
       "title": "5/0/17",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
