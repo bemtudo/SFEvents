@@ -188,6 +188,9 @@ const STYLES = `
 
   .search-wrap { position: relative; }
 
+  /* Phone-only collapsed filter bar (family mode) */
+  .filters-toggle { display: none; }
+
   .search-icon {
     position: absolute;
     left: 11px;
@@ -661,6 +664,35 @@ const STYLES = `
     .card-right { display: none; }
     .spot-tags .tag { display: none; }
     .birth-wrap { width: 100%; justify-content: space-between; padding-top: 4px; }
+
+    .filters-toggle {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      width: 100%;
+      padding: 9px 12px;
+      margin-bottom: 12px;
+      background: #252525;
+      border: 1px solid #373737;
+      border-radius: 6px;
+      color: #b0b0ae;
+      font-family: inherit;
+      font-size: 13px;
+      cursor: pointer;
+      text-align: left;
+    }
+    .filters-toggle.open { border-color: #4a4a48; }
+    .filters-toggle-label { font-weight: 600; color: #e6e6e5; flex-shrink: 0; }
+    .filters-summary { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: #787774; }
+    .filters-chev { color: #5c5c5a; flex-shrink: 0; }
+
+    .controls.collapsible:not(.open) { display: none; }
+
+    .header { padding: 12px 0 20px; }
+    .app.family .sub { font-size: 12px; }
+    .fam-row { padding: 10px 4px; gap: 10px; }
+    .fam-day-hdr { padding-left: 4px; }
+    a.session { padding: 6px 10px; }
   }
 
   @media (prefers-reduced-motion: reduce) {
@@ -839,6 +871,7 @@ export default function App() {
   const [birth, setBirth]         = usePref("sfe-birth", "");
   const [kind, setKind]           = useState("all");
   const [freeOnly, setFreeOnly]   = useState(false);
+  const [filtersOpen, setFiltersOpen] = useState(false);
   const setFamily = f => { setFamilyPref(typeof f === "function" ? f(familyMode) : f); setCity("all"); };
   const autoStage = stageFromBirth(birth);
   const stage     = autoStage || ageSel;
@@ -966,7 +999,29 @@ export default function App() {
 
           {error && <div className="error" style={{ whiteSpace: "pre-line" }}>{error}</div>}
 
-          <div className="controls">
+          {familyMode && (
+            <button
+              className={"filters-toggle" + (filtersOpen ? " open" : "")}
+              onClick={() => setFiltersOpen(o => !o)}
+              aria-expanded={filtersOpen}
+              aria-controls="controls"
+            >
+              <span className="filters-toggle-label">Filters</span>
+              <span className="filters-summary">
+                {[
+                  AGE_STAGES.find(a => a.val === stage)?.label,
+                  city === "all" ? "All areas" : city,
+                  kind !== "all" && KIND_LABEL[kind],
+                  freeOnly && "Free",
+                  dateRange !== "any" && DATE_RANGES.find(d => d.val === dateRange)?.label,
+                  search && `“${search}”`,
+                ].filter(Boolean).join(" · ")}
+              </span>
+              <span className="filters-chev" aria-hidden="true">{filtersOpen ? "▴" : "▾"}</span>
+            </button>
+          )}
+
+          <div id="controls" className={"controls" + (familyMode ? " collapsible" : "") + (filtersOpen ? " open" : "")}>
             <div className="search-wrap">
               <span className="search-icon"><SearchIcon/></span>
               <input

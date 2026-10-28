@@ -784,7 +784,7 @@ def fetch_bibliocommons_kids(slug, city, source, audience_ids, max_pages=6):
             loc    = re.search(r"<bc:location>.*?<bc:name>(.*?)</bc:name>(?:.*?<bc:city>(.*?)</bc:city>)?", it, re.S)
             venue  = loc.group(1) if loc else source
             ev_city = city
-            if city == "Peninsula" and loc and loc.group(2):
+            if city == "Peninsula" and loc and loc.group(2) and loc.group(2).lower() not in venue.lower():
                 venue = f"{venue}, {loc.group(2)}"
             if NOT_AN_EVENT.search(title):
                 continue
