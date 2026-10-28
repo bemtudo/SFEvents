@@ -591,6 +591,250 @@ def fetch_funcheap_kids():
     return events
 
 
+# ── Little ones (0-5) ─────────────────────────────────────────────────────────
+# Each event gets "ages" (baby / toddler / preschool / kids) and "kind"
+# (storytime / music / movement / play / outdoors / swim) so the family view can
+# filter by stage and activity.
+
+AGE_RULES = [
+    ("baby",      r"\bbab(y|ies)\b|\binfants?\b|\blap ?sit|\bbounce\b|\bnewborns?\b|\bpre-walkers?\b"
+                  r"|\bbirth to (12|18|24) months|\b0 ?(-|to) ?(12|18|24) ?months|\b0 ?(-|to) ?[23]\b"),
+    ("toddler",   r"\btoddlers?\b|\b18 months\b|\b1 ?(-|to) ?3\b|\bages? [12]\b|\bwalkers\b"),
+    ("preschool", r"\bpre-?school|\bpre-?k\b|\b3 ?(-|to) ?5\b|\bages? [34]\b|\b0 ?(-|to) ?5\b|\bbirth to 5\b|\bearly childhood\b"),
+    ("kids",      r"\bkids\b|\bchildren\b|\belementary\b|\bschool[- ]age|\bgrade school|\bages? [5-9]\b"),
+]
+ALL_LITTLE = ["baby", "toddler", "preschool", "kids"]
+
+KIND_RULES = [
+    ("swim",      ["swim", "pool", "aquatic", "water babies"]),
+    ("music",     ["music", "sing", "song", "rhyme", "drum", "concert", "lullab"]),
+    ("movement",  ["yoga", "dance", "movement", "aerobic", "fitness", "stroller strides", "wiggle", "bounce", "gym"]),
+    ("outdoors",  ["walk", "hike", "nature", "garden", "park", "outdoor", "beach", "farm"]),
+    ("play",      ["play", "playgroup", "toys", "cafe", "lego", "sensory", "build"]),
+    ("storytime", ["storytime", "story time", "stories", "story", "books", "read"]),
+]
+
+def classify_ages(text, default=None):
+    t = text.lower()
+    ages = [age for age, pat in AGE_RULES if re.search(pat, t)]
+    if not ages and re.search(r"\bfamil(y|ies)\b|\ball ages\b", t):
+        ages = list(ALL_LITTLE)
+    return ages or list(default or [])
+
+def classify_kind(title, desc=""):
+    # The title decides first: a storytime that mentions songs is still a storytime.
+    for text in (title, desc):
+        t = text.lower()
+        for kind, kws in KIND_RULES:
+            if any(re.search(r"\b" + re.escape(k), t) for k in kws):
+                return kind
+    return "other"
+
+def little_event(*, id, title, venue, city, dt, url, source, desc="", ages=None, image=""):
+    text = f"{title} {desc}"
+    return {
+        "id":           id,
+        "title":        title,
+        "type":         "family",
+        "venue":        venue,
+        "city":         city,
+        "date":         dt.strftime("%a %b %-d"),
+        "date_raw":     dt.isoformat(),
+        "time":         dt.strftime("%-I:%M %p"),
+        "description":  desc[:220],
+        "url":          url,
+        "image":        image,
+        "source":       source,
+        "is_free":      True,
+        "kid_friendly": True,
+        "ages":         ages if ages is not None else classify_ages(text, ALL_LITTLE),
+        "kind":         classify_kind(title, desc),
+    }
+
+NOT_AN_EVENT = re.compile(r"late opening|clos(ed|ure|ing)|free meals|comida|tutoring|homework help|cancel+ed", re.I)
+
+# Library audience tags → our stages, used when the title/description says nothing.
+AUDIENCE_TAGS = [
+    ("babies", ["baby"]), ("toddlers", ["toddler"]), ("birth to 5", ["toddler", "preschool"]),
+    ("preschoolers", ["preschool"]), ("early childhood", ["toddler", "preschool"]),
+]
+
+def ages_from_tags(tags):
+    t = tags.lower()
+    out = []
+    for tag, ages in AUDIENCE_TAGS:
+        if tag in t:
+            out += [a for a in ages if a not in out]
+    return out
+
+def strip_html(s):
+    import html as _html
+    return re.sub(r"\s+", " ", _html.unescape(re.sub(r"<[^>]+>", " ", s or ""))).strip()
+
+def _get(url, timeout=20):
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+    with urllib.request.urlopen(req, timeout=timeout) as r:
+        return r.read().decode("utf-8", errors="replace")
+
+
+def fetch_sfpl_kids(max_pages=12):
+    """SF Public Library kids' calendar (storytimes, play, music) — free."""
+    now     = datetime.now(PACIFIC)
+    horizon = now + timedelta(days=14)
+    events, seen = [], set()
+    art_pat = re.compile(r'<article about="(/events/[^"]+)"[^>]*class="event[^"]*teaser">(.*?)</article>', re.S)
+    for page in range(max_pages):
+        try:
+            html = _get(f"https://sfpl.org/kids/events?items_per_page=50&page={page}")
+        except Exception as e:
+            print(f"  SFPL Kids error: {e}"); break
+        arts = art_pat.findall(html)
+        if not arts:
+            break
+        past_horizon = False
+        for path, body in arts:
+            m_dt  = re.search(r'date-display-range">\w+, (\d+/\d+/\d{4}), (\d+):(\d+)', body)
+            m_tit = re.search(r'class="event__title">\s*<a[^>]*><span>(.*?)</span>', body, re.S)
+            if not m_dt or not m_tit:
+                continue
+            hour = int(m_dt.group(2))
+            if 1 <= hour <= 7:      # listing shows 12h times without am/pm
+                hour += 12
+            try:
+                dt = datetime.strptime(m_dt.group(1), "%m/%d/%Y").replace(
+                    hour=hour, minute=int(m_dt.group(3)), tzinfo=PACIFIC)
+            except ValueError:
+                continue
+            if dt > horizon:
+                past_horizon = True
+                continue
+            if dt < now or path in seen:
+                continue
+            seen.add(path)
+            title    = strip_html(m_tit.group(1))
+            audience = " ".join(strip_html(a) for a in re.findall(r'field-event-audience.*?</div>\s*</div>', body, re.S))
+            topics   = " ".join(re.findall(r'field_event_topic_target_id=\d+" hreflang="en">([^<]+)<', body))
+            branch   = re.search(r'location--short-label".*?field__item">([^<]+)<', body, re.S)
+            branch   = branch.group(1).strip() if branch else "Library"
+            if "babies, toddlers or preschoolers" in audience.lower():
+                ages = classify_ages(f"{title} {topics}", ["baby", "toddler", "preschool"])
+            else:
+                ages = classify_ages(f"{title} {topics} {audience}")
+            if not ages:
+                continue
+            ev = little_event(
+                id=f"sfpl-kids-{path.rsplit('/', 1)[-1]}-{dt:%m%d%H%M}",
+                title=title, venue=f"SFPL {branch}", city="SF", dt=dt,
+                url="https://sfpl.org" + path, source="SFPL", desc=topics, ages=ages)
+            ev["description"] = ""
+            events.append(ev)
+        if past_horizon:
+            break
+    return events
+
+
+BIBLIO_LIBRARIES = [
+    # (library slug, city label, source label, audience ids for 0-5 / families)
+    ("oaklandlibrary", "Oakland",   "Oakland Library", [
+        "60b6b382db93b64200b4749d",   # Babies
+        "60b6b3673fb00b370086120f",   # Birth to 5
+        "60b6b397bf42783000f0fb2b",   # Toddlers
+        "60b6b39e39528429008b3ae7",   # Preschoolers
+    ]),
+    ("smcl", "Peninsula", "San Mateo County Libraries", [
+        "564274cf4d0090f742000011",   # Preschoolers (0-5)
+    ]),
+]
+
+def fetch_bibliocommons_kids(slug, city, source, audience_ids, max_pages=6):
+    """BiblioCommons RSS (Oakland PL, San Mateo County Libraries) filtered to young kids."""
+    now     = datetime.now(PACIFIC)
+    horizon = now + timedelta(days=14)
+    base = (f"https://gateway.bibliocommons.com/v2/libraries/{slug}/rss/events"
+            f"?audiences={','.join(audience_ids)}"
+            f"&startDate={now:%Y-%m-%d}&endDate={horizon:%Y-%m-%d}")
+    events, seen = [], set()
+    for page in range(1, max_pages + 1):
+        try:
+            xml = _get(f"{base}&page={page}")
+        except Exception as e:
+            print(f"  {source} error: {e}"); break
+        items = re.findall(r"<item>(.*?)</item>", xml, re.S)
+        if not items:
+            break
+        new = 0
+        for it in items:
+            def tag(name):
+                m = re.search(rf"<{name}>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?</{name}>", it, re.S)
+                return m.group(1).strip() if m else ""
+            link = tag("link")
+            start = tag("bc:start_date")
+            if not link or (link, start) in seen or tag("bc:is_cancelled") == "true":
+                continue
+            seen.add((link, start)); new += 1
+            try:
+                dt = datetime.fromisoformat(start.replace("Z", "+00:00")).astimezone(PACIFIC)
+            except ValueError:
+                continue
+            if dt < now or dt > horizon:
+                continue
+            title  = strip_html(tag("title"))
+            desc   = strip_html(tag("description"))
+            cats   = " ".join(re.findall(r"<category><!\[CDATA\[(.*?)\]\]></category>", it))
+            loc    = re.search(r"<bc:location>.*?<bc:name>(.*?)</bc:name>(?:.*?<bc:city>(.*?)</bc:city>)?", it, re.S)
+            venue  = loc.group(1) if loc else source
+            ev_city = city
+            if city == "Peninsula" and loc and loc.group(2):
+                venue = f"{venue}, {loc.group(2)}"
+            if NOT_AN_EVENT.search(title):
+                continue
+            ages = classify_ages(f"{title} {desc[:300]}", ages_from_tags(cats) or ["preschool"])
+            image = re.search(r'<enclosure url="([^"]+)"', it)
+            events.append(little_event(
+                id=f"{slug}-{link.rsplit('/', 1)[-1]}-{dt:%m%d%H%M}",
+                title=title, venue=venue, city=ev_city, dt=dt, url=link,
+                source=source, desc=desc, ages=ages))
+        if new == 0:
+            break
+    return events
+
+
+def fetch_berkeley_library_kids():
+    """Berkeley Public Library (Communico) — Early Childhood events."""
+    now = datetime.now(PACIFIC)
+    req = {"private": False, "date": f"{now:%Y-%m-%d}", "days": 14,
+           "locations": [], "ages": [], "types": []}
+    url = ("https://berkeleypubliclibrary.libnet.info/eeventcaldata?event_type=0&req="
+           + urllib.parse.quote(json.dumps(req, separators=(",", ":"))))
+    try:
+        data = json.loads(_get(url))
+    except Exception as e:
+        print(f"  Berkeley Library error: {e}"); return []
+    events = []
+    for raw in data:
+        age_txt = (raw.get("ages") or "").lower()
+        title   = (raw.get("title") or "").strip()
+        if "early childhood" not in age_txt and not re.search(r"\b(baby|babies|toddler|storytime)\b", title.lower()):
+            continue
+        try:
+            dt = datetime.strptime(raw["raw_start_time"], "%Y-%m-%d %H:%M:%S").replace(tzinfo=PACIFIC)
+        except Exception:
+            continue
+        if dt < now or raw.get("changed_datestring") == "Cancelled":
+            continue
+        title = re.sub(r"\s*@.*$", "", title)      # "Baby Bounce @West" → "Baby Bounce"
+        if NOT_AN_EVENT.search(title):
+            continue
+        desc  = strip_html(raw.get("description") or "")
+        events.append(little_event(
+            id=f"bpl-{raw.get('id')}", title=title,
+            venue=raw.get("location") or "Berkeley Public Library", city="Berkeley", dt=dt,
+            url=f"https://berkeleypubliclibrary.libnet.info/event/{raw.get('id')}",
+            source="Berkeley Library", desc=desc,
+            ages=classify_ages(f"{title} {desc}", ages_from_tags(age_txt) or ["toddler", "preschool"])))
+    return events
+
+
 def fetch_faight():
     if not EVENTBRITE_TOKEN:
         print("  Skipping The Faight (no Eventbrite token)"); return []
@@ -692,17 +936,35 @@ def main():
     all_events += fk
     print(f"  {len(fk)} events")
 
-    # Tag kid_friendly on all events via keyword detection
-    KID_KEYWORDS = [
-        "all ages", "family", "families", "kids", "children", "youth",
-        "baby", "babies", "toddler", "storytime", "story time",
-        "playgroup", "playground", "parent", "stroller",
-    ]
+    print("Fetching SFPL Kids...")
+    sk = fetch_sfpl_kids()
+    all_events += sk
+    print(f"  {len(sk)} events")
+
+    for slug, city, source, audiences in BIBLIO_LIBRARIES:
+        print(f"Fetching {source}...")
+        bc = fetch_bibliocommons_kids(slug, city, source, audiences)
+        all_events += bc
+        print(f"  {len(bc)} events")
+
+    print("Fetching Berkeley Library...")
+    bk = fetch_berkeley_library_kids()
+    all_events += bk
+    print(f"  {len(bk)} events")
+
+    # Tag kid_friendly on the general (music, theater…) events. Strict on purpose:
+    # "Baby Smoove" or "No children under 5" must not land in the family view.
+    KID_PAT = re.compile(r"\b(family|families|kids|all ages|toddlers?|storytime|story time|children's|sing-?along)\b")
+    NOT_KID = re.compile(r"\b(no children|ages? 1[2-9]\+|1[89]\+|21\+|adults? only|must be 21)\b|\bages 1[2-9]")
     for ev in all_events:
         if ev.get("kid_friendly"):
+            ev.setdefault("ages", list(ALL_LITTLE))
             continue
         text = f"{ev.get('title','')} {ev.get('description','')}".lower()
-        ev["kid_friendly"] = any(kw in text for kw in KID_KEYWORDS)
+        ev["kid_friendly"] = bool(KID_PAT.search(text)) and not NOT_KID.search(text)
+        if ev["kid_friendly"]:
+            ev["ages"] = classify_ages(text, ALL_LITTLE)
+            ev["kind"] = classify_kind(ev.get("title", ""), ev.get("description", ""))
 
     all_events.sort(key=lambda e: e.get("date_raw") or "9999")
     output = {"updated_at": now.isoformat(), "count": len(all_events), "events": all_events}

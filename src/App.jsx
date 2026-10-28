@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { SPOTS, GROUPS, REGIONS } from "./littleOnes";
 
 const EVENTS_JSON_URL = "/events.json";
 
@@ -505,7 +506,40 @@ const STYLES = `
     margin-left: 8px;
   }
 
-  .resource-left { display: flex; align-items: center; gap: 0; }
+  .resource-left { display: flex; align-items: center; gap: 0; min-width: 0; }
+
+  a.resource-link { gap: 12px; }
+
+  .spot-tags {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    flex-shrink: 0;
+  }
+
+  /* ── Birth month (family mode, stored on-device only) ── */
+  .birth-wrap {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    color: #5c5c5a;
+    cursor: pointer;
+  }
+
+  .birth-input {
+    padding: 3px 6px;
+    background: #252525;
+    border: 1px solid #373737;
+    border-radius: 4px;
+    color: #b0b0ae;
+    font-family: inherit;
+    font-size: 12px;
+    color-scheme: dark;
+    outline: none;
+  }
+
+  .birth-input:focus { border-color: #5c5c5a; }
 
   /* ── Skeleton ── */
   .skeleton-list { display: flex; flex-direction: column; gap: 2px; }
@@ -559,6 +593,8 @@ const STYLES = `
     .content { padding: 32px 16px 60px; }
     .header { padding: 20px 0 28px; }
     .card-right { display: none; }
+    .spot-tags .tag { display: none; }
+    .birth-wrap { width: 100%; justify-content: space-between; padding-top: 4px; }
   }
 
   @media (prefers-reduced-motion: reduce) {
@@ -566,41 +602,6 @@ const STYLES = `
     a.card, .family-toggle, .toggle-switch, .toggle-knob { transition: none; }
   }
 `;
-
-const RESOURCES = [
-  {
-    group: "Potrero Hill & Bernal Heights",
-    links: [
-      { label: "SF Parent Groups — Potrero & Bernal", desc: "Directory of local parent groups and stroller walks", url: "https://sfparentgroups.com/" },
-      { label: "Bernal Heights Parents Club", desc: "Neighborhood email list, 3000+ members", url: "https://groups.io/g/bernalheightsparents" },
-      { label: "Mission Parents", desc: "Email list for Mission parents", url: "https://groups.io/g/missionparents/" },
-    ],
-  },
-  {
-    group: "Stroller Walks & Outdoor Groups",
-    links: [
-      { label: "SF Parents Outside", desc: "Hikes, beach, picnics with kids", url: "https://www.facebook.com/groups/447304308758958/" },
-      { label: "Union Street Stroller Derby", desc: "Regular stroller walk group", url: "https://www.facebook.com/groups/160702841218345/" },
-      { label: "Noe Valley Mamas Walking Group", desc: "Walks, coffee, playdates", url: "https://www.facebook.com/groups/1491942217561361/" },
-    ],
-  },
-  {
-    group: "New Parent Support",
-    links: [
-      { label: "Recess Collective", desc: "New parent groups, first Saturdays", url: "https://recesscollective.org/" },
-      { label: "Mom Squad SF", desc: "In-person meetups + online community", url: "https://www.momsquadsf.com/" },
-      { label: "SF Dads Group", desc: "Meetup group for Bay Area dads", url: "https://www.meetup.com/SanFranciscoDadsGroup/" },
-      { label: "Golden Gate Mothers Group", desc: "Large SF moms community, 5000+ members", url: "https://www.ggmg.org/" },
-    ],
-  },
-  {
-    group: "Neighbourhood Groups",
-    links: [
-      { label: "SF Parent Groups", desc: "Directory of all SF neighbourhood parent lists", url: "https://sfparentgroups.com/" },
-      { label: "SFPL Kids Events", desc: "Free library events for children & families", url: "https://sfpl.org/kids/events" },
-    ],
-  },
-];
 
 function SkeletonCard() {
   return (
@@ -614,6 +615,56 @@ function SkeletonCard() {
     </div>
   );
 }
+
+// ── Family mode ──
+// The age stage is a per-device preference (localStorage only) — nothing about
+// who is using the site is ever written into the page, the data, or the URL.
+const AGE_STAGES = [
+  { val: "all",       label: "All ages"  },
+  { val: "baby",      label: "0–12 mo"   },
+  { val: "toddler",   label: "1–2 yrs"   },
+  { val: "preschool", label: "3–4 yrs"   },
+  { val: "kids",      label: "5+"        },
+];
+
+const KINDS = [
+  { val: "all",       label: "Anything"  },
+  { val: "storytime", label: "Storytime" },
+  { val: "music",     label: "Music"     },
+  { val: "movement",  label: "Movement"  },
+  { val: "play",      label: "Play"      },
+  { val: "outdoors",  label: "Outdoors"  },
+  { val: "swim",      label: "Swim"      },
+];
+const KIND_LABEL = Object.fromEntries(KINDS.map(k => [k.val, k.label]));
+
+// Event city → region; order = display priority.
+const CITY_REGION = { SF: "SF", Berkeley: "East Bay", Oakland: "East Bay", Peninsula: "Peninsula" };
+const REGION_RANK = { SF: 0, Berkeley: 1, Oakland: 2, Peninsula: 3 };
+
+const stageFromBirth = ym => {
+  const [y, m] = (ym || "").split("-").map(Number);
+  if (!y || !m) return null;
+  const now = new Date();
+  const months = (now.getFullYear() - y) * 12 + (now.getMonth() + 1 - m);
+  if (months < 0)  return null;
+  if (months < 12) return "baby";
+  if (months < 36) return "toddler";
+  if (months < 60) return "preschool";
+  return "kids";
+};
+
+const usePref = (key, initial) => {
+  const [val, setVal] = useState(() => {
+    try { const v = localStorage.getItem(key); return v === null ? initial : JSON.parse(v); }
+    catch { return initial; }
+  });
+  const set = v => {
+    setVal(v);
+    try { localStorage.setItem(key, JSON.stringify(v)); } catch { /* private mode */ }
+  };
+  return [val, set];
+};
 
 const TYPES = [
   { val: "all",     label: "All"     },
@@ -651,7 +702,14 @@ export default function App() {
   const [venue, setVenue]         = useState("all");
   const [dateRange, setDateRange] = useState("any");
   const [search, setSearch]       = useState("");
-  const [familyMode, setFamily]   = useState(false);
+  const [familyMode, setFamilyPref] = usePref("sfe-family", false);
+  const [ageSel, setAgeSel]       = usePref("sfe-age", "all");
+  const [birth, setBirth]         = usePref("sfe-birth", "");
+  const [kind, setKind]           = useState("all");
+  const [freeOnly, setFreeOnly]   = useState(false);
+  const setFamily = f => { setFamilyPref(typeof f === "function" ? f(familyMode) : f); setCity("all"); };
+  const autoStage = stageFromBirth(birth);
+  const stage     = autoStage || ageSel;
 
   const load = async () => {
     setLoading(true); setError("");
@@ -671,9 +729,13 @@ export default function App() {
   const clearAll = () => {
     setCity("all"); setType("all"); setVenue("all");
     setDateRange("any"); setSearch("");
+    setKind("all"); setFreeOnly(false);
   };
 
-  const isFiltered = city !== "all" || type !== "all" || venue !== "all" || dateRange !== "any" || search !== "";
+  const isFiltered = city !== "all" || type !== "all" || venue !== "all" || dateRange !== "any" || search !== ""
+    || (familyMode && (kind !== "all" || freeOnly));
+  const cityOptions = familyMode ? ["all", ...REGIONS.filter(r => r !== "North Bay")] : ["all", "SF", "Oakland"];
+  const inCity = c => city === "all" || (familyMode ? (CITY_REGION[c] || c) === city : c === city);
 
   const fmt = iso => {
     try {
@@ -692,9 +754,13 @@ export default function App() {
     const t = e.date_raw ? new Date(e.date_raw).getTime() : NaN;
     if (!isNaN(t) && t < now) return false;
     if (!isNaN(t) && t > twoWeeksOut) return false;
-    if (familyMode && !e.kid_friendly) return false;
-    if (city !== "all" && e.city !== city) return false;
-    if (type !== "all" && e.type !== type) return false;
+    if (familyMode) {
+      if (!e.kid_friendly) return false;
+      if (stage !== "all" && e.ages && !e.ages.includes(stage)) return false;
+      if (kind !== "all" && e.kind !== kind) return false;
+      if (freeOnly && !e.is_free) return false;
+    } else if (type !== "all" ? e.type !== type : e.type === "family") return false;
+    if (!inCity(e.city)) return false;
     if (venue !== "all" && e.venue !== venue) return false;
     if (dateRange !== "any" && !isNaN(t)) {
       const today = new Date(); today.setHours(0, 0, 0, 0);
@@ -719,6 +785,21 @@ export default function App() {
     return true;
   });
 
+  // Family view: same day sorts SF first, then Berkeley, Oakland, Peninsula.
+  if (familyMode) {
+    const day = e => (e.date_raw || "").slice(0, 10);
+    filtered.sort((a, b) =>
+      day(a).localeCompare(day(b))
+      || (REGION_RANK[a.city] ?? 9) - (REGION_RANK[b.city] ?? 9)
+      || (a.date_raw || "").localeCompare(b.date_raw || ""));
+  }
+
+  const spots = SPOTS.filter(s =>
+    (stage === "all" || s.ages.includes(stage)) &&
+    (kind === "all" || s.kind === kind) &&
+    (!freeOnly || s.cost === "Free") &&
+    (city === "all" || s.region === city));
+
   return (
     <>
       <style>{STYLES}</style>
@@ -732,7 +813,7 @@ export default function App() {
                 <h1>SF + Oakland Events</h1>
                 <div className="sub">
                   {familyMode
-                    ? "Kid-friendly events and family resources"
+                    ? "Storytimes, music, play and outings for little ones — mostly free"
                     : "Music, rides, theater, film and talks — updated every 6 hours"}
                 </div>
                 {updatedAt && <div className="updated">{fmt(updatedAt)}</div>}
@@ -758,7 +839,7 @@ export default function App() {
               <span className="search-icon"><SearchIcon/></span>
               <input
                 className="search"
-                placeholder="Search events, artists, venues..."
+                placeholder={familyMode ? "Search storytimes, libraries, places..." : "Search events, artists, venues..."}
                 value={search}
                 onChange={e => setSearch(e.target.value)}
                 aria-label="Search events"
@@ -766,8 +847,8 @@ export default function App() {
             </div>
 
             <div className="filter-row" role="toolbar" aria-label="City and type filters">
-              <span className="filter-label">City</span>
-              {["all", "SF", "Oakland"].map(c => (
+              <span className="filter-label">{familyMode ? "Where" : "City"}</span>
+              {cityOptions.map(c => (
                 <button
                   key={c}
                   className={"filter-btn" + (city === c ? " on" : "")}
@@ -777,23 +858,76 @@ export default function App() {
                   {c === "all" ? "All" : c}
                 </button>
               ))}
-              <div className="filter-sep" aria-hidden="true"/>
-              <span className="filter-label">Type</span>
-              {TYPES.map(({ val, label }) => (
+              {!familyMode && <>
+                <div className="filter-sep" aria-hidden="true"/>
+                <span className="filter-label">Type</span>
+                {TYPES.map(({ val, label }) => (
+                  <button
+                    key={val}
+                    className={"filter-btn" + (type === val ? " on" : "")}
+                    onClick={() => setType(val)}
+                    aria-pressed={type === val}
+                  >
+                    {label}
+                  </button>
+                ))}
+              </>}
+              {familyMode && (
                 <button
-                  key={val}
-                  className={"filter-btn" + (type === val ? " on" : "")}
-                  onClick={() => setType(val)}
-                  aria-pressed={type === val}
+                  className={"filter-btn" + (freeOnly ? " on" : "")}
+                  onClick={() => setFreeOnly(f => !f)}
+                  aria-pressed={freeOnly}
+                  style={{ marginLeft: 8 }}
                 >
-                  {label}
+                  Free only
                 </button>
-              ))}
+              )}
               <div className="spacer"/>
               <button className="refresh" onClick={load} disabled={loading} aria-label="Refresh events">
                 <RefreshIcon/>{loading ? "Loading…" : "Refresh"}
               </button>
             </div>
+
+            {familyMode && <>
+              <div className="filter-row" role="toolbar" aria-label="Age filter">
+                <span className="filter-label">Age</span>
+                {AGE_STAGES.map(({ val, label }) => (
+                  <button
+                    key={val}
+                    className={"filter-btn" + (stage === val ? " on" : "")}
+                    onClick={() => { setBirth(""); setAgeSel(val); }}
+                    aria-pressed={stage === val}
+                  >
+                    {label}
+                  </button>
+                ))}
+                <div className="spacer"/>
+                <label className="birth-wrap" title="Saved only in this browser — never sent anywhere">
+                  <span>{autoStage ? "Auto from birth month" : "Grow with my child"}</span>
+                  <input
+                    type="month"
+                    className="birth-input"
+                    value={birth}
+                    max={new Date().toISOString().slice(0, 7)}
+                    onChange={e => setBirth(e.target.value)}
+                    aria-label="Birth month, saved only on this device"
+                  />
+                </label>
+              </div>
+              <div className="filter-row" role="toolbar" aria-label="Activity filter">
+                <span className="filter-label">Activity</span>
+                {KINDS.map(({ val, label }) => (
+                  <button
+                    key={val}
+                    className={"filter-btn" + (kind === val ? " on" : "")}
+                    onClick={() => setKind(val)}
+                    aria-pressed={kind === val}
+                  >
+                    {label}
+                  </button>
+                ))}
+              </div>
+            </>}
 
             <div className="filter-row" role="toolbar" aria-label="Date and venue filters">
               <span className="filter-label">When</span>
@@ -856,7 +990,9 @@ export default function App() {
                     <div className="card-right">
                       {e.image && <img className="event-img" src={e.image} alt={e.title} loading="lazy"/>}
                       <div style={{ display: "flex", flexDirection: "column", gap: 4, alignItems: "flex-end" }}>
-                        <span className={"tag " + info.tag}>{info.label}</span>
+                        <span className={"tag " + info.tag}>
+                          {familyMode && KIND_LABEL[e.kind] ? KIND_LABEL[e.kind] : info.label}
+                        </span>
                         {e.is_free && <span className="tag tag-free">Free</span>}
                         {e.source  && <span className="tag">{e.source}</span>}
                         <span className="ext-icon"><ArrowIcon/></span>
@@ -880,23 +1016,49 @@ export default function App() {
 
           {familyMode && (
             <div className="resources">
-              <div className="resources-hdr">Community resources</div>
-              {RESOURCES.map(({ group, links }) => (
-                <div key={group} className="resource-group">
-                  <div className="resource-group-label">{group}</div>
-                  <div className="resource-links">
-                    {links.map(({ label, desc, url }) => (
-                      <a key={label} className="resource-link" href={url} target="_blank" rel="noopener noreferrer">
-                        <span className="resource-left">
-                          {label}
-                          <span className="resource-desc">— {desc}</span>
-                        </span>
-                        <ArrowIcon/>
-                      </a>
-                    ))}
+              <div className="resources-hdr">Regular spots &amp; classes</div>
+              {spots.length === 0 && <div className="resource-desc" style={{ marginLeft: 0 }}>Nothing here for these filters.</div>}
+              {REGIONS.map(region => {
+                const list = spots.filter(s => s.region === region);
+                if (!list.length) return null;
+                return (
+                  <div key={region} className="resource-group">
+                    <div className="resource-group-label">{region}</div>
+                    <div className="resource-links">
+                      {list.map(({ name, desc, url, kind: k, cost }) => (
+                        <a key={name} className="resource-link" href={url} target="_blank" rel="noopener noreferrer">
+                          <span className="resource-left">
+                            <span>
+                              {name}
+                              <span className="resource-desc">— {desc}</span>
+                            </span>
+                          </span>
+                          <span className="spot-tags">
+                            <span className="tag tag-family">{KIND_LABEL[k] || k}</span>
+                            <span className={"tag" + (cost === "Free" ? " tag-free" : "")}>{cost}</span>
+                            <ArrowIcon/>
+                          </span>
+                        </a>
+                      ))}
+                    </div>
                   </div>
-                </div>
-              ))}
+                );
+              })}
+
+              <div className="resources-hdr" style={{ marginTop: 28 }}>Parent groups</div>
+              <div className="resource-links">
+                {GROUPS.map(({ label, desc, url }) => (
+                  <a key={label} className="resource-link" href={url} target="_blank" rel="noopener noreferrer">
+                    <span className="resource-left">
+                      <span>
+                        {label}
+                        <span className="resource-desc">— {desc}</span>
+                      </span>
+                    </span>
+                    <ArrowIcon/>
+                  </a>
+                ))}
+              </div>
             </div>
           )}
 
