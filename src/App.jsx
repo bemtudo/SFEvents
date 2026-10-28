@@ -451,6 +451,72 @@ const STYLES = `
   .ext-icon { color: #3a3a38; margin-top: 4px; }
   a.card:hover .ext-icon { color: #787774; }
 
+  /* ── Family list (grouped by day) ── */
+  .fam-day { margin-bottom: 22px; }
+
+  .fam-day-hdr {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background: #191917;
+    font-size: 13px;
+    font-weight: 600;
+    color: #e6e6e5;
+    padding: 8px 0 8px 2px;
+    border-bottom: 1px solid #2f2f2f;
+    margin-bottom: 4px;
+  }
+
+  .fam-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 10px 14px;
+    border-radius: 6px;
+  }
+
+  .fam-title {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 2px;
+  }
+
+  .fam-title .title { margin-bottom: 0; }
+
+  .fam-sub {
+    font-size: 12px;
+    color: #5c5c5a;
+    margin-bottom: 8px;
+    white-space: pre;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .sessions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  a.session {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 6px;
+    padding: 4px 9px;
+    border: 1px solid #2f2f2f;
+    border-radius: 14px;
+    font-size: 12px;
+    text-decoration: none;
+    color: #b0b0ae;
+    transition: background 0.1s, border-color 0.1s, color 0.1s;
+  }
+
+  a.session:hover { background: #252525; border-color: #4a4a48; color: #e6e6e5; }
+
+  .session-time { color: #e8726a; font-weight: 500; font-variant-numeric: tabular-nums; }
+
   /* ── Resources panel ── */
   .resources {
     margin-top: 40px;
@@ -666,6 +732,72 @@ const usePref = (key, initial) => {
   return [val, set];
 };
 
+const AGE_SHORT = { baby: "Babies", toddler: "Toddlers", preschool: "Preschool", kids: "Kids" };
+
+// Family view: one block per day; the same activity at many branches
+// ("Storytime: For Babies" ×12) collapses into one row of sessions.
+function FamilyList({ events }) {
+  const dayKey = e => (e.date_raw || "").slice(0, 10);
+  const days = [];
+  const byDay = {};
+  for (const e of events) {
+    const d = dayKey(e);
+    if (!byDay[d]) { byDay[d] = {}; days.push(d); }
+    const k = (e.title || "").trim().toLowerCase();
+    (byDay[d][k] = byDay[d][k] || []).push(e);
+  }
+
+  const todayKey = new Date().toLocaleDateString("en-CA");
+  const tomorrowKey = new Date(Date.now() + 864e5).toLocaleDateString("en-CA");
+  const dayLabel = (d, sample) =>
+    d === todayKey ? `Today · ${sample.date}` : d === tomorrowKey ? `Tomorrow · ${sample.date}` : sample.date;
+  const short = v => (v || "").replace(/^SFPL /, "").replace(/ Branch$/, "");
+
+  return (
+    <div className="fam-list">
+      <div className="results-hdr">{events.length} session{events.length !== 1 ? "s" : ""}</div>
+      {days.map(d => {
+        const groups = Object.values(byDay[d]);
+        return (
+          <section key={d} className="fam-day">
+            <h2 className="fam-day-hdr">{dayLabel(d, groups[0][0])}</h2>
+            {groups.map(sessions => {
+              const e = sessions[0];
+              const ages = [...new Set(sessions.flatMap(s => s.ages || []))];
+              const sources = [...new Set(sessions.map(s => s.source).filter(Boolean))];
+              return (
+                <div key={e.id} className="fam-row">
+                  <div className="type-dot dot-family"/>
+                  <div className="evbody">
+                    <div className="fam-title">
+                      <span className="title">{e.title}</span>
+                      {KIND_LABEL[e.kind] && <span className="tag tag-family">{KIND_LABEL[e.kind]}</span>}
+                      {sessions.every(s => s.is_free) && <span className="tag tag-free">Free</span>}
+                    </div>
+                    <div className="fam-sub">
+                      {ages.length > 0 && ages.length < 4 && ages.map(a => AGE_SHORT[a]).join(" · ")}
+                      {ages.length > 0 && ages.length < 4 && sources.length > 0 && "  ·  "}
+                      {sources.join(", ")}
+                    </div>
+                    <div className="sessions">
+                      {sessions.map(s => (
+                        <a key={s.id} className="session" href={s.url || "#"} target="_blank" rel="noopener noreferrer">
+                          <span className="session-time">{s.time}</span>
+                          <span className="session-where">{short(s.venue)}</span>
+                        </a>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
+          </section>
+        );
+      })}
+    </div>
+  );
+}
+
 const TYPES = [
   { val: "all",     label: "All"     },
   { val: "music",   label: "Music"   },
@@ -810,7 +942,7 @@ export default function App() {
             <div className="header-label">Bay Area</div>
             <div className="header-top">
               <div>
-                <h1>SF + Oakland Events</h1>
+                <h1>{familyMode ? "Little Ones Out & About" : "SF + Oakland Events"}</h1>
                 <div className="sub">
                   {familyMode
                     ? "Storytimes, music, play and outings for little ones — mostly free"
@@ -964,7 +1096,9 @@ export default function App() {
             </div>
           )}
 
-          {!loading && filtered.length > 0 && (
+          {!loading && familyMode && filtered.length > 0 && <FamilyList events={filtered}/>}
+
+          {!loading && !familyMode && filtered.length > 0 && (
             <>
               <div className="results-hdr">{filtered.length} event{filtered.length !== 1 ? "s" : ""}</div>
               {filtered.map((e, i) => {
