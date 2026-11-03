@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-11-03T13:38:09.587219+00:00",
-  "count": 690,
+  "updated_at": "2026-11-03T22:54:22.962252+00:00",
+  "count": 701,
   "events": [
     {
-      "id": "ical-2533155665656048201",
+      "id": "ical-6529754919787859485",
       "title": "The Noon Ride",
       "type": "bike",
       "venue": "2210 Page Mill Rd\\, Los Altos Hills\\, CA 94022\\, USA",
@@ -18,7 +18,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-1744397664404687666",
+      "id": "ical-1011032482069321444",
       "title": "Rapha RADLER WILLKOMMEN-HAPPY HOUR!",
       "type": "bike",
       "venue": "2198 Filbert St\\, San Francisco\\, CA 94123\\, USA",
@@ -33,7 +33,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-6426444060656650989",
+      "id": "ical-3573678841706374522",
       "title": "SFCC COFFEE RIDE",
       "type": "bike",
       "venue": "37.773497\\, -122.441015",
@@ -48,7 +48,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-6670564253775790154",
+      "id": "ical-8446843905802921806",
       "title": "SF Bike Party",
       "type": "bike",
       "venue": "Varies Monthly",
@@ -63,7 +63,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-2737593010298862922",
+      "id": "ical-3863486601076776641",
       "title": "Bespoke Cycles Shop Ride",
       "type": "bike",
       "venue": "SF Bay Area Bike Rides",
@@ -78,7 +78,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-3939192346105039531",
+      "id": "ical-4766961442409329503",
       "title": "Scotty\u2019s Ride",
       "type": "bike",
       "venue": "Golden Gate Bridge Welcome Center\\, Golden Gate Bridge\\, Coastal T",
@@ -93,67 +93,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-3578613591906967665",
-      "title": "Alto Velo C Ride",
-      "type": "bike",
-      "venue": "Summit Bicycles\\, 392 California Ave\\, Palo Alto\\, CA 94306\\, USA",
-      "city": "SF",
-      "date": "Sat Dec 2",
-      "date_raw": "2023-12-02T09:00:00",
-      "time": "9:00 AM",
-      "description": "<a href=\"https://www.altovelo.org/c-ride\">https://www.altovelo.",
-      "url": "",
-      "source": "SF Bay Area Bike Rides",
-      "is_free": true,
-      "kid_friendly": false
-    },
-    {
-      "id": "ical-6367763868166450547",
-      "title": "Alto Velo B Ride",
-      "type": "bike",
-      "venue": "Summit Bicycles\\, 392 California Ave\\, Palo Alto\\, CA 94306\\, USA",
-      "city": "SF",
-      "date": "Sat Dec 2",
-      "date_raw": "2023-12-02T09:00:00",
-      "time": "9:00 AM",
-      "description": "<a href=\"https://www.altovelo.org/b-ride\">https://www.altovelo.",
-      "url": "",
-      "source": "SF Bay Area Bike Rides",
-      "is_free": true,
-      "kid_friendly": false
-    },
-    {
-      "id": "ical-5528147019211949204",
-      "title": "Alto Velo A Ride",
-      "type": "bike",
-      "venue": "Summit Bicycles\\, 392 California Ave\\, Palo Alto\\, CA 94306\\, USA",
-      "city": "SF",
-      "date": "Sat Dec 2",
-      "date_raw": "2023-12-02T09:00:00",
-      "time": "9:00 AM",
-      "description": "<a href=\"https://www.altovelo.org/a-ride\">https://www.altovelo.",
-      "url": "",
-      "source": "SF Bay Area Bike Rides",
-      "is_free": true,
-      "kid_friendly": false
-    },
-    {
-      "id": "ical-1575097026244886321",
-      "title": "Roasters Ride",
-      "type": "bike",
-      "venue": "Java Hut\\, 760 Center Blvd\\, Fairfax\\, CA 94930\\, USA",
-      "city": "SF",
-      "date": "Sat Dec 2",
-      "date_raw": "2023-12-02T09:00:00",
-      "time": "9:00 AM",
-      "description": "Start: 9:00am on Saturdays at the Java Hut in Fairfax\\, CA. A l",
-      "url": "",
-      "source": "SF Bay Area Bike Rides",
-      "is_free": true,
-      "kid_friendly": false
-    },
-    {
-      "id": "ical-8488729814612427070",
+      "id": "ical-3261550822050478487",
       "title": "The Spectrum Ride",
       "type": "bike",
       "venue": "West Homestead Road\\, W Homestead Rd\\, Cupertino\\, CA\\, USA",
@@ -168,7 +108,22 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-259551729643894962",
+      "id": "ical-2455270458531258001",
+      "title": "Alto Velo C Ride",
+      "type": "bike",
+      "venue": "Summit Bicycles\\, 392 California Ave\\, Palo Alto\\, CA 94306\\, USA",
+      "city": "SF",
+      "date": "Sat Dec 2",
+      "date_raw": "2023-12-02T09:00:00",
+      "time": "9:00 AM",
+      "description": "<a href=\"https://www.altovelo.org/c-ride\">https://www.altovelo.",
+      "url": "",
+      "source": "SF Bay Area Bike Rides",
+      "is_free": true,
+      "kid_friendly": false
+    },
+    {
+      "id": "ical-2328621097746987816",
       "title": "Alto Velo Women\u2019s/WTFNB Ride",
       "type": "bike",
       "venue": "Varies Weekly",
@@ -183,7 +138,52 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-7634919821737737642",
+      "id": "ical-3803203712510282861",
+      "title": "Roasters Ride",
+      "type": "bike",
+      "venue": "Java Hut\\, 760 Center Blvd\\, Fairfax\\, CA 94930\\, USA",
+      "city": "SF",
+      "date": "Sat Dec 2",
+      "date_raw": "2023-12-02T09:00:00",
+      "time": "9:00 AM",
+      "description": "Start: 9:00am on Saturdays at the Java Hut in Fairfax\\, CA. A l",
+      "url": "",
+      "source": "SF Bay Area Bike Rides",
+      "is_free": true,
+      "kid_friendly": false
+    },
+    {
+      "id": "ical-8666020845351054105",
+      "title": "Alto Velo A Ride",
+      "type": "bike",
+      "venue": "Summit Bicycles\\, 392 California Ave\\, Palo Alto\\, CA 94306\\, USA",
+      "city": "SF",
+      "date": "Sat Dec 2",
+      "date_raw": "2023-12-02T09:00:00",
+      "time": "9:00 AM",
+      "description": "<a href=\"https://www.altovelo.org/a-ride\">https://www.altovelo.",
+      "url": "",
+      "source": "SF Bay Area Bike Rides",
+      "is_free": true,
+      "kid_friendly": false
+    },
+    {
+      "id": "ical-6982894724276094369",
+      "title": "Alto Velo B Ride",
+      "type": "bike",
+      "venue": "Summit Bicycles\\, 392 California Ave\\, Palo Alto\\, CA 94306\\, USA",
+      "city": "SF",
+      "date": "Sat Dec 2",
+      "date_raw": "2023-12-02T09:00:00",
+      "time": "9:00 AM",
+      "description": "<a href=\"https://www.altovelo.org/b-ride\">https://www.altovelo.",
+      "url": "",
+      "source": "SF Bay Area Bike Rides",
+      "is_free": true,
+      "kid_friendly": false
+    },
+    {
+      "id": "ical-1753265063803683577",
       "title": "Fatcake FTWNB + Allies Ride",
       "type": "bike",
       "venue": "Conservatory of Flowers\\, 100 John F Kennedy Dr\\, San Francisco\\,",
@@ -198,7 +198,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-3658296883359982661",
+      "id": "ical-1159034711111091428",
       "title": "Pas Normal Social Road Ride",
       "type": "bike",
       "venue": "Pas Normal Studios San Francisco\\, 799 Haight St\\, San Francisco\\,",
@@ -213,7 +213,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-7864133310243536919",
+      "id": "ical-4049744433142473848",
       "title": "The Morning Ride",
       "type": "bike",
       "venue": "296 Main St\\, Los Altos\\, CA 94022\\, USA",
@@ -228,7 +228,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-7371607752335461292",
+      "id": "ical-6924595099738412307",
       "title": "Fatcake HEADLANDS + ARSICAULT BAKERY Ride",
       "type": "bike",
       "venue": "Golden Gate Bridge Welcome Center\\, Golden Gate Bridge\\, Coastal T",
@@ -243,7 +243,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-7543296457211667139",
+      "id": "ical-8451208484536390568",
       "title": "Ornot After Cake Ride",
       "type": "bike",
       "venue": "Ornot Bike\\, 55 Clement St\\, San Francisco\\, CA 94118\\, USA",
@@ -258,7 +258,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-338920399840638457",
+      "id": "ical-1873987921425111639",
       "title": "SF Bike & Brew",
       "type": "bike",
       "venue": "Varies Weekly",
@@ -273,7 +273,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-2077037267478761762",
+      "id": "ical-3735845289764194496",
       "title": "Rapha RCC SF DONUT RIDE",
       "type": "bike",
       "venue": "Rapha San Francisco\\, 2198 Filbert St\\, San Francisco\\, CA 94123\\,",
@@ -288,7 +288,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-6940104935263120727",
+      "id": "ical-4538820859293527958",
       "title": "Butterlap",
       "type": "bike",
       "venue": "Fort Point Ferry Building\\, One\\, Ferry Building\\, San Francisco\\,",
@@ -303,7 +303,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-2574254265795358804",
+      "id": "ical-8636813466982980920",
       "title": "Fatcake FIRST DONUT ALLEY Ride",
       "type": "bike",
       "venue": "RGM9+4V\\, Sausalito\\, CA 94965\\, USA",
@@ -318,7 +318,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-1207775089292416991",
+      "id": "ical-3399376194207348271",
       "title": "Fatcake WILDCARD Ride",
       "type": "bike",
       "venue": "Conservatory of Flowers\\, 100 John F Kennedy Dr\\, San Francisco\\,",
@@ -333,7 +333,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-3996982609888865393",
+      "id": "ical-7328286368590642662",
       "title": "Ornot Women's Ride",
       "type": "bike",
       "venue": "Ornot Bike\\, 55 Clement St\\, San Francisco\\, CA 94118\\, USA",
@@ -348,7 +348,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-4034178881055429529",
+      "id": "ical-1505805338178795884",
       "title": "East Bay Bike Party",
       "type": "bike",
       "venue": "Varies Monthly",
@@ -363,7 +363,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-6396108379043718202",
+      "id": "ical-6593084842292642191",
       "title": "Huckberry Ramble",
       "type": "bike",
       "venue": "Huckleberry Bicycles\\, 1255 Battery St Suite 120\\, San Francisco\\,",
@@ -378,7 +378,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-5233353172375446931",
+      "id": "ical-3734058490299716944",
       "title": "Rapha RCCSFC EAST BAY RIDE",
       "type": "bike",
       "venue": "1934 Broadway\\, Oakland\\, CA 94612\\, USA",
@@ -393,7 +393,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-6948921337799908417",
+      "id": "ical-7626884332609763964",
       "title": "Fatcake FTWNB Ride",
       "type": "bike",
       "venue": "Conservatory of Flowers\\, 100 John F Kennedy Dr\\, San Francisco\\,",
@@ -408,7 +408,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-1692305250077520747",
+      "id": "ical-5551313982863537908",
       "title": "Ornot After Work Ride",
       "type": "bike",
       "venue": "Ornot Bike\\, 55 Clement St\\, San Francisco\\, CA 94118\\, USA",
@@ -423,7 +423,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-991334179551222101",
+      "id": "ical-4455481936140036385",
       "title": "San Jose Bike Party",
       "type": "bike",
       "venue": "Varies Monthly",
@@ -438,7 +438,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-3829138544007182499",
+      "id": "ical-7314111953540581032",
       "title": "Let It Slow Ride",
       "type": "bike",
       "venue": "Duboce Park\\, San Francisco\\, CA 94117\\, USA",
@@ -453,7 +453,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-604113467261825546",
+      "id": "ical-674786222992234258",
       "title": "Midnight Mystery Ride SF Chapter",
       "type": "bike",
       "venue": "Varies Monthly",
@@ -468,7 +468,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-1988965198337363417",
+      "id": "ical-4123584429664846912",
       "title": "Fatcake FTWNB Ride",
       "type": "bike",
       "venue": "Conservatory of Flowers\\, 100 John F Kennedy Dr\\, San Francisco\\,",
@@ -483,7 +483,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-475782474967672107",
+      "id": "ical-8566258556166149427",
       "title": "Ornot Women's Ride",
       "type": "bike",
       "venue": "Ornot Bike\\, 55 Clement St\\, San Francisco\\, CA 94118\\, USA",
@@ -498,7 +498,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-148983197271724237",
+      "id": "ical-1273098484253371694",
       "title": "Fatcake FTWNB Wildcard Ride",
       "type": "bike",
       "venue": "Conservatory of Flowers\\, 100 John F Kennedy Dr\\, San Francisco\\,",
@@ -513,7 +513,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-5218462157566586184",
+      "id": "ical-8262950612575258253",
       "title": "Ornot After Work Ride",
       "type": "bike",
       "venue": "Ornot Bike\\, 55 Clement St\\, San Francisco\\, CA 94118\\, USA",
@@ -528,7 +528,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-487636413887091973",
+      "id": "ical-8866959724285184419",
       "title": "SF Critical Mass",
       "type": "bike",
       "venue": "Varies Monthly",
@@ -543,7 +543,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-5489937574260619184",
+      "id": "ical-5049399852212888133",
       "title": "Huckberry TWO TICKETS TO PARADISE ride",
       "type": "bike",
       "venue": "Huckleberry Bicycles\\, 1255 Battery St Suite 120\\, San Francisco\\,",
@@ -558,632 +558,7 @@
       "kid_friendly": false
     },
     {
-      "id": "smcl-6954591d2c65973d0015085a-11031000",
-      "title": "Family Storytime",
-      "type": "family",
-      "venue": "Half Moon Bay",
-      "city": "Peninsula",
-      "date": "Tue Nov 3",
-      "date_raw": "2026-11-03T10:00:00-08:00",
-      "time": "10:00 AM",
-      "description": "Come along on an imaginary adventure. Hear new stories, sing songs, and learn wiggles that the whole family can enjoy together, from toddlers to grown-ups.",
-      "url": "https://smcl.bibliocommons.com/events/6954591d2c65973d0015085a",
-      "image": "",
-      "source": "San Mateo County Libraries",
-      "is_free": true,
-      "kid_friendly": true,
-      "ages": [
-        "toddler"
-      ],
-      "kind": "storytime"
-    },
-    {
-      "id": "sfpl-kids-storytime-babies-1-11031015",
-      "title": "Storytime: For Babies",
-      "type": "family",
-      "venue": "SFPL Merced",
-      "city": "SF",
-      "date": "Tue Nov 3",
-      "date_raw": "2026-11-03T10:15:00-08:00",
-      "time": "10:15 AM",
-      "description": "",
-      "url": "https://sfpl.org/events/2026/11/03/storytime-babies-1",
-      "image": "",
-      "source": "SFPL",
-      "is_free": true,
-      "kid_friendly": true,
-      "ages": [
-        "baby"
-      ],
-      "kind": "storytime"
-    },
-    {
-      "id": "sfpl-kids-storytime-babies-11031015",
-      "title": "Canceled: Storytime: For Babies",
-      "type": "family",
-      "venue": "SFPL Golden Gate Valley",
-      "city": "SF",
-      "date": "Tue Nov 3",
-      "date_raw": "2026-11-03T10:15:00-08:00",
-      "time": "10:15 AM",
-      "description": "",
-      "url": "https://sfpl.org/events/2026/11/03/storytime-babies",
-      "image": "",
-      "source": "SFPL",
-      "is_free": true,
-      "kid_friendly": true,
-      "ages": [
-        "baby"
-      ],
-      "kind": "storytime"
-    },
-    {
-      "id": "oaklandlibrary-695bf1f20c4aad14d373ca58-11031015",
-      "title": "Storytime and Playtime",
-      "type": "family",
-      "venue": "Melrose Branch",
-      "city": "Oakland",
-      "date": "Tue Nov 3",
-      "date_raw": "2026-11-03T10:15:00-08:00",
-      "time": "10:15 AM",
-      "description": "You are invited to a Storytime with rhymes, books, and songs! It will be followed by free playtime with toys and access to our outdoor gardens and play area. All kids welcome, but program is especially for those 18 month",
-      "url": "https://oaklandlibrary.bibliocommons.com/events/695bf1f20c4aad14d373ca58",
-      "image": "",
-      "source": "Oakland Library",
-      "is_free": true,
-      "kid_friendly": true,
-      "ages": [
-        "toddler",
-        "kids"
-      ],
-      "kind": "play"
-    },
-    {
-      "id": "oaklandlibrary-6927886d51da852800c3bc1e-11031015",
-      "title": "Baby Bounce & Playtime",
-      "type": "family",
-      "venue": "Golden Gate Branch",
-      "city": "Oakland",
-      "date": "Tue Nov 3",
-      "date_raw": "2026-11-03T10:15:00-08:00",
-      "time": "10:15 AM",
-      "description": "Bring your babies to the library for songs, books, and socializing! This event is best for parents or caregivers with babies from birth to 18 months. Please note the duration of Baby Bounce storytime is approximately 15-",
-      "url": "https://oaklandlibrary.bibliocommons.com/events/6927886d51da852800c3bc1e",
-      "image": "",
-      "source": "Oakland Library",
-      "is_free": true,
-      "kid_friendly": true,
-      "ages": [
-        "baby",
-        "toddler"
-      ],
-      "kind": "movement"
-    },
-    {
-      "id": "oaklandlibrary-696417db6faf374bd593313b-11031015",
-      "title": "Toddler Storytime",
-      "type": "family",
-      "venue": "Piedmont Avenue Branch",
-      "city": "Oakland",
-      "date": "Tue Nov 3",
-      "date_raw": "2026-11-03T10:15:00-08:00",
-      "time": "10:15 AM",
-      "description": "Songs, active rhymes and stories especially for ages 18 months to 3 years . Every Tuesday morning at 10:15am. Stay and play after Storytime with fun age-appropriate toys through 11:15am. If conditions allow, Storytime wi",
-      "url": "https://oaklandlibrary.bibliocommons.com/events/696417db6faf374bd593313b",
-      "image": "",
-      "source": "Oakland Library",
-      "is_free": true,
-      "kid_friendly": true,
-      "ages": [
-        "toddler"
-      ],
-      "kind": "storytime"
-    },
-    {
-      "id": "sfpl-kids-storytime-families-0-11031030",
-      "title": "Storytime: For Families",
-      "type": "family",
-      "venue": "SFPL Main",
-      "city": "SF",
-      "date": "Tue Nov 3",
-      "date_raw": "2026-11-03T10:30:00-08:00",
-      "time": "10:30 AM",
-      "description": "",
-      "url": "https://sfpl.org/events/2026/11/03/storytime-families-0",
-      "image": "",
-      "source": "SFPL",
-      "is_free": true,
-      "kid_friendly": true,
-      "ages": [
-        "baby",
-        "toddler",
-        "preschool",
-        "kids"
-      ],
-      "kind": "storytime"
-    },
-    {
-      "id": "sfpl-kids-storytime-preschoolers-11031030",
-      "title": "Storytime: For Preschoolers",
-      "type": "family",
-      "venue": "SFPL Portola",
-      "city": "SF",
-      "date": "Tue Nov 3",
-      "date_raw": "2026-11-03T10:30:00-08:00",
-      "time": "10:30 AM",
-      "description": "",
-      "url": "https://sfpl.org/events/2026/11/03/storytime-preschoolers",
-      "image": "",
-      "source": "SFPL",
-      "is_free": true,
-      "kid_friendly": true,
-      "ages": [
-        "preschool"
-      ],
-      "kind": "storytime"
-    },
-    {
-      "id": "sfpl-kids-storytime-toddlers-3-11031030",
-      "title": "Storytime: For Toddlers",
-      "type": "family",
-      "venue": "SFPL Bernal Heights",
-      "city": "SF",
-      "date": "Tue Nov 3",
-      "date_raw": "2026-11-03T10:30:00-08:00",
-      "time": "10:30 AM",
-      "description": "",
-      "url": "https://sfpl.org/events/2026/11/03/storytime-toddlers-3",
-      "image": "",
-      "source": "SFPL",
-      "is_free": true,
-      "kid_friendly": true,
-      "ages": [
-        "toddler"
-      ],
-      "kind": "storytime"
-    },
-    {
-      "id": "sfpl-kids-storytime-toddlers-7-11031030",
-      "title": "Storytime: For Toddlers",
-      "type": "family",
-      "venue": "SFPL Excelsior",
-      "city": "SF",
-      "date": "Tue Nov 3",
-      "date_raw": "2026-11-03T10:30:00-08:00",
-      "time": "10:30 AM",
-      "description": "",
-      "url": "https://sfpl.org/events/2026/11/03/storytime-toddlers-7",
-      "image": "",
-      "source": "SFPL",
-      "is_free": true,
-      "kid_friendly": true,
-      "ages": [
-        "toddler"
-      ],
-      "kind": "storytime"
-    },
-    {
-      "id": "sfpl-kids-storytime-toddlers-0-11031030",
-      "title": "Storytime: For Toddlers",
-      "type": "family",
-      "venue": "SFPL Sunset",
-      "city": "SF",
-      "date": "Tue Nov 3",
-      "date_raw": "2026-11-03T10:30:00-08:00",
-      "time": "10:30 AM",
-      "description": "",
-      "url": "https://sfpl.org/events/2026/11/03/storytime-toddlers-0",
-      "image": "",
-      "source": "SFPL",
-      "is_free": true,
-      "kid_friendly": true,
-      "ages": [
-        "toddler"
-      ],
-      "kind": "storytime"
-    },
-    {
-      "id": "sfpl-kids-storytime-toddlers-1-11031030",
-      "title": "Storytime: For Toddlers",
-      "type": "family",
-      "venue": "SFPL Potrero",
-      "city": "SF",
-      "date": "Tue Nov 3",
-      "date_raw": "2026-11-03T10:30:00-08:00",
-      "time": "10:30 AM",
-      "description": "",
-      "url": "https://sfpl.org/events/2026/11/03/storytime-toddlers-1",
-      "image": "",
-      "source": "SFPL",
-      "is_free": true,
-      "kid_friendly": true,
-      "ages": [
-        "toddler"
-      ],
-      "kind": "storytime"
-    },
-    {
-      "id": "sfpl-kids-storytime-toddlers-6-11031030",
-      "title": "Storytime: For Toddlers",
-      "type": "family",
-      "venue": "SFPL Parkside",
-      "city": "SF",
-      "date": "Tue Nov 3",
-      "date_raw": "2026-11-03T10:30:00-08:00",
-      "time": "10:30 AM",
-      "description": "",
-      "url": "https://sfpl.org/events/2026/11/03/storytime-toddlers-6",
-      "image": "",
-      "source": "SFPL",
-      "is_free": true,
-      "kid_friendly": true,
-      "ages": [
-        "toddler"
-      ],
-      "kind": "storytime"
-    },
-    {
-      "id": "sfpl-kids-storytime-toddlers-4-11031030",
-      "title": "Storytime: For Toddlers",
-      "type": "family",
-      "venue": "SFPL Ocean View",
-      "city": "SF",
-      "date": "Tue Nov 3",
-      "date_raw": "2026-11-03T10:30:00-08:00",
-      "time": "10:30 AM",
-      "description": "",
-      "url": "https://sfpl.org/events/2026/11/03/storytime-toddlers-4",
-      "image": "",
-      "source": "SFPL",
-      "is_free": true,
-      "kid_friendly": true,
-      "ages": [
-        "toddler"
-      ],
-      "kind": "storytime"
-    },
-    {
-      "id": "smcl-694481b52c65973d00135e04-11031030",
-      "title": "Musical Storytime With Stay and Play at San Pedro Valley Park",
-      "type": "family",
-      "venue": "Pacifica Sanchez",
-      "city": "Peninsula",
-      "date": "Tue Nov 3",
-      "date_raw": "2026-11-03T10:30:00-08:00",
-      "time": "10:30 AM",
-      "description": "Let\u2019s make music together! Join us for a silly, funny, song-and-dance-filled storytime for all ages. After Storytime join us for Stay and Play, a time to engage in open-ended exploration and learning in the company of ot",
-      "url": "https://smcl.bibliocommons.com/events/694481b52c65973d00135e04",
-      "image": "",
-      "source": "San Mateo County Libraries",
-      "is_free": true,
-      "kid_friendly": true,
-      "ages": [
-        "kids"
-      ],
-      "kind": "music"
-    },
-    {
-      "id": "smcl-6a92039bb20478002996568d-11031030",
-      "title": "Spanish Bilingual Storytime | Hora de Cuentos Bilingue",
-      "type": "family",
-      "venue": "Portola Valley",
-      "city": "Peninsula",
-      "date": "Tue Nov 3",
-      "date_raw": "2026-11-03T10:30:00-08:00",
-      "time": "10:30 AM",
-      "description": "Join us for bilingual Spanish and English stories and music the whole family will love! Children of all ages will enjoy listening, singing and playing along. Capacity limits may apply. \u00a1Acomp\u00e1\u00f1enos para disfrutar cuentos",
-      "url": "https://smcl.bibliocommons.com/events/6a92039bb20478002996568d",
-      "image": "",
-      "source": "San Mateo County Libraries",
-      "is_free": true,
-      "kid_friendly": true,
-      "ages": [
-        "kids"
-      ],
-      "kind": "storytime"
-    },
-    {
-      "id": "smcl-6a481bf4c06c5dd098f72ce4-11031030",
-      "title": "Bilingual Russian/English Storytime | \u0414\u0432\u0443\u044f\u0437\u044b\u0447\u043d\u044b\u0435 \u0414\u0435\u0442\u0441\u043a\u0438\u0435 \u0427\u0442\u0435\u043d\u0438\u044f",
-      "type": "family",
-      "venue": "Foster City",
-      "city": "Peninsula",
-      "date": "Tue Nov 3",
-      "date_raw": "2026-11-03T10:30:00-08:00",
-      "time": "10:30 AM",
-      "description": "Join us for bilingual Russian and English stories and music the whole family will love! Children of all ages will enjoy listening, singing and playing along. \u041f\u0440\u0438\u0441\u043e\u0435\u0434\u0438\u043d\u044f\u0439\u0442\u0435\u0441\u044c \u043a \u043d\u0430\u043c, \u0447\u0442\u043e\u0431\u044b \u043f\u043e\u0441\u043b\u0443\u0448\u0430\u0442\u044c \u0440\u0430\u0441\u0441\u043a\u0430\u0437\u044b \u0438 \u043c\u0443\u0437\u044b\u043a\u0443 \u043d\u0430 \u0430\u043d",
-      "url": "https://smcl.bibliocommons.com/events/6a481bf4c06c5dd098f72ce4",
-      "image": "",
-      "source": "San Mateo County Libraries",
-      "is_free": true,
-      "kid_friendly": true,
-      "ages": [
-        "kids"
-      ],
-      "kind": "storytime"
-    },
-    {
-      "id": "smcl-693c853d6f926136000aa87d-11031030",
-      "title": "Signs and Rhymes Storytime With Stay and Play!",
-      "type": "family",
-      "venue": "Atherton",
-      "city": "Peninsula",
-      "date": "Tue Nov 3",
-      "date_raw": "2026-11-03T10:30:00-08:00",
-      "time": "10:30 AM",
-      "description": "Let's read, sing, sign, and rhyme together! Play together with your little one as we learn simple sign language and fun ways to fingerplay alongside our stories and music each week. This storytime welcomes all ages, from",
-      "url": "https://smcl.bibliocommons.com/events/693c853d6f926136000aa87d",
-      "image": "",
-      "source": "San Mateo County Libraries",
-      "is_free": true,
-      "kid_friendly": true,
-      "ages": [
-        "baby",
-        "toddler",
-        "preschool"
-      ],
-      "kind": "music"
-    },
-    {
-      "id": "smcl-693752ac6724c63d00e5eeeb-11031030",
-      "title": "Family Storytime",
-      "type": "family",
-      "venue": "Woodside",
-      "city": "Peninsula",
-      "date": "Tue Nov 3",
-      "date_raw": "2026-11-03T10:30:00-08:00",
-      "time": "10:30 AM",
-      "description": "Come along on an imaginary adventure for Family Storytime! Hear new stories, sing songs and learn wiggles that the whole family can enjoy together, from toddlers to grown-ups. Capacity limits may apply.",
-      "url": "https://smcl.bibliocommons.com/events/693752ac6724c63d00e5eeeb",
-      "image": "",
-      "source": "San Mateo County Libraries",
-      "is_free": true,
-      "kid_friendly": true,
-      "ages": [
-        "toddler"
-      ],
-      "kind": "storytime"
-    },
-    {
-      "id": "smcl-6aa04a52c1e2e42c4a9d8c90-11031030",
-      "title": "Baby Bounce With Stay and Play",
-      "type": "family",
-      "venue": "Belmont",
-      "city": "Peninsula",
-      "date": "Tue Nov 3",
-      "date_raw": "2026-11-03T10:30:00-08:00",
-      "time": "10:30 AM",
-      "description": "Baby storytime centers around parent/caregiver-child interactions. This storytime is developmentally appropriate for newborns and babies up to 18 months old. Join us for rhymes, lap bounces, singing, instruments and a bo",
-      "url": "https://smcl.bibliocommons.com/events/6aa04a52c1e2e42c4a9d8c90",
-      "image": "",
-      "source": "San Mateo County Libraries",
-      "is_free": true,
-      "kid_friendly": true,
-      "ages": [
-        "baby",
-        "toddler"
-      ],
-      "kind": "movement"
-    },
-    {
-      "id": "smcl-6a6bbad3f4e5db3d00c572a0-11031030",
-      "title": "Hora de Cuentos / Storytime",
-      "type": "family",
-      "venue": "North Fair Oaks, Redwood City",
-      "city": "Peninsula",
-      "date": "Tue Nov 3",
-      "date_raw": "2026-11-03T10:30:00-08:00",
-      "time": "10:30 AM",
-      "description": "Join us on Tuesdays for stories and music the whole family will love! Children of all ages will enjoy listening, singing, and playing together. \u00a1Acomp\u00e1\u00f1enos Martes para disfrutar cuentos y m\u00fasica que le encantar\u00e1 a toda ",
-      "url": "https://smcl.bibliocommons.com/events/6a6bbad3f4e5db3d00c572a0",
-      "image": "",
-      "source": "San Mateo County Libraries",
-      "is_free": true,
-      "kid_friendly": true,
-      "ages": [
-        "kids"
-      ],
-      "kind": "storytime"
-    },
-    {
-      "id": "smcl-6ade4996fee2d21deb25a3a4-11031030",
-      "title": "Play & Learn With Help Me Grow / Juega Y Aprende Con Help Me Grow",
-      "type": "family",
-      "venue": "East Palo Alto",
-      "city": "Peninsula",
-      "date": "Tue Nov 3",
-      "date_raw": "2026-11-03T10:30:00-08:00",
-      "time": "10:30 AM",
-      "description": "Join us every Tuesday to sing, play, and engage in fun activities that support your child's early learning and development. Through play, children learn essential skills while having fun! ----- Acomp\u00e1\u00f1enos todos los mart",
-      "url": "https://smcl.bibliocommons.com/events/6ade4996fee2d21deb25a3a4",
-      "image": "",
-      "source": "San Mateo County Libraries",
-      "is_free": true,
-      "kid_friendly": true,
-      "ages": [
-        "kids"
-      ],
-      "kind": "play"
-    },
-    {
-      "id": "bpl-17327572",
-      "title": "Baby/Toddler Storytime",
-      "type": "family",
-      "venue": "Tarea Hall Pittman South Branch",
-      "city": "Berkeley",
-      "date": "Tue Nov 3",
-      "date_raw": "2026-11-03T10:30:00-08:00",
-      "time": "10:30 AM",
-      "description": "Baby/Toddler Storytime @THP South Books, rhymes, music and more",
-      "url": "https://berkeleypubliclibrary.libnet.info/event/17327572",
-      "image": "",
-      "source": "Berkeley Library",
-      "is_free": true,
-      "kid_friendly": true,
-      "ages": [
-        "baby",
-        "toddler"
-      ],
-      "kind": "storytime"
-    },
-    {
-      "id": "sfpl-kids-storytime-preschoolers-0-11031100",
-      "title": "Storytime: For Preschoolers",
-      "type": "family",
-      "venue": "SFPL Bayview",
-      "city": "SF",
-      "date": "Tue Nov 3",
-      "date_raw": "2026-11-03T11:00:00-08:00",
-      "time": "11:00 AM",
-      "description": "",
-      "url": "https://sfpl.org/events/2026/11/03/storytime-preschoolers-0",
-      "image": "",
-      "source": "SFPL",
-      "is_free": true,
-      "kid_friendly": true,
-      "ages": [
-        "preschool"
-      ],
-      "kind": "storytime"
-    },
-    {
-      "id": "sfpl-kids-storytime-toddlers-5-11031100",
-      "title": "Storytime: For Toddlers",
-      "type": "family",
-      "venue": "SFPL Eureka Valley",
-      "city": "SF",
-      "date": "Tue Nov 3",
-      "date_raw": "2026-11-03T11:00:00-08:00",
-      "time": "11:00 AM",
-      "description": "",
-      "url": "https://sfpl.org/events/2026/11/03/storytime-toddlers-5",
-      "image": "",
-      "source": "SFPL",
-      "is_free": true,
-      "kid_friendly": true,
-      "ages": [
-        "toddler"
-      ],
-      "kind": "storytime"
-    },
-    {
-      "id": "oaklandlibrary-695bf1f80c4aad14d373ca8c-11031100",
-      "title": "Storytime and Garden Play",
-      "type": "family",
-      "venue": "Elmhurst Branch",
-      "city": "Oakland",
-      "date": "Tue Nov 3",
-      "date_raw": "2026-11-03T11:00:00-08:00",
-      "time": "11:00 AM",
-      "description": "Join us for stories, songs, and play! Storytime at 11 am followed by free play in our community garden with our library chickens! For ages 0-5 but all ages are welcome! Snacks provided for kids & caregivers. Get accessib",
-      "url": "https://oaklandlibrary.bibliocommons.com/events/695bf1f80c4aad14d373ca8c",
-      "image": "",
-      "source": "Oakland Library",
-      "is_free": true,
-      "kid_friendly": true,
-      "ages": [
-        "preschool",
-        "kids"
-      ],
-      "kind": "outdoors"
-    },
-    {
-      "id": "oaklandlibrary-6a1a16a4748daf857d5a3d12-11031100",
-      "title": "Family Storytime",
-      "type": "family",
-      "venue": "West Oakland Branch",
-      "city": "Oakland",
-      "date": "Tue Nov 3",
-      "date_raw": "2026-11-03T11:00:00-08:00",
-      "time": "11:00 AM",
-      "description": "Join us for storytime with songs, movement and stories at the West Oakland Branch. All kids (0-6 years old) are welcome with grownup participation. Stay after for a 30-minute free play time.",
-      "url": "https://oaklandlibrary.bibliocommons.com/events/6a1a16a4748daf857d5a3d12",
-      "image": "",
-      "source": "Oakland Library",
-      "is_free": true,
-      "kid_friendly": true,
-      "ages": [
-        "kids"
-      ],
-      "kind": "storytime"
-    },
-    {
-      "id": "sfpl-kids-storytime-toddlers-11031130",
-      "title": "Storytime: For Toddlers",
-      "type": "family",
-      "venue": "SFPL West Portal",
-      "city": "SF",
-      "date": "Tue Nov 3",
-      "date_raw": "2026-11-03T11:30:00-08:00",
-      "time": "11:30 AM",
-      "description": "",
-      "url": "https://sfpl.org/events/2026/11/03/storytime-toddlers",
-      "image": "",
-      "source": "SFPL",
-      "is_free": true,
-      "kid_friendly": true,
-      "ages": [
-        "toddler"
-      ],
-      "kind": "storytime"
-    },
-    {
-      "id": "smcl-6a8e01ea2dac6e003721ad5d-11031130",
-      "title": "Stories of Light: Celebrating Diwali",
-      "type": "family",
-      "venue": "Brisbane",
-      "city": "Peninsula",
-      "date": "Tue Nov 3",
-      "date_raw": "2026-11-03T11:30:00-08:00",
-      "time": "11:30 AM",
-      "description": "Laya Arts Collective celebrates and shares the vibrant traditions of Indian dance, music and storytelling through dynamic performances. This program celebrates Diwali and features storytelling from Indian mythology, brou",
-      "url": "https://smcl.bibliocommons.com/events/6a8e01ea2dac6e003721ad5d",
-      "image": "",
-      "source": "San Mateo County Libraries",
-      "is_free": true,
-      "kid_friendly": true,
-      "ages": [
-        "preschool"
-      ],
-      "kind": "storytime"
-    },
-    {
-      "id": "oaklandlibrary-692f34e97eb3e43000270d35-11031145",
-      "title": "Baby Bounce",
-      "type": "family",
-      "venue": "Montclair Branch",
-      "city": "Oakland",
-      "date": "Tue Nov 3",
-      "date_raw": "2026-11-03T11:45:00-08:00",
-      "time": "11:45 AM",
-      "description": "Come to Montclair Baby Bounce Every Tuesday morning. We will sing, dance, and read books all designed for participants 0 to 1 years old, followed by playtime with your baby and other caregivers.",
-      "url": "https://oaklandlibrary.bibliocommons.com/events/692f34e97eb3e43000270d35",
-      "image": "",
-      "source": "Oakland Library",
-      "is_free": true,
-      "kid_friendly": true,
-      "ages": [
-        "baby"
-      ],
-      "kind": "movement"
-    },
-    {
-      "id": "sfpl-959327682062210911",
-      "title": "Social: Genealogy Club",
-      "type": "talks",
-      "venue": "SF Public Library",
-      "city": "SF",
-      "date": "Tue Nov 3",
-      "date_raw": "2026-11-03T13:00:00-08:00",
-      "time": "1:00 PM",
-      "description": "",
-      "url": "https://sfpl.org/events/2026/11/03/social-genealogy-club",
-      "source": "SFPL",
-      "is_free": true,
-      "kid_friendly": false
-    },
-    {
-      "id": "sfpl-4263728579717987384",
+      "id": "sfpl-1176096689396959511",
       "title": "Dialogue: ESL Online Convo Club",
       "type": "talks",
       "venue": "SF Public Library",
@@ -1198,7 +573,7 @@
       "kid_friendly": false
     },
     {
-      "id": "sfpl-7191118657832524280",
+      "id": "sfpl-1200505978830154491",
       "title": "Presentation: Wired for Success\u2014Exploring a Career as an Electrician",
       "type": "talks",
       "venue": "SF Public Library",
@@ -1250,26 +625,6 @@
       "kid_friendly": true,
       "ages": [
         "preschool"
-      ],
-      "kind": "other"
-    },
-    {
-      "id": "oaklandlibrary-6aac704d607483003827bb0d-11031800",
-      "title": "Father Circle",
-      "type": "family",
-      "venue": "81st Avenue Branch",
-      "city": "Oakland",
-      "date": "Tue Nov 3",
-      "date_raw": "2026-11-03T18:00:00-08:00",
-      "time": "6:00 PM",
-      "description": "Hey fathers and father-figures! Come join us on the 1st and 3rd Tuesdays to talk about fatherhood. All are welcome, including your kids. Get accessibility information . Please preregister by clicking here :",
-      "url": "https://oaklandlibrary.bibliocommons.com/events/6aac704d607483003827bb0d",
-      "image": "",
-      "source": "Oakland Library",
-      "is_free": true,
-      "kid_friendly": true,
-      "ages": [
-        "kids"
       ],
       "kind": "other"
     },
@@ -1351,7 +706,7 @@
       "kid_friendly": false
     },
     {
-      "id": "sfpl-961253741095606133",
+      "id": "sfpl-5772066887757225458",
       "title": "Presentation: El Ni\u00f1o is Coming: Is Your Business Ready?",
       "type": "talks",
       "venue": "SF Public Library",
@@ -1693,27 +1048,6 @@
       "kind": "storytime"
     },
     {
-      "id": "bpl-17147816",
-      "title": "A Sprinkle of Spanish / Un poquito de Espa\u00f1ol Storytime",
-      "type": "family",
-      "venue": "Central Library",
-      "city": "Berkeley",
-      "date": "Wed Nov 4",
-      "date_raw": "2026-11-04T10:30:00-08:00",
-      "time": "10:30 AM",
-      "description": "Storytime with Spanish! \u00a1Hora de cuentos con espa\u00f1ol!",
-      "url": "https://berkeleypubliclibrary.libnet.info/event/17147816",
-      "image": "",
-      "source": "Berkeley Library",
-      "is_free": true,
-      "kid_friendly": true,
-      "ages": [
-        "toddler",
-        "preschool"
-      ],
-      "kind": "storytime"
-    },
-    {
       "id": "sfpl-kids-storytime-babies-2-11041100",
       "title": "Storytime: For Babies",
       "type": "family",
@@ -1895,7 +1229,7 @@
       "kind": "movement"
     },
     {
-      "id": "sfpl-8227343884154813494",
+      "id": "sfpl-1952279537715512309",
       "title": "Presentation: Go Deeper with IBISWorld\u2014State & Archived Industry Reports",
       "type": "talks",
       "venue": "SF Public Library",
@@ -1930,7 +1264,7 @@
       "kind": "storytime"
     },
     {
-      "id": "sfpl-7442156673460562202",
+      "id": "sfpl-2634678633701014396",
       "title": "Workshop: Your Life, Your Financial Goals",
       "type": "talks",
       "venue": "SF Public Library",
@@ -2082,7 +1416,7 @@
       "kid_friendly": false
     },
     {
-      "id": "sfpl-2930938557021459652",
+      "id": "sfpl-4235759344532518491",
       "title": "Tutorial: Meet One-on-One with a CERTIFIED FINANCIAL PLANNER\u2122",
       "type": "talks",
       "venue": "SF Public Library",
@@ -2965,7 +2299,7 @@
       "kid_friendly": false
     },
     {
-      "id": "kqed-2775609828623879908",
+      "id": "kqed-3969813541380272393",
       "title": "Happy Hour Showdown: Bites, Bevs, and Karaoke",
       "type": "talks",
       "venue": "The Commons at KQED",
@@ -3219,7 +2553,7 @@
       "kind": "play"
     },
     {
-      "id": "kqed-7924884518687184271",
+      "id": "kqed-1420652010991144338",
       "title": "Destination: Cosmos--A Sound Voyage by Christopher Willits and Envelop",
       "type": "talks",
       "venue": "The Loom",
@@ -3392,16 +2726,16 @@
       "kind": "storytime"
     },
     {
-      "id": "sfpl-kids-storytime-families-5-11071030",
+      "id": "sfpl-kids-storytime-families-4-11071030",
       "title": "Storytime: For Families",
       "type": "family",
-      "venue": "SFPL Portola",
+      "venue": "SFPL Excelsior",
       "city": "SF",
       "date": "Sat Nov 7",
       "date_raw": "2026-11-07T10:30:00-08:00",
       "time": "10:30 AM",
       "description": "",
-      "url": "https://sfpl.org/events/2026/11/07/storytime-families-5",
+      "url": "https://sfpl.org/events/2026/11/07/storytime-families-4",
       "image": "",
       "source": "SFPL",
       "is_free": true,
@@ -3438,16 +2772,16 @@
       "kind": "storytime"
     },
     {
-      "id": "sfpl-kids-storytime-families-4-11071030",
+      "id": "sfpl-kids-storytime-families-5-11071030",
       "title": "Storytime: For Families",
       "type": "family",
-      "venue": "SFPL Excelsior",
+      "venue": "SFPL Portola",
       "city": "SF",
       "date": "Sat Nov 7",
       "date_raw": "2026-11-07T10:30:00-08:00",
       "time": "10:30 AM",
       "description": "",
-      "url": "https://sfpl.org/events/2026/11/07/storytime-families-4",
+      "url": "https://sfpl.org/events/2026/11/07/storytime-families-5",
       "image": "",
       "source": "SFPL",
       "is_free": true,
@@ -4027,7 +3361,7 @@
       "kind": "storytime"
     },
     {
-      "id": "kqed-7412268802301616682",
+      "id": "kqed-5123042276900752493",
       "title": "Marine Science Fest: Ms. Blue Returns!",
       "type": "talks",
       "venue": "Seymour Marine Discovery Center",
@@ -4288,26 +3622,6 @@
       "kind": "storytime"
     },
     {
-      "id": "sfpl-kids-storytime-babies-11091030",
-      "title": "Storytime: For Babies",
-      "type": "family",
-      "venue": "SFPL Sunset",
-      "city": "SF",
-      "date": "Mon Nov 9",
-      "date_raw": "2026-11-09T10:30:00-08:00",
-      "time": "10:30 AM",
-      "description": "",
-      "url": "https://sfpl.org/events/2026/11/09/storytime-babies",
-      "image": "",
-      "source": "SFPL",
-      "is_free": true,
-      "kid_friendly": true,
-      "ages": [
-        "baby"
-      ],
-      "kind": "storytime"
-    },
-    {
       "id": "sfpl-kids-storytime-babies-1-11091030",
       "title": "Storytime: For Babies",
       "type": "family",
@@ -4318,6 +3632,26 @@
       "time": "10:30 AM",
       "description": "",
       "url": "https://sfpl.org/events/2026/11/09/storytime-babies-1",
+      "image": "",
+      "source": "SFPL",
+      "is_free": true,
+      "kid_friendly": true,
+      "ages": [
+        "baby"
+      ],
+      "kind": "storytime"
+    },
+    {
+      "id": "sfpl-kids-storytime-babies-11091030",
+      "title": "Storytime: For Babies",
+      "type": "family",
+      "venue": "SFPL Sunset",
+      "city": "SF",
+      "date": "Mon Nov 9",
+      "date_raw": "2026-11-09T10:30:00-08:00",
+      "time": "10:30 AM",
+      "description": "",
+      "url": "https://sfpl.org/events/2026/11/09/storytime-babies",
       "image": "",
       "source": "SFPL",
       "is_free": true,
@@ -4534,7 +3868,7 @@
       "kind": "movement"
     },
     {
-      "id": "sfpl-3312631734042706278",
+      "id": "sfpl-4918690863724510739",
       "title": "Presentation: Medicare Open Enrollment",
       "type": "talks",
       "venue": "SF Public Library",
@@ -4691,7 +4025,7 @@
       "kind": "other"
     },
     {
-      "id": "kqed-1730459923739243683",
+      "id": "kqed-8993221536868606737",
       "title": "The Future of Public Media with PBS CEO Paula Kerger and KQED CEO Michael Isip",
       "type": "talks",
       "venue": "Commonwealth Club World Affairs | Taube Family Auditorium",
@@ -4783,26 +4117,6 @@
       "kind": "other"
     },
     {
-      "id": "sfpl-kids-storytime-babies-3-11101015",
-      "title": "Storytime: For Babies",
-      "type": "family",
-      "venue": "SFPL Merced",
-      "city": "SF",
-      "date": "Tue Nov 10",
-      "date_raw": "2026-11-10T10:15:00-08:00",
-      "time": "10:15 AM",
-      "description": "",
-      "url": "https://sfpl.org/events/2026/11/10/storytime-babies-3",
-      "image": "",
-      "source": "SFPL",
-      "is_free": true,
-      "kid_friendly": true,
-      "ages": [
-        "baby"
-      ],
-      "kind": "storytime"
-    },
-    {
       "id": "sfpl-kids-storytime-babies-11101015",
       "title": "Storytime: For Babies",
       "type": "family",
@@ -4833,6 +4147,26 @@
       "time": "10:15 AM",
       "description": "",
       "url": "https://sfpl.org/events/2026/11/10/storytime-babies-1",
+      "image": "",
+      "source": "SFPL",
+      "is_free": true,
+      "kid_friendly": true,
+      "ages": [
+        "baby"
+      ],
+      "kind": "storytime"
+    },
+    {
+      "id": "sfpl-kids-storytime-babies-3-11101015",
+      "title": "Storytime: For Babies",
+      "type": "family",
+      "venue": "SFPL Merced",
+      "city": "SF",
+      "date": "Tue Nov 10",
+      "date_raw": "2026-11-10T10:15:00-08:00",
+      "time": "10:15 AM",
+      "description": "",
+      "url": "https://sfpl.org/events/2026/11/10/storytime-babies-3",
       "image": "",
       "source": "SFPL",
       "is_free": true,
@@ -4968,36 +4302,16 @@
       "kind": "storytime"
     },
     {
-      "id": "sfpl-kids-storytime-toddlers-0-11101030",
+      "id": "sfpl-kids-storytime-toddlers-10-11101030",
       "title": "Storytime: For Toddlers",
       "type": "family",
-      "venue": "SFPL Sunset",
+      "venue": "SFPL Excelsior",
       "city": "SF",
       "date": "Tue Nov 10",
       "date_raw": "2026-11-10T10:30:00-08:00",
       "time": "10:30 AM",
       "description": "",
-      "url": "https://sfpl.org/events/2026/11/10/storytime-toddlers-0",
-      "image": "",
-      "source": "SFPL",
-      "is_free": true,
-      "kid_friendly": true,
-      "ages": [
-        "toddler"
-      ],
-      "kind": "storytime"
-    },
-    {
-      "id": "sfpl-kids-storytime-toddlers-1-11101030",
-      "title": "Storytime: For Toddlers",
-      "type": "family",
-      "venue": "SFPL Potrero",
-      "city": "SF",
-      "date": "Tue Nov 10",
-      "date_raw": "2026-11-10T10:30:00-08:00",
-      "time": "10:30 AM",
-      "description": "",
-      "url": "https://sfpl.org/events/2026/11/10/storytime-toddlers-1",
+      "url": "https://sfpl.org/events/2026/11/10/storytime-toddlers-10",
       "image": "",
       "source": "SFPL",
       "is_free": true,
@@ -5048,16 +4362,16 @@
       "kind": "storytime"
     },
     {
-      "id": "sfpl-kids-storytime-toddlers-7-11101030",
+      "id": "sfpl-kids-storytime-toddlers-1-11101030",
       "title": "Storytime: For Toddlers",
       "type": "family",
-      "venue": "SFPL Mission Bay",
+      "venue": "SFPL Potrero",
       "city": "SF",
       "date": "Tue Nov 10",
       "date_raw": "2026-11-10T10:30:00-08:00",
       "time": "10:30 AM",
       "description": "",
-      "url": "https://sfpl.org/events/2026/11/10/storytime-toddlers-7",
+      "url": "https://sfpl.org/events/2026/11/10/storytime-toddlers-1",
       "image": "",
       "source": "SFPL",
       "is_free": true,
@@ -5088,16 +4402,36 @@
       "kind": "storytime"
     },
     {
-      "id": "sfpl-kids-storytime-toddlers-10-11101030",
+      "id": "sfpl-kids-storytime-toddlers-7-11101030",
       "title": "Storytime: For Toddlers",
       "type": "family",
-      "venue": "SFPL Excelsior",
+      "venue": "SFPL Mission Bay",
       "city": "SF",
       "date": "Tue Nov 10",
       "date_raw": "2026-11-10T10:30:00-08:00",
       "time": "10:30 AM",
       "description": "",
-      "url": "https://sfpl.org/events/2026/11/10/storytime-toddlers-10",
+      "url": "https://sfpl.org/events/2026/11/10/storytime-toddlers-7",
+      "image": "",
+      "source": "SFPL",
+      "is_free": true,
+      "kid_friendly": true,
+      "ages": [
+        "toddler"
+      ],
+      "kind": "storytime"
+    },
+    {
+      "id": "sfpl-kids-storytime-toddlers-0-11101030",
+      "title": "Storytime: For Toddlers",
+      "type": "family",
+      "venue": "SFPL Sunset",
+      "city": "SF",
+      "date": "Tue Nov 10",
+      "date_raw": "2026-11-10T10:30:00-08:00",
+      "time": "10:30 AM",
+      "description": "",
+      "url": "https://sfpl.org/events/2026/11/10/storytime-toddlers-0",
       "image": "",
       "source": "SFPL",
       "is_free": true,
@@ -5292,6 +4626,26 @@
       "kind": "storytime"
     },
     {
+      "id": "sfpl-kids-storytime-preschoolers-11101100",
+      "title": "Storytime: For Preschoolers",
+      "type": "family",
+      "venue": "SFPL North Beach",
+      "city": "SF",
+      "date": "Tue Nov 10",
+      "date_raw": "2026-11-10T11:00:00-08:00",
+      "time": "11:00 AM",
+      "description": "",
+      "url": "https://sfpl.org/events/2026/11/10/storytime-preschoolers",
+      "image": "",
+      "source": "SFPL",
+      "is_free": true,
+      "kid_friendly": true,
+      "ages": [
+        "preschool"
+      ],
+      "kind": "storytime"
+    },
+    {
       "id": "sfpl-kids-storytime-preschoolers-1-11101100",
       "title": "Storytime: For Preschoolers",
       "type": "family",
@@ -5312,22 +4666,22 @@
       "kind": "storytime"
     },
     {
-      "id": "sfpl-kids-storytime-preschoolers-11101100",
-      "title": "Storytime: For Preschoolers",
+      "id": "sfpl-kids-storytime-toddlers-11-11101100",
+      "title": "Storytime: For Toddlers",
       "type": "family",
-      "venue": "SFPL North Beach",
+      "venue": "SFPL Western Addition",
       "city": "SF",
       "date": "Tue Nov 10",
       "date_raw": "2026-11-10T11:00:00-08:00",
       "time": "11:00 AM",
       "description": "",
-      "url": "https://sfpl.org/events/2026/11/10/storytime-preschoolers",
+      "url": "https://sfpl.org/events/2026/11/10/storytime-toddlers-11",
       "image": "",
       "source": "SFPL",
       "is_free": true,
       "kid_friendly": true,
       "ages": [
-        "preschool"
+        "toddler"
       ],
       "kind": "storytime"
     },
@@ -5362,26 +4716,6 @@
       "time": "11:00 AM",
       "description": "",
       "url": "https://sfpl.org/events/2026/11/10/storytime-toddlers-8",
-      "image": "",
-      "source": "SFPL",
-      "is_free": true,
-      "kid_friendly": true,
-      "ages": [
-        "toddler"
-      ],
-      "kind": "storytime"
-    },
-    {
-      "id": "sfpl-kids-storytime-toddlers-11-11101100",
-      "title": "Storytime: For Toddlers",
-      "type": "family",
-      "venue": "SFPL Western Addition",
-      "city": "SF",
-      "date": "Tue Nov 10",
-      "date_raw": "2026-11-10T11:00:00-08:00",
-      "time": "11:00 AM",
-      "description": "",
-      "url": "https://sfpl.org/events/2026/11/10/storytime-toddlers-11",
       "image": "",
       "source": "SFPL",
       "is_free": true,
@@ -5553,7 +4887,7 @@
       "kind": "movement"
     },
     {
-      "id": "sfpl-52164007573016386",
+      "id": "sfpl-8699813963315057896",
       "title": "Presentation: Protect Your Content\u2014Copyright Basics for Entrepreneurs",
       "type": "talks",
       "venue": "SF Public Library",
@@ -5568,7 +4902,7 @@
       "kid_friendly": false
     },
     {
-      "id": "sfpl-2375094871984663232",
+      "id": "sfpl-5695290594196704837",
       "title": "Social: Genealogy Club",
       "type": "talks",
       "venue": "SF Public Library",
@@ -5603,7 +4937,7 @@
       "kind": "storytime"
     },
     {
-      "id": "sfpl-5753346336391949037",
+      "id": "sfpl-2154070229854500831",
       "title": "Dialogue: ESL Online Convo Club",
       "type": "talks",
       "venue": "SF Public Library",
@@ -5658,7 +4992,7 @@
       "kind": "other"
     },
     {
-      "id": "sfpl-3470987912435091153",
+      "id": "sfpl-515765368010379681",
       "title": "Book Club: African American Legacy",
       "type": "talks",
       "venue": "SF Public Library",
@@ -5713,7 +5047,7 @@
       "kind": "storytime"
     },
     {
-      "id": "kqed-5041122865545689062",
+      "id": "kqed-7515815397004767306",
       "title": "Paint, Sip, & Play: A Mission District Game Night",
       "type": "talks",
       "venue": "The Commons at KQED",
@@ -5762,27 +5096,6 @@
       "source": "Ticketmaster",
       "is_free": false,
       "kid_friendly": false
-    },
-    {
-      "id": "bpl-17147817",
-      "title": "A Sprinkle of Spanish / Un poquito de Espa\u00f1ol Storytime",
-      "type": "family",
-      "venue": "Central Library",
-      "city": "Berkeley",
-      "date": "Wed Nov 11",
-      "date_raw": "2026-11-11T10:30:00-08:00",
-      "time": "10:30 AM",
-      "description": "Storytime with Spanish! \u00a1Hora de cuentos con espa\u00f1ol!",
-      "url": "https://berkeleypubliclibrary.libnet.info/event/17147817",
-      "image": "",
-      "source": "Berkeley Library",
-      "is_free": true,
-      "kid_friendly": true,
-      "ages": [
-        "toddler",
-        "preschool"
-      ],
-      "kind": "storytime"
     },
     {
       "id": "tm-G5vYZ_FD8KCxT",
@@ -5849,7 +5162,7 @@
       "kid_friendly": false
     },
     {
-      "id": "sfpl-7351841291944457221",
+      "id": "sfpl-8660495147492002819",
       "title": "Tutorial: Meet One-on-One with a CERTIFIED FINANCIAL PLANNER\u2122",
       "type": "talks",
       "venue": "SF Public Library",
@@ -6736,7 +6049,7 @@
       "kid_friendly": false
     },
     {
-      "id": "kqed-3376620681080664966",
+      "id": "kqed-3841721741118549717",
       "title": "Object Stories San Francisco",
       "type": "talks",
       "venue": "The Commons at KQED",
@@ -7373,16 +6686,16 @@
       "kind": "storytime"
     },
     {
-      "id": "sfpl-kids-storytime-families-4-11141030",
+      "id": "sfpl-kids-storytime-families-0-11141030",
       "title": "Storytime: For Families",
       "type": "family",
-      "venue": "SFPL Excelsior",
+      "venue": "SFPL Sunset",
       "city": "SF",
       "date": "Sat Nov 14",
       "date_raw": "2026-11-14T10:30:00-08:00",
       "time": "10:30 AM",
       "description": "",
-      "url": "https://sfpl.org/events/2026/11/14/storytime-families-4",
+      "url": "https://sfpl.org/events/2026/11/14/storytime-families-0",
       "image": "",
       "source": "SFPL",
       "is_free": true,
@@ -7419,16 +6732,16 @@
       "kind": "storytime"
     },
     {
-      "id": "sfpl-kids-storytime-families-0-11141030",
+      "id": "sfpl-kids-storytime-families-4-11141030",
       "title": "Storytime: For Families",
       "type": "family",
-      "venue": "SFPL Sunset",
+      "venue": "SFPL Excelsior",
       "city": "SF",
       "date": "Sat Nov 14",
       "date_raw": "2026-11-14T10:30:00-08:00",
       "time": "10:30 AM",
       "description": "",
-      "url": "https://sfpl.org/events/2026/11/14/storytime-families-0",
+      "url": "https://sfpl.org/events/2026/11/14/storytime-families-4",
       "image": "",
       "source": "SFPL",
       "is_free": true,
@@ -8168,7 +7481,7 @@
       "kind": "music"
     },
     {
-      "id": "sfpl-4982619960566510104",
+      "id": "sfpl-224567156458134707",
       "title": "Book Club: Friends of Dorothy Read Friends of Dorothy",
       "type": "talks",
       "venue": "SF Public Library",
@@ -8776,6 +8089,872 @@
       "source": "Ticketmaster",
       "is_free": false,
       "kid_friendly": false
+    },
+    {
+      "id": "smcl-6954591d2c65973d0015085c-11171000",
+      "title": "Family Storytime",
+      "type": "family",
+      "venue": "Half Moon Bay",
+      "city": "Peninsula",
+      "date": "Tue Nov 17",
+      "date_raw": "2026-11-17T10:00:00-08:00",
+      "time": "10:00 AM",
+      "description": "Come along on an imaginary adventure. Hear new stories, sing songs, and learn wiggles that the whole family can enjoy together, from toddlers to grown-ups.",
+      "url": "https://smcl.bibliocommons.com/events/6954591d2c65973d0015085c",
+      "image": "",
+      "source": "San Mateo County Libraries",
+      "is_free": true,
+      "kid_friendly": true,
+      "ages": [
+        "toddler"
+      ],
+      "kind": "storytime"
+    },
+    {
+      "id": "smcl-6ada3f7129c3d6003331b3d9-11171000",
+      "title": "Bookmobile Road Show: Rolling Into Your Community",
+      "type": "family",
+      "venue": "Portola Valley",
+      "city": "Peninsula",
+      "date": "Tue Nov 17",
+      "date_raw": "2026-11-17T10:00:00-08:00",
+      "time": "10:00 AM",
+      "description": "We\u2019re excited to share that our new bookmobile is hitting the road! Our Rolling into your Community tour is a fun and engaging opportunity to introduce our new Bookmobile to everyone in the County while celebrating our c",
+      "url": "https://smcl.bibliocommons.com/events/6ada3f7129c3d6003331b3d9",
+      "image": "",
+      "source": "San Mateo County Libraries",
+      "is_free": true,
+      "kid_friendly": true,
+      "ages": [
+        "preschool"
+      ],
+      "kind": "other"
+    },
+    {
+      "id": "sfpl-kids-storytime-babies-11171015",
+      "title": "Storytime: For Babies",
+      "type": "family",
+      "venue": "SFPL North Beach",
+      "city": "SF",
+      "date": "Tue Nov 17",
+      "date_raw": "2026-11-17T10:15:00-08:00",
+      "time": "10:15 AM",
+      "description": "",
+      "url": "https://sfpl.org/events/2026/11/17/storytime-babies",
+      "image": "",
+      "source": "SFPL",
+      "is_free": true,
+      "kid_friendly": true,
+      "ages": [
+        "baby"
+      ],
+      "kind": "storytime"
+    },
+    {
+      "id": "sfpl-kids-storytime-babies-1-11171015",
+      "title": "Storytime: For Babies",
+      "type": "family",
+      "venue": "SFPL Golden Gate Valley",
+      "city": "SF",
+      "date": "Tue Nov 17",
+      "date_raw": "2026-11-17T10:15:00-08:00",
+      "time": "10:15 AM",
+      "description": "",
+      "url": "https://sfpl.org/events/2026/11/17/storytime-babies-1",
+      "image": "",
+      "source": "SFPL",
+      "is_free": true,
+      "kid_friendly": true,
+      "ages": [
+        "baby"
+      ],
+      "kind": "storytime"
+    },
+    {
+      "id": "sfpl-kids-storytime-babies-3-11171015",
+      "title": "Storytime: For Babies",
+      "type": "family",
+      "venue": "SFPL Merced",
+      "city": "SF",
+      "date": "Tue Nov 17",
+      "date_raw": "2026-11-17T10:15:00-08:00",
+      "time": "10:15 AM",
+      "description": "",
+      "url": "https://sfpl.org/events/2026/11/17/storytime-babies-3",
+      "image": "",
+      "source": "SFPL",
+      "is_free": true,
+      "kid_friendly": true,
+      "ages": [
+        "baby"
+      ],
+      "kind": "storytime"
+    },
+    {
+      "id": "sfpl-kids-storytime-toddlers-3-11171015",
+      "title": "Storytime: For Toddlers",
+      "type": "family",
+      "venue": "SFPL Presidio",
+      "city": "SF",
+      "date": "Tue Nov 17",
+      "date_raw": "2026-11-17T10:15:00-08:00",
+      "time": "10:15 AM",
+      "description": "",
+      "url": "https://sfpl.org/events/2026/11/17/storytime-toddlers-3",
+      "image": "",
+      "source": "SFPL",
+      "is_free": true,
+      "kid_friendly": true,
+      "ages": [
+        "toddler"
+      ],
+      "kind": "storytime"
+    },
+    {
+      "id": "oaklandlibrary-695bf1f20c4aad14d373ca5a-11171015",
+      "title": "Storytime and Playtime",
+      "type": "family",
+      "venue": "Melrose Branch",
+      "city": "Oakland",
+      "date": "Tue Nov 17",
+      "date_raw": "2026-11-17T10:15:00-08:00",
+      "time": "10:15 AM",
+      "description": "You are invited to a Storytime with rhymes, books, and songs! It will be followed by free playtime with toys and access to our outdoor gardens and play area. All kids welcome, but program is especially for those 18 month",
+      "url": "https://oaklandlibrary.bibliocommons.com/events/695bf1f20c4aad14d373ca5a",
+      "image": "",
+      "source": "Oakland Library",
+      "is_free": true,
+      "kid_friendly": true,
+      "ages": [
+        "toddler",
+        "kids"
+      ],
+      "kind": "play"
+    },
+    {
+      "id": "oaklandlibrary-6927886d51da852800c3bc20-11171015",
+      "title": "Baby Bounce & Playtime",
+      "type": "family",
+      "venue": "Golden Gate Branch",
+      "city": "Oakland",
+      "date": "Tue Nov 17",
+      "date_raw": "2026-11-17T10:15:00-08:00",
+      "time": "10:15 AM",
+      "description": "Bring your babies to the library for songs, books, and socializing! This event is best for parents or caregivers with babies from birth to 18 months. Please note the duration of Baby Bounce storytime is approximately 15-",
+      "url": "https://oaklandlibrary.bibliocommons.com/events/6927886d51da852800c3bc20",
+      "image": "",
+      "source": "Oakland Library",
+      "is_free": true,
+      "kid_friendly": true,
+      "ages": [
+        "baby",
+        "toddler"
+      ],
+      "kind": "movement"
+    },
+    {
+      "id": "oaklandlibrary-696417db6faf374bd593313d-11171015",
+      "title": "Toddler Storytime",
+      "type": "family",
+      "venue": "Piedmont Avenue Branch",
+      "city": "Oakland",
+      "date": "Tue Nov 17",
+      "date_raw": "2026-11-17T10:15:00-08:00",
+      "time": "10:15 AM",
+      "description": "Songs, active rhymes and stories especially for ages 18 months to 3 years . Every Tuesday morning at 10:15am. Stay and play after Storytime with fun age-appropriate toys through 11:15am. If conditions allow, Storytime wi",
+      "url": "https://oaklandlibrary.bibliocommons.com/events/696417db6faf374bd593313d",
+      "image": "",
+      "source": "Oakland Library",
+      "is_free": true,
+      "kid_friendly": true,
+      "ages": [
+        "toddler"
+      ],
+      "kind": "storytime"
+    },
+    {
+      "id": "sfpl-kids-storytime-families-0-11171030",
+      "title": "Storytime: For Families",
+      "type": "family",
+      "venue": "SFPL Main",
+      "city": "SF",
+      "date": "Tue Nov 17",
+      "date_raw": "2026-11-17T10:30:00-08:00",
+      "time": "10:30 AM",
+      "description": "",
+      "url": "https://sfpl.org/events/2026/11/17/storytime-families-0",
+      "image": "",
+      "source": "SFPL",
+      "is_free": true,
+      "kid_friendly": true,
+      "ages": [
+        "baby",
+        "toddler",
+        "preschool",
+        "kids"
+      ],
+      "kind": "storytime"
+    },
+    {
+      "id": "sfpl-kids-storytime-preschoolers-2-11171030",
+      "title": "Storytime: For Preschoolers",
+      "type": "family",
+      "venue": "SFPL Portola",
+      "city": "SF",
+      "date": "Tue Nov 17",
+      "date_raw": "2026-11-17T10:30:00-08:00",
+      "time": "10:30 AM",
+      "description": "",
+      "url": "https://sfpl.org/events/2026/11/17/storytime-preschoolers-2",
+      "image": "",
+      "source": "SFPL",
+      "is_free": true,
+      "kid_friendly": true,
+      "ages": [
+        "preschool"
+      ],
+      "kind": "storytime"
+    },
+    {
+      "id": "sfpl-kids-storytime-toddlers-5-11171030",
+      "title": "Storytime: For Toddlers",
+      "type": "family",
+      "venue": "SFPL Ortega",
+      "city": "SF",
+      "date": "Tue Nov 17",
+      "date_raw": "2026-11-17T10:30:00-08:00",
+      "time": "10:30 AM",
+      "description": "",
+      "url": "https://sfpl.org/events/2026/11/17/storytime-toddlers-5",
+      "image": "",
+      "source": "SFPL",
+      "is_free": true,
+      "kid_friendly": true,
+      "ages": [
+        "toddler"
+      ],
+      "kind": "storytime"
+    },
+    {
+      "id": "sfpl-kids-storytime-toddlers-6-11171030",
+      "title": "Storytime: For Toddlers",
+      "type": "family",
+      "venue": "SFPL Parkside",
+      "city": "SF",
+      "date": "Tue Nov 17",
+      "date_raw": "2026-11-17T10:30:00-08:00",
+      "time": "10:30 AM",
+      "description": "",
+      "url": "https://sfpl.org/events/2026/11/17/storytime-toddlers-6",
+      "image": "",
+      "source": "SFPL",
+      "is_free": true,
+      "kid_friendly": true,
+      "ages": [
+        "toddler"
+      ],
+      "kind": "storytime"
+    },
+    {
+      "id": "sfpl-kids-storytime-toddlers-1-11171030",
+      "title": "Storytime: For Toddlers",
+      "type": "family",
+      "venue": "SFPL Potrero",
+      "city": "SF",
+      "date": "Tue Nov 17",
+      "date_raw": "2026-11-17T10:30:00-08:00",
+      "time": "10:30 AM",
+      "description": "",
+      "url": "https://sfpl.org/events/2026/11/17/storytime-toddlers-1",
+      "image": "",
+      "source": "SFPL",
+      "is_free": true,
+      "kid_friendly": true,
+      "ages": [
+        "toddler"
+      ],
+      "kind": "storytime"
+    },
+    {
+      "id": "sfpl-kids-storytime-toddlers-9-11171030",
+      "title": "Storytime: For Toddlers",
+      "type": "family",
+      "venue": "SFPL Bernal Heights",
+      "city": "SF",
+      "date": "Tue Nov 17",
+      "date_raw": "2026-11-17T10:30:00-08:00",
+      "time": "10:30 AM",
+      "description": "",
+      "url": "https://sfpl.org/events/2026/11/17/storytime-toddlers-9",
+      "image": "",
+      "source": "SFPL",
+      "is_free": true,
+      "kid_friendly": true,
+      "ages": [
+        "toddler"
+      ],
+      "kind": "storytime"
+    },
+    {
+      "id": "sfpl-kids-storytime-toddlers-7-11171030",
+      "title": "Storytime: For Toddlers",
+      "type": "family",
+      "venue": "SFPL Mission Bay",
+      "city": "SF",
+      "date": "Tue Nov 17",
+      "date_raw": "2026-11-17T10:30:00-08:00",
+      "time": "10:30 AM",
+      "description": "",
+      "url": "https://sfpl.org/events/2026/11/17/storytime-toddlers-7",
+      "image": "",
+      "source": "SFPL",
+      "is_free": true,
+      "kid_friendly": true,
+      "ages": [
+        "toddler"
+      ],
+      "kind": "storytime"
+    },
+    {
+      "id": "sfpl-kids-storytime-toddlers-0-11171030",
+      "title": "Storytime: For Toddlers",
+      "type": "family",
+      "venue": "SFPL Sunset",
+      "city": "SF",
+      "date": "Tue Nov 17",
+      "date_raw": "2026-11-17T10:30:00-08:00",
+      "time": "10:30 AM",
+      "description": "",
+      "url": "https://sfpl.org/events/2026/11/17/storytime-toddlers-0",
+      "image": "",
+      "source": "SFPL",
+      "is_free": true,
+      "kid_friendly": true,
+      "ages": [
+        "toddler"
+      ],
+      "kind": "storytime"
+    },
+    {
+      "id": "sfpl-kids-storytime-toddlers-10-11171030",
+      "title": "Storytime: For Toddlers",
+      "type": "family",
+      "venue": "SFPL Excelsior",
+      "city": "SF",
+      "date": "Tue Nov 17",
+      "date_raw": "2026-11-17T10:30:00-08:00",
+      "time": "10:30 AM",
+      "description": "",
+      "url": "https://sfpl.org/events/2026/11/17/storytime-toddlers-10",
+      "image": "",
+      "source": "SFPL",
+      "is_free": true,
+      "kid_friendly": true,
+      "ages": [
+        "toddler"
+      ],
+      "kind": "storytime"
+    },
+    {
+      "id": "sfpl-kids-storytime-toddlers-4-11171030",
+      "title": "Storytime: For Toddlers",
+      "type": "family",
+      "venue": "SFPL Ocean View",
+      "city": "SF",
+      "date": "Tue Nov 17",
+      "date_raw": "2026-11-17T10:30:00-08:00",
+      "time": "10:30 AM",
+      "description": "",
+      "url": "https://sfpl.org/events/2026/11/17/storytime-toddlers-4",
+      "image": "",
+      "source": "SFPL",
+      "is_free": true,
+      "kid_friendly": true,
+      "ages": [
+        "toddler"
+      ],
+      "kind": "storytime"
+    },
+    {
+      "id": "smcl-694481b52c65973d00135e06-11171030",
+      "title": "Musical Storytime With Stay and Play at San Pedro Valley Park",
+      "type": "family",
+      "venue": "Pacifica Sanchez",
+      "city": "Peninsula",
+      "date": "Tue Nov 17",
+      "date_raw": "2026-11-17T10:30:00-08:00",
+      "time": "10:30 AM",
+      "description": "Let\u2019s make music together! Join us for a silly, funny, song-and-dance-filled storytime for all ages. After Storytime join us for Stay and Play, a time to engage in open-ended exploration and learning in the company of ot",
+      "url": "https://smcl.bibliocommons.com/events/694481b52c65973d00135e06",
+      "image": "",
+      "source": "San Mateo County Libraries",
+      "is_free": true,
+      "kid_friendly": true,
+      "ages": [
+        "kids"
+      ],
+      "kind": "music"
+    },
+    {
+      "id": "smcl-6a9204f74cb69d003e24251a-11171030",
+      "title": "Spanish Bilingual Storytime | Hora de Cuentos Bilingue",
+      "type": "family",
+      "venue": "Portola Valley",
+      "city": "Peninsula",
+      "date": "Tue Nov 17",
+      "date_raw": "2026-11-17T10:30:00-08:00",
+      "time": "10:30 AM",
+      "description": "Join us for bilingual Spanish and English stories and music the whole family will love! Children of all ages will enjoy listening, singing and playing along. Capacity limits may apply. \u00a1Acomp\u00e1\u00f1enos para disfrutar cuentos",
+      "url": "https://smcl.bibliocommons.com/events/6a9204f74cb69d003e24251a",
+      "image": "",
+      "source": "San Mateo County Libraries",
+      "is_free": true,
+      "kid_friendly": true,
+      "ages": [
+        "kids"
+      ],
+      "kind": "storytime"
+    },
+    {
+      "id": "smcl-6a481ec3e3c2e3fd937c2b7e-11171030",
+      "title": "Bilingual Tagalog/English Storytime With Stay & Play | Bilingguwal na Oras ng Kuwento",
+      "type": "family",
+      "venue": "Foster City",
+      "city": "Peninsula",
+      "date": "Tue Nov 17",
+      "date_raw": "2026-11-17T10:30:00-08:00",
+      "time": "10:30 AM",
+      "description": "Join us for a bilingual Tagalog and English storytime where we'll be learning a little about the Filipino culture through singing Filipino rhymes and folk songs and reading stories in Tagalog with English translation. Ch",
+      "url": "https://smcl.bibliocommons.com/events/6a481ec3e3c2e3fd937c2b7e",
+      "image": "",
+      "source": "San Mateo County Libraries",
+      "is_free": true,
+      "kid_friendly": true,
+      "ages": [
+        "kids"
+      ],
+      "kind": "play"
+    },
+    {
+      "id": "smcl-693c853d6f926136000aa87f-11171030",
+      "title": "Signs and Rhymes Storytime With Stay and Play!",
+      "type": "family",
+      "venue": "Atherton",
+      "city": "Peninsula",
+      "date": "Tue Nov 17",
+      "date_raw": "2026-11-17T10:30:00-08:00",
+      "time": "10:30 AM",
+      "description": "Let's read, sing, sign, and rhyme together! Play together with your little one as we learn simple sign language and fun ways to fingerplay alongside our stories and music each week. This storytime welcomes all ages, from",
+      "url": "https://smcl.bibliocommons.com/events/693c853d6f926136000aa87f",
+      "image": "",
+      "source": "San Mateo County Libraries",
+      "is_free": true,
+      "kid_friendly": true,
+      "ages": [
+        "baby",
+        "toddler",
+        "preschool"
+      ],
+      "kind": "music"
+    },
+    {
+      "id": "smcl-693752ac6724c63d00e5eeed-11171030",
+      "title": "Family Storytime",
+      "type": "family",
+      "venue": "Woodside",
+      "city": "Peninsula",
+      "date": "Tue Nov 17",
+      "date_raw": "2026-11-17T10:30:00-08:00",
+      "time": "10:30 AM",
+      "description": "Come along on an imaginary adventure for Family Storytime! Hear new stories, sing songs and learn wiggles that the whole family can enjoy together, from toddlers to grown-ups. Capacity limits may apply.",
+      "url": "https://smcl.bibliocommons.com/events/693752ac6724c63d00e5eeed",
+      "image": "",
+      "source": "San Mateo County Libraries",
+      "is_free": true,
+      "kid_friendly": true,
+      "ages": [
+        "toddler"
+      ],
+      "kind": "storytime"
+    },
+    {
+      "id": "smcl-6aaa3487ab7a8e0037c228fa-11171030",
+      "title": "Storytime & Drawing Demo With Nidhi Chanani",
+      "type": "family",
+      "venue": "Pacifica Sharp Park",
+      "city": "Peninsula",
+      "date": "Tue Nov 17",
+      "date_raw": "2026-11-17T10:30:00-08:00",
+      "time": "10:30 AM",
+      "description": "Join us for an interactive storytime with Nidhi Chanani in celebration of Diwali! Nidhi will share her about her path to becoming an artist and author. Draw along with Nidhi during her drawing demo, followed by Q&A time!",
+      "url": "https://smcl.bibliocommons.com/events/6aaa3487ab7a8e0037c228fa",
+      "image": "",
+      "source": "San Mateo County Libraries",
+      "is_free": true,
+      "kid_friendly": true,
+      "ages": [
+        "kids"
+      ],
+      "kind": "storytime"
+    },
+    {
+      "id": "smcl-6aa04a52c1e2e42c4a9d8c92-11171030",
+      "title": "Baby Bounce With Stay and Play",
+      "type": "family",
+      "venue": "Belmont",
+      "city": "Peninsula",
+      "date": "Tue Nov 17",
+      "date_raw": "2026-11-17T10:30:00-08:00",
+      "time": "10:30 AM",
+      "description": "Baby storytime centers around parent/caregiver-child interactions. This storytime is developmentally appropriate for newborns and babies up to 18 months old. Join us for rhymes, lap bounces, singing, instruments and a bo",
+      "url": "https://smcl.bibliocommons.com/events/6aa04a52c1e2e42c4a9d8c92",
+      "image": "",
+      "source": "San Mateo County Libraries",
+      "is_free": true,
+      "kid_friendly": true,
+      "ages": [
+        "baby",
+        "toddler"
+      ],
+      "kind": "movement"
+    },
+    {
+      "id": "smcl-6a6bbad3f4e5db3d00c572a2-11171030",
+      "title": "Hora de Cuentos / Storytime",
+      "type": "family",
+      "venue": "North Fair Oaks, Redwood City",
+      "city": "Peninsula",
+      "date": "Tue Nov 17",
+      "date_raw": "2026-11-17T10:30:00-08:00",
+      "time": "10:30 AM",
+      "description": "Join us on Tuesdays for stories and music the whole family will love! Children of all ages will enjoy listening, singing, and playing together. \u00a1Acomp\u00e1\u00f1enos Martes para disfrutar cuentos y m\u00fasica que le encantar\u00e1 a toda ",
+      "url": "https://smcl.bibliocommons.com/events/6a6bbad3f4e5db3d00c572a2",
+      "image": "",
+      "source": "San Mateo County Libraries",
+      "is_free": true,
+      "kid_friendly": true,
+      "ages": [
+        "kids"
+      ],
+      "kind": "storytime"
+    },
+    {
+      "id": "sfpl-kids-storytime-preschoolers-11171100",
+      "title": "Storytime: For Preschoolers",
+      "type": "family",
+      "venue": "SFPL North Beach",
+      "city": "SF",
+      "date": "Tue Nov 17",
+      "date_raw": "2026-11-17T11:00:00-08:00",
+      "time": "11:00 AM",
+      "description": "",
+      "url": "https://sfpl.org/events/2026/11/17/storytime-preschoolers",
+      "image": "",
+      "source": "SFPL",
+      "is_free": true,
+      "kid_friendly": true,
+      "ages": [
+        "preschool"
+      ],
+      "kind": "storytime"
+    },
+    {
+      "id": "sfpl-kids-storytime-preschoolers-1-11171100",
+      "title": "Storytime: For Preschoolers",
+      "type": "family",
+      "venue": "SFPL Bayview",
+      "city": "SF",
+      "date": "Tue Nov 17",
+      "date_raw": "2026-11-17T11:00:00-08:00",
+      "time": "11:00 AM",
+      "description": "",
+      "url": "https://sfpl.org/events/2026/11/17/storytime-preschoolers-1",
+      "image": "",
+      "source": "SFPL",
+      "is_free": true,
+      "kid_friendly": true,
+      "ages": [
+        "preschool"
+      ],
+      "kind": "storytime"
+    },
+    {
+      "id": "sfpl-kids-storytime-toddlers-8-11171100",
+      "title": "Storytime: For Toddlers",
+      "type": "family",
+      "venue": "SFPL Eureka Valley",
+      "city": "SF",
+      "date": "Tue Nov 17",
+      "date_raw": "2026-11-17T11:00:00-08:00",
+      "time": "11:00 AM",
+      "description": "",
+      "url": "https://sfpl.org/events/2026/11/17/storytime-toddlers-8",
+      "image": "",
+      "source": "SFPL",
+      "is_free": true,
+      "kid_friendly": true,
+      "ages": [
+        "toddler"
+      ],
+      "kind": "storytime"
+    },
+    {
+      "id": "sfpl-kids-storytime-toddlers-11-11171100",
+      "title": "Storytime: For Toddlers",
+      "type": "family",
+      "venue": "SFPL Western Addition",
+      "city": "SF",
+      "date": "Tue Nov 17",
+      "date_raw": "2026-11-17T11:00:00-08:00",
+      "time": "11:00 AM",
+      "description": "",
+      "url": "https://sfpl.org/events/2026/11/17/storytime-toddlers-11",
+      "image": "",
+      "source": "SFPL",
+      "is_free": true,
+      "kid_friendly": true,
+      "ages": [
+        "toddler"
+      ],
+      "kind": "storytime"
+    },
+    {
+      "id": "sfpl-kids-storytime-toddlers-2-11171100",
+      "title": "Storytime: For Toddlers",
+      "type": "family",
+      "venue": "SFPL Glen Park",
+      "city": "SF",
+      "date": "Tue Nov 17",
+      "date_raw": "2026-11-17T11:00:00-08:00",
+      "time": "11:00 AM",
+      "description": "",
+      "url": "https://sfpl.org/events/2026/11/17/storytime-toddlers-2",
+      "image": "",
+      "source": "SFPL",
+      "is_free": true,
+      "kid_friendly": true,
+      "ages": [
+        "toddler"
+      ],
+      "kind": "storytime"
+    },
+    {
+      "id": "sfpl-kids-storytime-toddlers-12-11171100",
+      "title": "Storytime: For Toddlers",
+      "type": "family",
+      "venue": "SFPL Richmond",
+      "city": "SF",
+      "date": "Tue Nov 17",
+      "date_raw": "2026-11-17T11:00:00-08:00",
+      "time": "11:00 AM",
+      "description": "",
+      "url": "https://sfpl.org/events/2026/11/17/storytime-toddlers-12",
+      "image": "",
+      "source": "SFPL",
+      "is_free": true,
+      "kid_friendly": true,
+      "ages": [
+        "toddler"
+      ],
+      "kind": "storytime"
+    },
+    {
+      "id": "oaklandlibrary-695bf1f80c4aad14d373ca8e-11171100",
+      "title": "Storytime and Garden Play",
+      "type": "family",
+      "venue": "Elmhurst Branch",
+      "city": "Oakland",
+      "date": "Tue Nov 17",
+      "date_raw": "2026-11-17T11:00:00-08:00",
+      "time": "11:00 AM",
+      "description": "Join us for stories, songs, and play! Storytime at 11 am followed by free play in our community garden with our library chickens! For ages 0-5 but all ages are welcome! Snacks provided for kids & caregivers. Get accessib",
+      "url": "https://oaklandlibrary.bibliocommons.com/events/695bf1f80c4aad14d373ca8e",
+      "image": "",
+      "source": "Oakland Library",
+      "is_free": true,
+      "kid_friendly": true,
+      "ages": [
+        "preschool",
+        "kids"
+      ],
+      "kind": "outdoors"
+    },
+    {
+      "id": "oaklandlibrary-6a1a16a4748daf857d5a3d14-11171100",
+      "title": "Family Storytime",
+      "type": "family",
+      "venue": "West Oakland Branch",
+      "city": "Oakland",
+      "date": "Tue Nov 17",
+      "date_raw": "2026-11-17T11:00:00-08:00",
+      "time": "11:00 AM",
+      "description": "Join us for storytime with songs, movement and stories at the West Oakland Branch. All kids (0-6 years old) are welcome with grownup participation. Stay after for a 30-minute free play time.",
+      "url": "https://oaklandlibrary.bibliocommons.com/events/6a1a16a4748daf857d5a3d14",
+      "image": "",
+      "source": "Oakland Library",
+      "is_free": true,
+      "kid_friendly": true,
+      "ages": [
+        "kids"
+      ],
+      "kind": "storytime"
+    },
+    {
+      "id": "sfpl-kids-storytime-preschoolers-0-11171115",
+      "title": "Storytime: For Preschoolers",
+      "type": "family",
+      "venue": "SFPL Mission Bay",
+      "city": "SF",
+      "date": "Tue Nov 17",
+      "date_raw": "2026-11-17T11:15:00-08:00",
+      "time": "11:15 AM",
+      "description": "",
+      "url": "https://sfpl.org/events/2026/11/17/storytime-preschoolers-0",
+      "image": "",
+      "source": "SFPL",
+      "is_free": true,
+      "kid_friendly": true,
+      "ages": [
+        "preschool"
+      ],
+      "kind": "storytime"
+    },
+    {
+      "id": "sfpl-kids-activity-little-artists-11171115",
+      "title": "Activity: Little Artists",
+      "type": "family",
+      "venue": "SFPL Parkside",
+      "city": "SF",
+      "date": "Tue Nov 17",
+      "date_raw": "2026-11-17T11:15:00-08:00",
+      "time": "11:15 AM",
+      "description": "",
+      "url": "https://sfpl.org/events/2026/11/17/activity-little-artists",
+      "image": "",
+      "source": "SFPL",
+      "is_free": true,
+      "kid_friendly": true,
+      "ages": [
+        "baby",
+        "toddler",
+        "preschool"
+      ],
+      "kind": "other"
+    },
+    {
+      "id": "smcl-6ac82e3829c3d600332eb053-11171115",
+      "title": "Family Storytime",
+      "type": "family",
+      "venue": "Brisbane",
+      "city": "Peninsula",
+      "date": "Tue Nov 17",
+      "date_raw": "2026-11-17T11:15:00-08:00",
+      "time": "11:15 AM",
+      "description": "Join us for a fun and interactive story time! Enjoy 15 minutes of songs and books followed by 15 minutes of imaginative play. Perfect for young children to develop a love for reading and creativity!",
+      "url": "https://smcl.bibliocommons.com/events/6ac82e3829c3d600332eb053",
+      "image": "",
+      "source": "San Mateo County Libraries",
+      "is_free": true,
+      "kid_friendly": true,
+      "ages": [
+        "kids"
+      ],
+      "kind": "storytime"
+    },
+    {
+      "id": "sfpl-kids-storytime-toddlers-11171130",
+      "title": "Storytime: For Toddlers",
+      "type": "family",
+      "venue": "SFPL West Portal",
+      "city": "SF",
+      "date": "Tue Nov 17",
+      "date_raw": "2026-11-17T11:30:00-08:00",
+      "time": "11:30 AM",
+      "description": "",
+      "url": "https://sfpl.org/events/2026/11/17/storytime-toddlers",
+      "image": "",
+      "source": "SFPL",
+      "is_free": true,
+      "kid_friendly": true,
+      "ages": [
+        "toddler"
+      ],
+      "kind": "storytime"
+    },
+    {
+      "id": "sfpl-kids-storytime-babies-4-11171145",
+      "title": "Storytime: For Babies",
+      "type": "family",
+      "venue": "SFPL Western Addition",
+      "city": "SF",
+      "date": "Tue Nov 17",
+      "date_raw": "2026-11-17T11:45:00-08:00",
+      "time": "11:45 AM",
+      "description": "",
+      "url": "https://sfpl.org/events/2026/11/17/storytime-babies-4",
+      "image": "",
+      "source": "SFPL",
+      "is_free": true,
+      "kid_friendly": true,
+      "ages": [
+        "baby"
+      ],
+      "kind": "storytime"
+    },
+    {
+      "id": "oaklandlibrary-692f34e97eb3e43000270d37-11171145",
+      "title": "Baby Bounce",
+      "type": "family",
+      "venue": "Montclair Branch",
+      "city": "Oakland",
+      "date": "Tue Nov 17",
+      "date_raw": "2026-11-17T11:45:00-08:00",
+      "time": "11:45 AM",
+      "description": "Come to Montclair Baby Bounce Every Tuesday morning. We will sing, dance, and read books all designed for participants 0 to 1 years old, followed by playtime with your baby and other caregivers.",
+      "url": "https://oaklandlibrary.bibliocommons.com/events/692f34e97eb3e43000270d37",
+      "image": "",
+      "source": "Oakland Library",
+      "is_free": true,
+      "kid_friendly": true,
+      "ages": [
+        "baby"
+      ],
+      "kind": "movement"
+    },
+    {
+      "id": "sfpl-5085503391222027348",
+      "title": "Social: Genealogy Club",
+      "type": "talks",
+      "venue": "SF Public Library",
+      "city": "SF",
+      "date": "Tue Nov 17",
+      "date_raw": "2026-11-17T13:00:00-08:00",
+      "time": "1:00 PM",
+      "description": "",
+      "url": "https://sfpl.org/events/2026/11/17/social-genealogy-club",
+      "source": "SFPL",
+      "is_free": true,
+      "kid_friendly": false
+    },
+    {
+      "id": "sfpl-kids-storytime-babies-2-11171315",
+      "title": "Storytime: For Babies",
+      "type": "family",
+      "venue": "SFPL Ingleside",
+      "city": "SF",
+      "date": "Tue Nov 17",
+      "date_raw": "2026-11-17T13:15:00-08:00",
+      "time": "1:15 PM",
+      "description": "",
+      "url": "https://sfpl.org/events/2026/11/17/storytime-babies-2",
+      "image": "",
+      "source": "SFPL",
+      "is_free": true,
+      "kid_friendly": true,
+      "ages": [
+        "baby"
+      ],
+      "kind": "storytime"
     },
     {
       "id": "tm-Z7r9jZ1AAe7-y",
@@ -11922,6 +12101,22 @@
       "kid_friendly": false
     },
     {
+      "id": "tm-G5vYZ_p1I-bVm",
+      "title": "POISON THE WELL & ALEXISONFIRE",
+      "type": "music",
+      "venue": "Fox Theater",
+      "city": "Oakland",
+      "date": "Sun Apr 4",
+      "date_raw": "2027-04-05T02:00:00Z",
+      "time": "7:00 PM",
+      "description": "",
+      "url": "https://www.ticketmaster.com/poison-the-well-alexisonfire-oakland-california-04-04-2027/event/1C006562A8858D2E",
+      "image": "https://s1.ticketm.net/dam/e/ce1/6fe7128e-aca5-444d-9790-556d71164ce1_RETINA_PORTRAIT_16_9.jpg",
+      "source": "Ticketmaster",
+      "is_free": false,
+      "kid_friendly": false
+    },
+    {
       "id": "tm-Z7r9jZ1AA7OFy",
       "title": "Lucky Daye",
       "type": "music",
@@ -12193,6 +12388,22 @@
       "kid_friendly": false
     },
     {
+      "id": "tm-Z7r9jZ1AA7gFv",
+      "title": "Enjambre",
+      "type": "music",
+      "venue": "The Regency Ballroom",
+      "city": "SF",
+      "date": "Tue May 18",
+      "date_raw": "2027-05-19T03:00:00Z",
+      "time": "8:00 PM",
+      "description": "",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7gFv",
+      "image": "https://s1.ticketm.net/dam/a/d2f/59447000-c4b8-4a36-8a10-93339a5e8d2f_RETINA_PORTRAIT_16_9.jpg",
+      "source": "Ticketmaster",
+      "is_free": false,
+      "kid_friendly": false
+    },
+    {
       "id": "tm-G5vYZ_48x4wje",
       "title": "Two Door Cinema Club - Tourist History 15th Anniversary Tour",
       "type": "music",
@@ -12273,7 +12484,7 @@
       "kid_friendly": false
     },
     {
-      "id": "gpc-4830825725121142643",
+      "id": "gpc-4709470696437873400",
       "title": "Today",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -12288,7 +12499,7 @@
       "kid_friendly": false
     },
     {
-      "id": "gpc-6948673352385373818",
+      "id": "gpc-2274868587082708381",
       "title": "5/TM/10",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -12303,7 +12514,7 @@
       "kid_friendly": false
     },
     {
-      "id": "gpc-3664607288598352797",
+      "id": "gpc-7800459258836001927",
       "title": "3/T/40",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -12318,8 +12529,8 @@
       "kid_friendly": false
     },
     {
-      "id": "gpc-2989850898420679453",
-      "title": "3/TM,M/60-80",
+      "id": "gpc-6026861869751861658",
+      "title": "3/TM,M/74",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
       "city": "Oakland",
@@ -12333,7 +12544,7 @@
       "kid_friendly": false
     },
     {
-      "id": "gpc-2453179954979895073",
+      "id": "gpc-4120444237022604438",
       "title": "5/TM/16.5",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -12348,7 +12559,7 @@
       "kid_friendly": false
     },
     {
-      "id": "gpc-8258283044885860386",
+      "id": "gpc-3571967220627042772",
       "title": "5/0/17",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -12363,7 +12574,7 @@
       "kid_friendly": false
     },
     {
-      "id": "gpc-8088348249891714702",
+      "id": "gpc-8774024824106702282",
       "title": "4!/TM/44",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -12378,7 +12589,7 @@
       "kid_friendly": false
     },
     {
-      "id": "gpc-6807082198958661018",
+      "id": "gpc-6416149539315089535",
       "title": "2/LT/34",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -12393,7 +12604,7 @@
       "kid_friendly": false
     },
     {
-      "id": "gpc-241751460398903988",
+      "id": "gpc-1447329274595232826",
       "title": "5/TM/51",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -12408,7 +12619,7 @@
       "kid_friendly": false
     },
     {
-      "id": "gpc-5103161575556609163",
+      "id": "gpc-6390663425772228157",
       "title": "3!/TM/16",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -12423,7 +12634,7 @@
       "kid_friendly": false
     },
     {
-      "id": "gpc-380112613416315726",
+      "id": "gpc-1754567971083824226",
       "title": "5!/T/52",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -12438,7 +12649,7 @@
       "kid_friendly": false
     },
     {
-      "id": "gpc-6383182949347668502",
+      "id": "gpc-1540914544176500554",
       "title": "5/TM/10",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -12453,7 +12664,7 @@
       "kid_friendly": false
     },
     {
-      "id": "gpc-7897912463006193863",
+      "id": "gpc-4598454578961975845",
       "title": "2/L/35 to 4/T/50",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -12468,7 +12679,7 @@
       "kid_friendly": false
     },
     {
-      "id": "gpc-5082332073097810019",
+      "id": "gpc-7507147856290931171",
       "title": "Meeting",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -12483,7 +12694,7 @@
       "kid_friendly": false
     },
     {
-      "id": "gpc-7977065880751830953",
+      "id": "gpc-7781364699641254126",
       "title": "3/TM,M/60-80",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -12498,7 +12709,7 @@
       "kid_friendly": false
     },
     {
-      "id": "gpc-9070869738953772198",
+      "id": "gpc-8227570901179831558",
       "title": "5/TM/16.5",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -12513,7 +12724,7 @@
       "kid_friendly": false
     },
     {
-      "id": "gpc-4187059829249555947",
+      "id": "gpc-774858801052471695",
       "title": "5/0/17",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -12528,7 +12739,7 @@
       "kid_friendly": false
     },
     {
-      "id": "gpc-5853622314123070897",
+      "id": "gpc-1959532369612711842",
       "title": "1/T/34",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -12543,7 +12754,7 @@
       "kid_friendly": false
     },
     {
-      "id": "gpc-7333615980566314218",
+      "id": "gpc-7693092243812159871",
       "title": "3/LT/18",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
@@ -12558,7 +12769,7 @@
       "kid_friendly": false
     },
     {
-      "id": "gpc-426637536247715962",
+      "id": "gpc-6624679609785329521",
       "title": "3/T/50",
       "type": "bike",
       "venue": "Grizzly Peak Cyclists",
