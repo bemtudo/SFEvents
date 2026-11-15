@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-11-14T21:58:01.428502+00:00",
-  "count": 505,
+  "updated_at": "2026-11-15T04:49:59.263779+00:00",
+  "count": 502,
   "events": [
     {
-      "id": "ical-6908007808926274245",
+      "id": "ical-3747363587879294316",
       "title": "The Noon Ride",
       "type": "bike",
       "venue": "2210 Page Mill Rd\\, Los Altos Hills\\, CA 94022\\, USA",
@@ -18,7 +18,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-4911019583137139121",
+      "id": "ical-7177489379890642929",
       "title": "Rapha RADLER WILLKOMMEN-HAPPY HOUR!",
       "type": "bike",
       "venue": "2198 Filbert St\\, San Francisco\\, CA 94123\\, USA",
@@ -33,7 +33,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-2399564146851974631",
+      "id": "ical-8041981137146883905",
       "title": "SFCC COFFEE RIDE",
       "type": "bike",
       "venue": "37.773497\\, -122.441015",
@@ -48,7 +48,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-2085938062488124030",
+      "id": "ical-8313378820404949549",
       "title": "SF Bike Party",
       "type": "bike",
       "venue": "Varies Monthly",
@@ -63,7 +63,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-9040014764537314183",
+      "id": "ical-1153340534818160161",
       "title": "Bespoke Cycles Shop Ride",
       "type": "bike",
       "venue": "SF Bay Area Bike Rides",
@@ -78,7 +78,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-8016613192774959818",
+      "id": "ical-2089452815039051938",
       "title": "Scotty\u2019s Ride",
       "type": "bike",
       "venue": "Golden Gate Bridge Welcome Center\\, Golden Gate Bridge\\, Coastal T",
@@ -93,7 +93,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-1585575419356732749",
+      "id": "ical-1732617468537657121",
       "title": "Alto Velo C Ride",
       "type": "bike",
       "venue": "Summit Bicycles\\, 392 California Ave\\, Palo Alto\\, CA 94306\\, USA",
@@ -108,22 +108,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-3281446462062181362",
-      "title": "Roasters Ride",
-      "type": "bike",
-      "venue": "Java Hut\\, 760 Center Blvd\\, Fairfax\\, CA 94930\\, USA",
-      "city": "SF",
-      "date": "Sat Dec 2",
-      "date_raw": "2023-12-02T09:00:00",
-      "time": "9:00 AM",
-      "description": "Start: 9:00am on Saturdays at the Java Hut in Fairfax\\, CA. A l",
-      "url": "",
-      "source": "SF Bay Area Bike Rides",
-      "is_free": true,
-      "kid_friendly": false
-    },
-    {
-      "id": "ical-1147071765230089872",
+      "id": "ical-6301793839278654790",
       "title": "Alto Velo A Ride",
       "type": "bike",
       "venue": "Summit Bicycles\\, 392 California Ave\\, Palo Alto\\, CA 94306\\, USA",
@@ -138,37 +123,22 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-4784903132272841518",
-      "title": "Alto Velo B Ride",
+      "id": "ical-4941592765410670038",
+      "title": "Roasters Ride",
       "type": "bike",
-      "venue": "Summit Bicycles\\, 392 California Ave\\, Palo Alto\\, CA 94306\\, USA",
+      "venue": "Java Hut\\, 760 Center Blvd\\, Fairfax\\, CA 94930\\, USA",
       "city": "SF",
       "date": "Sat Dec 2",
       "date_raw": "2023-12-02T09:00:00",
       "time": "9:00 AM",
-      "description": "<a href=\"https://www.altovelo.org/b-ride\">https://www.altovelo.",
+      "description": "Start: 9:00am on Saturdays at the Java Hut in Fairfax\\, CA. A l",
       "url": "",
       "source": "SF Bay Area Bike Rides",
       "is_free": true,
       "kid_friendly": false
     },
     {
-      "id": "ical-2005477955585435602",
-      "title": "The Spectrum Ride",
-      "type": "bike",
-      "venue": "West Homestead Road\\, W Homestead Rd\\, Cupertino\\, CA\\, USA",
-      "city": "SF",
-      "date": "Sat Dec 2",
-      "date_raw": "2023-12-02T09:00:00",
-      "time": "9:00 AM",
-      "description": "Start: Saturday at 9 am\\, and typically rolls past downtown Los",
-      "url": "",
-      "source": "SF Bay Area Bike Rides",
-      "is_free": true,
-      "kid_friendly": false
-    },
-    {
-      "id": "ical-3469707018852797716",
+      "id": "ical-1905093318948364226",
       "title": "Alto Velo Women\u2019s/WTFNB Ride",
       "type": "bike",
       "venue": "Varies Weekly",
@@ -183,7 +153,37 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-90097122302127917",
+      "id": "ical-2032157975381263254",
+      "title": "The Spectrum Ride",
+      "type": "bike",
+      "venue": "West Homestead Road\\, W Homestead Rd\\, Cupertino\\, CA\\, USA",
+      "city": "SF",
+      "date": "Sat Dec 2",
+      "date_raw": "2023-12-02T09:00:00",
+      "time": "9:00 AM",
+      "description": "Start: Saturday at 9 am\\, and typically rolls past downtown Los",
+      "url": "",
+      "source": "SF Bay Area Bike Rides",
+      "is_free": true,
+      "kid_friendly": false
+    },
+    {
+      "id": "ical-8645484059074804998",
+      "title": "Alto Velo B Ride",
+      "type": "bike",
+      "venue": "Summit Bicycles\\, 392 California Ave\\, Palo Alto\\, CA 94306\\, USA",
+      "city": "SF",
+      "date": "Sat Dec 2",
+      "date_raw": "2023-12-02T09:00:00",
+      "time": "9:00 AM",
+      "description": "<a href=\"https://www.altovelo.org/b-ride\">https://www.altovelo.",
+      "url": "",
+      "source": "SF Bay Area Bike Rides",
+      "is_free": true,
+      "kid_friendly": false
+    },
+    {
+      "id": "ical-5994201812506045750",
       "title": "Fatcake FTWNB + Allies Ride",
       "type": "bike",
       "venue": "Conservatory of Flowers\\, 100 John F Kennedy Dr\\, San Francisco\\,",
@@ -198,7 +198,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-5003263194610597962",
+      "id": "ical-6024951822938833003",
       "title": "Pas Normal Social Road Ride",
       "type": "bike",
       "venue": "Pas Normal Studios San Francisco\\, 799 Haight St\\, San Francisco\\,",
@@ -213,7 +213,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-3611966162335249118",
+      "id": "ical-7660165981759732445",
       "title": "The Morning Ride",
       "type": "bike",
       "venue": "296 Main St\\, Los Altos\\, CA 94022\\, USA",
@@ -228,7 +228,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-168948325371207415",
+      "id": "ical-4745401955686601397",
       "title": "Fatcake HEADLANDS + ARSICAULT BAKERY Ride",
       "type": "bike",
       "venue": "Golden Gate Bridge Welcome Center\\, Golden Gate Bridge\\, Coastal T",
@@ -243,7 +243,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-4137457465479730690",
+      "id": "ical-3884764736900259188",
       "title": "Ornot After Cake Ride",
       "type": "bike",
       "venue": "Ornot Bike\\, 55 Clement St\\, San Francisco\\, CA 94118\\, USA",
@@ -258,7 +258,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-4272907306580187458",
+      "id": "ical-4474724164173575784",
       "title": "SF Bike & Brew",
       "type": "bike",
       "venue": "Varies Weekly",
@@ -273,7 +273,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-3583060129556876281",
+      "id": "ical-6932115408970275369",
       "title": "Rapha RCC SF DONUT RIDE",
       "type": "bike",
       "venue": "Rapha San Francisco\\, 2198 Filbert St\\, San Francisco\\, CA 94123\\,",
@@ -288,7 +288,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-4835339643076883720",
+      "id": "ical-5018294896749539284",
       "title": "Butterlap",
       "type": "bike",
       "venue": "Fort Point Ferry Building\\, One\\, Ferry Building\\, San Francisco\\,",
@@ -303,7 +303,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-4893504780665191306",
+      "id": "ical-4473044702722897270",
       "title": "Fatcake FIRST DONUT ALLEY Ride",
       "type": "bike",
       "venue": "RGM9+4V\\, Sausalito\\, CA 94965\\, USA",
@@ -318,7 +318,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-9218597180305149032",
+      "id": "ical-6718456291524791076",
       "title": "Fatcake WILDCARD Ride",
       "type": "bike",
       "venue": "Conservatory of Flowers\\, 100 John F Kennedy Dr\\, San Francisco\\,",
@@ -333,7 +333,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-2897910002847086979",
+      "id": "ical-7479606816985589192",
       "title": "Ornot Women's Ride",
       "type": "bike",
       "venue": "Ornot Bike\\, 55 Clement St\\, San Francisco\\, CA 94118\\, USA",
@@ -348,7 +348,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-4693912746512321324",
+      "id": "ical-7542015368209914005",
       "title": "East Bay Bike Party",
       "type": "bike",
       "venue": "Varies Monthly",
@@ -363,7 +363,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-438250489216736522",
+      "id": "ical-3286971221637259794",
       "title": "Huckberry Ramble",
       "type": "bike",
       "venue": "Huckleberry Bicycles\\, 1255 Battery St Suite 120\\, San Francisco\\,",
@@ -378,7 +378,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-4466647551178459693",
+      "id": "ical-7006783906151641198",
       "title": "Rapha RCCSFC EAST BAY RIDE",
       "type": "bike",
       "venue": "1934 Broadway\\, Oakland\\, CA 94612\\, USA",
@@ -393,7 +393,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-7520624779327930449",
+      "id": "ical-5842609440431146841",
       "title": "Fatcake FTWNB Ride",
       "type": "bike",
       "venue": "Conservatory of Flowers\\, 100 John F Kennedy Dr\\, San Francisco\\,",
@@ -408,7 +408,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-4651666674818807488",
+      "id": "ical-621948848940983865",
       "title": "Ornot After Work Ride",
       "type": "bike",
       "venue": "Ornot Bike\\, 55 Clement St\\, San Francisco\\, CA 94118\\, USA",
@@ -423,7 +423,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-8686094348270409710",
+      "id": "ical-9090838912562798579",
       "title": "San Jose Bike Party",
       "type": "bike",
       "venue": "Varies Monthly",
@@ -438,7 +438,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-2666813192455975965",
+      "id": "ical-1868857269881498599",
       "title": "Let It Slow Ride",
       "type": "bike",
       "venue": "Duboce Park\\, San Francisco\\, CA 94117\\, USA",
@@ -453,7 +453,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-1661790048621187918",
+      "id": "ical-806926095816415974",
       "title": "Midnight Mystery Ride SF Chapter",
       "type": "bike",
       "venue": "Varies Monthly",
@@ -468,7 +468,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-1051489865631342140",
+      "id": "ical-5011955701422847432",
       "title": "Fatcake FTWNB Ride",
       "type": "bike",
       "venue": "Conservatory of Flowers\\, 100 John F Kennedy Dr\\, San Francisco\\,",
@@ -483,7 +483,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-861772893742237768",
+      "id": "ical-158974041126631021",
       "title": "Ornot Women's Ride",
       "type": "bike",
       "venue": "Ornot Bike\\, 55 Clement St\\, San Francisco\\, CA 94118\\, USA",
@@ -498,7 +498,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-1461681839849815687",
+      "id": "ical-431146521997934227",
       "title": "Fatcake FTWNB Wildcard Ride",
       "type": "bike",
       "venue": "Conservatory of Flowers\\, 100 John F Kennedy Dr\\, San Francisco\\,",
@@ -513,7 +513,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-9111108539131556674",
+      "id": "ical-2300943798369753713",
       "title": "Ornot After Work Ride",
       "type": "bike",
       "venue": "Ornot Bike\\, 55 Clement St\\, San Francisco\\, CA 94118\\, USA",
@@ -528,7 +528,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-6728481615789473252",
+      "id": "ical-797059726042575815",
       "title": "SF Critical Mass",
       "type": "bike",
       "venue": "Varies Monthly",
@@ -543,7 +543,7 @@
       "kid_friendly": false
     },
     {
-      "id": "ical-4737834337260702822",
+      "id": "ical-8953409446101331131",
       "title": "Huckberry TWO TICKETS TO PARADISE ride",
       "type": "bike",
       "venue": "Huckleberry Bicycles\\, 1255 Battery St Suite 120\\, San Francisco\\,",
@@ -556,50 +556,6 @@
       "source": "SF Bay Area Bike Rides",
       "is_free": true,
       "kid_friendly": false
-    },
-    {
-      "id": "smcl-6a5546ebc7e02e3d0068e0f6-11141400",
-      "title": "Maker Hangout",
-      "type": "family",
-      "venue": "Belmont",
-      "city": "Peninsula",
-      "date": "Sat Nov 14",
-      "date_raw": "2026-11-14T14:00:00-08:00",
-      "time": "2:00 PM",
-      "description": "Discover what you can make using our library maker tools. Sometimes techy, sometimes crafty, always fun! For all ages! No registration required. First-come, first-served as space and equipment permit.",
-      "url": "https://smcl.bibliocommons.com/events/6a5546ebc7e02e3d0068e0f6",
-      "image": "",
-      "source": "San Mateo County Libraries",
-      "is_free": true,
-      "kid_friendly": true,
-      "ages": [
-        "baby",
-        "toddler",
-        "preschool",
-        "kids"
-      ],
-      "kind": "other"
-    },
-    {
-      "id": "bpl-17651504",
-      "title": "UC Berkeley's Brick by Brick Comic Themed Build at Comic-Con",
-      "type": "family",
-      "venue": "Central Library",
-      "city": "Berkeley",
-      "date": "Sat Nov 14",
-      "date_raw": "2026-11-14T16:00:00-08:00",
-      "time": "4:00 PM",
-      "description": "LEGO and comics",
-      "url": "https://berkeleypubliclibrary.libnet.info/event/17651504",
-      "image": "",
-      "source": "Berkeley Library",
-      "is_free": true,
-      "kid_friendly": true,
-      "ages": [
-        "toddler",
-        "preschool"
-      ],
-      "kind": "play"
     },
     {
       "id": "faight-2004101832530",
@@ -667,38 +623,6 @@
       "description": "",
       "url": "https://www.ticketmaster.com/allison-russell-san-francisco-california-11-14-2026/event/1C0065069F51D791",
       "image": "https://s1.ticketm.net/dam/a/040/c9f0db82-ff09-4348-85b2-2798cfcdd040_RETINA_PORTRAIT_16_9.jpg",
-      "source": "Ticketmaster",
-      "is_free": false,
-      "kid_friendly": false
-    },
-    {
-      "id": "tm-Z7r9jZ1AAvoQF",
-      "title": "Day26",
-      "type": "music",
-      "venue": "Yoshi's",
-      "city": "Oakland",
-      "date": "Sat Nov 14",
-      "date_raw": "2026-11-15T03:30:00Z",
-      "time": "7:30 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvoQF",
-      "image": "",
-      "source": "Ticketmaster",
-      "is_free": false,
-      "kid_friendly": false
-    },
-    {
-      "id": "tm-Z7r9jZ1A7POPa",
-      "title": "Rhye (6 and Over)",
-      "type": "music",
-      "venue": "The Warfield",
-      "city": "SF",
-      "date": "Sat Nov 14",
-      "date_raw": "2026-11-15T04:00:00Z",
-      "time": "8:00 PM",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7POPa",
-      "image": "https://s1.ticketm.net/dam/a/f46/d0c139de-8a11-4ca8-8206-d25784b4af46_RETINA_PORTRAIT_16_9.jpg",
       "source": "Ticketmaster",
       "is_free": false,
       "kid_friendly": false
@@ -918,7 +842,7 @@
       "kind": "music"
     },
     {
-      "id": "sfpl-8843011888645450997",
+      "id": "sfpl-5885204283828964347",
       "title": "Book Club: Friends of Dorothy Read Friends of Dorothy",
       "type": "talks",
       "venue": "SF Public Library",
@@ -1662,7 +1586,7 @@
       "kind": "movement"
     },
     {
-      "id": "sfpl-2739082493544477756",
+      "id": "sfpl-2057997657562932278",
       "title": "Social: Genealogy Club",
       "type": "talks",
       "venue": "SF Public Library",
@@ -1677,7 +1601,7 @@
       "kid_friendly": false
     },
     {
-      "id": "sfpl-268311785691478346",
+      "id": "sfpl-7341647505532518568",
       "title": "Dialogue: ESL Online Convo Club",
       "type": "talks",
       "venue": "SF Public Library",
@@ -1712,7 +1636,7 @@
       "kind": "other"
     },
     {
-      "id": "sfpl-987212817761457855",
+      "id": "sfpl-5215935817682507081",
       "title": "Presentation: Job Match with SF ReServe First Impressions",
       "type": "talks",
       "venue": "SF Public Library",
@@ -2331,7 +2255,7 @@
       "kind": "other"
     },
     {
-      "id": "sfpl-3170069014755507963",
+      "id": "sfpl-4989958280180291476",
       "title": "Book Club: Jill Damatac's Dirty Kitchen\u2014A Memoir of Food and Family",
       "type": "talks",
       "venue": "SF Public Library",
@@ -2469,7 +2393,7 @@
       "kid_friendly": false
     },
     {
-      "id": "sfpl-7347172552816826677",
+      "id": "sfpl-2986666244704337214",
       "title": "Tutorial: Meet One-on-One with a CERTIFIED FINANCIAL PLANNER\u2122",
       "type": "talks",
       "venue": "SF Public Library",
@@ -2874,7 +2798,7 @@
       "kind": "music"
     },
     {
-      "id": "sfpl-2276687640814678449",
+      "id": "sfpl-2306286090888577092",
       "title": "Presentation: Become a City Supplier",
       "type": "talks",
       "venue": "SF Public Library",
@@ -2930,7 +2854,7 @@
       "kind": "other"
     },
     {
-      "id": "sfpl-4453986620661777841",
+      "id": "sfpl-2232415714833577718",
       "title": "Library Commission Meeting",
       "type": "talks",
       "venue": "SF Public Library",
@@ -2980,7 +2904,7 @@
       "kid_friendly": false
     },
     {
-      "id": "kqed-7453037543120133752",
+      "id": "kqed-3929566330375197382",
       "title": "Out Loud: Queer Concert at Oakstop feat. MicahTron, Hugo de la Lune and more",
       "type": "talks",
       "venue": "Oakstop",
@@ -3338,7 +3262,7 @@
       "kid_friendly": false
     },
     {
-      "id": "sfpl-547603709657724230",
+      "id": "sfpl-1311053450014245461",
       "title": "Social: Longform Article Reading Club",
       "type": "talks",
       "venue": "SF Public Library",
@@ -3623,7 +3547,7 @@
       "kind": "music"
     },
     {
-      "id": "kqed-223928752674725186",
+      "id": "kqed-6628625854309411562",
       "title": "The Art of Bay Area Boxing feat. Sons of the Sweet Science",
       "type": "talks",
       "venue": "Henry J. Kaiser Center for the Arts",
@@ -3955,7 +3879,7 @@
       "kind": "music"
     },
     {
-      "id": "sfpl-7560380456697759837",
+      "id": "sfpl-549893508018354735",
       "title": "Book Club: Genre Smoosh",
       "type": "talks",
       "venue": "SF Public Library",
@@ -4607,7 +4531,7 @@
       "kind": "movement"
     },
     {
-      "id": "sfpl-8650295901371822813",
+      "id": "sfpl-6142686639936400631",
       "title": "Social: Genealogy Club",
       "type": "talks",
       "venue": "SF Public Library",
@@ -5551,6 +5475,29 @@
         "kids"
       ],
       "kind": "play"
+    },
+    {
+      "id": "smcl-6a5546ebc7e02e3d0068e0fa-11281400",
+      "title": "Maker Hangout",
+      "type": "family",
+      "venue": "Belmont",
+      "city": "Peninsula",
+      "date": "Sat Nov 28",
+      "date_raw": "2026-11-28T14:00:00-08:00",
+      "time": "2:00 PM",
+      "description": "Discover what you can make using our library maker tools. Sometimes techy, sometimes crafty, always fun! For all ages! No registration required. First-come, first-served as space and equipment permit.",
+      "url": "https://smcl.bibliocommons.com/events/6a5546ebc7e02e3d0068e0fa",
+      "image": "",
+      "source": "San Mateo County Libraries",
+      "is_free": true,
+      "kid_friendly": true,
+      "ages": [
+        "baby",
+        "toddler",
+        "preschool",
+        "kids"
+      ],
+      "kind": "other"
     },
     {
       "id": "tm-G5vYZ_oJn_sZF",
